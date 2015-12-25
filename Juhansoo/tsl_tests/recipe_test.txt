@@ -1,0 +1,71 @@
+# title
+	Emptyness of title:
+		empty. [error]
+		not empty. [property title-defined]
+	Content of author:
+		Contains only English letters. [if title-defined]
+		Contains non-English letters. [if title-defined]
+		Contains special characters. [if title-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if title-defined]
+		Ends with an empty-sign. [if title-defined]
+		
+# comment
+	Emptyness of comment:
+		empty.
+		not empty. [property comment-defined]
+	Content of title:
+		Contains only English letters. [if comment-defined]
+		Contains non-English letters. [if comment-defined]
+		Contains special characters. [if comment-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if comment-defined]
+		Ends with an empty-sign. [if comment-defined]
+		
+# calories
+	Emptyness of genre:
+		empty.
+		not empty. [property calories-defined]
+	Content of calories:
+		Contains non-float characters. [error]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if calories-defined]
+		Ends with an empty-sign. [if calories-defined]
+		Contains only integer characters. [if calories-defined]
+
+# fat
+	Emptyness of fat:
+		empty.
+		not empty. [property fat-defined]
+	Content of price:
+		Contains non-float characters. [error]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if fat-defined]
+		Ends with an empty-sign. [if fat-defined]
+		Contains only integer characters. [if fat-defined]
+		
+# carbohydrates
+	Emptyness of carbohydrates:
+		empty.
+		not empty. [property carbohydrates-defined]
+	Content of carbohydrates:
+		Contains non-float characters. [error]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if carbohydrates-defined]
+		Ends with an empty-sign. [if carbohydrates-defined]
+		Contains only integer characters. [if carbohydrates-defined]
+		
+# fat
+	Emptyness of fat:
+		empty.
+		not empty. [property fat-defined]
+	Content of description:
+		Contains non-float characters. [error]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if fat-defined]
+		Ends with an empty-sign. [if fat-defined]
+		Contains only integer characters. [if fat-defined]

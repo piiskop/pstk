@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.esimene{
+	font-weight: bold;
+}
+.taust
+{
+	background-color: red;
+}
+.sebra
+{
+	background-color:white;
+}
+.sebra2
+{
+	background-color: #eee;
+}
+input
+{
+	
+}
+td.esitäht::first-letter
+{
+font-size: 30px;	
+}

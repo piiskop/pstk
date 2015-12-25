@@ -1,0 +1,359 @@
+@CHARSET "UTF-8";
+p, h1, h2, h3, a{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: normal;
+}
+h1{
+  font-size: 60px;
+}
+
+p.bold{
+  font-size: 30px;
+}
+li{
+  padding-right: 20px;
+}
+/* link*/
+a:link{
+  color: #2E2E2E;
+  text-decoration: none;
+  font-size: 30px;
+}
+/* visited */
+a:visited{
+  color: #2E2E2E;
+}
+/* mouse over limk */
+a:hover{
+  color: #FFFFFF;
+}
+hr.header{
+  margin: auto;
+  width: 980px
+}
+body{
+  background-color: #232323;
+}
+div{
+  background-color: #ffffff;
+  margin: auto;
+  width: 1024px;
+  /*height: 2355px;*/
+}
+div.header{
+  width: 1024px;
+  height: 677px;
+ /* margin: auto;*/
+  background-color: #cfcfcf;
+  float: left;
+}
+div.boldLogo{
+  height: 20px;
+  width: 50px;
+  margin-left: 39px;
+  margin-top: -10px;
+  background-color: transparent;
+  float:left;
+}
+div.nav{
+  background-color: transparent;
+  height: 40px;
+  margin-top: 71px;
+}
+div.ul{
+  background-color: transparent;
+  margin-left: 20px
+}
+ul {
+  list-style-type: none;
+}
+li {
+    display: inline;
+}
+div.impress{
+  height: 92px;
+  background-color: transparent;
+  margin-left: 20px;
+}
+div.guaranteed{
+  height: 92px;
+  background-color: transparent;
+  margin-left: 20px;
+}
+div.leftBase{
+  background-color: transparent;
+  background-image: url("../img/leftbase.png");
+  width: 222px;
+  height: 144px;
+  margin-left: 50px;
+  margin-top: 160px;
+  float: left;
+}
+div.main{
+  background-color: transparent;
+  background-image: url("../img/main.png");
+  width: 483px;
+  height: 292px;
+  float:left;
+  margin-left: 270px;
+  margin-top: -245px;
+}
+div.rightBase{
+  background-color: transparent;
+  background-image: url("../img/rightbase.png");
+  width: 222px;
+  height: 144px;
+  float: left;
+  margin-top: 160px;
+  margin-left: 480px;
+}
+div.body{
+  float: left;
+}
+div.slide{
+  background-color: transparent;
+  margin-top: 90px;
+  width: 1020px;
+  height: 20px;
+  margin-left: 200px;
+}
+a.slide{
+  font-size: 20px;
+}
+a.slide:hover{
+  color: #B2B2B2;
+  text-decoration: yes;
+}
+div.heading1{
+  float: left;
+  width: 305px;
+  height: 250px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+div.heading2{
+  float: left;
+  width: 305px;
+  height: 250px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+div.heading3{
+  float: left;
+  width: 305px;
+  height: 250px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+div.topLine{
+  height: 10px;
+  margin-top: 350px;
+}
+div.portfolioItems{
+  background: transparent;
+  background: none;
+  float: left;
+}
+div.portAll{
+  height: 500px;
+  margin-top: 320px
+}
+div.portfolio{
+  background: transparent;
+  background-image: url("../img/portfolio.png");
+  width: 380px;
+  height: 352px;
+  margin-left: -90px;
+  margin-top: -10px;
+  float: left;
+}
+div.bottomLine{
+  background-color: transparent;
+  background-color: #B2B2B2;
+  height: 3px;
+  width: 30px;
+  float: left;
+  margin-left: -733px
+}
+
+div.bottomLine2{
+  background: transparent;
+  background-color: #B2B2B2;
+  height: 3px;
+  width: 20px;
+  margin-left: 35px;
+  float: left;
+}
+div.brochure{
+  opacity: 0.9;
+  background: transparent;
+  width: 220px;
+  height: 175px;
+  background-color: #464646;
+  margin-left: 0px;
+  float:left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+p.plus, p.brochure{
+  color: #FFFFFF;
+  text-align: center;
+}
+p.plus{
+  font-size: 40px;
+}
+div.brochure1{
+  background-color: transparent;
+  float: left;
+  margin-left: -400px;
+  margin-top: -50px;
+}
+p.brochure{
+  font-size: 25px;
+}
+div.bottomLine2{
+  float: left;
+  margin-top: -20px;
+}
+div.portfolio2{
+  background: transparent;
+  background-image: url("../img/portfolio2.png");
+  height: 400px;
+  width: 660px;
+  float: left;
+  margin-left: 330px;
+  margin-top: 100px;
+}
+div.portfolio3{
+  background: transparent;
+  background-image: url("../img/portfolio3.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+  margin-left: 70px;
+  margin-top: -60px;
+}
+div.imgLine{
+  background: transparent;
+  float: left;
+  margin-left: -400px;
+}
+div.portfolio4{
+  background: transparent;
+  background-image: url("../img/portfolio4.png");;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 400px;
+  margin-top: 10px;
+  margin-left: -290px;
+  float: left
+}
+/*div.postsTitle{
+  background: transparent;
+  background-image: url("../img/recentPosts.png")
+  float: left;
+  height: 40px;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: px;
+  text-align: center;
+}*/
+/*Posts*/
+div.title1{
+  width: 200px;
+  float: left;
+  margin-left: 30px;
+  overflow: hidden;
+}
+div.title2{
+  width: 200px;
+  float: left;
+  margin-left: 40px;
+  overflow: hidden;
+}
+div.title3{
+  width: 200px;
+  float: left;
+  margin-left: 40px;
+  overflow: hidden;
+}
+div.title4{
+  width: 200px;
+  float: left;
+  margin-left: 40px;
+  overflow: hidden;
+}
+a.readMore{
+  font-size: 15px;
+}
+a.readMore:hover{
+   color: #B2B2B2;
+}
+
+/*footer*/
+div.footer{
+  background: transparent;
+  background-color: #ffffff;
+  opacity: 1;
+  height: 400px;
+  width: 1024px;
+  float: left;
+}
+div.footerLine{
+  width: 1000px;
+}
+div.aboutBold, div.stayConnected, div.signUp{
+   width: 250px;
+  float: left;
+  margin-left: 60px;
+  overflow: hidden;
+}
+div.signUpPutton{
+  background: transparent;
+  background-color: #aeb3b0;
+  float: left;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 150px;
+  margin-top: 2px
+}
+a.signup{
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 10px 10px;
+}
+div.bottomLine3{
+  background: transparent;
+  float: left;
+  height:10px;
+}
+div.copyright{
+  background: transparent;
+  width: 10px;
+  height: 20px;
+  margin-left: 20px
+}
+div.copyright{
+  float: left;
+}
+div.themeTrunk{
+  background: transparent;
+  float: left;
+  margin-left: 20px;
+  height: 40px;
+  width: 330px;
+}
+div.aThemeTrunk{
+  background: transparent;
+  float: right;
+  height: 10px;
+  width: 400px;
+  line-height: 10px;
+}
+p.themeTrunk{
+  font-size: 10px;
+}

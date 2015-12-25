@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<classbook>
+	<lead>Siia läheb sissejuhatus</lead>
+	<chapters>
+		<chapter order="1" id="chapter1">
+			<heading>Süsteemse käsitluse alused</heading>
+			<chapter order="1" idref="chapter1" id="chapter2">
+				<chapter order="1" idref="chapter2" id="chapter3">
+					<heading>Süsteemide ja süsteemse käsitlusviis</heading>
+				</chapter>
+				<chapter order="2" idref="chapter2" id="chapter4">
+					<heading>Universaalsus ja efektiivsus</heading>
+				</chapter>
+				<chapter order="3" idref="chapter2" id="chapter5">
+					<heading>Süsteemitus</heading>
+				</chapter>
+				<heading>Süsteemid ja süsteemne käsitlusviis</heading>
+			</chapter>
+			<chapter order="2" idref="chapter1" id="chapter6">
+				<heading>Süsteemide määratlemine</heading>
+			</chapter>
+			<chapter order="1" idref="chapter6" id="chapter7">
+				<heading>Fundamentaalmõisted</heading>
+			</chapter>
+			<chapter order="2" idref="chapter6" id="chapter8">
+				<heading>Tähised ja tähendused</heading>
+			</chapter>
+			<chapter order="4" idref="chapter1" id="chapter9">
+				<heading>Süsteemide määratlemine 3</heading>
+				<chapter order="1" idref="chapter9" id="chapter10">
+					<heading>Süsteemi mõiste</heading>
+				</chapter>
+				<chapter order="2" idref="chapter9" id="chapter11">
+					<heading>Süsteemide sarnasus ja modelleerimine</heading>
+				</chapter>
+				<chapter order="3" idref="chapter9" id="chapter12">
+					<heading>Süsteemide printsiip ja süsteemide määratlemine</heading>
+				</chapter>
+				<chapter order="4" idref="chapter9" id="chapter13">
+					<heading>Süsteemide kirjeldamine ja vastuolud</heading>
+				</chapter>
+			</chapter>
+		</chapter>
+		</chapters>
+</classbook>

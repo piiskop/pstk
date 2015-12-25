@@ -1,0 +1,12 @@
+
+#main_background {
+	border: 5px solid black;
+	height: 500px;
+	width: 800px;
+	padding:10px; /*peakasti ääred*/
+	font-family:Arial;
+	font-size:12px;
+	background: gray;
+}
+
+

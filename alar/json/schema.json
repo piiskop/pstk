@@ -1,0 +1,20 @@
+{
+	"title" : "Translation",
+	"description" : "Translates text from one language to another",
+	"type" : "object",
+	"properties" : {
+		"firstLanguage" : {
+			"type" : "string",
+		},
+		"secondLanguage" : {
+			"type": "string",
+            
+		},
+		"processedText" : {
+			"type": "array",
+            "minItems": 1
+		}
+	},
+	"required" : ["firstLanguage", "secondLanguage", "processedText"],
+      "additionalProperties" : false
+}

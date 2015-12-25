@@ -1,0 +1,219 @@
+html {
+	font-size:16px;
+}
+body{background-color: linen;
+margin: 0 auto;
+width: 1400px;
+text-align:center;
+}
+
+ul {
+    list-style-position: inside;
+}
+  ol
+    {
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    table
+{ 
+margin-left: auto;
+margin-right: auto;
+}
+    
+a{
+ text-decoration:none	
+}
+a:hover{
+	text-decoration: underline;
+}
+  body ul li a {color: brown;
+  	font-weight: bold;
+  }  
+  body ol li a {color: yellow;
+  	font-weight: bold;
+  }
+  tr:nth-child(even){color: red;}
+  tr:nth-child(4n+0){color: cyan;}
+  th {color: orange;}
+  
+   body ol li{font-style: italic;}
+    body ul li{font-style: italic;}
+   body ol li:nth-child(2){background-color: black;}  
+   
+   .LuuletusTekst {
+  font-family: sans-serif;
+   margin: 10px;
+   margin: 0.625rem;
+	width: 1000px;
+	width: 62.5rem;
+  border: 0;
+  float: left;
+   }
+   
+   .LuuletusTekst :first-letter{
+text-decoration: underline;   	
+   }
+  
+  #tabel {  	
+  	font-family: monospace;
+  	float: right;
+  	clear: right; 	
+  }
+    #nimekiri {  	
+  	font-family: serif;
+  }
+    #nimekiri2 {  	
+  	font-family: serif;
+  }
+  #laulud{
+  	background-color:red;
+  	height:300px;
+  	height: 18.75rem;
+  	width:300px;
+  	width: 18.75rem;
+  	overflow:scroll;
+  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
+  float: left;
+  }
+  #lauludjrst{
+  	  	background-color:orange;  
+  	  	height:300px;
+  	  	height:18.75rem;
+  	    width:300px;
+  	    width: 18.75rem;
+  	    overflow:visible;
+  	      margin-bottom: 10px;
+  margin-bottom: 0.625rem;
+  	    float: left;
+  	      }
+  
+  #pildiklass{
+  	border: 10px;
+  	border-color:blue;
+  	border-style: double;
+  	margin: 10px;
+  	height:500px;
+  	width:340px;
+  	}
+  	
+#ristkylik{
+	border: 10px;
+	border-width: 1px;
+  	border-color:blue;
+  	border-style:solid;	
+  	height: 300px;
+    width: 300px;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.ristkylik2{
+	border: 10px;
+	border-width: 1px;
+  	border-color:blue;
+  	border-style:solid;	
+  	height: 300px;
+    width: 1400px;
+    float: left;
+    padding: 5px;
+    margin: 10px;
+	
+}
+.ruut1{
+	height: 200px;
+	background-color: cyan;
+	
+}
+.ruut2{
+	
+		height: 100px;
+	background-color: grey;
+}
+#all{
+	height: 800px;
+	width: 800px;
+	
+}
+.t{
+	float: right;
+	width: 200px
+}
+.pilt{
+	width: 600px;
+	float: left;
+}
+
+.ristkylik3{
+	
+	width: 1400px;
+	height: 400px;
+	float: left;
+	
+}
+.ristkylik4{
+	
+	width: 1400px;
+	height: 400px;
+	float: left;
+	}
+	
+.ruut3{
+	
+		width: 350px;
+		height: 200px;
+	background-color: grey;
+	float: left;
+}
+.ruut4{	
+		width: 350px;
+		height: 200px;
+	background-color: black;
+	float: left;
+}
+.ruut5{
+	
+		width: 350px;
+		height: 200px;
+	background-color: yellow;
+	float: left;
+}
+.ruut6{
+	
+		width: 350px;
+		height: 200px;
+	background-color: white;
+	float: left;
+}
+.ruut7{
+	
+		width: 350px;
+		height: 200px;
+	background-color: green;
+	float: left;
+}
+.ruut8{
+	
+		width: 350px;
+		height: 200px;
+	background-color: orange;
+	float: left;
+}
+.ruut9{
+	
+		width: 350px;
+		height: 200px;
+	background-color: cyan;
+	float: left;
+}
+.ruut10{
+	
+		width: 350px;
+		height: 200px;
+	background-color: purple;
+	float: left;
+}

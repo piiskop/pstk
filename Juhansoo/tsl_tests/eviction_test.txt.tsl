@@ -1,0 +1,35 @@
+
+Test Case 1  		(Key = 1.0.1.1.)
+   Is owner home?                  :  Yes
+   Is owner available by phone?    :  <n/a>
+   Is owner agreeable to eviction? :  Yes
+   Is owner evicted                :  Yes
+
+
+Test Case 2  		(Key = 1.0.2.2.)
+   Is owner home?                  :  Yes
+   Is owner available by phone?    :  <n/a>
+   Is owner agreeable to eviction? :  No
+   Is owner evicted                :  No
+
+
+Test Case 3  		(Key = 2.1.1.1.)
+   Is owner home?                  :  No
+   Is owner available by phone?    :  Yes
+   Is owner agreeable to eviction? :  Yes
+   Is owner evicted                :  Yes
+
+
+Test Case 4  		(Key = 2.1.2.2.)
+   Is owner home?                  :  No
+   Is owner available by phone?    :  Yes
+   Is owner agreeable to eviction? :  No
+   Is owner evicted                :  No
+
+
+Test Case 5  		(Key = 2.2.0.1.)
+   Is owner home?                  :  No
+   Is owner available by phone?    :  No
+   Is owner agreeable to eviction? :  <n/a>
+   Is owner evicted                :  Yes
+

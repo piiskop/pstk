@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT data		(worker*,work*)>
+
+<!ELEMENT worker	(name,phone+,pass)>
+<!ATTLIST worker	ID ID #REQUIRED>	
+<!ELEMENT name		(first_name,last_name)>
+<!ELEMENT first_name(#PCDATA)>
+<!ELEMENT last_name	(#PCDATA)>
+<!ELEMENT phone 	(#PCDATA)>
+<!ELEMENT pass		(#PCDATA)>
+
+<!ELEMENT work		(location,planned_date+,time*)>
+<!ELEMENT location	(#PCDATA)>
+<!ELEMENT planned_date	(#PCDATA)>
+<!ELEMENT time		(start,end)>
+<!ELEMENT start		(#PCDATA)>
+<!ELEMENT end		(#PCDATA)>

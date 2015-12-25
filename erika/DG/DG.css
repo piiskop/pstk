@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:#202020;		/* lehe tagatausta värv */
+	margin: 0;						/* kõik lehe küljed 0px */
+	font-size: 16px;
+	font-size: 1rem;
+									/* vaikimisi kirjastiilid */
+	font-family: Arial Black, Gadget, sans-serif;
+}
+
+.Box {    							/* kast ümber sisestuskastide ja nuppude */
+	width: 350px; 					/* kasti laius */
+	width: 21.875rem;
+	
+	margin: 70px auto; 				/* kasti paigutus lehel: ülemine-alumine ja parem-vasak (jääb suhteliselt keskele) */
+	margin: 4.375rem auto;
+	
+	padding: 18px 20px;     		/* kasti sees olevate elementide kaugus kastist: ülemine-alumine ja parem-vasak */
+	padding: 1.125rem 1.250rem;
+	
+									/* kasti värvus(#202020) varjundiga (#686868) */
+	background-image: -webkit-radial-gradient(#686868, #202020);
+	background-image: -moz-radial-gradient(#686868, #202020);
+	background-image: -o-radial-gradient(#686868, #202020);
+	background-image: radial-gradient(#686868, #202020);
+	
+									/* kasti tagumine vari */
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px #000;
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 2px 10px #000;
+	
+	border: 2px solid #000000;    	/* kasti raami laius ja värvus */
+	border-bottom-color: #000000;	/* kasti raami värv */
+	border-radius: 10px;   		  	/* kasti nurkade kumerus */
+	border-radius: 0.625rem;
+}
+
+
+.Box h2 { 							/* pealkiri kasti sees*/
+	margin-bottom: 20px;			/* pealkirja alumine vahe teistest elementidest */
+	margin-bottom: 1.250rem;
+	font-size: 24px;				/* pealkirja kirja suurus */
+	font-size: 1.500rem;
+	font-weight: bold;				/* pealkirja kirja paksus */
+	color: #D8D8D8;					/* pealkirja kirja värv */
+	text-align: center;				/* pealkirja paigutus keskele */
+}
+
+.Letterbox {						/*	sisestuskast */
+									/* sisestuskasti kirjastiilid */
+	font-family: Arial Black, Gadget, sans-serif;
+	width: 95%;						/* sisestuskasti laius kasti sees */
+	height: 50px;					/* sisestuskasti kõrgus*/
+	height: 3.125rem;
+	font-size: 20px;				/* sisestuskasti kasti kirja suurus */
+	font-size: 1.250rem;			/* sisestuskasti kasti kirja suurus */
+	margin-bottom: 40px;			/* sisestuskasti kastide alumise vahe suurus */
+	margin-bottom: 2.5rem;
+	padding: 0 9px;     			/* teksti paigutus sisestuskasti vasakust-paremast äärest */
+	padding: 0rem 0.563rem;
+	color: #D8D8D8;					/* sisestuskasti teksti värv */
+	background: #505050;  			/* sisestuskasti tagatausta värv */
+	
+									/* sisestuskasti vari*/
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0)); 
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+	
+	border: 1px solid #15243b;		/* sisestuskasti raami laius ja värvus */
+	border-top-color: #0d1827;		/* sisestuskasti ülemise raami värvus */
+	border-radius: 4px;				/* sisestuskasti raami kumerus */
+	border-radius: 0.250rem;
+}
+
+.ThrowsBox {						/*	sisestuskast */
+									/* sisestuskasti kirjastiilid */
+	font-family: Arial Black, Gadget, sans-serif;
+	margin-left: 130px;
+	width: 20%;						/* sisestuskasti laius kasti sees */
+	height: 50px;					/* sisestuskasti kõrgus*/
+	height: 3.125rem;
+	font-size: 20px;				/* sisestuskasti kasti kirja suurus */
+	font-size: 1.250rem;			/* sisestuskasti kasti kirja suurus */
+	margin-bottom: 40px;			/* sisestuskasti kastide alumise vahe suurus */
+	margin-bottom: 2.5rem;
+	padding: 0 9px;     			/* teksti paigutus sisestuskasti vasakust-paremast äärest */
+	padding: 0rem 0.563rem;
+	color: #D8D8D8;					/* sisestuskasti teksti värv */
+	background: #505050;  			/* sisestuskasti tagatausta värv */
+	
+									/* sisestuskasti vari*/
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0)); 
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+	
+	border: 1px solid #15243b;		/* sisestuskasti raami laius ja värvus */
+	border-top-color: #0d1827;		/* sisestuskasti ülemise raami värvus */
+	border-radius: 4px;				/* sisestuskasti raami kumerus */
+	border-radius: 0.250rem;
+}
+
+
+.ButtonAction { 					/* nupp-sinine */
+									/* nupu kirjastiilid */
+	font-family: Arial Black, Gadget, sans-serif; 
+	width: 50%;						/* nupu laius */
+	height: 50px;   				/* nupu kõrgus */
+	height: 3.125rem;
+	margin: 15px 88px;				/* nupu ülemise-alumise ääre kaugus teistest elementidest/vasaku-parema kaugus kasti äärtest */
+	margin: 0.938rem 5.5rem;
+	font-size: 20px;				/* nupu kirja suurus */
+	font-size: 1.250rem;			/* nupu kirja suurus */
+	font-weight: bold;				/* nupu kirja paksus */
+	color: #ffffff;    				/* nupu kirja värv */
+	text-align: center;				/* nupu kirja teksti paigutus keskele */
+	background-color: #0000CC;  	/* nupu värv */
+	border: 1px solid #000000;      /* nupu raami laius ja värvus */
+	border-radius: 12px;			/* nupu kumerus*/
+	border-radius: 0.750rem;
+	cursor: pointer;				/* nupu kursor käe pildina */
+}
+
+.ButtonOther { 						/* nupp-roheline */
+									/* nupu kirjastiilid */
+	font-family: Arial Black, Gadget, sans-serif;
+	width: 50%;						/* nupu laius */
+	height: 50px;   				/* nupu kõrgus */
+	height: 3.125rem;
+	margin: 15px 88px;				/* nupu ülemise-alumise ääre kaugus teistest elementidest/vasaku-parema kaugus kasti äärtest */
+	margin: 0.938rem 5.5rem;
+	font-size: 20px;				/* nupu kirja suurus */
+	font-size: 1.250rem;			/* nupu kirja suurus */
+	font-weight: bold;				/* nupu kirja paksus */
+	color: #ffffff;    				/* nupu kirja värv */
+	text-align: center;				/* nupu kirja teksti paigutus keskele */
+	background-color: #339900;  	/* nupu värv */
+	border: 1px solid #000000;      /* nupu raami laius ja värvus */
+	border-radius: 12px;			/* nupu kumerus*/
+	border-radius: 0.750rem;
+	cursor: pointer;				/* nupu kursor käe pildina */
+}
+
+p { 								
+	text-align:center;				/* tekstilõigu paigutus keskele */
+	color:#D8D8D8;					/* tekstilõigu värv */
+}
+
+select{
+   width: 100%;						/* select kasti laius suure kasti sees */
+   padding: 10px 9px;     				/* select kasti kirja paigutus select kasti ülevalt-alt,vasakust-paremast äärest */
+   padding: 0.625rem 0.563rem;
+   height: 50px;					/* select kasti kõrgus */	
+   height: 3.125rem;				
+   overflow: hidden;				/* select kasti loetelu (näha ainult üks valik, teised peidetud, kuniks peale vajutada */
+   background: #505050; 			/* select kasti tagatausta värv */
+   									/* select kasti tagatausta värvi vari */
+   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0)); 
+   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+   
+   color: #D8D8D8;					/* select kasti kirja värvus */
+   font-size: 20px;					/* select kasti kirja suurus */
+   font-size: 1.250rem;
+   border: 1px solid #000000;		/* select kasti raami laius ja värvus */
+   border-radius: 12px;				/* select kasti nurkade kumerus */
+   border-radius: 0.750rem;	
+   									/* select kasti kirjastiilid */
+   font-family: Arial Black, Gadget, sans-serif;
+}
+
+label{
+	color: #D8D8D8;					/* radio ja checkboxi kastide juurde kuuluva teksti värv */
+	font-size: 18px;				/* radio ja checkboxi kastide juurde kuuluva teksti suurus */
+	font-size: 1.125rem;
+}
+
+input[type=checkbox]:not(old), 		/*  peidab radio ja checkboxi kastid */
+input[type=radio]:not(old){			
+  width: 32px;						/* ??? aga peab olema :) */
+  width: 2rem;			
+  margin-left: 16px;				/* radio kasti kaugus suure kasti vasakust äärest, teise kaugus esimesest vasakust äärest */
+  margin-left: 1rem;
+  opacity: 0;						/* et default kastid välja ei paistaks */
+}
+
+									/* label´i paigutus */
+input[type=checkbox]:not(old) + label,
+input[type=radio]:not(old) + label{ 
+  display: inline;					/* label ja tekst ühel real */
+  margin-left: -2rem;				/* et kastid ja tekst poleks üksteise peal */
+  line-height: 24px;				/* reavahe suurus */
+  line-height: 1.5rem;
+}
+									/* esimene span unchecked (nii radio kui checkbox) kasti jaoks */
+input[type=checkbox]:not(old) + label > span,
+input[type=radio]:not(old) + label > span{
+  display: inline-block;			/* et unchecked kastid oleksid ühes reas */
+  width: 18px;						/* unchecked kastide laius */
+  width: 1.125rem;
+  height: 18px;						/* unchecked kastide kõrgus */
+  width: 1.125rem;
+  margin: 4px 8px 4px 8px;			/* ruum ümber unchecked kastide */
+  margin: 0.25rem 0.5rem 0.25rem 0.25rem;
+  border: 1px solid #C0C0C0;		/* unchecked kastide raam ja värvus */
+  border: 0.0625rem solid #C0C0C0;
+  border-radius: 4px;				/* unchecked kastide nurkade kumerus */
+  border-radius: 0.25rem;
+  background: #E0E0E0;				/* unchecked kastide tagatausta värvus */
+  									/* unchecked kastide tagatausta vari */
+  vertical-align: bottom;			/* et unchecked kasti alumine äär oleks teksti äärega ühel maal */
+}
+
+									/*  teise spani värviline kast, mis loob mulje, et üks kastidest on valitud */
+input[type=radio]:not(old):checked + label > span > span{
+  display: block;					/* et tekiks kast, mitte joon */
+  width: 12px;						/* värvilise kasti laius */
+  width: 0.750rem;
+  heigth: 12px;						/* värvilise kasti pikkus */
+  height: 0.750rem;
+  margin: 2px;						/* värvilise kasti vahe unchecked kastist */
+  margin: 0.125rem;
+  border: 1px solid #000000;		/* värvilise kasti raami laius ja värv */
+  border: 0.063rem solid #000000;
+  border-radius: 2px;				/* värvilise kasti nurkade kumerus */
+  border-radius: 0.125rem;
+  background: #0000CC;				/* värvilise kasti värv (sinine) */
+
+}
+
+
+									/* checkbox´i X */
+input[type=checkbox]:not(old):checked + label > span:before{
+  content: 'X';						/* checkboxi sisu */
+  display: block;			
+  color: #0000CC;					/* X´i värv */
+  font-size: 18px;					/* X´i suurus */
+  font-size: 1.125rem;
+  line-height: 1em;					/* reavahe suurus */
+  text-align : center;				/* X keskele */
+}
+
+.CheckBox{
+	margin:40px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Leek</title>
+<link rel="stylesheet" href="../css/css.css" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower'
+	rel='stylesheet' type='text/css'>
+<style type="text/css">
+body {
+	/*background-color: linen;*/
+	
+}
+</style>
+</head>
+<body>
+	<button id="button" onclick="showContents(event);">Sisukord</button>
+	<div class="Container1">
+		<div class="Hopper"></div>
+		<div class="Ohnoes"></div>
+	</div>
+
+	<div id="containerForContents" style="display: none; top: 0; left: 0;">
+		<h2>Sisukord</h2>
+		<ul>
+			<li><a href="#" onmousedown = "window.location.href = '#'; this.parentNode.parentNode.parentNode.style.display = 'none';return false;">Ülesse</a></li>
+			<li><a href="#poem" onmousedown = "window.location.href = '#poem'; this.parentNode.parentNode.parentNode.style.display = 'none';return false;">Luuletus</a></li>
+			<li><a href="#captionOfJustSongs" onmousedown = "window.location.href = '#captionOfJustSongs'; this.parentNode.parentNode.parentNode.style.display = 'none';return false;">Lihtsalt laulud</a></li>
+			<li><a href="#captionOfOrderedSongs" onmousedown = "window.location.href = '#captionOfOrderedSongs'; this.parentNode.parentNode.parentNode.style.display = 'none';return false;">Reastatud laulud</a></li>
+			<li><a href="#canvas" onmousedown = "window.location.href = '#canvas'; this.parentNode.parentNode.parentNode.style.display = 'none';return false;">Ergo</a></li>
+		</ul>
+	</div>
+	<h1>Leek</h1>
+	<h2 id="poem">Luuletus</h2>
+	<p>
+		<img alt="leek"
+			src="http://g4.nh.ee/images/pix/900x585/aLba7xrL-KY/file60887101_41cacd1b.jpg"
+			id="imageOfFlame" width="100" /> <span class="FirstLetter">K</span>ristelil
+		kurk valutab.<br /> Kaarlil kurk valutab.<br /> Sergeil kurk
+		valutab.<br /> Aga mina sõin oma kurgi ära ja valu pole.
+	</p>
+
+	<div id="songs">
+		<div class="JustSongs">
+			<h2 id="captionOfJustSongs">Lihtsalt laulud</h2>
+			<ul>
+				<li><a href="http://sasslantis.ee/lyrics-terminaator-torm">Torm</a></li>
+				<li class="SecondElementInList"><a href="#"
+					onclick="window.open('http://sasslantis.ee/lyrics-gunnar_graps-valgus'); return false;">Valgus</a></li>
+				<li>Pimeduse prints</li>
+			</ul>
+		</div>
+		<div class="OrderedSongs">
+			<h2 id="captionOfOrderedSongs">Reastatud laulud</h2>
+			<ol>
+				<li>Torm</li>
+				<li class="SecondElementInList">Pimeduse prints</li>
+				<li>Valgus</li>
+			</ol>
+		</div>
+	</div>
+	<!--  Video kuvamine -->
+	<video src="test.mp4" controls
+		poster="http://g4.nh.ee/images/pix/900x585/aLba7xrL-KY/file60887101_41cacd1b.jpg">
+	</video>
+	
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="../js/js.js"></script>
+	
+
+</body>
+</html>

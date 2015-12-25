@@ -1,0 +1,55 @@
+# title
+    Emptyness:
+         empty. [error]
+         not empty. [property title-defined]   
+     Content:
+          Contains only English letters. [if title-defined] 
+          Contains non English letters. [if title-defined] 
+          Contains special charecters. [if title-defined] 
+          Contains only empty-signs. [error]
+          Begins with an empty-sign. [if title-defined] 
+          Ends with an empty-sign. [if title-defined] 
+# comment
+    Emptyness:
+         empty. [error]
+         not empty. [property comment-defined]
+     Value:
+          Contains only English letters. [property comment-defined]
+          Contains non English letters. [property comment-defined]
+          Contains special charecters. [property comment-defined]
+          Contains only empty-signs. [error]
+          Begins with an empty-sign. [property comment-defined]
+          Ends with an empty-sign. [property comment-defined]
+# calories
+    Emptyness:
+         empty. [error]
+         not empty [property calories-defined]
+# fat
+    Emptyness:
+         empty. [error]
+         not empty. [property author-defined]
+     Content of price:
+          Contains only English letters. [property fat-defined]
+          Contains non English letters. [property fat-defined]
+          Contains special charecters. [property fat-defined]
+          Contains only empty-signs. [property fat-defined]
+          Begins with an empty-sign. [property fat-defined]
+          Ends with an empty-sign. [property fat-defined]
+          Contains only float-charecters. [property fat-defined]
+# carbohydrates
+    Emptyness:
+         empty. [error]
+         not empty. [property carbohydrates-defined]
+    
+#  description
+     Emptyness:
+         empty.
+         not empty. [property description-dfined]
+     Content of description:
+          Contains only English letters.[property description-defined]
+          Contains non English letters. [property description-defined]
+          Contains special charecters. [property description-defined]
+          Contains only empty -signs. [property description-defined]
+          Begins with an empty -sign. [property description-defined]
+          Ends with an empty -sign. [property description-defined]
+                             

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Nimekiri.css">
+</head>
+
+<body>
+
+<div id="page">
+	<div id="searchbox">
+	<form>
+
+		<label>Nimi: <input type="text" id="name" /></label> <input
+			type="button" value="Otsin" onclick="binary();" /> 
+			<input type="button" value="Kuvan kogu nimekirja" onclick="displayAll()"/>
+			<input type="button" value="Otsi AJAX-iga" id="GetData" onclick="makeRequest();"/>
+
+		<div id="found">
+			oskab progeda: <input type="checkbox" id="codePrincipal" /> <input
+				name="search" type="button"
+				value="Salvestan nime ja kas oskab progeda" onclick="save();" />
+
+		</div>
+
+		<div id="notFound">Sellist õpilast pole.</div>
+		
+		<div id="steps"></div>
+		
+		<div id="dataChanged"></div>
+
+
+	</form>
+	<!-- Vastuse kuvamine -->
+	<div id="answer"></div>	
+</div>
+</div>
+
+	<script type="text/javascript" src="Nimekiri.js"></script>
+</body>
+
+</html>

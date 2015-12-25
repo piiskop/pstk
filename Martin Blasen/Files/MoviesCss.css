@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: "Verdana", Times, serif;
+	background-image:
+		url("http://ak.picdn.net/shutterstock/videos/3211693/preview/stock-footage-starflight-fly-through-video-background-loop-a-flight-through-a-star-field-with-a-lot.jpg" );
+	float: left;
+	color: white;
+}
+
+.ListTitle {
+	position: fixed;
+	left: 290px;
+	align: center;
+}
+
+img#MarvelCU {
+	width: 1028px;
+	height: 192px;
+	margin: 10px;
+	
+}
+
+.MovieInfo {
+	float: left;
+	margin: 30px;
+	width: 600px;
+	height: 650px;
+}
+
+.poster {
+	width: 256px;
+	height: 384px;
+	float: left;
+}
+
+.MovieDesc {
+	float: left;
+	width: 500px;
+	bottom: 80px;
+	position: absolute;
+}
+
+.MovieCast {
+	margin: 30px;
+}
+
+div#MovieList {
+	position: fixed;
+	top: 220px;
+}
+
+.ListPoster {
+	width: 256px;
+	height: 384px;
+}
+
+.MovieAlign {
+	width: 256px;
+	height: 384px;
+	float: left;
+	margin: 20px;
+	text-align: center;
+	font-size: 10px;
+}

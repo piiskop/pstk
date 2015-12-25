@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE events SYSTEM "dtd.dtd">
+<!-- Describes events, time and info in calendar -->
+<events>
+	<event id = "_1">
+		<place>Pärnu spordihall</place>
+		<sports_type>Jalgpall&amp;muud</sports_type>
+		<info><![CDATA[<p>Parim koht kus käia</p>]]></info>
+		<date>
+			<day>6</day>
+			<month>1</month>
+			<start>12:00</start>
+			<end>14:00</end>		
+		</date>
+	</event>
+	<event id = "_2">
+		<place>Pärnu spordihall</place>
+		<sports_type>Korvpall</sports_type>
+		<info><![CDATA[<p>Parim koht kus käia</p>]]></info>
+		<date>
+			<day>6</day>
+			<month>1</month>
+			<start>15:00</start>
+			<end>16:00</end>
+		</date>	
+	</event>
+</events>

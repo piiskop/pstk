@@ -1,0 +1,23 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.coder {
+    background: #008000;
+}
+
+tr:nth-child(even)
+{
+	background: #FFFFFF;
+}
+
+td {
+    padding: 5px
+}
+
+table {
+    background: #ADD8E6;
+}

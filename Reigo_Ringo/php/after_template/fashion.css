@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: url("images/background.png");
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	height: 95px;
+	background-color: rgb(25, 25, 25);
+}
+header #menu {
+	width: 960px;
+	background-color: rgb(25, 25, 25);
+	margin: 0 auto;
+}
+header #company_name {
+	height:95px;
+	line-height: 95px;
+	width: 110px;
+	background-color: rgb(32, 150, 218);
+	color: rgb(245, 245, 245);	
+	text-align: center;
+	font-size: 30px;
+	float: left;	
+}
+header #icons_and_menu {
+	width: 850px;
+	float: left;
+	text-align: right;
+}
+header #icons {
+	margin-top: 5px;
+	color: rgb(140, 140, 140);
+}
+header #icons span i {
+	margin-left: 10px;
+}
+header #main_menu {
+	color: rgb(245, 245, 245);
+	font-size: 20px;
+	margin-top:48px;  
+}
+header #main_menu .padding-right-left {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;	
+	margin-left: 11px;
+}
+header #main_menu .padding-left {
+	padding-left: 5px;	
+	margin-left: 11px;
+}
+header #active_span {
+	background-color: rgb(32, 150, 218);
+}
+
+/* blue and black line begins*/
+
+#blueline {
+	height:5px;
+	background-color: rgb(32, 150, 218);
+}
+#blackline {
+	height:5px;
+	background-color: rgb(25, 25, 25);
+	margin-top: 45px;
+}
+
+/* blue and black line ends*/
+
+#gallery {
+	width: 960px;
+	height: 1100px;
+	margin: 0 auto;
+}
+
+#gallery img {
+	display: block;
+	margin-bottom: 4px;	
+}
+
+#gallery div{
+	margin: 0px;
+	padding: 0px;
+}
+
+#iconsrow {
+	padding-top: 90px;
+	font-size: 60px;
+	width: 980px;
+	height: 120px;
+	margin: 0 auto;	
+	text-align: justify;
+	color: rgb(120, 120, 120);
+}
+#iconsrow div{
+	width:111px;
+	height:111px;
+	line-height:111px;
+	float:left;
+	text-align: center;
+	background-image: url("images/icontaust.png");	
+}
+#iconsrow #margin1{
+	margin-right:17px;
+	margin-left:5px;
+}
+#iconsrow #margin2{
+	margin-left:16px;
+	margin-right:16px;
+}
+#iconsrow #margin3{
+	margin-left:17px;
+}
+
+/* 3 div-s in a row begins*/
+
+#three_in_a_row {
+	width: 960px;
+	margin: 0 auto;	
+	text-align: justify;
+}
+
+#three_in_a_row:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+}
+
+#flickr_stream {
+	width: 276px;
+	float:left;
+}
+#flickr_stream div{
+	background-color: rgb(40, 40, 40);	
+}
+#flickr_stream div img{
+	display: inline;
+	margin: 5px;
+}
+
+#popular_posts {
+	margin-left: 66px;
+	margin-right: 66px;
+	width: 276px;
+	float:left;
+}
+
+#line1 {
+	margin-left:0px;
+	vertical-align:middle;
+	width:38px;
+	height:1px;
+	background-color: rgb(140, 140, 140);
+}
+
+#line2 {
+	align: right;
+	vertical-align:middle;
+	width:38px;
+	height:1px;
+	background-color: rgb(140, 140, 140);
+}
+
+#headline {
+	font-size: 22px;
+	text-align: center;
+	color: rgb(120, 120, 120);
+	margin-bottom: 15px;
+	padding: 0px;
+	align:center;
+	vertical-align:middle;	
+	margin:0px;
+	width: 195px;
+}
+table, tr, th{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-collapse: collapse;
+	margin-bottom: 5px;	
+	border-color:green;
+}
+#popular_posts div div{
+	margin-left: 0px;	
+}
+#popular_posts div div img{
+	margin: 5px;
+}
+#popular_posts div div div p{
+	font-size: 16px;
+	text-align: left;
+	color: rgb(160, 160, 160);
+	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-left: 10px;	
+	padding: 0px;	
+}
+#popular_posts div div div span{
+	font-size: 12px;
+	color: rgb(160, 160, 160);
+	margin-left: 10px;		
+}
+
+#stay_in_touch {
+	width: 276px;
+	float:left;
+}
+
+#stay_in_touch input{
+	font-size: 16px;
+	color: rgb(200, 200, 200);
+	width: 266px;
+	height: 36px;
+	background-color: rgb(40, 40, 40);
+	border: none;
+	text-align: left;
+	padding-left: 10px;
+}
+#stay_in_touch #name{
+	margin-bottom: 10px;
+}
+#stay_in_touch #email{
+	margin-bottom: 20px;
+}
+#stay_in_touch button {
+	width: 120px;
+	height: 36px;
+	background-color: rgb(40, 40, 40);
+	color: rgb(200, 200, 200);	
+	border: none;
+	float: right;
+}
+
+/* 3 div-s in a row ends*/
+
+footer {
+	background-color: rgb(32, 150, 218);
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+	
+}
+footer div div{
+	width: 480px;
+	float: left;		
+}
+footer span {
+	margin-right:10px;		
+}

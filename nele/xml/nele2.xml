@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<grapes>
+	<benefits>
+			<topic id="t1">
+				<name>Cancer Prevention</name>
+				<text><![CDATA[Resveratrol helps DNA repair free radical damage]]>
+				</text>
+			</topic>
+
+			<topic id="t2">
+				<name>Heart Health</name>
+				<text><![CDATA[Phytochemicalt activate a ...]]>
+				</text>
+			</topic>
+			<topic id="t3">
+				<name>Digestive Health</name>
+				<text><![CDATA[<p>Phytochemicalt activate a ...</p>]]>
+				</text>
+			</topic>
+			<topic id="t4">
+				<name>Lung Support</name>
+				<text><![CDATA[Grapes are one of the best ways to help..]]>
+				</text>
+			</topic>
+	</benefits>
+</grapes>

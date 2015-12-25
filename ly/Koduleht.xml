@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<koduleht>
+	<koduleheosad>
+		<osa idosa="osa1">
+			<osanimi>Tutvustus</osanimi>
+			<osasisu>
+			<![CDATA[
+				Olen jõudnud õppimisega teisele ringile -
+				<br>
+					hetkel olen Pärnu Saksa Tehnoloogiakoolis multimeedia
+					kujundaja eriala
+					<br>teise kursuse õpilane.]]>
+			</osasisu>
+		</osa>
+		<osa idosa="osa2">
+			<osanimi>Hobid</osanimi>
+			<osasisu>
+			<![CDATA[
+				Mulle meeldib joonistamine , maalimine ja kujundamine.
+	<br> Koolis on hea saada asjatundjatelt sellealaseid õpetusi ja
+	nõuandeid.
+	<p>
+		<br>Samuti armastan oma <i><b>Canoniga</b></i> pildistada. Vahva
+		on püüda erinevaid hetki kaamerasse.<br> Tore on tabada kaaslaste
+		erinevaid näoilmeid või looduse imesid.
+	</p>
+	<img alt="Hambateritaja" src="../images/rebane400.jpg" width="400"
+		title="Hambateritaja" />
+	]]>
+			</osasisu>
+		</osa>
+	</koduleheosad>
+
+	<tehnikad>
+		<tehnika>
+			<nimetus>pliiatsijoonistus</nimetus>
+		</tehnika>
+		<tehnika>
+			<nimetus>akvarell</nimetus>
+		</tehnika>
+		<tehnika>
+			<nimetus>õlimaal</nimetus>
+		</tehnika>
+	</tehnikad>
+	<lemmikud>
+		<lemmik nr="1">
+			<nimetus>minu lammas</nimetus>
+			<link>http://www.lammas.ee/</link>
+
+		</lemmik>
+		<lemmik nr="2">
+			<nimetus>valge toonekurg</nimetus>
+			<link>http://bio.edu.ee/loomad/Linnud/CICCIC2.htm</link>
+		</lemmik>
+		<lemmik nr="3">
+			<nimetus>liina</nimetus>
+		</lemmik>
+	</lemmikud>
+
+	<tööd>
+		<töö>
+			<nimetus>minu lammas</nimetus>
+			<pildinimi>pisikelammas.jpg</pildinimi>
+		</töö>
+		<töö>
+			<nimetus>valge toonekurg</nimetus>
+			<pildinimi>toonekurg193.jpg</pildinimi>
+		</töö>
+		<töö>
+			<nimetus>liina</nimetus>
+			<pildinimi>liina190.jpg</pildinimi>
+		</töö>
+	</tööd>
+
+</koduleht>

@@ -1,0 +1,18 @@
+#div_background{
+	width:auto;
+	height:auto;
+	margin:auto;
+	background: darkblue;
+}
+#home,#about,#porfolio,#photos,#testimonials{
+	float:left;
+}
+
+#wanna,#blog,#contact{
+	float:left;
+}
+
+#uleminerida, #aluminerida {
+	margin-left: 0px;
+	width: 1000px;
+	height: 150px;

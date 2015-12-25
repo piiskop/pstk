@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+div#header {
+	background-color: #f1fe48;
+	height: 30px;
+}
+
+div#body {
+	background-color: lightgreen;
+	height: 30px;
+}
+
+div#footer {
+	background-color: #f1fe48;
+	height: 30px;
+}
+tr.Row0
+{
+		background-color: lightblue;
+}
+tr.Row1
+{
+		background-color: yellow;
+}

@@ -1,0 +1,20 @@
+#main_div {
+	position:fixed;
+	left:500px;
+	top:200px;}
+table.logos {
+	position:fixed;
+	left:722px;
+	top:248px;}	
+.logos td[id="1"], .logos td[id="2"], .logos td[id="3"]{
+	background-color:#E0E0E0;
+	height:18px;
+	width:20px;
+	padding:8px;}
+.logos td[id="1"] a, .logos td[id="2"] a, .logos td[id="3"] a {
+	text-decoration:none;}	
+.logos td[id="1"] a, .logos td[id="3"] a {
+	color:#FF0000;}
+.logos td[id="2"] a {
+	color:#0033CC;
+}	

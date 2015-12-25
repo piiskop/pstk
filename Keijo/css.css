@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+html {
+		color:blue;
+		font-family:sans-serif;
+		font-size:16px;
+}
+
+html body {
+		background-color: linen;
+		
+}
+
+html body h1 {
+		color:green;
+		text-align: center;
+		background-color:gray;
+}
+
+html body p	{
+		color:teal;
+		font-style: italic;
+		font-size: 20px;
+		text-align: center;
+}
+
+html body ol ul {
+				color: red;
+}
+
+html body ol li {
+				color: red;
+}
+
+html body table tbody tr:nth-child(2n) {
+				background-color:red;	
+}
+
+html body table tbody tr:nth-child(4n) {
+				color:yellow;	
+}
+
+html body table caption {
+				font-size: 30px;
+}
+
+html body img {	
+				padding:10px;
+				border: 10px solid gray;
+				margin: 10px;
+}
+
+html body ol a {
+				text-decoration: none;
+}
+
+html body ol a:link {
+				color: #FF0000;
+}
+
+html body ol a:visited {
+				color: #FF0000;
+}
+html body ol a:hover {
+				text-decoration: underline;
+}
+

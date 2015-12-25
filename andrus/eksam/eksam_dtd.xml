@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE librery SYSTEM "eksam_dtd.dtd">
+<librery>
+	<albums>
+		<album id="album1">The King of Limbs</album>
+		<album id="album2">OK Computer</album>
+		<album id="album3">Dummy</album>
+		<album id="album4">Third</album>
+	</albums>
+	<songs>
+		<song id="song1">Bloom</song>
+		<song id="song2">Morning Mr Magpie</song>
+		<song id="song3">Little by Little</song>
+		<song id="song4">Feral</song>
+		<song id="song5">Lotus Flower</song>
+		<song id="song6">Codex</song>
+		<song id="song7">Give Up the Ghost</song>
+		<song id="song8">Separator</song>
+		<song id="song9">Airbag</song>
+		<song id="song10">Paranoid Android</song>
+		<song id="song11">Subterranean Homesick Alien</song>
+		<song id="song12">Exit Music (For a Film)</song>
+		<song id="song13">Let Down</song>
+		<song id="song14">Karma Police</song>
+		<song id="song15">Fitter Happier</song>
+		<song id="song16">Electioneering</song>
+		<song id="song17">Climbing Up the Walls</song>
+		<song id="song18">No Surprises</song>
+		<song id="song19">Lucky</song>
+		<song id="song20">The Tourist</song>
+		<song id="song21">Mysterons</song>
+		<song id="song22">Sour Times</song>
+		<song id="song23">Strangers</song>
+		<song id="song24">It Could Be Sweet</song>
+		<song id="song25">Wandering Star</song>
+		<song id="song26">It's a Fire</song>
+		<song id="song27">Numb</song>
+		<song id="song28">Roads</song>
+		<song id="song29">Pedestal</song>
+		<song id="song30">Biscuit</song>
+		<song id="song31">Glory Box</song>
+		<song id="song32">Silence</song>
+		<song id="song33">Hunter</song>
+		<song id="song34">Nylon Smile</song>
+		<song id="song35">The Rip</song>
+		<song id="song36">Plastic</song>
+		<song id="song37">We Carry On</song>
+		<song id="song38">Deep Water</song>
+		<song id="song39">Machine Gun</song>
+		<song id="song40">Small</song>
+		<song id="song41">Magic Doors</song>
+		<song id="song42">Threads</song>
+	</songs>
+	<album_songs>
+		<album_song id_album="album1" id_songs="song1 song2 song3 song4 song5 song6 song8"></album_song>
+		<album_song id_album="album2" id_songs="song9 song10 song11 song12 song13 song14 song15 song16 song17 song18 song19 song20 song21"></album_song>
+		<album_song id_album="album3" id_songs="song22 song23 song24 song25 song26 song27 song28 song29 song30 song31 song32"></album_song>
+		<album_song id_album="album4" id_songs="song33 song34 song35 song36 song37 song38 song39 song40 song41 song42"></album_song>
+	</album_songs>
+</librery>

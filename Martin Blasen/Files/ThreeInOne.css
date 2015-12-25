@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+div#header { background: #1875CF;
+}
+
+div#body { background: #FFCC00;
+}
+
+div#footer { background: #D11919;
+}

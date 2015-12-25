@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eksam SYSTEM "eksam.dtd" >
+<eksam>
+  <taimed taimed_id="idvalue0">
+    <taime_nim>taime_nim</taime_nim>
+    <ladina_nim>ladina_nim</ladina_nim>
+  </taimed>
+  <kasvukohad kasvukohad_id="idvalue1">
+    <kasvukoht>kasvukoht</kasvukoht>
+  </kasvukohad>
+  <omadused omadused_id="idvalue2">
+  	<maitseomadus></maitseomadus>
+  	<pikkus></pikkus>
+  	<lehe_kuju></lehe_kuju>
+  	<kroonlehe_varv></kroonlehe_varv>
+  </omadused>
+</eksam>

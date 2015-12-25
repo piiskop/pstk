@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:element name="advertisements">
+		<xs:complexType>
+
+			<xs:sequence>
+				<xs:element name="advertisement" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="price">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="value" type="xs:unsignedInt" />
+										<xs:element name="unit" type="xs:integer" />
+
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="address" type="xs:string" />
+
+							<xs:element name="rooms" type="xs:integer" />
+							<xs:element name="description" type="xs:string" />
+							<xs:element name="type" type="xs:string" />
+
+						</xs:sequence>
+						<xs:attribute name="advertid" type="xs:ID" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="estate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:advertisements" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

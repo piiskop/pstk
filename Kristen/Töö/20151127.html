@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Kristen Sepp">
+<link rel="stylesheet" type="text/css" href="20151127.css"/>
+<title>2015-11-27</title>
+</head>
+<body>
+<h1>Õpilased</h1>
+<form>
+<label for="searchname">Nimi: </label>
+<input type="text" id="searchname" name="searchname">
+<button type="button" onclick="otsingFirstname()">Otsin eesnime järgi</button>
+<button type="button" onclick="otsingLastname()">Otsin perenime järgi</button>
+<input type="button" onclick="showpupils()" value="Kuvan kogu nimekirja.">
+<input type="button" onclick="puhastatabel()" value="Kustuta tabel">
+<div id="progeb"><label for="progeb">Oskab progeda:</label>
+<input type="checkbox" name="progebox" id="progebox">
+<button type="button" onclick="salvesta()">Salvestan nime ja kas oskab progeda.</button></div>
+</form>
+<div id="searchresult"></div>
+<div id="kordused"></div>
+<div id="save"></div>
+<div id="progeja"></div>
+<script type="text/javascript" src="20151127.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+
+
+li {
+	font-family:  Georgia, Times New Roman, serif;
+}
+
+#kast {
+	border: 1.5px solid black;
+	display: inline-flex;
+}
+
+.Salm {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top:0px;
+	margin-bottom:0px;
+	
+}
+
+
+	
+
+table, th, td {
+    border: 1px solid black;
+}
+

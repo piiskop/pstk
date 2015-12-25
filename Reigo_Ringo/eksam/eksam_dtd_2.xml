@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE growing SYSTEM "eksam_dtd_2.dtd">
+
+<growing>
+
+	<krundid>
+		<krunt idkrunt="k1">
+			<asukoht>uulu</asukoht>
+			<suurus_m2>1200</suurus_m2>		
+		</krunt>
+		<krunt idkrunt="k2">
+			<asukoht>tallinn</asukoht>
+			<suurus_m2>1500</suurus_m2>		
+		</krunt>
+		<krunt idkrunt="k3">
+			<asukoht>k-nõmme</asukoht>
+			<suurus_m2>900</suurus_m2>		
+		</krunt>		
+		<krunt idkrunt="k4">
+			<asukoht>häädemeeste</asukoht>
+			<suurus_m2>1600</suurus_m2>		
+		</krunt>		
+		<krunt idkrunt="k5">
+			<asukoht>rannametsa</asukoht>
+			<suurus_m2>500</suurus_m2>		
+		</krunt>			
+	</krundid>
+	
+	<inimesed>
+		<inimene idinimene="i1">
+			<enimi>mari</enimi>
+			<pnimi>kalkun</pnimi>		
+		</inimene>
+		<inimene idinimene="i2">
+			<enimi>kauri</enimi>
+			<pnimi>mets</pnimi>		
+		</inimene>		
+		<inimene idinimene="i3">
+			<enimi>meelis</enimi>
+			<pnimi>raba</pnimi>		
+		</inimene>		
+		<inimene idinimene="i4">
+			<enimi>kairi</enimi>
+			<pnimi>tolgus</pnimi>		
+		</inimene>		
+		<inimene idinimene="i5">
+			<enimi>meelis</enimi>
+			<pnimi>kalkun</pnimi>		
+		</inimene>		
+	</inimesed>
+	
+	<soogid>
+		<sook idsook="s1">
+			<nimi>kapsas</nimi>	
+		</sook>
+		<sook idsook="s2">
+			<nimi>porgand</nimi>	
+		</sook>		
+		<sook idsook="s3">
+			<nimi>pirn</nimi>	
+		</sook>		
+		<sook idsook="s4">
+			<nimi>mustsõstar</nimi>	
+		</sook>		
+		<sook idsook="s5">
+			<nimi>kukeseen</nimi>	
+		</sook>		
+	</soogid>
+	
+	<inimesed_has_sook>
+		<inimene_has_sook idinimene="i1" idsook="s1 s2 s3"></inimene_has_sook>	
+		<inimene_has_sook idinimene="i2" idsook="s2 s3 s4"></inimene_has_sook>	
+		<inimene_has_sook idinimene="i3" idsook="s3 s4 s5"></inimene_has_sook>		
+		<inimene_has_sook idinimene="i4" idsook="s4 s5 s1"></inimene_has_sook>		
+		<inimene_has_sook idinimene="i5" idsook="s5 s1 s2"></inimene_has_sook>							
+	</inimesed_has_sook>
+	
+	<krundid_has_sook>
+		<krunt_has_sook idkrunt="k1" idsook="s1 s2 s3"></krunt_has_sook>
+		<krunt_has_sook idkrunt="k2" idsook="s2 s3 s4"></krunt_has_sook>
+		<krunt_has_sook idkrunt="k3" idsook="s3 s4 s5"></krunt_has_sook>		
+		<krunt_has_sook idkrunt="k4" idsook="s4 s5 s1"></krunt_has_sook>		
+		<krunt_has_sook idkrunt="k5" idsook="s5 s1 s2"></krunt_has_sook>					
+	</krundid_has_sook>
+	
+	<krundid_has_inimesed>
+		<krunt_has_inimene idinimene="i1" idkrunt="k1 k2 k3"></krunt_has_inimene>
+		<krunt_has_inimene idinimene="i2" idkrunt="k2 k3 k4"></krunt_has_inimene>
+		<krunt_has_inimene idinimene="i3" idkrunt="k3 k4 k5"></krunt_has_inimene>
+		<krunt_has_inimene idinimene="i4" idkrunt="k4 k5 k1"></krunt_has_inimene>		
+		<krunt_has_inimene idinimene="i5" idkrunt="k5 k1 k2"></krunt_has_inimene>					
+	</krundid_has_inimesed>
+
+</growing>

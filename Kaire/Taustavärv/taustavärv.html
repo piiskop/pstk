@@ -1,0 +1,18 @@
+<!-- värvimuutmise nupp, millest viimasele vajutades võetakse värvivalik ja pannakse lehe taustavärviks -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Background button(Taustavärvi nupp)</title>
+</head>
+<body onload="setBackground({Taustavärvi vahetus: true});">
+	<form>
+			<input type="color" oninput="document.body.style.backgroundColor = this.value;" />
+	</form>
+	<div class="HideShow" id="showHide" style="display: block;"></div>
+	<button onclick="showHide({id: 'showHide', button: this});">Peidan.</button>
+	<button onclick="writeName();" type="button">Kirjutan nime.</button>
+</body>
+</html>
+<!-- END html -->

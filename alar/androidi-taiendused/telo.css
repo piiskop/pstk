@@ -1,0 +1,50 @@
+#telefon{
+	background-color:white;
+	position:relative;
+	color:white;
+	display:block;
+	border-radius:10px;
+	border:solid black;
+	height:700px;
+	width:570px;
+	font-family:sans-serif;
+}
+
+
+.top{
+	display:inline-block;
+	position:absolute;
+	padding-bottom:20px;
+	width:100%;
+	color:white;
+	background-color:black;
+	height:60px;
+	font-size:35px;
+	vertical-align:top;
+	border-color:black;
+}
+
+.topchoice{
+	width:32%;
+	display:inline-block;
+	height:60px;
+}
+.topchoice:hover{background-color:gray;}
+
+.bottomchoice{
+	display:inline-block;
+	font-size:45px;
+	color:black;
+	padding-top:80px;
+}
+
+.bottomsetting{
+	height:20;
+	border-bottom:1px solid gray;
+
+}
+
+.bottomsetting:hover{
+	background-color: #AAAAAA;
+	
+}

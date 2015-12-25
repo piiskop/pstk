@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+	basefont 
+		{color: black;
+		size: 15;}
+	body 
+		{background-color: linen;
+		font-family: verdana;
+		text-align: center;}
+	a
+		{text-decoration: none;
+		color: #a0a000;}
+	a:visited
+		{color: #a0a000;}
+	a:hover
+		{text-decoration: underline;}
+	a:active
+		{}
+	p 
+		{font-color:#ff0000;}
+	#author
+		{font-family: fantasy;}
+	div.Container
+		{display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		height: 400px;
+		width: auto;}
+	div.Luuletus
+		{font-family: 'Lobster', cursive;
+		height: 300px;
+		width: 500px;
+		overflow-y: scroll;
+		border-top: solid;
+		border-bottom: solid;
+		background-color: rgb(140,140,140);}
+	div.LuuletusRistkylik
+		{margin-left: 30px;
+		background-color: red;
+		width: 200px;
+		width: 12.5rem;
+		height: 300px;}
+	div.Vahe1
+		{clear: both;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		height: 100px;
+		width: auto;
+		background-color: grey;}
+	div.Ruut1
+		{float: left;
+		height: 40px;
+		width: 40px;
+		background-color: red;}
+	div.Ruut2
+		{float: left;
+		height: 40px;
+		width: 40px;
+		background-color: blue;}
+	div.Ruut3
+		{float: left;
+		height: 40px;
+		width: 40px;
+		background-color: green;
+		margin-left: -10px;
+		margin-top: 10px;}
+	div.Vahe2
+		{display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		clear: both;
+		height: 200px;
+		width: auto;
+		background-color: rgba(140,140,140,0.2);}
+	div.Ristk1
+		{height: 100px;
+		width: auto;
+		color: red;}
+	div.Ristk2
+		{height: 100px;
+		width: auto;
+		background-color: green;}
+	div.Ristk3
+		{height: 100px;
+		width: auto;
+		background-color: blue;}
+	div.Ristk4
+		{height: 100px;
+		width: auto;
+		background-color: yellow;}
+	div.Clear
+		{clear: both;}
+		table
+		{font-family: serif;}
+	ul
+		{text-align: left;
+		font-family: cursive;}
+	ol
+		{text-align: left;
+		font-family: monospace;}
+	tbody tr:nth-child(2n)
+		{background-color: red;}
+	tbody tr:nth-child(4n)
+		{color: yellow;}
+	caption:nth-child(1)
+		{color: blue;}
+	ol.ol li:nth-child(2), ul li:nth-child(2)
+		{background-color: grey;}
+	div.div1
+		{margin-bottom: 40px;
+		margin-top: 40px;
+		border-style: double;
+		float: left;}
+	div.Picture
+		{clear: both;}
+	img
+		{text-align: center;
+		width: 720px;
+		height: 405px;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px; 
+		border-style: dashed;
+		border_width: 6px;
+		border-width: 0.313rem;}

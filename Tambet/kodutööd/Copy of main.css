@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	margin-bottom: 60px;
+	font-family: Ubuntu, sans-serif;
+}
+
+#container {
+	background-color: #E2E2E2;
+	padding: 20px;
+	width: 1220px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.col-30,
+.col-33,
+.col-50,
+.col-70 {
+	float: left;
+}
+
+.col-30 {
+	width: 30%
+}
+
+.col-33 {
+	width: 33.33%
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-70 {
+	width: 70%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url('img/icons.png');
+	backround-repeat: no-repeat;
+}
+
+.icon.edit {
+	background-position: 0 -148px;
+}
+
+.icon.delete {
+	background-position: 0 -740px;	
+}
+
+.icon.home.white {
+	background-position: 0 -296px;
+}
+
+.icon.info.white {
+	background-position: 0 -370px;
+}
+
+.icon.list.white {
+	background-position: 0 -444px;
+}
+
+.icon.gear.white {
+	background-position: 0 -222px;
+}
+
+.icon.person.white {
+	background-position: 0 -888px;
+}
+
+.icon.login.white {
+	background-position: 0 -518px;
+}
+
+.icon.logout.white {
+	background-position: 0 -592px;
+}
+
+.icon.add.white {
+	background-position: 0 -666px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+	cursor: pointer;
+}
+
+#header-menu {
+	background-color: #103A52;
+	margin-bottom: 60px;
+	font-size: 1.2em;
+}
+
+#header-menu ul {
+	display: table;
+	width: 1220px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#header-menu li {
+	float: left;
+	list-style: none;
+	padding: 20px 30px 10px 35px;
+	display: table-cell;
+	margin-top: -10px;
+}
+
+#header-menu li a {
+	color: #FFF;
+}
+
+#header-menu .logo {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 30px 0 10px 0;
+}
+
+#header-menu li.login,
+#header-menu li.logout {
+	float: right;
+	padding-right: 0;
+}
+
+#header-menu a .icon {
+	margin: 0 auto;
+	margin-bottom: 7px;
+}
+
+.heading {
+	background-color: #103A52;
+	color: #FFF;
+	padding: 12px 15px;
+	font-size: 0.8em;
+	overflow: auto;	
+}
+
+.heading h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	float: left;
+	font-size: 1.8em;
+}

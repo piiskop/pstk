@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema eksam.xsd"
+		>
+	<genres>
+		<genre ID_G="G1">health</genre>
+		<genre ID_G="G2">drama</genre>
+		<genre ID_G="G3">fantasy</genre>
+		<genre ID_G="G4">horror</genre>
+		<genre ID_G="G5">romance</genre>
+		<genre ID_G="G6">comedy</genre>
+		<genre ID_G="G7">poetry</genre>
+		<genre ID_G="G8">mythology</genre>
+		<genre ID_G="G9">thriller</genre>
+	</genres>
+	<health_conditions>
+		<health_condition ID_H="H1">good</health_condition>
+		<health_condition ID_H="H2">average</health_condition>
+		<health_condition ID_H="H3">bad</health_condition>
+	</health_conditions>
+	<authors>
+		<author ID_A="A1" ID_H="H3">
+			<first_name>elus</first_name>
+			<last_name>piin</last_name>
+			<born>1943-11-23</born>
+			<died>1999-09-19</died>
+		</author>
+		<author ID_A="A2" ID_H="H1">
+			<first_name>simon</first_name>
+			<last_name>wood</last_name>
+			<born>1964-04-24</born>
+			<died></died>
+		</author>
+		<author ID_A="A3" ID_H="H1">
+			<first_name>robert</first_name>
+			<last_name>dugoni</last_name>
+			<born>1988-07-12</born>
+			<died></died>
+		</author>
+		<author ID_A="A4" ID_H="H1">
+			<first_name>toni</first_name>
+			<last_name>morrison</last_name>
+			<born>1955-11-01</born>
+			<died></died>
+		</author>
+		<author ID_A="A5">
+			<first_name>michael</first_name>
+			<last_name>chabon</last_name>
+			<born>1943-08-15</born>
+			<died></died>
+		</author>
+		<author ID_A="A6">
+			<first_name>kurt</first_name>
+			<last_name>vonnegut</last_name>
+			<born>1993-02-16</born>
+			<died></died>
+		</author>
+		<author ID_A="A7">
+			<first_name>ray</first_name>
+			<last_name>bradbury</last_name>
+			<born>1977-01-30</born>
+			<died></died>
+		</author>
+		<author ID_A="A8">
+			<first_name>doris</first_name>
+			<last_name>goodwin</last_name>
+			<born>1985-12-11</born>
+			<died></died>
+		</author>
+	</authors>
+	<books>
+		<book ID_G="G1" ID_B="B1">
+			<title>clean food</title>
+			<description>collected knowladge from indians</description>
+		</book>
+		<book ID_G="G9" ID_B="B2">
+			<title>the one that got away</title>
+			<description></description>
+		</book>
+		<book ID_G="G9" ID_B="B3">
+			<title>we all fall down</title>
+			<description>Hayden Duke just landed a coveted contract gig with Marin Design Engineering, largely thanks to his old friend, Shane Fallon. Shane had drifted away in recent years, only to resurface with a dream job for Hayden. The gig seems like a cinch until Hayden discovers that a key designer on the top-secret project has just committed suicide by walking straight into the ocean.</description>
+		</book>
+		<book ID_G="G4" ID_B="B4">
+			<title>my sisters grave</title>
+			<description></description>
+		</book>
+		<book ID_G="G5" ID_B="B5">
+			<title>beloved</title>
+			<description></description>
+		</book>
+		<book ID_G="G3" ID_B="B6">
+			<title>adventures of kavalier</title>
+			<description></description>
+		</book>
+		<book ID_G="G7" ID_B="B7">
+			<title>slaughterhouse-five</title>
+			<description>Slaughterhouse-Five, an American classic, is one of the world’s great antiwar books. Centering on the infamous firebombing of Dresden, Billy Pilgrim’s odyssey through time reflects the mythic journey of our own fractured lives as we search for meaning in what we fear most.</description>
+		</book>
+		<book ID_G="G7" ID_B="B8">
+			<title>fahrenheit 451</title>
+			<description></description>
+		</book>
+		<book ID_G="G9" ID_B="B9">
+			<title>team of rivals</title>
+			<description>Acclaimed historian Doris Kearns Goodwin illuminates Lincoln's political genius in this highly original work, as the one-term congressman and prairie lawyer rises from obscurity to prevail over three gifted rivals of national reputation to become president.</description>
+		</book>
+	</books>
+	<books_have_authors>
+		<book_has_author ID_B="B1" ID_A="A1" ID_BhA="BhA1"/>
+		<book_has_author ID_B="B2" ID_A="A2" ID_BhA="BhA2"/>
+		<book_has_author ID_B="B3" ID_A="A2" ID_BhA="BhA3"/>
+		<book_has_author ID_B="B4" ID_A="A3" ID_BhA="BhA4"/>
+		<book_has_author ID_B="B5" ID_A="A4" ID_BhA="BhA5"/>
+		<book_has_author ID_B="B6" ID_A="A5" ID_BhA="BhA6"/>
+		<book_has_author ID_B="B7" ID_A="A6" ID_BhA="BhA7"/>
+		<book_has_author ID_B="B8" ID_A="A7" ID_BhA="BhA8"/>
+		<book_has_author ID_B="B9" ID_A="A8" ID_BhA="BhA9"/>
+		<book_has_author ID_B="B9" ID_A="A7" ID_BhA="BhA10"/>
+	</books_have_authors>
+	<books_have_genres>
+		<book_have_genres ID_B="B1" ID_G="G1 G2" ID_BhG="BhG1"/>
+		<book_have_genres ID_B="B2" ID_G="G3 G5 G7" ID_BhG="BhG2"/>
+		<book_have_genres ID_B="B2" ID_G="G7" ID_BhG="BhG3"/>
+	</books_have_genres>
+</inventory>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Väljakud xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema Väljakud.xsd">
+	<Väljak>
+		<Nimi>Väljak1</Nimi>
+		<Spordialad>Tennis</Spordialad>
+	</Väljak>
+	<Väljak>
+		<Nimi>Väljak2</Nimi>
+		<Spordialad>Vibu</Spordialad>
+	</Väljak>
+</Väljakud>

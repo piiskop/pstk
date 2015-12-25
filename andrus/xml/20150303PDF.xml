@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toiduained xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema 20150303PDF.xsd">
+	<toiduaine>
+		<nimi id="nimi1">astelpaju</nimi>
+		<nimi id="nimi2">pihlakas</nimi>
+		<nimi id="nimi3">kuusk</nimi>
+		<nimi id="nimi4">rukola</nimi>
+		<nimi id="nimi5">kaalikas</nimi>
+		<nimi id="nimi6">avokaado</nimi>
+	</toiduaine>
+	<vitamiin>
+		<liik id="liik1">E</liik>
+		<liik id="liik2">A</liik>
+		<liik id="liik3">B6</liik>
+	</vitamiin>
+	<toiduained_has_inimesed>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik1"
+			toiduained_idtoiduained="nimi1"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik1"
+			toiduained_idtoiduained="nimi2"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik1"
+			toiduained_idtoiduained="nimi3"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik2"
+			toiduained_idtoiduained="nimi3"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik2"
+			toiduained_idtoiduained="nimi4"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik2"
+			toiduained_idtoiduained="nimi5"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik3"
+			toiduained_idtoiduained="nimi1"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik3"
+			toiduained_idtoiduained="nimi2"></toiduaine_has_inimene>
+		<toiduaine_has_inimene vitamiinid_idvitamiinid="liik3"
+			toiduained_idtoiduained="nimi6"></toiduaine_has_inimene>
+	</toiduained_has_inimesed>
+</toiduained>

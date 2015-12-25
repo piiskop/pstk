@@ -1,0 +1,213 @@
+<!-- BEGIN html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{TITLE}</title>
+<link rel="stylesheet" type="text/css" href="{BEGINNING-OF-URL}css/particle.css"
+	media="all" /></link>
+</head>
+<body>
+	<div class="MainContainer">
+		<div class="ContainerForMenu">
+			<div class="Logo">
+				<a class="LogoItem" href="">{HEADING}</a>
+			</div>
+			<!-- BEGIN common-menu -->
+			<div class="Menu">{COMMON-MENU}</div>
+			<!-- END common-menu -->
+		</div>
+		<div class="ContainerForBody">
+			<div class="ContainerForPostsAndButtons">
+				<!-- BEGIN posts -->
+				<div class="ContainerForPosts">{POSTS}</div>
+				<!-- END posts -->
+
+				<div class="ContainerForButtons Border">
+					<button onclick="" type="button">{OLDER-POSTS}</button>
+					<button onclick="" type="button">{NEWER-POSTS}</button>
+				</div>
+			</div>
+			<div class="Sidebar">
+				<div class="Subscribing">
+					<div class="ImageOfSubscribing"></div>
+					<a class="CaptionInSidebar TextOfSubscribing" href="subscribe">{SUBSCRIBE}</a>
+				</div>
+				<!-- BEGIN menu-in-sidebar -->
+				<ul class="MenuInSidebar">{MENU-IN-SIDEBAR}
+				</ul>
+				<!-- END menu-in-sidebar -->
+				<div class="Following">
+					<h2 class="CaptionInSidebar">{FOLLOW-ME}</h2>
+					<ul class="ItemsInFollowing">
+						<li><a class="ItemInFollowing Twitter" href="twitter"
+							target="_blank"></a></li>
+						<li><a class="ItemInFollowing Facebook" href="facebook"
+							target="_blank"></a></li>
+						<li><a class="ItemInFollowing Youtube" href="youtube"
+							target="_blank"></a></li>
+					</ul>
+				</div>
+				<div class="Searching">
+					<h2 class="CaptionInSidebar">{SEARCH}</h2>
+					<form action="search">
+						<input class="Search" type="text" />
+						<button class="SubmitSearch" type="submit"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<!-- END html -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN item-in-common-menu -->
+<a class="CommonMenuItem MenuItem" href="{HREF-OF-ITEM-IN-COMMON-MENU}">{LABEL-OF-ITEM-IN-COMMON-MENU}</a>
+<!-- END item-in-common-menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN post-item -->
+<div class="ContainerForPost Border">
+	<div class="Date">
+		<div class="Day">{DATE-OF-POST}</div>
+		<div class="Month">{MONTH-OF-POST}</div>
+	</div>
+	<div class="Post">
+		<h2>
+			<a class="HeadingAsLink" href="{BEGINNING-OF-URL}{HREF-TO-POST}">{LABEL-OF-POST}</a>
+		</h2>
+		<p>{LEAD-OF-POST}</p>
+		<div class="LinksOfPost">
+			<a class="LinkOfPost Comments"
+				href="{BEGINNING-OF-URL}{HREF-TO-POST}?{HREF-TO-COMMENTS}">{NUMBER-OF-COMMENTS}</a>
+		</div>
+	</div>
+</div>
+<!-- END post-item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN item-in-menu-in-sidebar -->
+<li><a class="CommonMenuItem ElementInMenuInSidebar"
+	href="{HREF-OF-ITEM-IN-MENU-IN-SIDEBAR}">{LABEL-OF-ITEM-IN-MENU-IN-SIDEBAR}</a></li>
+<!-- END item-in-menu-in-sidebar -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:element name="retseptiraamat">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="retseptid">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="retsept" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="pealkiri" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="ID" type="xs:ID" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="koostisosad">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="koostisosa" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="pealkiri" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="ID" type="xs:ID" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="toidud">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="toit" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="IDretsept" type="xs:IDREF"
+										use="required" />
+									<xs:attribute name="IDkoostisosad" type="xs:IDREFS"
+										use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

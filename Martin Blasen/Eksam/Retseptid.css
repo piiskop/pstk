@@ -1,0 +1,19 @@
+body {
+	font-family: "Verdana", Times, serif;
+	background-image:
+		url("http://www.retseptidlastele.eu/templates/hiiretips/images/page.png" );
+	background-repeat: no-repeat;
+	float: left;
+}
+
+h1#nimi {
+	text-align: center;
+	color: rgb(250, 50, 50);
+}
+
+table#tooted  td {
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	top: -50px;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<koduleht>
+	<title>Sandra Leppik</title>
+	<description></description>
+	<items>
+		<item>
+			<content>
+				<p>
+					Minu nimi on Sandra Leppik, õpin Pärnu Saksa Tehnoloogikoolis
+					teisel
+					kursusel
+					<b>multimeedia kujundaja</b>
+					eriala.
+					<br />
+					Mulle meeldib
+					vabal ajal joonistada, maalida, fotografeerida,
+					tegeleda loomadega.
+					Minu hobiks on koeraspordiala
+					<br />
+					<a href="http://et.wikipedia.org/wiki/Agility">
+						<i>agility</i>
+					</a>
+					,millega olen tegelenud 6 aastat ning viimased 2 aastat olen
+					<a href="trennilised.html">treeninud</a>
+					teisi koerajuhte ja nende
+					koeri.
+				</p>
+			</content>
+		</item>
+	</items>
+
+	<favorites>
+		<color>
+			<name>sinine</name>
+		</color>
+		<color>
+			<name>kollane</name>
+		</color>
+		<color>
+			<name>lilla</name>
+		</color>
+		<berrys>
+			<berry order="1">
+				<title>maasikas</title>
+				<link>
+					http://et.wikipedia.org/wiki/Maasikas
+				</link>
+			</berry>
+			<berry order="2">
+				<title>vaarikad</title>
+			</berry>
+			<berry order="3">
+				<title>mustikad</title>
+			</berry>
+		</berrys>
+
+		<dog>
+			<title>minu lemmktõug</title>
+			<name>"../images/koer.jpg"</name>
+
+		</dog>
+	</favorites>
+
+
+
+
+
+
+
+</koduleht>
+
+
+

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+table.listTable {
+	border: 1px;
+}
+tr {
+	background-color: #FF0;
+}
+tr.tableFirstRow {
+	background-color: #FFF;
+}
+tr.progTrueRow {
+	background-color: #3F0;
+}

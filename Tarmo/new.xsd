@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="action">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="spacedname" type="xs:normalizedString"/>
+			<xs:element name="nowhitespacename" type="xs:token"/>
+			<xs:element name="start_date" type="xs:date"/>
+			<xs:element name="start_time" type="xs:time"/>
+			<xs:element name="end" type="xs:dateTime"/>
+			<xs:element name="duration" type="xs:duration"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

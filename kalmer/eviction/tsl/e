@@ -1,0 +1,10 @@
+# status
+	Is victim at home?:
+		Victim is at home. [property at-home]
+		Victim is not at home. [property not-at-home]
+	Is victim reachable?:
+		Victim is reachable. [if not-at-home] [property reachable]
+		Victim is not reachable. [if not-at-home][property not-reachable]
+	Does victim agree?:
+		Victim agrees. [if at-home || reachable]
+		Victim does not agree. [if at-home || reachable]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT trip (seats, passengers)>
+<!ELEMENT seats (seat+)>
+<!ELEMENT seat (row, seat_nr)>
+<!ELEMENT passengers (passenger+)>
+<!ELEMENT passenger (fname, lname)>
+<!ELEMENT row (#PCDATA)>
+<!ELEMENT seat_nr (#PCDATA)>
+<!ATTLIST seat id_of_passenger IDREF #REQUIRED>
+<!ATTLIST passenger id ID #REQUIRED>

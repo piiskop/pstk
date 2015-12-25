@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	
+	<!-- Simple types -->
+	<xs:element name="Title" type="xs:string" />
+	<xs:element name="Date" type="xs:date" />
+	<xs:element name="Duration" type="xs:duration" />
+	<xs:element name="Team" type="xs:string" />
+	<xs:element name="City" type="xs:string" />
+	<xs:element name="Country" type="xs:string" />
+	<xs:element name="WinningPoints" type="xs:integer" />
+	<xs:element name="LosingPoints" type="xs:integer" />
+	<xs:element name="WinningTeam" type="xs:string" />
+	<xs:element name="WinnerSets" type="xs:integer" />
+	<xs:element name="LoserSets" type="xs:integer" />
+	
+	<!-- Complex types -->
+	<xs:element name="Teams">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:Team" maxOccurs="2" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Location">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="xs:City" />
+				<xs:element ref="xs:Country" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Set">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:WinningPoints" />
+				<xs:element ref="xs:LosingPoints" />
+				<xs:element ref="xs:WinningTeam" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Sets">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:Set" minOccurs="3" maxOccurs="5" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Competition">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="xs:Title" />
+				<xs:element ref="xs:Teams" />
+				<xs:element ref="xs:Date" />
+				<xs:element ref="xs:Duration" />
+				<xs:element ref="xs:Location" />
+				<xs:element ref="xs:Sets" />
+				<xs:element ref="xs:WinnerSets" />
+				<xs:element ref="xs:LoserSets" />
+				<xs:element ref="xs:WinningTeam" />
+			</xs:all>
+			<xs:attribute name="id" type="xs:ID" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Competitions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:Competition" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

@@ -1,0 +1,16 @@
+{
+"$schema": "http://localhost/pstk/Kristine%20Sepp/Kontrollt%C3%B6%C3%B63/Kontrollt%C3%B6%C3%B63.html",
+"title": "List",
+"description": "Students list",
+"properties": {
+        "firstname": {
+            "description": "First name of the student",
+            "type": "string"
+        }
+                "lastname": {
+            "description": "Last name of the student",
+            "type": "string"
+        }
+    },
+    "required": ["firstname" , "lastname"]
+}

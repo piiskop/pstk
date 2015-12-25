@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data>
+<data xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com eksam.xsd">
+<players>
+	<player id="p1">
+		<name>Margus Vaher</name>
+		<phone>56487984</phone>
+		<mail>margus@gmail.com</mail>
+	</player>
+	<player id="p2">
+		<name>Anni Vahtra</name>
+		<phone>5115487</phone>
+		<mail>anni57@gmail.com</mail>
+	</player>	
+	<player id="p3">
+		<name>Andrus Vahtramaa</name>
+		<phone>5005478</phone>
+		<mail>antsants123@gmail.com</mail>
+	</player>	
+</players>
+<fields>
+	<field>
+		<name>Spordihalli suur väljak</name>
+		<user>Andrus Vahtramaa</user>
+		<sport>Võrkpall</sport>
+		<play_time>
+			<play_day>2015-01-01</play_day>
+			<play_start>10:00:00</play_start>
+			<play_end>12:00:00</play_end>
+		</play_time>
+	</field>
+	<field>
+		<name>Spordihalli väike väljak</name>
+		<user>Margus Vaher</user>
+		<sport>Korvpall</sport>
+		<play_time>
+			<play_day>2015-01-03</play_day>
+			<play_start>15:00:00</play_start>
+			<play_end>16:30:00</play_end>
+		</play_time>
+	</field>
+	<field>
+		<name>Tennisehall</name>
+		<user>Anni Vahtra</user>
+		<sport>Tennis</sport>
+		<play_time>
+			<play_day>2015-01-04</play_day>
+			<play_start>13:00:00</play_start>
+			<play_end>15:30:00</play_end>
+		</play_time>
+	</field>
+</fields>
+</data>

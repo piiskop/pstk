@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Msaal (title, MENU, Search)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT MENU (Menu_element*)>
+<!ELEMENT Menu_element EMPTY>
+<!ATTLIST Menu_element label CDATA #REQUIRED
+					target CDATA #REQUIRED>
+
+<!ELEMENT lable (#PCDATA)>
+<!ELEMENT target (#PCDATA)>
+
+<!ELEMENT Search (description, Date, Locations, Disciplines)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT Date (aasta, kuu, päev, tund?, minut?)>
+<!ELEMENT aasta (#PCDATA)>
+<!ELEMENT kuu (#PCDATA)>
+<!ELEMENT päev (#PCDATA)>
+<!ELEMENT tund (#PCDATA)>
+<!ELEMENT minut (#PCDATA)>
+
+<!ELEMENT Locations (Location*)>
+<!ELEMENT Location (City?, Districts)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Districts (District+)>
+<!ELEMENT District (#PCDATA)>
+
+<!ELEMENT Disciplines (Discipline*)>
+<!ELEMENT Discipline (Type, Designation, SizeOfCourt, UniteOfCourtSize, Capasite)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Designation (#PCDATA)>
+<!ELEMENT SizeOfCourt (#PCDATA)>
+<!ELEMENT UniteOfCourtSize (#PCDATA)>
+<!ELEMENT Capasite (#PCDATA)>
+

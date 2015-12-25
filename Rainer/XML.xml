@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kalender [
+<!ELEMENT kalender (Description*, events, vacancies, Comment?)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT events (event*)>
+<!ATTLIST event Name CDATA #REQUIRED>
+<!ELEMENT event (time, place)>
+<!ATTLIST time Date CDATA #REQUIRED>
+<!ATTLIST time clock CDATA #REQUIRED>
+<!ATTLIST place Name CDATA #REQUIRED>
+<!ATTLIST place address CDATA #REQUIRED>
+<!ATTLIST place link CDATA #IMPLIED>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT vacancies (Info*,vacancy*)>
+<!ELEMENT Info (#PCDATA)>
+<!ELEMENT vacancy (place, time)>
+<!ATTLIST place Name CDATA #REQUIRED>
+<!ATTLIST place address CDATA #REQUIRED>
+<!ATTLIST time Date CDATA #REQUIRED>
+<!ATTLIST time clock CDATA #REQUIRED>
+<!ELEMENT Comment (#PCDATA)>
+
+ ]>
+<kalender>
+	<Description> <![CDATA[Kalendrisse on märgitud info kehtivate sündmuste aegade ning vabade saalide kohta]]>
+	</Description>
+
+	<!--Sündmuste kirjeldamine -->
+
+	<events>
+		<event Name="trenn">
+
+
+			<time Date="12.11.14" clock="11:00-15:00">
+			</time>
+			<place Name="Saku suurhall" address="Paldiski maantee 104B, 13522 Tallinn"
+				 link="www.sakusuurhall.ee/">
+
+
+			</place>
+		</event>
+
+
+		<event Name="taipoks">
+			<time Date="12.11.14" clock="17:00-19:00">
+			</time>
+			<place Name="Pirita Majandusgümnaasiumi Spordihoone" address="Metsavahi tee 19, 11911 Tallinn, 13522 Tallinn"
+				link="http://www.jutsuklubi.ee//">
+			</place>
+		</event>
+
+		<event Name="Korvpall">
+			<time Date="22.11.14" clock="12:00-15:00">
+			</time>
+			<place Name="Pirita Majandusgümnaasiumi Spordihoone" address="Sõpruse pst. 1"
+				link="http://www.basket.ee/tuletrenni/leht.php?id=1">
+			</place>
+		</event>
+	</events>
+
+	<!--Vabad ajad saalides -->
+	<vacancies>
+	<Info> <![CDATA[Lisage andmeid vabade saalide ja kellaaegade kohta, mil on soovijatel võimalik treeninguid korraldada]]>
+	</Info>
+	<vacancy>
+		<place Name="Saku suurhall" address="Paldiski maantee 104B, 13522 Tallinn">
+
+</place>
+			<time Date="02.01.15" clock="19:00-21:00">
+			</time>
+	</vacancy>
+
+
+	<vacancy>
+		<place Name="Pirita Majandusgümnaasiumi Spordihoone" address="Metsavahi tee 19, 11911 Tallinn">
+		</place>
+		<time Date="30.12.14" clock="10:00-20:00">
+		</time>
+	</vacancy>
+
+
+	<vacancy>
+		<place Name="Pirita Majandusgümnaasiumi Spordihoone" address="Sõpruse pst. 1">
+		</place>
+		<time Date="13.02.15" clock="9:00-20:00">
+		</time>
+	</vacancy>
+</vacancies>
+
+	<Comment> <![CDATA[Muudatustest palun teavitada süsteemi administraatorit]]>
+	</Comment>
+
+
+
+
+
+
+
+
+</kalender>

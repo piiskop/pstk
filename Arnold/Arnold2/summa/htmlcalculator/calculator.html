@@ -1,0 +1,25 @@
+
+<!-- BEGIN html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+	
+	
+	<form>
+		<input type="text" id="first" value="{SUMMA1} ">+ <input type="text"
+			id="second" value="{SUMMA2}">=
+		<samp id="result">{RESULT}</samp>
+		<input type="button" value="Show sum result(JS)"
+			onclick="summator.run()"> <input type="button"
+			value="Show sum result(PHP)" onclick="window.location.href='{BEGINNING-OF-URL}?first='+document.getElementById('first').value+'&second='+document.getElementById('second').value">
+
+	</form>
+	<script type="text/javascript" src="{BEGINNING-OF-URL}objects.js"></script>
+</body>
+</html>
+<!-- END html -->

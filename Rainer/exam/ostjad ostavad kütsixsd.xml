@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Station xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ostjad ostavad kütsi.xsd">
+	<buyers>
+		<buyer IdBuyer="Hando">
+		</buyer>
+		<buyer IdBuyer="Madis">
+		</buyer>
+		<buyer IdBuyer="Juho">
+		</buyer>
+	</buyers>
+	<fuels>
+		<fuel IdFuel="idvalue1">Futura 98</fuel>
+		<fuel IdFuel="idvalue2">Futura 95</fuel>
+		<fuel IdFuel="idvalue3">Futura D</fuel>
+	</fuels>
+	<transactions>
+		<transaction IdBuyer="Hando" IdFuel="idvalue1">transaction1</transaction>
+		<transaction IdBuyer="Madis" IdFuel="idvalue2">transaction2</transaction>
+		<transaction IdBuyer="Juho" IdFuel="idvalue3">transaction3</transaction>
+	</transactions>
+</Station>

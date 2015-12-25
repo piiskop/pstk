@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_o6E_gGKOEeWUtsP9QqrMLQ" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_x7IwUGKOEeWUtsP9QqrMLQ" name="User">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TuEfUGKPEeWUtsP9QqrMLQ" name="firstName" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cZ94cGKPEeWUtsP9QqrMLQ" name="lastName"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0bRVUGKPEeWUtsP9QqrMLQ" name="age"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2mP_IGKPEeWUtsP9QqrMLQ" name="trainingPlans" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XnGw8GKQEeWUtsP9QqrMLQ" name="targetAds"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_FIFeoGKVEeWUtsP9QqrMLQ" name="idUser"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BIljMGKVEeWUtsP9QqrMLQ" name="insertUser(firstName,lastName, age,idUser)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0OkLgGKOEeWUtsP9QqrMLQ" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hGJ6wGKPEeWUtsP9QqrMLQ" name="eventName" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jw8tEGKPEeWUtsP9QqrMLQ" name="place" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mAYZEGKPEeWUtsP9QqrMLQ" name="price" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dKhWMGKQEeWUtsP9QqrMLQ" name="result"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ikJGQGKQEeWUtsP9QqrMLQ" name="idCourt"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_T4b04GKSEeWUtsP9QqrMLQ" name="registerToEvent" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_a2Y-IGKVEeWUtsP9QqrMLQ" name="insertEvent(eventName, place,price,idCourt)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_g0mB8GKVEeWUtsP9QqrMLQ" name="insertResults"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2yqf8GKOEeWUtsP9QqrMLQ" name="Feedback">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-CZnoGKPEeWUtsP9QqrMLQ" name="system"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__QqKgGKPEeWUtsP9QqrMLQ" name="coach"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jAvJYGKVEeWUtsP9QqrMLQ" name="insertFeedback(system,coach)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CPP4AGKPEeWUtsP9QqrMLQ" name="coach">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E7p-cGKQEeWUtsP9QqrMLQ" name="trainingPlan"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IjrOAGKQEeWUtsP9QqrMLQ" name="trainingScheduleInvidually"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZPvisGKQEeWUtsP9QqrMLQ" name="targetAds"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hix_cGKVEeWUtsP9QqrMLQ" name="firstName"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JZtr4GKVEeWUtsP9QqrMLQ" name="lastName"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MZJ4gGKVEeWUtsP9QqrMLQ" name="idCoach"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QTkfoGKVEeWUtsP9QqrMLQ" name="insertTrainingPlan"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WO1kMGKVEeWUtsP9QqrMLQ" name="insertCoach(firstName,lastName,idCoach)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_p5IzUGKPEeWUtsP9QqrMLQ" name="Court">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rEqyUGKPEeWUtsP9QqrMLQ" name="idCourt"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t9mHQGKPEeWUtsP9QqrMLQ" name="availability" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_njBBwGKVEeWUtsP9QqrMLQ" name="insertAvailibility"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qLxMsGKVEeWUtsP9QqrMLQ" name="insertCourt(idCourt)"/>
+  </packagedElement>
+</uml:Model>

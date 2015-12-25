@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+div.Screen	{
+	width: 540px;
+	height: 960px;
+	background-color: rgba(120,120,120,0.4);
+	background-image: url("images/GoogleMapsAndroid.jpg");
+}
+
+div.StatusBar	{
+	width: auto;
+	height: 50px;
+	clear: both;
+	background-color: black;
+}
+
+div.Menu	{
+	width: 300px;
+	height: 870px;
+	background-color: white;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+img.user	{
+	width: 70px;
+	height: 70px;
+	clear: both;
+}
+
+button[type="button"]	{
+	width: 150px;
+	display: block;
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 10px;
+}
+
+div.Home	{
+	width: auto;
+	height: 80px;
+	clear: both;
+	background-color: black;
+}

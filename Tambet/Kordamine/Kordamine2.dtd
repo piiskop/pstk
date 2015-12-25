@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+
+
+SPIKKER:
+ + = 1 kuni lõpmatus
+ * =0 kuni lõpmatus
+ ?  = 0 või 1
+ ilma = kindlasti 1!

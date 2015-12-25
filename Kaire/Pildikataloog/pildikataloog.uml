@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gA3n8FhuEeWRkvfo74ZDGw" name="RootElement" URI="">
+  <packagedElement xmi:type="uml:Class" xmi:id="_hPU_IFhuEeWRkvfo74ZDGw" name="Foto" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x6LL0FhuEeWRkvfo74ZDGw" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_63NYQFhuEeWRkvfo74ZDGw" name="shootingDate" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XEH58FhvEeWRkvfo74ZDGw" name="uploadDate" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AmTPwFh0EeWRkvfo74ZDGw" name="imageFormat" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gTN4Alh1EeWRkvfo74ZDGw" name="file" type="_OJwVEFhxEeWRkvfo74ZDGw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j-YiMFh1EeWRkvfo74ZDGw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j-a-cFh1EeWRkvfo74ZDGw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sNLkEVh_EeWRkvfo74ZDGw" name="file" type="_OJwVEFhxEeWRkvfo74ZDGw" association="_sNK9AFh_EeWRkvfo74ZDGw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uJ4hUFh_EeWRkvfo74ZDGw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uJ6WgFh_EeWRkvfo74ZDGw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1mstoFh-EeWRkvfo74ZDGw" name="insertFoto">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JfAU0Fh_EeWRkvfo74ZDGw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OJwVEFhxEeWRkvfo74ZDGw" name="File">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EIqOIFhyEeWRkvfo74ZDGw" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gTPtMFh1EeWRkvfo74ZDGw" name="foto" type="_hPU_IFhuEeWRkvfo74ZDGw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sNMyMFh_EeWRkvfo74ZDGw" name="foto" type="_hPU_IFhuEeWRkvfo74ZDGw" association="_sNK9AFh_EeWRkvfo74ZDGw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_As5UEliBEeWRkvfo74ZDGw" name="catalogue" type="_lFFqkFiAEeWRkvfo74ZDGw" association="_As4tAFiBEeWRkvfo74ZDGw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cb8P0FiBEeWRkvfo74ZDGw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cb-sEFiBEeWRkvfo74ZDGw" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_05m-IFh-EeWRkvfo74ZDGw" name="insertFoto">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_TLvf4Fh_EeWRkvfo74ZDGw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_T2DoMFh_EeWRkvfo74ZDGw" name="creatFile">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aoas0Fh_EeWRkvfo74ZDGw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sNK9AFh_EeWRkvfo74ZDGw" memberEnd="_sNLkEVh_EeWRkvfo74ZDGw _sNMyMFh_EeWRkvfo74ZDGw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sNK9AVh_EeWRkvfo74ZDGw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sNLkEFh_EeWRkvfo74ZDGw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lFFqkFiAEeWRkvfo74ZDGw" name="Catalogue">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sng6MFiAEeWRkvfo74ZDGw" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_As57IFiBEeWRkvfo74ZDGw" name="file" type="_OJwVEFhxEeWRkvfo74ZDGw" association="_As4tAFiBEeWRkvfo74ZDGw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_As4tAFiBEeWRkvfo74ZDGw" memberEnd="_As5UEliBEeWRkvfo74ZDGw _As57IFiBEeWRkvfo74ZDGw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_As5UEFiBEeWRkvfo74ZDGw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_As5UEViBEeWRkvfo74ZDGw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wTe60FhuEeWRkvfo74ZDGw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wTfh4FhuEeWRkvfo74ZDGw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

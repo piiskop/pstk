@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_he5A8Fh1EeWl1oCUEGMvvg" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_hikAAFh1EeWl1oCUEGMvvg" name="Activity1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-ObHgFh1EeWl1oCUEGMvvg" name="Class1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B-_2IFh2EeWl1oCUEGMvvg" name="Kasutaja"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TAKXcFh-EeWl1oCUEGMvvg" name="Class2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QeOM4FiDEeWl1oCUEGMvvg" name="FirsName"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eW6bAFiDEeWl1oCUEGMvvg" name="LastName"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gPu90FiDEeWl1oCUEGMvvg" name="Attribute1"/>
+  </packagedElement>
+</uml:Model>

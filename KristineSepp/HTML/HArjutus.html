@@ -1,0 +1,26 @@
+<!-- BEGIN form -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+<form>
+
+<input id="form1" type="number" name="number" value="{SUMMAND}">
++
+<input id="form2" type="number" name="number" value="{SUMMAND2}">
+=
+<button type="button" onclick="summator= new Summator().run()">Add!</button>
+<button type="button" onclick="window.location.href='{URL-BEGIN}?a='+document.getElementById('form1').value+'&b='+document.getElementById('form2').value">AddPHP!</button>
+<samp id="liitmine" >{SUM}</samp>
+</form>
+
+
+<script src="HArjutus.js?4" ></script>
+</body>
+</html>
+<!-- END form -->

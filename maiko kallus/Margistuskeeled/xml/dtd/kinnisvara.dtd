@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT objct (type, transaction_type, number_of_rooms, area, price, image, address)>
+<!ELEMENT address (county, city, street, house, apartment, postal_code)>
+<!ELEMENT county (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT house (#PCDATA)>
+<!ELEMENT apartment (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>

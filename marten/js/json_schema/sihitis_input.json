@@ -1,0 +1,27 @@
+{
+	startYear: 2002,
+    studentList: [ 
+      "Tõnis Talvik",
+      "Marta Maasikas",
+      "Liisa Liiv"
+   	],
+  	teacherName: "Alfred Aasa"
+}
+{
+	startYear: 1992,
+    studentList: [ 
+      "Juhan Jõks",
+      "Edgar Elevi",
+      "Toomas Tuulik"
+   	],
+  	teacherName: "Vadim Vostok"
+}
+{
+	startYear: 1990,
+    studentList: [ 
+      "Peeter Paslik",
+      "Sanja Soosik",
+      "Oskar Kett"
+   	],
+  	teacherName: "Olev Oskur"
+}

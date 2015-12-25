@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Leek</title>
+<link rel="stylesheet" href="../css/css.css" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower'
+	rel='stylesheet' type='text/css'>
+<meta name="description"
+	content="This is an example how to use main HTML elements." />
+<style type="text/css">
+body {
+	background-color: linen;
+}
+</style>
+</head>
+<body style="text-align: center;">
+	<!-- div class="Container1">
+		<div class="Hopper"></div>
+		<div class="Ohnoes"></div>
+	</div>
+	<div id="containerForContents" style="display: none; top: 0; left: 0;">
+		<h2>Sisukord</h2-->
+	<ul>
+		<li><a href="#" onmousedown="go(this, '#poem');">Luuletus</a></li>
+		<li><a href="#" onmousedown="go(this, '#captionOfJustSongs');">Lihtsalt
+				laulud</a></li>
+		<li><a href="#" onmousedown="go(this, '#captionOfOrderedSongs');">Reastatud
+				laulud</a></li>
+	</ul>
+	<!-- /div>
+	<img style="" alt="jää" src="../images/IMG_0033.JPG" width="100"
+		height="100" xml:lang="et" title="mingi klaas on laual" /-->
+	<h1>Leek</h1>
+	<h2 class="SecondLevelHeading">Luuletus</h2>
+	<h2 class="SecondLevelHeading">Teise taseme pealkiri</h2>
+	<h2>Luuletus 2</h2>
+	<p>
+		<img alt="leek"
+			src="http://g4.nh.ee/images/pix/900x585/aLba7xrL-KY/file60887101_41cacd1b.jpg"
+			id="imageOfFlame" width="100" title="leek" /> <span
+			class="FirstLetter">K</span>ristelil kurk valutab.<br /> Kaarlil
+		kurk valutab.<br /> Sergeil kurk valutab.<br /> Aga mina sõin oma
+		kurgi ära ja valu pole.
+	</p>
+
+	Külmast tulest
+	<br />
+	<i>langes</i>
+	<br />pime
+	<em>leek</em>,
+	<br />mis valgustas
+	<strong>valgust</strong>
+	<br />ja nähtavale tuli
+	<b>pimedus</b>.
+	<pre>tekst</pre>
+
+	<div id="songs">
+		<div class="JustSongs">
+			<h2 id="captionOfJustSongs">Lihtsalt laulud</h2>
+			<ul>
+				<li><a href="http://sasslantis.ee/lyrics-terminaator-torm">Torm</a></li>
+				<li class="SecondElementInList"><a href="#"
+					onclick="window.open('http://sasslantis.ee/lyrics-gunnar_graps-valgus'); return false;">Valgus</a></li>
+				<li>Pimeduse prints</li>
+			</ul>
+		</div>
+		<div class="OrderedSongs" id="containerForOrderedSongs"
+			style="display: block; top: 0; left: 0;">
+			<h2 id="captionOfOrderedSongs">Reastatud laulud</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Laul</th>
+						<th>Esitaja</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Torm</td>
+						<td>Terminaator</td>
+					</tr>
+					<tr>
+						<td>Pimeduse prints</td>
+						<td>Black Velvet</td>
+					</tr>
+					<tr>
+						<td>Valgus</td>
+						<td>Gunnar Grapsi Grupp</td>
+					</tr>
+				</tbody>
+			</table>
+			<ol>
+				<li>Torm</li>
+				<li class="SecondElementInList">Pimeduse prints</li>
+				<li>Valgus</li>
+			</ol>
+		</div>
+	</div>
+	<div id="links">
+		<a href="#">algus</a> <a href="kurk-on-valus.html">Kurk on valus</a>
+	</div>
+	<div class="First">
+		<div class="Second">
+			<div class="Third"
+				onmousedown="showContents(event, 'containerForContents');">sisu</div>
+			<button id="buttonForOrderedSongs"
+				onmousedown="showContents(event, 'containerForOrderedSongs');">Vaatan
+				laulude nimekirja</button>
+		</div>
+	</div>
+	<video src="test.mp4" controls
+		poster="http://g4.nh.ee/images/pix/900x585/aLba7xrL-KY/file60887101_41cacd1b.jpg">
+	</video>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="../js/js.js"></script>
+	<button onmousedown="draw(event);">Joonistan.</button>
+	<iframe src="kurk-on-valus.html" width="300" height="300"></iframe>
+</body>
+</html>

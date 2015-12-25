@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_x4KrkFhsEeWPjv-EWi4O0w" name="RootElement">
+    <packagedElement xmi:type="uml:Class" xmi:id="_RrR34FhtEeWPjv-EWi4O0w" name="Display">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_svXJQFhtEeWPjv-EWi4O0w" name="telephone" type="_WoIMYFhtEeWPjv-EWi4O0w" association="_svV7IFhtEeWPjv-EWi4O0w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4XAIgFhyEeWPjv-EWi4O0w" name="horizontalDegree" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9-f8gFhyEeWPjv-EWi4O0w" name="verticalDegree" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pi_G8FhzEeWPjv-EWi4O0w" name="switch">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WoIMYFhtEeWPjv-EWi4O0w" name="Telephone">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_svXwUFhtEeWPjv-EWi4O0w" name="display" type="_RrR34FhtEeWPjv-EWi4O0w" association="_svV7IFhtEeWPjv-EWi4O0w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PibbYFh1EeWPjv-EWi4O0w" name="activeApp">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_aJ0Q0Vh1EeWPjv-EWi4O0w" name="laser" type="_cWtf0FhtEeWPjv-EWi4O0w" association="_aJyboFh1EeWPjv-EWi4O0w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cWtf0FhtEeWPjv-EWi4O0w" name="Laser">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UMCdEFhwEeWPjv-EWi4O0w" name="active" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4OU_kFhwEeWPjv-EWi4O0w" name="color">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_aJ0Q0Fh1EeWPjv-EWi4O0w" name="telephone" type="_WoIMYFhtEeWPjv-EWi4O0w" association="_aJyboFh1EeWPjv-EWi4O0w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_svV7IFhtEeWPjv-EWi4O0w" memberEnd="_svXJQFhtEeWPjv-EWi4O0w _svXwUFhtEeWPjv-EWi4O0w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_svWiMFhtEeWPjv-EWi4O0w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_svWiMVhtEeWPjv-EWi4O0w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_aJyboFh1EeWPjv-EWi4O0w" memberEnd="_aJ0Q0Fh1EeWPjv-EWi4O0w _aJ0Q0Vh1EeWPjv-EWi4O0w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aJzCsFh1EeWPjv-EWi4O0w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aJzpwFh1EeWPjv-EWi4O0w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hodQ0FhuEeWPjv-EWi4O0w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hodQ0VhuEeWPjv-EWi4O0w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_hr3KIFhuEeWPjv-EWi4O0w" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>

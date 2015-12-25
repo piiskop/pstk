@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT traktorid (traktor*)>
+<!ELEMENT traktor (Color*, Fuel+, Engine_power+, Weight+) >
+<!ELEMENT Color (#PCDATA)>
+<!ELEMENT Fuel (#PCDATA)>
+<!ELEMENT Engine_power (#PCDATA) >
+<!ELEMENT Weight_kg (#PCDATA) >
+<!ATTLIST traktor ID ID #REQUIRED>

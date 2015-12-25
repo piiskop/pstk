@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+@import url("html-css-examples.css");
+/* For unordered lists */
+ul {
+	padding: 0;
+}
+
+.Disc {
+	list-style: disc;
+}
+
+.Circle {
+	list-style: circle;
+}
+
+.Square {
+	list-style: square;
+}
+
+.Image {
+	list-style: square url(../../images/del2.gif);
+}
+
+/* For ordered lists */
+.DecimalLeadingZero {
+	list-style: decimal-leading-zero;
+}
+
+.LowerRoman {
+	list-style: lower-roman;
+}
+
+.UpperRoman {
+	list-style: upper-roman;
+}
+
+.LowerGreek {
+	list-style: lower-greek;
+}
+
+.LowerLatin {
+	list-style: lower-latin;
+}
+
+.UpperLatin {
+	list-style: upper-latin;
+}

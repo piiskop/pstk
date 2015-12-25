@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+body{
+	text-align:center;
+	}
+h1{
+	font-family:arial;
+	color:rosybrown;
+}	
+h2{
+	font-family:arial;
+	color:gray;
+}
+p{
+	font-family:sans-serif;
+}
+h3{
+	font-family:arial;
+	color:peru;
+}
+ol{
+	list-style-position:inside;
+	font-size:120%;
+	color:coral;
+}
+ul{
+	list-style-position:inside;
+	color:black;
+	font-size:90%;
+}
+li{
+	font-family:arial;
+}

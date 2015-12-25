@@ -1,0 +1,308 @@
+@CHARSET "UTF-8";
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body	{
+			font-family: Helvetica, Arial, Sans-Serif;
+			line-height: 24px;
+			background: #eee url(../particle/body-bg.jpg) center top no-repeat;
+			
+		}
+		
+div.container	{
+					width: 925px;
+					margin: 0 auto;
+					padding: 143px 0 0 0;
+				}
+
+div.header		{
+					background: url(../particle/header-bg.png) right bottom no-repeat;
+					overflow: hidden;
+					padding: 0 0 50px 0;
+				}
+
+	div.header h1	{
+					float: left;
+					color: #a42988;
+				}
+
+	div.header ul.categories	{
+										float: right;
+										list-style: none;
+										margin: 16px 0 0 0;
+									}
+	div.header ul.categories li	{
+											float: left;
+											margin: 0 0 0 40px;
+										}
+	div.header ul.categories li a {
+											display: block;
+											font-size: 14px;
+											font-weight: bold;
+											text-transform: uppercase;
+											color: #a42988;
+											text-shadow: 0 2px 0px #fff;
+											text-decoration: none;
+										}
+	div.header ul.categories li a:hover	{
+											color: #006ab1;
+									}
+									
+div.content {
+							background: url(../particle/content-bg.png) right top repeat-y;
+							overflow: hidden;
+			}
+	
+	div.content a {
+					font-weight:bold;
+					text-transform: uppercase;
+					color: #a42988;
+					text-shadow: 0 2px 0px #fff;
+					text-decoration: none;
+	}
+	div.content a:hover {
+							color: #006ab1;
+		}
+
+	div.content div.main {
+							width: 685px;
+							float: left;
+							padding: 55px 0 0 0;
+						}
+	div.content div.main h2 {
+							margin: 0 0 16px 0;
+		}
+
+	div.content div.main p {
+								margin: 0 0 25px 0;
+								color: #474747;
+								font-size: 15px;
+		}
+
+div.content div.main .post {
+					background: url(../particle/post-divider.png) right bottom no-repeat;
+					padding: 0 47px 55px 0;
+					margin: 0 0 55px 0;
+					overflow: hidden;
+}
+div.content div.main .post .date {
+		width: 62px;
+		height: 57px;
+		float: left;
+		padding: 15px 0 0 0;
+		margin: 0 20px 0 0;
+		background: #0085cc url(../particle/date-bg.jpg);
+		text-align: center; 
+	}
+div.content div.main .post .date p {
+			font-size: 40px;
+			font-weight: bold;
+			color: #fff;
+			text-shadow: 0 2px 3px #006ab1;
+		}
+div.content div.main .post .date p span {
+				margin: 5px 0 0 0;
+				display: block;
+				font-size: 17px;
+				font-weight: normal;
+				text-transform: uppercase;
+			}
+				
+div.content div.main .post .post-content {
+					width: 556px;
+					float: left;
+}
+div.content div.main .post .post-content ul.post-meta {
+					width: 515px;
+					height: 21px;
+					list-style: none;
+					padding: 14px 20px;
+					background: #d6d6d6 url(../particle/meta-bg.jpg);
+	}
+div.content div.main .post .post-content ul.post-meta li {
+			float: left;
+			margin: 0 40px 0 0;
+			font-size: 15px; 
+			font-weight: bold; 
+			text-transform: uppercase; 
+			color: #fff; 
+			text-shadow: 0px 2px 3px #b8b8b8;
+		}
+div.content div.main .post .post-content ul.post-meta li.read-more {
+				float: right;
+				margin: 0 0 0 0;
+			}
+div.content div.main .post .post-content ul.post-meta li a {
+					color: #fff;
+					text-shadow: 0px 2px 3px #b8b8b8;
+				}
+div.content div.main .post .post-content ul.post-meta li a:hover {
+						color: #eee;
+					}
+					
+div.content div.side {
+						width: 200px;
+						float: left;
+						padding: 5px 20px;
+}
+
+div.content div.side p.subscribe a {
+		display: block;
+		height: 30px;
+		font-size: 20px;
+		color: #fff; 
+		padding: 7px 0 0 45px; 
+		margin: 0 0 15px 0;
+		text-shadow: 0px 2px 3px #b8b8b8;
+		background: url(../particle/rss-icon.png) left no-repeat;
+	}
+div.content div.side p.subscribe a:hover {
+			color: #eee;
+		}
+	
+div.content div.side ul.pages {
+		list-style: none; 
+		margin: 0 0 30px 0;
+	}
+div.content div.side ul.pages li {
+			margin: 0 0 5px 0;
+		}
+div.content div.side ul.pages li a {
+				display: block; 
+				width: 157px;
+				height: 23px; 
+				padding: 12px 20px; 
+				text-align: center;
+				background: #eee url(../particle/sidebar-btn.png);
+			}								
+
+div.content div.side h3 {
+								font-size: 20px;
+								text-transform: uppercase;
+								color: #fff;
+								margin: 0 0 5px 0;
+								text-shadow: 0px 2px 3px #b8b8b8;
+}
+
+div.content div.side ul.follow-me {
+								overflow: hidden;
+								list-style: none;
+								margin: 0 0 30px 0;
+	}
+div.content div.side ul.follow-me li {
+								float: left;
+								margin: 0 8px 8px 0;
+		}
+div.content div.side ul.follow-me li a {
+								display: block;
+								width: 32px;
+								height: 32px;
+								text-indent: -9999px;
+			}
+div.content div.side ul.follow-me li a.twitter {
+					background: url(../particle/twitter_32.png);
+				}
+div.content div.side ul.follow-me li a.facebook {
+					background: url(../particle/facebook_32.png);
+				}
+div.content div.side ul.follow-me li a.flickr {
+					background: url(../particle/flickr_32.png);
+				}
+div.content div.side ul.follow-me li a.youtube {
+					background: url(../particle/youtube_32.png);
+				}
+div.content div.side ul.follow-me li a.vimeo {
+					background: url(../particle/vimeo_32.png);
+				}
+				
+div.content div.side form.search {
+					margin: 0 0 30px 0;
+}
+div.content div.side form.search input.search-bar {
+						width: 135px;
+						height: 43px;
+						padding: 1px 45px 0 15px;
+						float: left;
+						background: #eee url(../particle/search-bar.png);
+						font-size: 15px;
+						color: #474747;
+	}
+div.content div.side form.search input.search-btn {
+						width: 27px;
+						height: 27px;
+						float: right; 
+						margin: -36px 15px 0 0; 
+						cursor: pointer;
+						background: url(../particle/search-btn.png);
+						text-indent: -9999px;
+						padding: 0 0 0 27px;
+	}
+
+div.footer {
+					background: url(../particle/footer-bg.png) center top no-repeat;
+					overflow: hidden;
+					min-height: 139px;
+}
+
+div.footer ul.credits {
+					overflow: hidden;
+					list-style: none;
+					float: left;
+					margin: 25px 0 0 20px;
+	}
+div.footer ul.credits li {
+					float: left;
+					margin: 0 10px 0 0;
+		}
+div.footer ul.credits li a {
+					display: block;
+					height: 21px;
+					background: url(../particle/credits.png);
+					text-indent: -9999px;
+			}
+div.footer ul.credits li a.wordpress { 
+					width: 21px;
+}
+div.footer ul.credits li a.spoongraphics { 
+					width: 26px;
+					background-position: 26px 0;
+}
+				
+div.footer p.back-top {
+					float: right;
+					margin: 25px 20px 0 0;
+	}
+div.footer p.back-top a {
+					font-size: 12px;
+					text-transform: uppercase;
+					text-decoration: none;
+					color: #a42988;
+					text-shadow: 0 2px 0px #fff;
+		}
+		
+div.footer p.back-top a:hover {
+				color: #006ab1;
+			}
+div.content div.main .pagination {
+    				overflow: hidden;
+}			
+
+
+div.content div.main div.pagination p.older {
+    float: left;
+    
+}
+div.content div.main div.pagination p.newer {
+    float: right;
+    margin: 0 47px 0 0;
+}
+
+div.content div.main div.pagination p {
+    width: 160px;
+    height: 24px;
+    padding: 15px 20px;
+    text-align: center;
+    background: url(../particle/btn-bg.jpg);
+}

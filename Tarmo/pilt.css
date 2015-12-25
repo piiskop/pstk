@@ -1,0 +1,21 @@
+* {
+	font-family:"Helvetica";
+	font-size:12px;}
+body {
+	position:fixed;
+	left:350px;}
+ol {
+	margin:0px;}
+.column {
+	float:left;
+	padding:20px;}
+.header p, .header hr {
+	color:#008800;}	
+footer {
+	position:fixed;
+	bottom:5px;
+	width:550px;}
+footer hr, .header hr {
+	width:550px;
+	color:#008800;
+}

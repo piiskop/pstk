@@ -1,0 +1,11 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "pupils",
+	"type": "array",
+	"properties": {
+		"firstName": {"type": "string"},
+		"lastName": {"type": "string"},
+	},
+	"required": ["firstName", "lastName"]
+}
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "dtd.dtd">
+	<!--Kirjeldab koolis toimuvaid sündmusi-->
+
+<andmed>
+
+	<EVENT nimi="Joulupidu" asukoht="koolimaja">
+		<DATE>
+			<Day>12</Day>
+			<Month>12</Month>
+			<Year>2014</Year>
+		</DATE>
+		<ORGANIZER nimi="opilasesindus">
+			<KONTAKT>
+				<e-mail>oe@gmail.com</e-mail>
+				<telefon>1234</telefon>
+			</KONTAKT>
+		</ORGANIZER>
+		<TYPE olumpiaad="no" traditsioon="yes" voistlus="no" loeng="no" />
+	</EVENT>
+</andmed>

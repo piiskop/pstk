@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+tr.esimene {
+	font-weight:bold;
+}
+
+tr>td:first-child{
+	background-color:red;
+}
+tr:nth-child(2n){
+	background-color:#ff00ff;
+}
+tr:nth-child(2n+1){
+	background-color:#eee;
+}
+input:checked+label{
+	color:red;
+}
+td:nth-child(2n):first-letter{
+	font-size:30px;
+}
+td a[title*="R"],td a[title*="T"],td a[title*="C"],td a[title*="D"]{
+	color:red;
+}

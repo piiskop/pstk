@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+html {font-size:16px;
+}
+
+table, th, td {
+    border: 1px solid black;  
+}
+
+.feedbackView{
+	width: auto;
+	max-width: 500px;
+	max-width: 31.250rem;
+}
+
+.nameColumn{
+	background-color: #00FF00;
+}

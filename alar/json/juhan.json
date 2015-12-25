@@ -1,0 +1,25 @@
+{
+  "description": "Juhani tööst koostatud schema",
+	"type" : "object",
+	"properties" : {
+		"identification": {
+          "type": "string"
+        },
+          "comment": {
+            "type": "string"
+          },
+            "keywords": {
+              "type": "string"
+            },
+              "latitude": {
+                "type": "string"
+              },
+                "longitude": {
+                "type": "string"
+              }
+      
+    },
+      "required": [
+        "identification", "latitude", "longitude"],
+        "additionalProperties" : false
+}

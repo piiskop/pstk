@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resalts>
+	<students>
+		<student id="st1">
+			<firstname>Ly</firstname>
+			<lastname>Aava</lastname>
+			<e-mail>lyaava19@gmail.com</e-mail>
+		</student>
+		<student id="st2">
+			<firstname>Aive</firstname>
+			<lastname>Koplus</lastname>
+			<e-mail>aivekoplus@gmail.com</e-mail>
+		</student>
+		<student id="st3">
+			<firstname>Nele</firstname>
+			<lastname>Suvi</lastname>
+			<e-mail>suvinele@gmail.com</e-mail>
+		</student>
+		<student id="st4">
+			<firstname>Tarmo</firstname>
+			<lastname>Dulinets</lastname>
+			<e-mail>tarms94@gmail.com</e-mail>
+		</student>
+		<student id="st5">
+			<firstname>Tõnis</firstname>
+			<lastname>Vaimann</lastname>
+			<e-mail>t.vaimann@gmail.com</e-mail>
+		</student>
+	</students>
+	<topics>
+		<topic id="tp1">php</topic>
+		<topic id="tp2">xsd</topic>
+		<topic id="tp3">html_css</topic>
+		<topic id="tp4" idparent="tp1">talitlus</topic>
+		<topic id="tp5" idparent="tp1">sihitised</topic>
+		<topic id="tp6" idparent="tp2">fail korras</topic>
+		<topic id="tp7" idparent="tp3">kujutlus</topic>
+		<topic id="tp8" idparent="tp3">pilt</topic>
+	</topics>
+	<relations>
+		<relation idstudent="st1" idtopic="tp7 tp8"></relation>
+		<relation idstudent="st2" idtopic="tp7 tp8"></relation>
+		<relation idstudent="st3" idtopic="tp7 tp8"></relation>
+		<relation idstudent="st4" idtopic="tp4 tp6 tp7 tp8"></relation>
+		<relation idstudent="st5" idtopic="tp4 tp5 tp6 tp7 tp8"></relation>
+	</relations>
+</resalts>

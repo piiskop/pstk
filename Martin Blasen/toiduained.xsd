@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="toiduainete_liigid">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="liigid">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="liik" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nimi" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="ID" type="xs:ID" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="toiduained">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="toiduaine" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nimi" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="ID" type="xs:ID" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="jaotused">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="jaotus" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="IDliik" type="xs:IDREF"
+										use="required" />
+									<xs:attribute name="IDtoiduaine" type="xs:IDREFS"
+										use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

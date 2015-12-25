@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE voistkonnad SYSTEM "võistluse_statistika.dtd">
+<voistkonnad>
+	<voistkond id="v_nimi">
+		<voistleja id="nimi">
+			<saavutus>punktiseis</saavutus>
+		</voistleja>
+	</voistkond>
+	<voistkond id="v_nimi">
+		<voistleja id="nimi">
+			<saavutus>punktiseis</saavutus>
+		</voistleja>
+	</voistkond>
+</voistkonnad>

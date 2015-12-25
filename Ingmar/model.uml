@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oaAxQFh7EeW0DvRjWoQBwA" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_xNFwcFh7EeW0DvRjWoQBwA" name="ShipTo">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4PifgFh7EeW0DvRjWoQBwA" name="name" visibility="public" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-9-GYFh7EeW0DvRjWoQBwA" name="address" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B0zJkFh8EeW0DvRjWoQBwA" name="city" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DdIZUFh8EeW0DvRjWoQBwA" name="country" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GJw-sFh8EeW0DvRjWoQBwA" name="idShipTo"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kwLR4Fh9EeW0DvRjWoQBwA" name="insertShipTo(name,address,city,country)">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xJfX8Fh9EeW0DvRjWoQBwA"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H4i0sFh8EeW0DvRjWoQBwA" name="Item">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Jts_gFh8EeW0DvRjWoQBwA" name="amount" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LPDdgFh8EeW0DvRjWoQBwA" name="price" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_N6P4cFh8EeW0DvRjWoQBwA" name="name" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QbP1kFh8EeW0DvRjWoQBwA" name="idItem"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3E3KMFh9EeW0DvRjWoQBwA" name="insertItem(price,name)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6V-VoFh9EeW0DvRjWoQBwA" name="insertAmount(amount)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ShMOYFh8EeW0DvRjWoQBwA" name="OrderPerson">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Tv0ksFh8EeW0DvRjWoQBwA" name="firstName" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VRXP8Fh8EeW0DvRjWoQBwA" name="lastName" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XItzIFh8EeW0DvRjWoQBwA" name="idOrderPerson" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZRgEkFh8EeW0DvRjWoQBwA" name="email" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RlUxIFh-EeW0DvRjWoQBwA" name="order(idOrder, idShipTo)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YPKy8Fh-EeW0DvRjWoQBwA" name="insertItemInto(idItem)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_fOCpkFh-EeW0DvRjWoQBwA" name="insertOrder(idRaw)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nEAgQFh-EeW0DvRjWoQBwA" name="insertOrderPerson(firstName,lastName,email,address)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_a8jRIFh8EeW0DvRjWoQBwA" name="Order">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_b9V_wFh8EeW0DvRjWoQBwA" name="IdOrder"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gRYn0Fh8EeW0DvRjWoQBwA" name="Row">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hfQJIFh8EeW0DvRjWoQBwA" name="amount" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lqgooFh8EeW0DvRjWoQBwA" memberEnd="_lqzjkFh8EeW0DvRjWoQBwA _lq31AFh8EeW0DvRjWoQBwA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lqk6EFh8EeW0DvRjWoQBwA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lqlhIFh8EeW0DvRjWoQBwA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lqzjkFh8EeW0DvRjWoQBwA" name="order" type="_a8jRIFh8EeW0DvRjWoQBwA" association="_lqgooFh8EeW0DvRjWoQBwA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nLKjEFh8EeW0DvRjWoQBwA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nLcP4Fh8EeW0DvRjWoQBwA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lq31AFh8EeW0DvRjWoQBwA" name="shipto" type="_xNFwcFh7EeW0DvRjWoQBwA" association="_lqgooFh8EeW0DvRjWoQBwA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rXgAoFh8EeW0DvRjWoQBwA" memberEnd="_rXh10Fh8EeW0DvRjWoQBwA _rXic4Fh8EeW0DvRjWoQBwA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rXhOwFh8EeW0DvRjWoQBwA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rXhOwVh8EeW0DvRjWoQBwA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rXh10Fh8EeW0DvRjWoQBwA" name="order" type="_a8jRIFh8EeW0DvRjWoQBwA" association="_rXgAoFh8EeW0DvRjWoQBwA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_szVFcFh8EeW0DvRjWoQBwA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_szYv0Fh8EeW0DvRjWoQBwA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rXic4Fh8EeW0DvRjWoQBwA" name="orderperson" type="_ShMOYFh8EeW0DvRjWoQBwA" association="_rXgAoFh8EeW0DvRjWoQBwA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wdC-IFh8EeW0DvRjWoQBwA" memberEnd="_wdGogFh8EeW0DvRjWoQBwA _wdKS4Fh8EeW0DvRjWoQBwA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wdFaYFh8EeW0DvRjWoQBwA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wdGBcFh8EeW0DvRjWoQBwA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wdGogFh8EeW0DvRjWoQBwA" name="row" type="_gRYn0Fh8EeW0DvRjWoQBwA" association="_wdC-IFh8EeW0DvRjWoQBwA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xkhjkFh8EeW0DvRjWoQBwA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xknDIFh8EeW0DvRjWoQBwA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wdKS4Fh8EeW0DvRjWoQBwA" name="item" type="_H4i0sFh8EeW0DvRjWoQBwA" association="_wdC-IFh8EeW0DvRjWoQBwA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zzMakFh8EeW0DvRjWoQBwA" memberEnd="_zzOPwFh8EeW0DvRjWoQBwA _zzR6IFh8EeW0DvRjWoQBwA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zzNBoFh8EeW0DvRjWoQBwA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zzNosFh8EeW0DvRjWoQBwA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zzOPwFh8EeW0DvRjWoQBwA" name="row" type="_gRYn0Fh8EeW0DvRjWoQBwA" association="_zzMakFh8EeW0DvRjWoQBwA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0i6AQFh8EeW0DvRjWoQBwA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0i-RsFh8EeW0DvRjWoQBwA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zzR6IFh8EeW0DvRjWoQBwA" name="order" type="_a8jRIFh8EeW0DvRjWoQBwA" association="_zzMakFh8EeW0DvRjWoQBwA"/>
+  </packagedElement>
+</uml:Model>

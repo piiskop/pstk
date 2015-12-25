@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mõõdud</title>
+<link rel="stylesheet" type="text/css" href="../css/boxmodel.css?6"
+	media="all" />
+<link href='https://fonts.googleapis.com/css?family=Indie+Flower'
+	rel='stylesheet' type='text/css'>
+<script src="../js/js.js" type="text/javascript"></script>
+</head>
+<body
+	onload="load({
+	nameOfFile: 'navigation',
+	target: 'mainContainer'
+	});">
+	<div class="MainContainer" id="mainContainer">
+		<div class="Content ContentForBoxmodel" id="content">
+			<h1>Mõõdud</h1>
+			<h2>Ploki vari</h2>
+			<div class="ShadowTopRight">vari ülal paremal</div>
+			<div class="ShadowBlurred">udune vari</div>
+			<div class="ShadowSpread">laiutav vari</div>
+			<div class="ShadowInset">sisemine vari</div>
+			<div class="ShadowMultiple">mitu varju</div>
+			<div style="box-shadow: 0 0 4px #999999; width: 1em; height: 1em;"></div>
+			<h2>Kastimudel</h2>
+			<div class="Box Floating">
+				<pre>miks piinan ennast
+mõeldes temast?
+miks on ta mulle nõnda oluline?
+
+ta on nii eemal
+see mind ei veena
+ent ikka mõjub valuliselt
+</pre>
+			</div>
+			<div class="Box Floating"></div>
+			<div class="Box Clear"></div>
+			<h2>Ülevoolavus lubatud</h2>
+			<pre class="Overflow OverflowVisible">mis leian temas ma, mis tõmbab?
+ehk on see seks, ehk õrnused
+mind hurmab tema hõng ka
+nii olengi ta sõltuses</pre>
+			<h2>Ülevoolavus keelatud</h2>
+			<pre class="Overflow OverflowHidden">mis leian temas ma, mis tõmbab?
+ehk on see seks, ehk õrnused
+mind hurmab tema hõng ka
+nii olengi ta sõltuses</pre>
+			<h2>Ülevoolavus keelatud, ent keritav, ribad näha</h2>
+			<pre class="Overflow OverflowScroll">mis leian temas ma, mis tõmbab?
+ehk on see seks, ehk õrnused
+mind hurmab tema hõng ka
+nii olengi ta sõltuses</pre>
+			<h2>Ülevoolavus keelatud, ent keritav, ribad tekivad</h2>
+			<pre class="Overflow OverflowAuto">mis leian temas ma, mis tõmbab?
+ehk on see seks, ehk õrnused
+mind hurmab tema hõng ka
+nii olengi ta sõltuses</pre>
+		</div>
+	</div>
+</body>
+</html>

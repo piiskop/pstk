@@ -1,0 +1,12 @@
+# throws
+	Emptyness of throws:
+		empty. [error]
+		not empty. [property throws-defined]
+	Content of throws:
+		Contains only numbers.  [if throws-defined]
+		Contains only English letters. [error]
+		Contains non-English letters. [error]
+		Contains special characters. [if throws-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [error]
+		Ends with an empty-sign. [error]

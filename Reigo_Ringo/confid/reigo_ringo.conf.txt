@@ -1,0 +1,24 @@
+Alias /reigo_ringo C:/Users/arvuti/workspace/pstk/php/reigo_ringo/php
+
+<Directory C:/Users/arvuti/workspace/pstk/php/reigo_ringo/php>
+  AllowOverride All
+  Options All
+  Require all granted
+  AllowOverride All
+</Directory>
+
+<Files *.sql>
+  Require all granted
+</Files>
+
+AccessFileName .htaccess
+
+
+
+
+
+
+
+
+
+

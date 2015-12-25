@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="huinamuina">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="uus_asi">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="asi2">
+								<xs:simpleContent>
+									<xs:extension base="xs:string">
+										<atribute name="id" type="xs:ID" use="required"/>
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="taitsa_uus">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="uus2">
+								<xs:simpleContent>
+									<xs:extension base="xs:string">
+										<atribute name="id" type="xs:ID" use="required/>
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>

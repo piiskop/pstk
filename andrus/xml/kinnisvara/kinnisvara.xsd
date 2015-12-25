@@ -1,0 +1,82 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="kinnisvarad">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="calendar">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="start">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:date" name="date"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="end">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:date" name="date"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="kinnisvara">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="kinnisvara_tyyp"/>
+							<xs:element name="piirkond">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:string" name="idref"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string" name="aadress"/>
+							<xs:element type="xs:string" name="tubade_arv"/>
+							<xs:element type="xs:string" name="suurus"/>
+							<xs:element type="xs:string" name="hind"/>
+							<xs:element type="xs:string" name="kuulutus"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="piirkonnad">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="level1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="name"/>
+									</xs:sequence>
+									<xs:attribute type="xs:string" name="id"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="level2">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="name"/>
+									</xs:sequence>
+									<xs:attribute type="xs:string" name="id"/>
+									<xs:attribute type="xs:string" name="idref"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="level3">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="name"/>
+									</xs:sequence>
+									<xs:attribute type="xs:string" name="id"/>
+									<xs:attribute type="xs:string" name="idref"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

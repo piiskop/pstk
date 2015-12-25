@@ -1,0 +1,181 @@
+body 
+{
+	background-color: lightyellow;
+}
+
+body 
+{
+	background-color: #fff9982552550;
+}
+
+h1 
+{
+	background-color: #ffe4d6;
+}
+
+h1.erand 
+{
+	background-color: #fb8276;
+}
+
+#isInHeading 
+{
+	color: #8a4cfe;
+}
+
+h2 
+{
+	color: #78acfe;
+}
+
+h2.Heading 
+{
+	background-color: #d1ff80;
+	color: #333333;
+}
+
+.Heading 
+{
+	background-color: #ff757f;
+}
+
+p 
+{
+	background-color: lightgreen;
+}
+
+p.FirstRow 
+{
+	background-color: lightblue;
+}
+
+ol li strong 
+{
+	color: hotpink;
+}
+
+tr.Fourth 
+{
+	background-color: hotpink;
+}
+
+#headerOfTable 
+{
+	color: white;
+}
+
+tr.Kolmas 
+{
+	background-color: white;
+}
+
+tr.Teine 
+{
+	background-color: #feb1ac;
+}
+
+ol li.SecondElementInList 
+{
+	background-color: #fb0abd;
+}
+
+ol li.SecondElementInList 
+{
+	font-family: fantasy;
+}
+
+ul li.SecondElementInList 
+{
+	background-color: #a71af6;
+}
+
+ul li.SecondElementInList 
+{
+	font-family: cursive;
+}
+
+pre em 
+{
+	font-family: monospace;
+}
+
+pre 
+{
+	font-family: crusive;
+}
+
+pre 
+{
+	font-family: fantasy;
+}
+
+html 
+{
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+html 
+{
+	font-size: 12pt;
+}
+
+body 
+{
+	font-size: 12pt;
+	font-weight: b old;
+	font-style: i talic;
+	text-decoration: u nderline; 
+	text-align: left;
+	border-radius: 5px;
+	border-radius: 0,313rem;
+	color: darkblue;
+	cursor: p ointer;
+}
+
+h2
+{
+	font-family: sans-serif;
+}
+
+ol, ul li
+{
+	font-style: italic;
+}
+
+ul li a
+{
+	text-decoration: underline;
+}
+
+span.FirstLetter
+{
+	text-decoration: underline;
+}	
+
+div.JustSongs
+{
+	background-color: yellow;
+}	
+
+div.first
+{
+	background-color: #d1ff80;
+	width: 500px;
+	width: 31.25em;
+	height: 100px;
+	height: 6.25em;
+}
+
+div.second
+{
+	background-color: #f9d34e;
+	width: 200px;
+	height: 50px;
+}
+
+div.third
+{
+	background-color: lightblue;
+	width: 100px;
+	height: 25px;
+}

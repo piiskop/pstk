@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+body{
+background-color: #FFCC99;}
+p
+
+h1 
+{
+	background-color: #ff757f;
+}
+
+h2
+{
+	background-color: #ff8b6e;
+	color: #333333;
+}
+
+ol li strong
+{
+	color: hotpink;
+}	
+

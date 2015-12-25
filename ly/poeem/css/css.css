@@ -1,0 +1,117 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: lightyellow;
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	color: green;
+}
+
+p {
+	/*background-color: yellow;*/ "
+	
+}
+
+p.FirstRaw {
+	background-color: orange;
+}
+
+p.PInSecondPoem {
+	background-color: lightgreen;
+}
+
+h2 {
+	color: brown;
+}
+
+body table tbody tr {
+	background-color: lightgreen;
+}
+
+body table tbody tr.teine {
+	background-color: lightgrey;
+	text-align: right;
+}
+
+tr.kolmas {
+	background-color: #ffff80;
+}
+
+ol, ul {
+	font-style: italic;
+}
+
+body ul {
+	background-color: yellow;
+	font-family: Times;
+	font-style: italic
+}
+
+body ul li {
+	color: blue;
+}
+
+#headerOfTable {
+	color: red;
+}
+
+body ol {
+	background-color: yellow;
+}
+
+body ol li {
+	color: green;
+}
+
+ol li.SecondElementInList {
+	background-color: lightgreen;
+}
+
+ul li.SecondElementInList {
+	background-color: white;
+}
+
+a {
+	font-weight: bold;
+}
+
+span.FirstLetter {
+	text-decoration: underline;
+}
+
+div.JustSongs {
+	background-color: white;
+}
+
+div.OrderedSongs {
+	background-color: pink;
+}
+div.First
+{
+	background-color: pink;
+	width:500px;
+	width:31.25em;
+	height:100px;
+	height: 6.25em;
+}
+div.Second
+{
+	background-color: green;
+	width:200px;
+	width:12.5em;
+	height:50px;
+	height: 3.125em;
+}
+
+div.Third
+{
+	background-color: blue;
+	width:100px;
+	width:6.25em;
+	height:20px;
+	height: 1.25em;
+}

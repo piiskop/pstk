@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example of usage of canvas</title>
+<link rel="stylesheet" href="e_canvas.css" />
+<script src="e_canvas.js"></script>
+</head>
+<body>
+	<h1>Example of usage of canvas</h1>
+	<canvas width="500" height="500"></canvas>
+	<form>
+		<table>
+			<tbody>
+				<tr>
+					<td><label for="x">x:</label></td>
+					<td><input type="number" pattern="\d" id="x" /></td>
+				</tr>
+				<tr>
+					<td><label for="y">y:</label></td>
+					<td><input type="number" pattern="\d" id="y" /></td>
+				</tr>
+				<tr>
+					<td><label for="width">width:</label></td>
+					<td><input type="number" pattern="\d" id="width" /></td>
+				</tr>
+				<tr>
+					<td><label for="height">height:</label></td>
+					<td><input type="number" pattern="\d" id="height" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button type="button" onclick="drawRect();">Joonistan</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

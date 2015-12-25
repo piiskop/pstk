@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+table {
+    border-spacing: 8px solid black;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width : 900px;
+    text-align: center;
+    font-size: 250%;
+}
+tr.Row0{
+	background-color:Red;
+}
+tr.Row1{
+	background-color:Blue;
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE traktorid SYSTEM "dtd.dtd">
+
+<!-- midagi asjalikku -->
+
+
+<description><![CDATA[Kolm v&#245;imsat traktorit.]]></description>
+
+<traktorid>
+	<traktor ID="Steve">
+		<Color>Red</Color>
+		<Fuel>Diesel</Fuel>
+		<Engine_power>185 hp</Engine_power>
+		<Weight>6486 kg</Weight>
+	</traktor>
+	<traktor ID="Big_Betty ">
+		<Color>Blue</Color>
+		<Fuel>Diesel</Fuel>
+		<Engine_power>150 hp</Engine_power>
+		<Weight>6589 kg</Weight>
+	</traktor>
+	<traktor ID="Grandma">
+		<Color>Black</Color>
+		<Fuel>Diesel</Fuel>
+		<Engine_power>340 hp</Engine_power>
+		<Weight>10800 kg</Weight>
+	</traktor>
+
+</traktorid>
+

@@ -1,0 +1,17 @@
+<!-- BEGIN form -->
+<html>
+<body>
+<form method="post" action="">
+<input type="number" step="0.1" id="value1" name="value1" value="{VALUE1}"> 
+<input type="number" step="0.1" id="value2" name="value2" value="{VALUE2}"><br>
+<button type="button" name="calc" id="add" value="add" onclick="summator.run()">js +</button><br>
+<button type="button" name="calc" id="add" value="add" onclick="window.location.href='{URLI-ALGUS}php/	?value1='+document.getElementById('value1').value+'&value2='+document.getElementById('value2').value;">php +</button><br>
+<button type="button" name="calc" id="subtract" value="subtract">-</button><br>
+<button type="button" name="calc" id="multiply" value="multiply">*</button><br>
+<button type="button" name="calc" id="divide" value="divide">/</button><br>
+</form>
+<p id="answer">{SUMMA}</p>
+<script type="text/javascript" src="{URLI-ALGUS}js/summator.js?1"></script>
+</body>
+</html>
+<!-- END form -->

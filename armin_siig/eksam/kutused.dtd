@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT station (fuels, people_buying)>
+<!ELEMENT fuels (fuel+)>
+<!ELEMENT fuel (bensiin, price)>
+<!ELEMENT bensiin (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST fuel id ID #REQUIRED>
+<!ELEMENT people_buying (client+)>
+<!ELEMENT client (fuel1, amount, price)>
+<!ELEMENT fuel1 (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT bill (#PCDATA)>
+<!ATTLIST people_buying id IDREF #REQUIRED>

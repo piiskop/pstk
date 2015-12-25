@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SCHOOL SYSTEM "Õpetajad.dtd">
+<!-- Õpetajad õpetavad aineid -->
+
+<SCHOOL>
+	<TEACHERS>
+		<TEACHER id="t1">
+			<FIRSTNAME>PCDATA</FIRSTNAME>
+			<LASTNAME>PCDATA</LASTNAME>
+		</TEACHER>
+		<TEACHER id="t2">
+			<FIRSTNAME>PCDATA</FIRSTNAME>
+			<LASTNAME>PCDATA</LASTNAME>
+		</TEACHER>
+		<TEACHER id="t3">
+			<FIRSTNAME>PCDATA</FIRSTNAME>
+			<LASTNAME>PCDATA</LASTNAME>
+		</TEACHER>
+	</TEACHERS>
+	
+	<SUBJECTS>
+		<SUBJECT id="s1">
+			math
+		</SUBJECT>
+		<SUBJECT id="s2">
+			biology
+		</SUBJECT>
+		<SUBJECT id="s3">
+			english
+		</SUBJECT>
+	</SUBJECTS>
+	
+	<TEACHINGS>
+		<TEACHING idofteacher="t2" idofsubject="s1"></TEACHING>
+		<TEACHING idofteacher="t1" idofsubject="s1"></TEACHING>
+		<TEACHING idofteacher="t3" idofsubject="s3"></TEACHING>
+	</TEACHINGS>
+</SCHOOL>

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+p.FirstPart {
+	float: left;
+	font-size: 1.30rem;
+	background: -moz-radial-gradient(white, blue);
+	clear: left;
+}
+p.SecondPart {
+	float: right;
+}
+p.ThirdPart {
+	clear: left;
+}

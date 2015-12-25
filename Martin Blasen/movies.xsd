@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="movies">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="movie" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="title" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="ID" type="xs:ID" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="actors">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="actor" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string" />
+									</xs:sequence>
+									<xs:attribute name="ID" type="xs:ID" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="casting">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="cast" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="IDmovie" type="xs:IDREF"
+										use="required" />
+									<xs:attribute name="IDactor" type="xs:IDREFS"
+										use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

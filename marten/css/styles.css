@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+div.BodyContainer { 
+	width: 40px;
+	width: 2.5rem;
+	height: 40px;
+	height: 2.5rem;
+	background-color: #000099;
+}

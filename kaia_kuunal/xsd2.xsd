@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="Organizations">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Organization" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Link" type="xs:anyURI" minOccurs="0" />
+							<xs:element name="Address">
+								<xs:complexType>
+									<xs:all>
+										<xs:element name="Street" type="xs:string" />
+										<xs:element name="City" type="xs:string" />
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="Courts">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Court" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Name" type="xs:string" />
+													<xs:element name="Capacity" type="xs:integer" />
+													<xs:element name="Equipment" minOccurs="0">
+														<xs:complexType>
+															<!-- Empty element -->
+														</xs:complexType>
+													</xs:element>												
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:ID" use="required" />
+											</xs:complexType>	
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

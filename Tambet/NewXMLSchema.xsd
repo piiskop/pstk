@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="xsdTest">
+		<xs:complexType>	
+	<xs:attribute name="lang" type="xs:string"/>
+	<xs:attribute name="firstname" type="xs:string"/>
+	<xs:attribute name="sugu" type="xs:boolean"/>
+	<xs:attribute name="synnikuupa2ev" type="xs:date"/>
+	<xs:attribute name="synnikellaaeg" type="xs:time"/>
+	<xs:attribute name="synnitushinne" type="xs:decimal"/>
+	</xs:complexType>
+	</xs:element>	
+	</xs:schema>
+	

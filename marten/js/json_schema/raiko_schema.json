@@ -1,0 +1,11 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Representation of a class",
+	"type": "object",
+	"required": ["firstName","birthDate"],
+	"properties": {
+		"firstName" { "type":"string" },
+		"age" { "type":"integer" },
+		"birthDate" { "type":"string" }
+	}
+}

@@ -1,0 +1,248 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: yellow;
+	font-family: verdana, sans-serif;
+	width: 500px;
+}
+
+body h1 {
+	color: darkblue;
+	font-family: georgia;
+}
+
+h1 {
+	color: #00ffff;
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+h2 {
+	color: #0000ff;
+	font-family: 'Indie Flower', cursive;
+}
+
+h2.Heading {
+	background-color: #00ff00;
+	color: #ff0000
+}
+
+p {
+	background-color: yellow;
+}
+
+Heading {color; #ff0000;
+	
+}
+
+p.FirstRaw {
+	background-color: lightgreen;
+	color: darkgreen;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+body ul li {
+	color: blue;
+}
+
+body ol li {
+	color: cyan;
+}
+
+body p.Heading {
+	background-color: cyan;
+}
+
+body h1.Heading {
+	background-color: #00ff00
+}
+
+body h2.Heading {
+	background-color: violet;
+}
+
+body h2.Heading {
+	background-color: bink;
+}
+
+body table thead {
+	background-color: lightgreen;
+}
+
+body table tbody {
+	background-color: orange;
+}
+
+tr.second {
+	background-color: white;
+}
+
+body table tbody tr.fourth {
+	background-color: lightblue;
+}
+
+#header-of-table {
+	color: red;
+}
+
+ol li.Second-element-in-list {
+	background-color: green;
+}
+
+ul li.Second-element-in-list {
+	background-color: red;
+	font-family: monospace;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+ol, ul {
+	font-style: italic;
+}
+
+a, a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color:red;	
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+span.firstletter {
+	text-decoration: underline;
+}
+
+div.justsongs {
+	background-color: cyan;
+	width: 200px;
+	height: 100px;
+	overflow: scroll;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	z-index: -1;
+	float: left;
+}
+
+div.orderedsongs {
+	background-color: grey;
+	width: 200px;
+	height: 100px;
+	overflow: scroll;
+	margin-bottom: 40px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+div.first {
+	background-color: pink;
+	width: 500px;
+	height: 100px;
+	margin-top: 30px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+div.second {
+	background-color: violet;
+	width: 200px;
+	height: 50px;
+	float: left;
+}
+
+div.third {
+	background-color: black;
+	width: 100px;
+	height: 10px;
+	float: left;
+}
+
+img.liblikas {
+	width: 100px;
+	height: 80px;
+	border: 10px solid blue;
+	margin-right: 30px;
+}
+
+img.lepatriinu {
+	width: 100px;
+	height: 80px;
+	border-width: 10px;
+	border-style: double;
+	border-color: cyan;
+}
+
+h1.FirsRow {;
+	
+}
+
+div.tekst {
+	width: 400px;
+	background-color: red;
+
+	top: 200px;
+	left: 20px;
+	float: left;
+}
+
+div.ristkülik {
+	width: 500px;
+	height: 100px;
+	background-color: green;
+	float: left;
+}
+
+div.RK1 {
+	width: 200px;
+	height: 80px;
+	background-color: red;
+}
+
+div.RK2 {
+	width: 100px;
+	height: 60px;
+	background-color: orange;
+}
+
+div.RK3 {
+	width: 60px;
+	height: 40px;
+	background-color: blue;
+	margin-bottom: 30px;
+}
+
+#helesinine {
+	float: right;
+}
+
+div.sisu {
+	float: left;
+}
+
+div.k8 {
+	width: 25%;
+	height: 50px;
+	float: left;
+}
+
+div.k1 {
+	background-color: violet;
+}
+
+div.k2 {
+	background-color: lightblue;
+}
+h3.lasteaed
+{
+	width: 500px;
+}
+iframe{
+	width: 400px;
+	height: 300px;
+}

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#table td{
+	background-color:yellow;
+}
+
+#nameNotFound, #programming, #table{
+	display:none;
+}

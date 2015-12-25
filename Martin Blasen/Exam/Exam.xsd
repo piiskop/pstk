@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="RocketHeaters">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Models" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string" />
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DuctSize" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Inches" type="xs:integer" />
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Barrel" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Gallons" type="xs:integer" />
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HeatableArea" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SquareFeet" type="xs:integer" />
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WoodConsumed" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Cords" type="xs:integer" />
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Heaters" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="IdOfModel" type="xs:IDREFS" use="required" />
+						<xs:attribute name="IdOfDuctSize" type="xs:IDREFS"
+							use="required" />
+						<xs:attribute name="IdOfBarrel" type="xs:IDREFS" use="required" />
+						<xs:attribute name="IdOfArea" type="xs:IDREFS" use="required" />
+						<xs:attribute name="IdOfConsumption" type="xs:IDREFS"
+							use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</schema>
+

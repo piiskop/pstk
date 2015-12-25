@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE KLASS SYSTEM "KLASS.DTD"[
+<!ENTITY BROWN "pruun">
+]>
+<KLASS>
+	<LAUD ID="l1">
+		<VÄRVUS>must</VÄRVUS>
+		<MATERJAL>puit</MATERJAL>
+	</LAUD>
+	<LAUD ID="l2">
+		<VÄRVUS>&BROWN;</VÄRVUS>
+		<MATERJAL>teras</MATERJAL>
+	</LAUD>
+	<PRÜGIKAST>
+		<MATERJAL>PVC</MATERJAL>
+	</PRÜGIKAST>
+</KLASS>

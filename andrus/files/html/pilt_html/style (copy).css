@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+div.taust {
+	background-color:#3f5c82;
+	width:723px;
+	height:1024px;
+	margin:auto;
+}
+h1,h2,h3,p{
+	font-family: "Times New Roman", Georgia, Times, Serif;
+	font-style: normal;
+	font-size-adjust: 0.6;
+	font-weight: 500;
+}
+h1,p.jalus {
+	color: #f2f6b9;
+}
+h1{
+	height: 20px
+}
+h2{
+	color: #f7f3e7;
+}
+h2{
+	height: 20px;
+}
+h3{
+	font-size: 20px;
+}
+p{
+	font-size: 15px;
+}
+h3,p{
+	color: #0c3d62;
+	float: left;
+}
+img.logo{
+	margin-top:30px;
+	margin-bottom: 10px;
+	margin-left: 300px;
+	margin-right: 250px;
+}
+div.pealkiri, div.jalus{
+	text-align:center;
+}
+div.aas{
+	background-image: url("img/norman_aas_pilt.png");
+	background-repeat: no-repeat;
+	height: 257px;
+	width: 273px;
+	margin-left: 80px;
+	margin-top: 40px;
+	float: left;
+	
+}
+div.nimi_aas{
+	background-color: #c3dce4;
+	height: 82px;
+	width: 316px;
+	margin-left: -53px;
+	margin-right: px;
+	margin-top: 96px;
+	margin-bottom: px;
+	border-radius: 10px;
+	float: left;
+	transform: rotate(1deg);
+	box-shadow: 1px 1px 5px #304969;
+}
+div.norman_aas{
+	float: left;
+	margin-left: 90px;
+	margin-top: -15px;
+}
+div.peaprokuror{
+	float: left;
+	margin-left: -110px;
+	margin-top: 30px;
+}
+div.lillo{
+	background-image: url("img/andrus_lillo_pilt.png");
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 267px;
+	float: right;
+	margin-right: 74px;
+	margin-top: 138px;
+	
+	
+}
+div.nimi_lillo{
+	background-color: #c3dce4;
+	height: 82px;
+	width: 310px;
+	float: right;
+	margin-right: 194px;
+	margin-top: 95px;
+	border-radius: 10px;
+	transform: rotate(1deg);
+	box-shadow: 1px 1px 5px #304969;
+}
+div.andrus_lillo{
+	float: right;
+	margin-right: 80px;
+	margin-top: -15px;
+}
+div.advokaadi_juh_liige{
+	float: right;
+	margin-right: 50px;
+	margin-top: -30px
+}
+div.jalus{
+	float: left;
+	margin-left: 138px;
+	margin-top: 50px;
+}
+div.aeg{
+	
+}
+div.info{
+	margin-top: -20px;
+	margin-left: 70px;
+}
+a:link,a:visited{
+	color: #f2f6b9;
+	text-decoration: none;
+}

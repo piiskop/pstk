@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+h1 {
+ font-size: 30px;
+}
+body {
+ font-size: 25px;
+}
+
+a:link{
+ text-decoration: none; 
+}
+
+a:hover{
+ border-top:  dashed;
+}
+
+a:active {
+ border-bottom:  solid;
+}

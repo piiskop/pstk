@@ -1,0 +1,63 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	
+	"definitions": {
+		"orderPerson": {
+			"type": "object",
+			"required": ["firstName", "lastName"],
+			"properties": {
+				"firstName": {
+					"type": "string"
+				},
+				"lastName": {
+					"type": "string"
+				},
+				"email": { 
+					"type": "string",
+					"pattern": "^[^@]+?@[^@]+?$"
+				},
+				"address": {
+					"type": "array",
+					"items": [
+						{
+							"type": "string"
+						},
+						{
+							"type": "number"
+						},
+						{
+							"type": "string"
+						},
+						{
+							"type": "string"
+						}
+					]
+				}
+			}
+		},
+		"postingAddress": {
+			"type": "object",
+			"required": ["nameOfRecipient", "streetAddress", "city", "country"],
+			"properties": {
+				"nameOfRecipient": {
+					"type": "string"
+				},
+				"streetAdress": {
+					"type": "string"
+				},
+				"city": { 
+					"type": "string"
+				},
+				"country": {
+					"type": "string"
+				}
+			}
+		}
+		
+		"type": "object",
+		"properties": {
+			"orderPerson": { "$ref": "#/definitions/orderPerson" },
+			"postingAddress": { "$ref": "#/definitions/postingAddress" }
+		}
+	}
+}

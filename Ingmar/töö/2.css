@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+body 
+{
+	text-align: center;
+}
+.tel:before {
+  content: "+";
+}
+span:after
+ { 
+ 	content: " "
+ }

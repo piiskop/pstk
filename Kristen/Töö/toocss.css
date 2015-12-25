@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+html{
+	font-size: 16px;
+}
+body {
+	width: 700px;
+	width: 43.750rem;
+	margin: 0 auto;
+	font-family: sans-serif; 
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.header li {
+	text-align: center;
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	width: 100px;
+	width: 6.25rem;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-right: 0.625rem;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#shadow {
+	box-shadow: 2px 2px 1px #888888;
+}
+#boxes li {
+	width: 125px;
+	width: 7.813rem;
+	display: inline-block;
+}
+input[type=search] {
+	width: 375px;
+	width: 23.438rem;
+	height: 25px;
+	height: 1.563rem;
+}
+input[type=checkbox] {
+	width:20px; 
+	width: 1.25rem;
+	height:20px;
+	height: 1.25rem;
+	margin: 0;
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+input[type=radio] {
+	width:15px;
+	width: 0.938rem;
+	height: 15px;
+	height: 0.938rem;
+	margin: 0;
+	margin-bottom: 2px;
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+input[type=submit] {
+	height: 25px;
+	height: 1.25rem;
+	width: 100px;
+	width: 6.25rem;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	box-shadow: 2px 2px 1px #888888;
+}

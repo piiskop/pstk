@@ -1,0 +1,333 @@
+<!-- BEGIN html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{TITLE}</title>
+<link rel="stylesheet" type="text/css"
+	href={BEGINNING-OF-URL}burnstudio.css media="all" />
+</head>
+<body>
+	<div class="Body">
+		<div class="Header BlockInBody">
+			<div class="LogoAndCta">
+				<div class="Logo" onclick="location.href='{BEGINNING-OF-URL}';"></div>
+				<div class="Cta">
+					<div class="PhoneNumber">{PHONE-NUMBER}</div>
+					<div class="CtPhone">
+						Call us <b>now </b>
+					</div>
+				</div>
+			</div>
+			<div class="Navigation">
+				<div class="Home">
+					<div class="IconOfHome"
+						onclick="location.href='{BEGINNING-OF-URL}';"></div>
+				</div>
+				<!-- BEGIN menu-items -->
+				<div class="MenuItems">{MENU-ITEM}</div>
+				<!-- END menu-items -->
+				<form class="ContainerOfSearch" action="{BEGINNING-OF-URL}{ACTION}"
+					method="get">
+					<div class="InputOfSearch">
+						<input id="search" type="text" class="InputOfSearch"
+							placeholder="search" />
+					</div>
+					<div class="LabelOfSearch">
+						<div class="IconOfSearch">
+							<label for="search" class="LabelForSearch"></label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- BEGIN services -->
+		<div class="Services BlockInBody">{SERVICES}</div>
+		<!-- END services -->
+		<div class="Links BlockInBody">
+			<div class="Video">
+				<h2>
+					Quick <strong>Video Tour</strong>
+				</h2>
+				<h3>How we Design our works!</h3>
+				<div onclick="window.open('{HREF-OF-VIDEOS}', 'Videos');"></div>
+			</div>
+			<div class="ContainerForLinks">
+				<h2>
+					Twiiter <span>Feed</span>
+				</h2>
+				<p>{TIME}</p>
+				<div class="Twitter"></div>
+			</div>
+			<div class="ContainerForLinks">
+				<h2>
+					like us on <span>Facebook</span>
+				</h2>
+				<div></div>
+			</div>
+		</div>
+		<div class="OuterLinks BlockInBody">
+			<div class="BigContainerForOuterLinks">
+				<!-- BEGIN outer-links -->
+				<div class="ContainerForOuterLinks">
+					<h2>
+						Other <span>Links</span>
+					</h2>
+					<ul>{OUTER-LINK}
+					</ul>
+				</div>
+				<!-- END outer-links -->
+				<div class="ContainerForOtherStuffInLinks">
+					<h2 class="HeadingInOuterLinks">
+						<a href="{HREF-OF-BLOG}" target="Blog">Latest From the <strong>Blog</strong>
+						</a>
+					</h2>
+					<div class="ContainerOfBlog">
+						<p>{BLOG-ENTRY}</p>
+						<p class="Date">{BLOG-DATE}</p>
+					</div>
+				</div>
+				<div class="ContainerForOtherStuffInLinks">
+					<h2 class="HeadingInOuterLinks">
+						Our <strong>Location</strong>
+					</h2>
+					<div class="Map"></div>
+					<p class="Map">{ADDRESS}</p>
+				</div>
+			</div>
+		</div>
+		<!-- BEGIN logos -->
+		<div class="Logos BlockInBody">{LOGO}</div>
+		<!-- END logos -->
+		<div class="Impressum BlockInBody">
+			<div class="ContainerForImpressum">
+				<p>
+					Copyright <a href="{HREF-OF-DESIGNER}">{LABEL-OF-DESIGNER}</a>
+				</p>
+				<p>
+					Designed by <a href="mailto:{EMAIL-OF-DESIGNER}">{NAME-OF-DESIGNER}</a>
+				</p>
+			</div>
+			<!-- BEGIN inner-links -->
+			<div class="InnerLinks">
+				{INNER-LINK}
+			</div>
+			<!-- END inner-links -->
+		</div>
+		<div class="BackToTop BlockInBody" onclick="location.href='#';"></div>
+	</div>
+</body>
+</html>
+<!-- END html -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN menu-item -->
+<div class="MenuItem">
+	<a href="{HREF}">{LABEL}</a>
+</div>
+<!-- END menu-item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN service -->
+<div class="Service">
+	<div class="ContainerOfService">
+		<h2>
+			<a href="{HREF-IN-SERVICE}">{HEADING-OF-SERVICE}</a>
+		</h2>
+		<p>{LEAD-OF-SERVICE}</p>
+	</div>
+	<div class="ImageOfService">
+		<img alt="{ALT-IN-SERVICE}"
+			src="{BEGINNING-OF-URL}images/{SRC-IN-SERVICE}" {SIZES-IN-SERVICE} />
+	</div>
+</div>
+<!-- END service -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN text-of-design -->
+<span>{TEXT-IN-TEXT-OF-DESIGN}</span>
+<!-- END text-of-design -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN outer-link -->
+<li><a href="{HREF-OF-OUTER-LINK}" target="Outer">{LABEL-OF-OUTER-LINK}</a></li>
+<!-- END outer-link -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN logo -->
+<img alt="{ALT-OF-LOGO}" src="{BEGINNING-OF-URL}{SRC-OF-LOGO}" {SIZES-OF-LOGO} />
+<!-- END logo -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN inner-link -->
+<div class="LinkInInnerLinks">
+	<a href="{HREF-OF-INNER-LINK}">{LABEL-OF-INNER-LINK}</a> {CURRENT}
+</div>
+<!-- END inner-link -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN current -->
+<hr>
+<!-- END current -->

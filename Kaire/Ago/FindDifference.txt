@@ -1,0 +1,51 @@
+# time in past
+	Is time in past set?:
+		Time in past set. [property past-set]
+		Time in past not set.
+	Is the format of time in past correct?:
+		The format of time in past is correct. [if past-set] [property past-correct]
+		The format of time in past is incorrect. [if past-set] [error]
+
+# time in future
+	Is time in future set?:
+		Time in future set. [property future-set]
+		Time in future not set.
+	Is the format of time in future correct?:
+		The format of time in future is correct. [if future-set] [property future-correct]
+		The format of time in future is incorrect. [if future-set] [error]
+
+# combinations of times in past and future
+	Is time in past less than time in future?:
+		Past < future. [if past-correct && future-correct]
+		Past > future. [if past-correct && future-correct]
+		Past == future. [if past-correct && future-correct] [property zero]
+	Time in past in compare to time now:
+		Time in past < time now. [if !future-correct && past-correct]
+		Time in past > time now. [if !future-correct && past-correct]
+	Time in future in compare to time now:
+		Time in future < time now. [if !past-correct && future-correct]
+		Time in future > time now. [if !past-correct && future-correct]
+	Is there a difference in years?:
+		Difference in years exists. [if !zero && (past-correct || future-correct)]
+		Difference in years is 0. [if (past-correct || future-correct)]
+	Is there a difference in months?:
+		Difference in months exists. [if !zero && (past-correct || future-correct)]
+		Difference in months is 0. [if (past-correct || future-correct)]
+	Is there a difference in days?:
+		Difference in days exists. [if !zero && (past-correct || future-correct)]
+		Difference in days is 0. [if (past-correct || future-correct)]
+	Is there a difference in hours?:
+		Difference in hours exists. [if !zero && (past-correct || future-correct)]
+		Difference in hours is 0. [if (past-correct || future-correct)]
+	Is there a difference in minutes?:
+		Difference in minutes exists. [if !zero && (past-correct || future-correct)]
+		Difference in minutes is 0. [if (past-correct || future-correct)]
+	Is there a difference in seconds?:
+		Difference in seconds exists. [if !zero && (past-correct || future-correct)]
+		Difference in seconds is 0. [if (past-correct || future-correct)]
+
+# language
+	language:
+		ee_ET. [if !zero && (past-correct || future-correct)]
+		en_GB. [if !zero && (past-correct || future-correct)]
+		

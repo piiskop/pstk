@@ -1,0 +1,37 @@
+<!ENTITY % id "id ID #REQUIRED">
+
+<!ELEMENT toiduainete_kasvatamine (krundid, inimesed, toiduained, krundid_has_inimesed, krundid_has_sook, inimesed_has_sook)>
+
+<!ELEMENT krundid (krunt+)>
+<!ELEMENT krunt (asukoht, suurus_m2)>
+<!ELEMENT asukoht (#PCDATA)>
+<!ELEMENT suurus_m2 (#PCDATA)>
+<!ATTLIST asukoht %id;>
+<!ATTLIST suurus_m2 %id;>
+
+<!ELEMENT krundid_has_inimesed (krunt_has_inimene+)>
+<!ELEMENT krunt_has_inimene EMPTY>
+<!ATTLIST krunt_has_inimene inimesed_idinimesed IDREFS #REQUIRED>
+<!ATTLIST krunt_has_inimene krundid_idkrundid IDREFS #REQUIRED>
+
+<!ELEMENT inimesed (inimene+)>
+<!ELEMENT inimene (enimi, pnimi)>
+<!ELEMENT enimi (#PCDATA)>
+<!ELEMENT pnimi (#PCDATA)>
+<!ATTLIST enimi %id;>
+<!ATTLIST pnimi %id;>
+
+<!ELEMENT krundid_has_sook (krunt_has_sook+)>
+<!ELEMENT krunt_has_sook EMPTY>
+<!ATTLIST krunt_has_sook krundid_idkrundid IDREFS #REQUIRED>
+<!ATTLIST krunt_has_sook sook_idsook IDREFS #REQUIRED>
+
+<!ELEMENT toiduained (sook+)>
+<!ELEMENT sook (nimi)>
+<!ELEMENT nimi (#PCDATA)>
+<!ATTLIST nimi %id;>
+
+<!ELEMENT inimesed_has_sook (inimene_has_sook+)>
+<!ELEMENT inimene_has_sook EMPTY>
+<!ATTLIST inimene_has_sook inimesed_idinimesed IDREFS #REQUIRED>
+<!ATTLIST inimene_has_sook sook_idsook IDREFS #REQUIRED>

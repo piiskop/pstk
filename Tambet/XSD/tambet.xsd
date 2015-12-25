@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:element name="Msaal">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="title" type="xs:string" />
+				<xs:element name="MENU">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Menu_element" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="label" type="xs:string">
+									</xs:attribute>
+									<xs:attribute name="target" type="xs:string">
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Search">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="description" type="xs:string" />
+							<xs:element name="Date">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="aasta" type="xs:integer" />
+										<xs:element name="kuu" type="xs:integer" />
+										<xs:element name="päev" type="xs:integer" />
+										<xs:element name="tund" type="xs:integer" />
+										<xs:element name="minut" type="xs:integer" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Locations">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Location" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="City" type="xs:string" />
+													<xs:element name="Districts">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="District" type="xs:string" />
+																<xs:element name="District" type="xs:string" />
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Disciplines">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Discipline" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Type" type="xs:string" />
+													<xs:element name="Designation" type="xs:string" />
+													<xs:element name="SizeOfCourt" type="xs:integer" />
+													<xs:element name="UniteOfCourtSize" type="xs:string" />
+													<xs:element name="Capasite" type="xs:integer" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+
+</xs:schema>

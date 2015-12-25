@@ -1,0 +1,9 @@
+table {
+	margin-left:0px;
+}
+input, label {
+	margin:4px;
+}
+input[type="range"] {
+	width:120px;
+}

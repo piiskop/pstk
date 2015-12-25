@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Students</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <form>
+                <label for="name">Nimi: </label>
+                <input type="text" id="name" name="name" value="">
+                <button id="search-by-name">Otsi</button>
+                <button id="search-by-name-ajax">Otsi AJAX</button>
+                <button id="toggle-table">Kuva</button><br>
+
+                <label for="coding">Oskab progeda </label><input type="checkbox" id="coding" name="coding">
+                <button id="save-data">Salvestan muudatused</button><br>
+
+            </form>
+            <p id="update-status"><p>
+            <p id="repeated"><p>
+
+        </div>
+        
+        <hr>
+        <div id="table-container" class="hide">
+
+            <table id="dataTable">
+                <caption>Õpilaste progemisoskus</caption>
+                <thead>
+                    <tr>
+                        <th class="nameBg">Õpilane</th>
+                        <th>oskab progeda</th>
+                    </tr>
+                </thead>
+                <tfoot></tfoot>
+                <tbody></tbody>
+
+            </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="worksheet">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="employees">
+				<xs:complexType>
+					<xs:sequence>
+				    	<xs:element name="employee" maxOccurs="10">
+				    		<xs:complexType>
+					    		<xs:sequence>
+					    			<xs:element name="name" type="xs:string" maxOccurs="1"/>
+					    			<xs:element name="age" type="xs:integer" maxOccurs="1"/>
+					    			<xs:element name="mail" type="xs:string" maxOccurs="1"/>
+					    			<xs:element name="tel" type="xs:string" maxOccurs="1"/>
+					    			<xs:element name="password" type="xs:string" maxOccurs="1"/>
+					    		</xs:sequence>
+					    		<xs:attribute name="id" use="required">
+									<xs:simpleType>
+								    	<xs:restriction base="xs:string">
+								      		<xs:pattern value="[a-z][0-9]"/>
+								    	</xs:restriction>
+								   	</xs:simpleType>
+								</xs:attribute>
+								<xs:attribute name="manager" type="xs:boolean">
+								</xs:attribute>	
+			    			</xs:complexType>
+				    	</xs:element>
+			    	 </xs:sequence>
+				</xs:complexType>
+			 </xs:element>
+			 <xs:element name="jobs">
+			 	<xs:complexType>
+			 		<xs:sequence>
+			 			<xs:element name="job" maxOccurs="30">
+			 				<xs:complexType>
+			 					<xs:sequence>
+			 						<xs:element name="worker" type="xs:string" maxOccurs="1"></xs:element>
+			 						<xs:element name="date" type="xs:date" maxOccurs="1"></xs:element>
+			 						<xs:element name="description" type="xs:string" maxOccurs="1"></xs:element>
+			 						<xs:element name="start_time" type="xs:time" maxOccurs="1"></xs:element>
+			 						<xs:element name="end_time" type="xs:time" maxOccurs="1"></xs:element>		 						
+			 					</xs:sequence>
+			 				</xs:complexType>
+			 			</xs:element>
+			 		</xs:sequence>
+			 	</xs:complexType>
+			 </xs:element>
+ 		</xs:sequence>
+	 </xs:complexType>
+</xs:element>	
+</xs:schema> 

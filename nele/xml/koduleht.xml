@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<koduleht>
+	<osa id="neleSuvi">
+		<pealkiri>Nele Suvi</pealkiri>
+		<sisu><![CDATA[<p>
+		Mulle on alati meeldinud mõelda ja tegutseda loovalt. Väiksena nimelt<br />
+		arvasin, et olen väga <span class="lineword">eriline</span> tüdruk.
+		Suureks saades avastasin, <br />et mul oli õigus. Mulle meeldib
+		teistest eristuda ja eristumine <br> ei tähenda ilmtingimata end
+		teistest paremaks pidamist.<br> Naudin tähelepanu ja veidrat
+		huumorit.
+	</p>
+
+	<p>
+		Mulle meeldivad värvid. Nad on nagu inimesed. Pannes erinevad <br>
+		värvitoonid kõrvuti nad kas loovad imelist harmooniat,<br>
+		tugevat kontrasti või lämmatavad teineteist.
+	</p>]]></sisu>
+		<pilt>
+			<title>Nele Suvi</title>
+			<width>300</width>
+			<name>nelme.png</name>
+		</pilt>
+	</osa>
+	<osa id="meeldib">
+		<pealkiri>Mulle meeldib</pealkiri>
+		<sisu>
+			<pealkiri>Nartsissi lõhn</pealkiri>
+			<link><![CDATA[http://www.aiamaailm.ee/1338-2376-thickbox/nartsiss-martinette.jpg]]></link>
+		</sisu>
+		<sisu>
+			<pealkiri>Jaan Tätte</pealkiri>
+			<link><![CDATA[http://www.aiamaailm.ee/1338-2376-thickbox/nartsiss-martinette.jpg]]></link>
+		</sisu>
+	</osa>
+	<osa id="sõber">
+		<pealkiri>Kes on sinu sõber?</pealkiri>
+		<sisu></sisu>
+	</osa>
+</koduleht>

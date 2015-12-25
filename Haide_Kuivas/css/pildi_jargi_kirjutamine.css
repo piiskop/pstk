@@ -1,0 +1,134 @@
+#main_background {
+	border: 1px solid black;
+	height: 311px;
+	width: 535px;
+	padding:10px; /*peakasti ääred*/
+	font-family:Arial;
+	font-size:12px;
+}
+
+#numbers {
+	float: left;
+	width: 15px;
+	line-height: 32px;
+	font-weight:bold;
+}
+
+#graph_background {
+	border:1px solid black;
+	float: left;
+	height:280px;
+	width: 502px;
+	padding:8px;
+	background: -webkit-linear-gradient(white, gray);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, gray); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, gray);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, gray); /* Standard syntax */
+}
+#names {
+	margin-left:15px;
+}
+#columns div, /*et saaksime kõik div-id korraga valida*/
+#names div{
+	float:left;
+	text-align:center;
+	font-weight:bold;
+	
+}
+#names div{
+	margin-right:14px;
+	width:60px;
+}
+
+#columns div { /* tulbad*/
+	height:250px;
+	background:yellow;
+	margin-right:20px;
+	width:54.5px;
+	margin-top:37px;
+	
+}
+
+#columns div:first-child{
+	background: none;
+	
+}
+
+#columns div:last-child{
+	margin-right:0; /*et viimases tulmas ei oleks vahet*/
+	
+}
+
+#columns div div{ 
+	width:11.625px;
+	float:left;
+	margin:0;
+	border:1px solid black;
+	
+}
+
+#legend{/*väike kast, püsivus, kuivamisaeg jne*/
+	border: 1px solid black;
+	width:129px;
+	position:absolute;
+	background:white;
+	padding:5px;
+	padding-left:17px;
+	line-height: 20px;
+	font-weight:bold;
+	
+	
+}
+
+#legend span{
+	width:6px;
+	height:6px;
+	position:absolute;
+	margin-top:6px;
+	left:5px;
+	border:1px solid black;
+}
+#columns div div:first-child,
+#green{background:green}
+
+#columns div div:nth-child(2),
+#blue{background:blue}
+
+#columns div div:nth-child(3),
+#red{background:red}
+
+#columns div div:last-child,
+#violet{background:violet}
+
+#title {
+	position:absolute;
+	left: 220px;
+		
+}
+
+#columns div div:first-child{
+	height:75px;
+	margin-top:175px;	
+}
+
+#columns div div:nth-child(2){
+	height:90px;
+	margin-top:160px;
+}
+
+#columns div div:nth-child(3){
+	height:30px;
+	margin-top: 220px
+}
+
+#columns div div:last-child{
+	height:45px;
+	margin-top:205px;
+	
+}
+
+	
+
+

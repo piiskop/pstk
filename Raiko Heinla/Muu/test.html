@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test file</title>
+<link rel="stylesheet" href="test.css" type="text/css" media="all"/>
+<script type="text/javascript" src="javascripttest.js"></script>
+
+</head>
+<body onload="setBackground({appWide: true});">
+	<div class="tag"></div>
+	<br>
+
+	
+	<form>
+	
+		<label for="x">x: </label><input type="number" id="x"/>
+		<label for="y">y: </label><input type="number" id="y"/>
+		<label for="width">width: </label><input type="number" id="width"/>
+		<label for="height">height: </label><input type="number" id="height"/>	
+		<button type="button" onclick="drawRect();">Joonistan</button>
+	</form>
+	
+	<canvas id="canvas" width="500" height="500"></canvas>
+	
+	
+	<!--  color picker -->
+	
+ 	<form>
+		<input type="color" oninput="body.style.backgroundColor= this.value; body.style.backgroundColor = this.value;"/>
+	</form>
+ 
+ 
+ 
+  <ul>
+  <li>Coffee asd</li>
+  <li>Tea asd</li>
+  <li>Milk as</li>
+</ul> 
+
+ <ol>
+  <li>Coffee12</li>
+  <li>Tea12</li>
+  <li>Milk12</li>
+</ol> 
+</body>
+</html>

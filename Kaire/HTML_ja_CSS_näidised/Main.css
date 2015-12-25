@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+@import url("../../css/normalize.css");
+
+/* Common */
+
+html {
+	font-size: 16px;
+	font-family: "Sans-serif";
+}
+
+a {
+	color: #006699;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-left: 0.313rem;
+	padding: 5px 10px;
+	padding: 0.313rem 0.625rem;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #006699;
+}
+
+div.MainContainer
+{
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+	margin: 0.625rem;
+	width: 900px;
+	width: 56.25rem;
+}
+
+.Sidebar
+{
+	float: left;
+	list-style-position: inside;
+	width: 200px;
+	width: 12.5rem;
+	height: 100px;
+	height: 6.25rem;
+	padding: 0;
+}
+
+.Content
+{
+	float: right;
+	margin-left: 10px;
+	margin-left: 0.625rem;
+	width: 670px;
+	width: 41.875rem;
+	height: 100px;
+	height: 6.25rem;
+}

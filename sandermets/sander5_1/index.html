@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Video</title>
+        <meta name="description" content="Tennis online course">
+        <meta name="keywords" content="online, tennis, course">
+        <meta name="author" content="Sander Mets">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="container">
+
+                <div class="item">
+
+                    <video width="400" controls>
+                        <!-- video file is missing from server
+                        <source src="mov_bbb.mp4" type="video/mp4">
+                        <source src="mov_bbb.ogg" type="video/ogg">-->
+                        Your browser does not support HTML5 video.
+                    </video>
+
+                    <table>
+                        <caption>ADDED COMMENTS</caption>
+                        <thead>
+                            <tr>
+                                <th>TIME</th>
+                                <th>COMMENT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12:12</td>
+                                <td>Good job</td>
+                            </tr>
+                            <tr>
+                                <td>13:01</td>
+                                <td>Nice!</td>
+                            </tr>
+                            <tr>
+                                <td>16:13</td>
+                                <td>Better luck next time</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="item">
+                    <form>
+
+                        <fieldset class="ftime">
+
+                            <legend>Insert time</legend>
+
+                            <label for="hours">
+                                <span>H</span>
+                                <input type="number" id="hours" class="time"/>
+                            </label>
+
+                            <label for="minutes">
+                                <span>M</span>
+                                <input type="number" id="minutes" class="time"/>
+                            </label>
+
+                            <label for="seconds">
+                                <span>S</span>
+                                <input type="number" id="seconds" class="time"/>
+                            </label>
+
+                        </fieldset>
+
+                        <fieldset class="ifieldset">
+
+                            <legend>Comments</legend>
+
+                            <label for="comments">
+                                <span>Add</span>
+                                <textarea id="comments" rows="8" cols="50" ></textarea>
+                            </label>
+
+                        </fieldset>
+
+                        <button id="save" class="save">SUBMIT</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>

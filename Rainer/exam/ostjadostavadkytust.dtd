@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Station (buyers, fuels, transactions)>
+
+<!ELEMENT buyers (buyer*)>
+<!ELEMENT buyer (#PCDATA)>
+<!ATTLIST buyer IdBuyer ID #REQUIRED>
+
+<!ELEMENT fuel (#PCDATA)>
+<!ELEMENT fuels (fuel+)>
+<!ATTLIST fuel IdFuel  ID  #REQUIRED>
+
+<!ELEMENT transactions (transaction+)>
+<!ELEMENT transaction (#PCDATA)>
+
+<!ATTLIST transaction IdBuyer IDREF #REQUIRED>
+<!ATTLIST transaction IdFuel IDREFS #REQUIRED>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <img src="Images/1.jpg" id="image" style="height:500px;width:500px" alt="first"/>
+        <br>
+        <input type="button" value="start" onclick="startingSlideShow()"/>
+        <input type="button" value="stop" onclick="stopSlideShow()"/>
+        <br>
+        <script type="text/javascript">
+
+            var intervalId;
+
+            function startSlideShow() {
+                intervalId = setInterval(changeImage, 3000);
+            }
+
+            function stopSlideShow() {
+                clearInterval(intervalId);
+            }
+            function changeImage() {
+                var imageSrc = document.getElementById("image").getAttribute("src");
+                var currentImageNumber = imageSrc.substring(imageSrc.lastIndexOf("/") + 1, imageSrc.lastIndexOf("/") + 2);
+
+                if (currentImageNumber == 8) {
+                    currentImageNumber = 0;
+                }
+
+                var newImage = "Images/" + (Number(currentImageNumber) + 1) + ".jpg";
+                //    document.getElementById("result").innerHTML = currentImageNumber;
+                document.getElementById("image").setAttribute("src", newImage);
+
+            }
+            
+            function changeImageRandomly() {
+                var randomImage = document.getElementById("image");
+                var num = Math.floor(Math.random()*(image.length));
+                document.src = randomImage[num];
+            }
+            
+            function startingSlideShow() {
+                intervalId = setInterval(changeImageRandomly, 2000);
+            }
+
+            changeImage();
+        </script>
+    </body>
+</html>

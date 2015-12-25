@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatbox xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema inimesed_suhtlevad_inimesega.xsd">
+
+	<humans>
+		<human id="a1">
+			<firstname>kiir</firstname>
+			<lastname>hiir</lastname>
+		</human>
+		<human id="a2">
+			<firstname>hiir</firstname>
+			<lastname>kiir</lastname>
+		</human>
+		<human id="a3">
+			<firstname>laev</firstname>
+			<lastname>kaev,</lastname>
+		</human>
+	</humans>
+	<humans_humans>
+		<human_human id="a1 a2"></human_human>
+		<human_human id="a1 a3"></human_human>
+	</humans_humans>
+
+</chatbox>

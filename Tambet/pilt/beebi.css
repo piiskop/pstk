@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+div.taust {
+	background-color: #222;
+	width: auto		;
+	height: 1000;
+	margin: auto;
+}
+
+div.raam {
+	background-color: white;
+	border: 5px solid blue;
+	border-radius: 25px;
+	width: 755px;
+	height: 320px;
+	margin: auto;
+}
+
+div.beebi {
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 1px;
+	height: 1px;
+}
+
+h1 span {
+	font-size: 60px;
+}
+
+div.get {
+	color: blue;
+	margin-left: 250px;
+	margin-top: 1px;
+	front-size: 40px;
+	font-family: "Helvetica";
+}
+
+div.garb {
+	font-family: "Helvetica";
+	front-size: front-size: 40px;0px;
+	color: blue;
+	margin-left: 250px;
+	margin-top: 1px;
+}
+
+div.click {
+	margin-left: 310px;
+	margin-top: 1px;
+}
+
+div.start {
+	font-family: "Helvetica";
+	font-size-adjust: 0.6;
+	color: red;
+	margin-left: 320px;
+	margin-top: 1px;
+}
+
+div.ayurvedic {
+	margin-left: 280px;
+	margin-top: 1px;
+}
+
+div.buy {
+	background-image: "Untitled.png";
+	margin-left: 650px;
+	margin-top: -110px;
+}

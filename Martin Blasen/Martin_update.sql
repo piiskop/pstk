@@ -1,0 +1,16 @@
+create table update1 (id integer auto_increment primary key, name text, quantity integer, noise text);
+insert into update1 (name, quantity, noise) values ("bears", 6, "loud"), ("shotguns", 6, "loud");
+insert into update1 set name="cake", quantity =1, noise="silent";
+insert into update1 set name="chairs", quantity =10, noise="loud";
+insert into update1 set name="aliens", quantity =3, noise="loud";
+insert into update1 set name="drinks", quantity =10, noise="silent";
+insert into update1 set name="pizza", quantity =12, noise="silent";
+insert into update1 set name="watermelons", quantity =99, noise="silent";
+insert into update1 set name="monkey with a hammer", quantity =1, noise="very loud";
+update update1 set name= "beer", quantity= 12 where id=6 ;
+update update1 set quantity= 0 where id=3 ;
+update update1 set name ="bears with shotguns", quantity=6, noise="very loud" where id=1;
+delete from update1 where id= 2;
+update update1 set quantity= 87 where id=8;
+update update1 set quantity=6 where id=5;
+select * from update1;

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students2015>
+	<pupils>
+		<student id="student1">
+			<name>Ly</name>
+			<familyname>
+				Aava
+			</familyname>
+			<gmail>lyaava19@gmail.com</gmail>
+		</student>
+		<student id="student2">
+			<name>Aive</name>
+			<familyname>
+				Koplus
+			</familyname>
+			<gmail>aivekoplus@gmail.com</gmail>
+		</student>
+		<student id="student3">
+			<name>Sandra</name>
+			<familyname>
+				Leppik
+			</familyname>
+			<gmail>sandraleppik1@gmail.com</gmail>
+		</student>
+		<student id="student4">
+			<name>Raiko</name>
+			<familyname>
+				Heinla
+			</familyname>
+			<gmail>daraiko19999@gmail.com</gmail>
+		</student>
+		<student id="student5">
+			<name>Kristiine</name>
+			<familyname>
+				Sepp
+			</familyname>
+			<gmail>kristinesepp@gmail.com</gmail>
+		</student>
+		<student id="student6">
+			<name>Eleri</name>
+			<familyname>
+				Apsalon
+			</familyname>
+			<gmail>eleri.apsolon@gmail.com</gmail>
+		</student>
+	</pupils>
+
+	<topics>
+		<topic id="t1">
+			<topic id="1.1"> UML</topic>
+			<topic id="1.2">Kasutusjuhud</topic>
+			<topic id="1.3">Klassid</topic>
+			<topic id="1.4">Tegevused ja olekud</topic>
+		</topic>
+		<topic id="t2">
+			<topic id="2.1"> TSL </topic>
+			<topic id="2.2">Liides</topic>
+			<topic id="2.3">Test</topic>
+			<topic id="2.4">Tehniline kirjeldus</topic>
+		</topic>
+		<topic id="t3">
+			<topic id="3.1"> HTML ja CSS </topic>
+			<topic id="3.2">Stiilid</topic>
+			<topic id="3.3">Tekst</topic>
+			<topic id="3.4">Link</topic>
+		</topic>
+		</topics>
+	
+	<skills>
+	    <skill id="student4" 
+		topic="1.2 1.3 1.4 2.1 2.2 2.3 2.4 3.2 3.3 3.4">
+		</skill>
+
+		<skill id="student5"
+		 topic="1.2 1.3 1.4 2.1 2.2 2.3 2.4 3.2 3.3 3.4">
+			</skill>
+
+		<skill id="student6"
+		 topic="1.2 1.3 1.4 2.1 2.2 2.3 2.4 3.2 3.3 3.4">
+				</skill>
+	
+	</skills>
+</students2015>
+		
+		
+		
+
+    
+    
+     
+   
+		

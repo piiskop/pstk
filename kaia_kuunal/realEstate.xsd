@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	
+	<!-- Simple types -->
+	<xs:element name="Street" type="xs:string" />
+	<xs:element name="City" type="xs:string" />
+	<xs:element name="Region" type="xs:string" />
+	
+	<xs:element name="ObjectType">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Apartment" />
+				<xs:enumeration value="House" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="Description" type="xs:string" />
+	<xs:element name="Story" type="xs:integer" />
+	<xs:element name="RoomArea" type="xs:decimal" />
+	<xs:element name="TotalArea" type="xs:decimal" />
+	<xs:element name="AreaUnit" type="xs:string" />
+	<xs:element name="Price" type="xs:decimal" />
+	<xs:element name="Bathrooms" type="xs:integer" />
+	<xs:element name="Bedrooms" type="xs:integer" />
+	<xs:element name="Stories" type="xs:integer" />
+	
+	<!-- Complex types -->
+	<xs:element name="EstateAgent">
+		<xs:complexType>
+			<xs:attribute name="id" type="xs:IDREF" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="HasYard">
+		<xs:complexType>
+			<!-- Empty element -->
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="HasBalcony">
+		<xs:complexType>
+			<!-- Empty element -->
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Address">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="xs:Street" />
+				<xs:element ref="xs:City" />
+				<xs:element ref="xs:Region" />
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Object">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:Address" />
+				<xs:element ref="xs:ObjectType" />
+				<xs:element ref="xs:Description" />
+				<xs:element ref="xs:EstateAgent" />
+				<xs:element ref="xs:Story" minOccurs="0" />
+				<xs:element ref="xs:RoomArea" />
+				<xs:element ref="xs:TotalArea" minOccurs="0" />
+				<xs:element ref="xs:AreaUnit" />
+				<xs:element ref="xs:Price" />
+				<xs:element ref="xs:Bathrooms" />
+				<xs:element ref="xs:Bedrooms" />
+				<xs:element ref="xs:Stories" minOccurs="0" />
+				<xs:element ref="xs:HasYard" minOccurs="0" />
+				<xs:element ref="xs:HasBalcony" minOccurs="0" />
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:ID" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Objects">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="xs:Object" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

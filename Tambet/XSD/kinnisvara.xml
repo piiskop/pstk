@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kinnisvara xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema Kinnisvara.xsd">
+	<Kuulutused>
+		<kuulutus>
+			<valid_from> 2014-12-30</valid_from>
+			<transaction_type> Müük</transaction_type>
+			<type>Maja</type>
+			<area> 400.00</area>
+			<floors>3</floors>
+			<price>100000</price>
+			<nr_of_rooms>5</nr_of_rooms>
+			<image></image>
+			<info> Laudadest aed, naabrid jobud</info>
+			<location>
+				<country> Estonia</country>
+				<city> Pärnu</city>
+				<district> Rääma</district>
+				<street>Tamme</street>
+				<house_nr>49</house_nr>
+				<floor> 0</floor>
+				<apartment_nr>0</apartment_nr>
+			</location>
+		</kuulutus>
+		<kuulutus>
+			<valid_from> 2014-12-01</valid_from>
+			<transaction_type> Rent</transaction_type>
+			<type>Korter</type>
+			<area> 120.00</area>
+			<floors>0</floors>
+			<price> 1000</price>
+			<nr_of_rooms>3</nr_of_rooms>
+			<image></image>
+			<info> vesi tilgub laest, köögi põrandal okse ja tühjad pudelid
+			</info>
+			<location>
+				<country> Estonia</country>
+				<city> Pärnu</city>
+				<district>Ülejõe</district>
+				<street>Kirsi</street>
+				<house_nr>29</house_nr>
+				<floor>4</floor>
+				<apartment_nr> 34</apartment_nr>
+			</location>
+		</kuulutus>
+	</Kuulutused>
+
+
+</Kinnisvara>

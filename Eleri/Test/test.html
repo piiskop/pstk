@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Tennis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Make your request, send feedback">
+        <meta name="keywords" content="request,wish">
+        <link rel="stylesheet" type="text/css" href="test.css">
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+        <div class="upper">
+
+            <div class="video">
+
+                <video controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+            
+            <div id="rightside">
+                <div class="entertime">
+
+                    <p>Insert time</p>
+
+                </div>
+
+                <form>
+                    <label for="hours">
+                        <span>H</span>
+                        <input type="text" id="hours" />
+                    </label>
+                    <label for="minutes">
+                        <span>M</span>
+                        <input type="text" id="minutes" />
+                    </label>
+                    <label for="seconds">
+                        <span>S</span>
+                        <input type="text" id="seconds" />
+                    </label>
+                </form>
+            </div>
+        </div>
+
+        <form class="comments">
+        <label for="comments">
+            <span>Insert Comment</span>
+            <textarea id="comments" rows="6" cols="50" >
+            </textarea>
+        </label>
+        </form>
+        <div class="insertbutton">  
+
+            <a href="#" class="Button"> Insert </a>
+
+        </div>
+
+
+        <div class="summary">
+            <h3>ADDED COMMENTS</h3>
+            
+            <ul>
+                <li class="headings">Time Comment</li>
+                <li>12:12 Good job</li>
+                <li>12:12 You are the best</li>
+                <li>13:01 Nice!</li>
+                <li>16:13 Better luck next time</li>
+                <li>25:14 Oh now! Wrong way!</li>
+                <li>50:14 So You won! Good job!</li>
+            </ul>
+        </div>
+
+
+
+        <div class="sendbutton">  
+
+            <a href="#" class="Button"> Send </a>
+
+        </div>
+    </body>
+</html>

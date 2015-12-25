@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Kinnisvara (Kuulutused)>
+<!ELEMENT Kuulutused (kuulutus*)>
+<!ELEMENT kuulutus (valid_from, transaction_type, type, area, floors, price, nr_of_rooms, image*, info, location)>
+<!ELEMENT valid_from (#PCDATA)>
+<!ELEMENT transaction_type (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT floors (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT nr_of_rooms (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT location (country, city, district, street, house_nr, floor?, apartment_nr?)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT district (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT house_nr (#PCDATA)>
+<!ELEMENT house_nr (#PCDATA)>
+<!ELEMENT floor (#PCDATA)>
+<!ELEMENT apartment_nr (#PCDATA)>

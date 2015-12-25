@@ -1,0 +1,177 @@
+@CHARSET "UTF-8";
+
+
+body{
+	margin:auto;
+	text-align:center;
+	background-color:lightgrey;
+	font-family: arial;
+}
+
+
+
+
+h1{
+	color:blue;	
+	font-family: Times New Roman;
+	font-size: 40px;
+}
+
+h1::first-letter {
+	text-decoration: underline;
+}
+
+h2{
+	font-family:Georgia;
+	font-size: 30px;
+}
+
+p{
+	font-size: 14px;
+}
+
+div.nonumber {
+	
+}
+
+
+li {
+	font-family:Verdana;
+}
+
+ul  {
+ padding-left:0;  
+ }
+ul li  {
+ list-style-position:inside
+}
+
+
+ol  {
+ padding-left:0;   
+}
+ol li  {
+ list-style-position:inside
+}
+
+
+div.table {
+	text-align:Center;
+}
+
+ table {
+	/*width:100%;*/
+	background-color:lightblue;
+	border-collapse:collapse;
+	margin:auto;
+} 
+
+thead{
+	background-color:linen;
+	border:2px solid blue;
+	width: 40px;
+}
+
+td {
+	 border:2px solid blue;
+}
+
+tbody:nth-child(3n) { background-color: orange; }
+
+div.nonum{
+	margin:auto;
+	background-color:white;
+	width: 200px;
+}
+
+.numbered {
+	margin:auto;
+	background-color:yellow;
+	width:200px;
+}
+
+.img1 {  	  
+	width:512px;
+	height:auto;
+	padding:40px;
+	border:3px dotted #0066FF;
+	margin:auto;
+	
+}
+
+img{
+	width:512px;
+	height:auto;
+}
+
+img:hover {
+    -webkit-filter: invert(100%); 
+}
+
+.container { 
+	margin:auto;
+	position:relative;
+	padding:5px 5px 5px 10px;
+	background:#339933;
+	width:500px;
+}
+
+#sidebar {
+	
+    position:absolute;
+    top:5px; bottom:5px; left:5px;
+    width:100px;
+    background:#B2B2FF;
+}
+
+#content {
+	
+	width: 300px;
+    margin:auto;
+    background:#00FFCC;
+}
+
+
+.container2 {
+	margin:auto;
+	position:relative;
+	width:500px;
+			}
+			
+#box{
+	background:#CC99FF;
+	width: 500px;
+	height: 200px;
+	padding:5px 5px 5px 5px;
+	}
+	
+#minibox1{	float:left;
+	width: 100px;
+	height: 20px;
+	background:#99FF66;
+}
+
+#minibox2{float:left;
+	position:relative;
+	float:left;
+	width: 100px;
+	height: 20px;
+	background:white;
+}
+
+
+
+a{
+	text-decoration:none;
+	 color: #FF0000;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #FF0000;
+}
+

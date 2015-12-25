@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT inventory (genres, health_conditions, authors, books, books_have_authors)>
+
+<!ELEMENT genres (genre*)>
+<!ELEMENT genre (#PCDATA)>
+
+<!ELEMENT health_conditions (health_condition*)>
+<!ELEMENT health_condition (#PCDATA)>
+
+<!ELEMENT authors (author*)>
+<!ELEMENT author (first_name, last_name, born, died)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT born (#PCDATA)>
+<!ELEMENT died (#PCDATA)>
+
+<!ELEMENT books (book*)>
+<!ELEMENT book (title, description)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT books_have_authors (book_has_author*)>
+<!ELEMENT book_has_author EMPTY>
+
+<!ATTLIST genre ID_G ID #REQUIRED>
+<!ATTLIST health_condition ID_H ID #REQUIRED>
+<!ATTLIST author ID_A ID #REQUIRED>
+<!ATTLIST book ID_B ID #REQUIRED>
+<!ATTLIST book_has_author ID_BhA ID #REQUIRED>
+
+<!ATTLIST author ID_H IDREFS #IMPLIED>
+<!ATTLIST book ID_G IDREF #REQUIRED>
+<!ATTLIST book_has_author ID_A IDREF #REQUIRED>
+<!ATTLIST book_has_author ID_B IDREF #REQUIRED>
+

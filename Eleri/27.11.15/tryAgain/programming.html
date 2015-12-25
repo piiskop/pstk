@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="programming.css">
+    </head>
+    <body>
+        <h1>Õpilased</h1>
+        <form id="myform" name="myform">
+
+            <div id="search" class="Show">
+                Nimi: <input type="text" id="text" name="fname">
+                <button type="button" onclick="startSearch(); return false;">Otsin</button>
+                <button type="button" id="display" onclick="toggleTable(); return false;" name="option">Kuvan kogu nimekirja</button>
+            </div>
+            
+            <div id="question2" class="Hide">
+                <label>Oskab progeda:</label><input type="checkbox" id= "canCode">
+                <button type="button" id="btn" onclick="save();return false;">Salvestan nime ja kas oskab progeda.</button>
+            </div>
+            <div id="dataChanged" class="Hide">Õpilase andmed on muudetud</div>
+            <div id="dataNotChanged" class="Hide">Sellist õpilast pole</div>
+            <div id= "steps" class="Hide"></div>
+        </form>
+        
+        <table id="studentTable" class="Hide">
+            <caption id="tableHeading">Õpilased</caption>
+            <thead>
+                <tr id="tablerow">
+                    <th class="heading">Õpilane</th>
+                    <th class="heading">Programmeerimise oskus</th>
+                </tr>
+            </thead>
+            <tfoot id="tableFoot"></tfoot>
+            <tbody id="tableBody"></tbody>
+        </table>
+        
+        <script src="binary2.js"></script>
+    </body>
+</html>
+

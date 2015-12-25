@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Make a request</title>
+<link rel="stylesheet" type="text/css" href="request.css" media="all" /></link>
+</head>
+<body>
+
+<h1>Make a request</h1>
+<form action="request_page.php">
+<label for="Selection">Choose category:</label>
+<br>
+<select id="Selection">
+  <option value="Tools">Tools</option>
+  <option value="Car">Car</option>
+  <option value="Clothes">Clothes</option>
+  <option value="Furniture">Furniture</option>
+  <option value="Toys">Toys</option>
+</select>
+<br><br>
+
+<label for="Form1">Write your request:</label>
+<br>
+<input id="Form1" type="text" name="request" maxlength="500">
+<br><br>
+
+<label for="Location">Location:</label>
+<br>
+<select id="Location">
+  <option value="Europe">Europe</option>
+  <option value="Asia">Asia</option>
+  <option value="Africa">Africa</option>
+  <option value="America">America</option>
+  <option value="Australia">Australia</option>
+</select>
+
+<br>
+<br>
+
+<input type="submit" value="Send your Request">
+
+</form>
+
+
+</body>
+</html>

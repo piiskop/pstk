@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+header{
+	
+	background-color:#E1EBDA;
+	height: 60px;
+}
+body{
+	
+	background-color:Lightgreen;
+	height: 100px;
+	
+}
+table {
+    border-spacing: 8px solid black;
+    border: 3px solid black;
+    border-collapse: collapse;
+    width : 900px;
+    text-align: center;
+}
+tr.Row0{
+	background-color:Red;
+}
+tr.Row1{
+	background-color:Blue;
+}
+
+
+footer{
+	
+	background-color:#E1E5DA;
+	height: 100px;
+}

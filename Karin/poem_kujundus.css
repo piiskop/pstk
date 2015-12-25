@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+Body
+{
+	font-size:26px;
+	background-color: beige;
+	text-align: center; 
+	color: navy;
+}
+h1
+{
+	color: red;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+img
+{
+	width:400
+	height:142
+}

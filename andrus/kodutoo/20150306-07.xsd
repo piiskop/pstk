@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="cinema">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="movies">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="movie" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:ID" name="id" use="required"></xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="actors">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="actor" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:ID" name="id" use="optional"></xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="movie_actors">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="movie_actor" minOccurs="0"
+								maxOccurs="unbounded">
+								<xs:complexType>
+										<xs:attribute name="id_movies" type="xs:IDREFS"></xs:attribute>
+										<xs:attribute name="id_actors" type="xs:IDREFS"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

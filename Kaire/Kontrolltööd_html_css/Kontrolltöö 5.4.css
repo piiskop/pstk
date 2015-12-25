@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+li {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+ol{
+list-style-type:upper-alpha;
+}
+ol li.skip {display: none;}

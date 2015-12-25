@@ -1,0 +1,33 @@
+<!-- BEGIN css -->
+@CHARSET "UTF-8";
+
+@import url("{BEGINNING-OF-URL}../css/css.css");
+
+.Result {
+	display: {DISPLAY-RESULT};
+}
+
+.NoResult {
+	display: {DISPLAY-NO-RESULT};
+}
+
+.BlockForNumberOfIterations {
+	display: {DISPLAY-STEPS};
+}
+.Pupil {
+	background-color: gold;
+}
+
+.Tbody tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+
+.AllPupils th, .Tbody td {
+	padding: 4px;
+	padding: 0.25rem;
+}
+
+.Id {
+	display: none;
+}
+<!-- END css -->

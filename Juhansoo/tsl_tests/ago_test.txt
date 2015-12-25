@@ -1,0 +1,46 @@
+# past time
+	Is past set?:
+		Yes. [property past-correct]
+		Incorrectly. [error]
+		No. [property present]
+
+# future time
+	Is future set?:
+		Yes. [property future-correct]
+		Incorrectly. [error]
+		No. [property present]
+
+# difference of past time and future time
+	Is past less than future?:
+		Past < future. [if (past-correct || present) && (future-correct || present)]
+		Past > future. [if (past-correct || present) && (future-correct || present)]
+		Past == future. [if (past-correct || present) && (future-correct || present)][property zero]
+	Past compared to present:
+		Past < present. [if present && past-correct]
+		Past > present. [if present && past-correct]
+	Future compared to present:
+		Future < present. [if present && future-correct]
+		Future > present. [if present && future-correct]
+	Is there a difference in years?:
+		Difference in years exists. [if !zero && past-correct || present && (future-correct || present)]
+		Difference in years is 0. [if (past-correct || present) && (future-correct || present)]
+	Is there a difference in months?:
+		Difference in months exists. [if !zero && past-correct || present && (future-correct || present)]
+		Difference in months is 0. [if (past-correct || present) && (future-correct || present)]
+	Is there a difference in days?:
+		Difference in days exists. [if !zero && past-correct || present && (future-correct || present)]
+		Difference in days is 0. [if (past-correct || present) && (future-correct || present)]
+	Is there a difference in hours?:
+		Difference in hours exists. [if !zero && past-correct || present && (future-correct || present)]
+		Difference in hours is 0. [if (past-correct || present) && (future-correct || present)]
+	Is there a difference in minutes?:
+		Difference in minutes exists. [if !zero && past-correct || present && (future-correct || present)]
+		Difference in minutes is 0. [if (past-correct || present) && (future-correct || present)]
+	Is there a difference in seconds?:
+		Difference in seconds exists. [if !zero && past-correct || present && (future-correct || present)]
+		Difference in seconds is 0. [if (past-correct || present) && (future-correct || present)]
+
+# language:
+	Language:
+		ee_ET. [if !zero && past-correct || present && (future-correct || present)]
+		en_GB. [if !zero && past-correct || present && (future-correct || present)]

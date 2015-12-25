@@ -1,0 +1,76 @@
+
+
+#esimene {
+	height: 50px;
+    line-height: 50px;	
+	margin-left: 25px;
+	float: right;	
+}
+
+#teine {
+   width: 1200px;
+   margin: 0 auto;
+}
+
+#neljas {
+	height: 50px;
+    line-height: 50px;	
+}
+
+#viies {
+	height: 50px;
+    line-height: 50px;
+    margin-left: 15px;	
+}
+
+#kuues {
+	height: 50px;	
+}
+
+#seitsmes {
+	height: 150px;	
+	background-color: rgb(245,246,241);
+}
+
+#kaheksas {
+    height: 150px;
+    line-height: 150px;
+    margin-left: 20px;
+}
+
+#uheksas {
+    vertical-align:middle;
+}
+
+#kumnes {
+	margin-top: 50px;
+}
+
+#uheteistkumnes {
+	float: left;
+	margin-top: 30px;
+	height: 130px;
+	width: 375px;	
+	background-color: rgb(245,246,241);
+}
+#kaheteistkumnes {
+	padding-top: 14%;
+	text-align: center;
+	font-size: 20px;	
+}
+
+#kolmeteistkumnes {
+	text-align: center;
+	font-size: 15px;	
+}
+
+#neljateistkumnes {
+	float: left;	
+	margin-top: 30px;
+	height: 130px;
+	width: 375px;	
+	margin-left: 34px;
+	background-color: rgb(245,246,241);
+}
+
+

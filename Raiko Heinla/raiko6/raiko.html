@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Binary search test raiko</title>
+<link rel="stylesheet" href="raiko.css" type="text/css" media="all">
+
+<script type="text/javascript" src="raikotest.js"></script>
+</head>
+<body onload="createTablel()">
+	<h1>Õpilased</h1>
+	<form>
+		<label for="insertName">Name:</label> <input id="insertName"
+			type="text" name="name">
+		<button type="button" onclick="binarySearch()">Otsin</button>
+
+		<button type="button" onclick="makeRequest('GET');">Otsin AJAX-ga</button>
+
+		<input id="nimekiri" type="button" value="Kuva kogu nimekiri."
+			onclick="showTable()">
+	</form>
+
+	<div id="repeats"></div>
+	<div id="nameNotFound">Name not found.</div>
+
+	<div id="programmingForm">
+		<form id="programming">
+			<label for="progInput">Oskab programmeerida:</label> 
+			<input id="progInput" type="checkbox" name="progamming2" value="canProgram">
+			<button id="save" type="button" onclick="saveProgramming()">
+				Salvestan nime ja kas oskab progeda.</button>
+		</form>
+	</div>
+
+	<div id="divTabel">
+		<table id="table">
+
+		</table>
+	</div>
+
+	<div id="updateDone"></div>
+
+
+
+
+	<div id="status"></div>
+</body>
+</html>

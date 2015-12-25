@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<koduleht>
+	<osa1>
+		<sisunimi>Sissejuhatus</sisunimi>
+		<sisu><![CDATA[Siin tabelis on MMK 2 õpilaste sõprade arv erinevates 
+sotsiaalvõrgustikes. 
+Kas kõikide sõber pole mitte kellegi sõber 
+või häid sõpru pole kunagi liiga palju?
+- Selles on küsimus.]]></sisu>
+	</osa1>
+	<osa2>
+		<pupils>
+			<sisunimi>Tabel</sisunimi>
+			<student>
+				<name>Merilin</name>
+				<facebook>555</facebook>
+				<google>10</google>
+			</student>
+			<student>
+				<name>Aive</name>
+				<facebook>491</facebook>
+				<google>11</google>
+			</student>
+			<student>
+				<name>Sandra</name>
+				<facebook>392</facebook>
+				<google>8</google>
+			</student>
+			<student>
+				<name>Nele</name>
+				<facebook>331</facebook>
+				<google>13</google>
+			</student>
+			<student>
+				<name>Taivi</name>
+				<facebook>234</facebook>
+				<google>12</google>
+			</student>
+			<student>
+				<name>Ly</name>
+				<facebook>89</facebook>
+				<google>8</google>
+			</student>
+			<student>
+				l
+				<name>Ellu</name>
+				<facebook>1</facebook>
+				<google>4</google>
+			</student>
+		</pupils>
+	</osa2>
+</koduleht>

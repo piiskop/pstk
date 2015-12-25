@@ -1,0 +1,39 @@
+# Path to file
+Correctness:
+	Path to existing file. 
+	Path to non-existing file. 
+Suitability:
+	Path to non-suitable file. 
+	Path to suitable file.
+
+# Width
+Occurence of width:
+	Given width.
+	width not given.
+Type of width:
+	Numeric width.
+	Non-numeric width. 
+Value of width:
+	Negative width. 
+	Width 0. 
+	Positive width.
+Value of width relative to original:
+	Smaller than the original width. 
+	Same as the original width.
+	Bigger than the original width.
+
+# height
+Occurence of height:
+	Given height. 
+	height not given.
+Type of height:
+	Numeric height. 
+	Non-numeric height. 
+Value of height:
+	Negative height. 
+	height 0. 
+	Positive height. 
+Value of height relative to original:
+	Smaller than the original height. 
+	Same as the original height.
+	Bigger than the original height.

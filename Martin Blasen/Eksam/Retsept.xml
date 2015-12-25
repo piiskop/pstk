@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE retseptid SYSTEM "retsept.dtd">
+
+<retseptiraamat>
+	<retseptid>
+		<retsept ID="r1">
+			<pealkiri>Omlett</pealkiri>
+		</retsept>
+		<retsept ID="r2">
+			<pealkiri>Pannkook</pealkiri>
+		</retsept>
+		<retsept ID="r3">
+			<pealkiri>Kakao</pealkiri>
+		</retsept>
+	</retseptid>
+	<koostisosad>
+		<koostisosa ID="munad">
+			<pealkiri>munad</pealkiri>
+		</koostisosa>
+		<koostisosa ID="piim">
+			<pealkiri>piim</pealkiri>
+		</koostisosa>
+		<koostisosa ID="sool">
+			<pealkiri>sool</pealkiri>
+		</koostisosa>
+		<koostisosa ID="vorst">
+			<pealkiri>vorst</pealkiri>
+		</koostisosa>
+		<koostisosa ID="suhkur">
+			<pealkiri>suhkur</pealkiri>
+		</koostisosa>
+		<koostisosa ID="vesi">
+			<pealkiri>vesi</pealkiri>
+		</koostisosa>
+		<koostisosa ID="jahu">
+			<pealkiri>jahu</pealkiri>
+		</koostisosa>
+		<koostisosa ID="kakaopulber">
+			<pealkiri>kakaopulber</pealkiri>
+		</koostisosa>
+	</koostisosad>
+	<toidud>
+		<toit IDretsept="r1" 
+		IDkoostisosad="munad piim sool vorst" />
+		
+
+	</toidud>
+
+</retseptiraamat>
+
+
+

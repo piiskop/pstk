@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+#frame {
+	border: 7px solid #ffff33;
+	padding: 8px;
+	margin-bottom:100px;
+}
+#found{
+	float: right; 
+	margin-right:160px;
+	margin-top:120px;
+	display:none;
+}
+#notFound{ 
+	display:none;
+}
+#dataChanged{ 
+	display:none;
+}

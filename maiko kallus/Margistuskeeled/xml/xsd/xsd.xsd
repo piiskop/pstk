@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="activities">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="activity" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="activity">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="when" type="xs:string" />
+				<xs:element name="message" type="xs:string" />
+			</xs:sequence>
+			<xs:anyAttribute />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="when">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="day" type="xs:integer" />
+				<xs:element name="month" type="xs:integer" />
+				<xs:element name="year" type="xs:integer" />
+				<xs:element name="hour" type="xs:integer" />
+				<xs:element name="minute" type="xs:integer" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="message" type="xs:string" />
+</xs:schema>

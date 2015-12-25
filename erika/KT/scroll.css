@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+div.scroll {
+    width: 100px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}

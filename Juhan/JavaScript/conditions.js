@@ -1,0 +1,5 @@
+/**
+ * 
+ */
+
+var getNotice=function(){}

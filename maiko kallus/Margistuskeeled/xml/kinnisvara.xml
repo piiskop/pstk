@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objct xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema kinnisvara.xsd ">
+	<type_2>maja</type_2>
+	<transaction_type>müük</transaction_type>
+	<number_of_rooms>3</number_of_rooms>
+	<area>0.0</area>
+	<price>100000</price>
+	<image />
+	<address>
+		<county>xs:county</county>
+		<city>xs:city</city>
+		<street>xs:street</street>
+		<house>0</house>
+		<apartment>0</apartment>
+		<postalCode>0</postalCode>
+	</address>
+</objct>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE images [
+<!ELEMENT images (#PCDATA|image)*>
+<!ELEMENT image EMPTY>
+<!ATTLIST image source ENTITIES #REQUIRED>
+
+<!NOTATION JPG SYSTEM "image/jpg">
+<!NOTATION PNG SYSTEM "image/png">
+
+<!ENTITY image1 SYSTEM "http://www.tenniseklubi.ee/design/design/ramtennis/common/img/home_icon.png" NDATA PNG>
+<!ENTITY image2 SYSTEM "http://punkonomicsdotorg.files.wordpress.com/2013/08/1147091_632717793419932_1025813731_o.jpg" NDATA JPG >
+]>
+
+<images>
+	<image source="image1 image2" />
+</images>

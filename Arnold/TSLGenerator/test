@@ -1,0 +1,27 @@
+# display information
+    Emptyness of information:
+         empty. [error]
+         not empty. [property author-defined]   
+     Content:
+          Contains only English letters. [if author-defined] 
+          Contains non English letters. [if author-defined] 
+          Contains special charecters. [if author-defined] 
+          Contains only empty -signs. [error]
+          Begins with an empty -sign. [if author-defined] 
+          Ends with an empty -sign. [if author-defined] 
+# choose country
+    Emptyness of country:
+         empty. [error]
+         not empty
+# choose city
+    Emptyness of city:
+         empty. [error]
+         not empty
+# choose partner
+    Emptyness of partner:
+         empty. [error]
+         not empty.     
+# choose date,time 
+     Emptyness of date,time:
+         empty. [error]
+         not empty.

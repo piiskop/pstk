@@ -1,0 +1,30 @@
+body {
+	font-family: "Verdana", Times, serif;
+	background-image:
+		url("http://www.retseptidlastele.eu/templates/hiiretips/images/page.png" );
+	background-repeat: no-repeat;
+	float: left;
+}
+
+h1#omlett {
+	background-image:
+		url("http://static.ezermester.hu/konyhamagazin/foetelegytaletel/omlett/sajtosomlet.jpg" );
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 150px;
+	float: left;
+	text-align: center;
+	color: rgb(250, 50, 150);
+	line-height: 150px;
+	border: 3px solid black;
+}
+
+table#koostis  td {
+	border: 3px solid black;
+	text-align: center;
+	width: 120%;
+	height: 120%;
+	font-weight: bold;
+	color: rgb(250, 50, 150);
+	background-color: rgb(200, 250, 200);
+}

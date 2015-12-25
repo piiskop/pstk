@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	
+	<xs:group name="Location">
+		<xs:sequence>
+			<xs:element name="Street" type="xs:string" />
+			<xs:element name="City" type="xs:string" />
+			<xs:element name="Region" type="xs:string" />
+			<xs:element name="Country" type="xs:string" />
+		</xs:sequence>
+	</xs:group>
+	
+	<xs:element name="Routes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Route" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StartingPoint">
+								<xs:complexType>
+									<xs:group ref="xs:Location" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Destination">
+								<xs:complexType>
+									<xs:group ref="xs:Location" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Directions">
+								<xs:complexType>
+									<xs:choice minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="Drive" type="xs:string" />
+										<xs:element name="Turn" type="xs:string" />
+									</xs:choice>									
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:ID" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

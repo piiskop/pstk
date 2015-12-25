@@ -1,0 +1,25 @@
+<!-- BEGIN html -->
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            <input type="text" name="first" id="firstValue" value="{FIRST-VALUE}">+
+            <input type="text" name="second" id="secondValue" value="{SECOND-VALUE}">= <samp id="samp"> {SAMP} </samp>
+            <button type="button" id="button" onclick="summator.run();">Calculate</button>
+            <button type="button" id="button2" onclick="window.location.href='{BEGINNING-OF-URL}controller.php?first='+document.getElementById('firstValue').value + '&second='+document.getElementById('secondValue').value;">Calculate For PHP</button>
+        </form>
+        <script src="tunnis.js"></script>
+    </body>
+</html>
+<!-- END html -->
+

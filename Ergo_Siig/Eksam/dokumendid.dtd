@@ -1,0 +1,21 @@
+<!ENTITY % id "id ID #REQUIRED">
+
+<!ELEMENT dokumendid (tegelane+, dokument+, varv+,tegelase_dokumendi_varv)>
+
+<!ELEMENT tegelane (amet+)>
+<!ELEMENT amet (#PCDATA)>
+<!ATTLIST amet %id;>
+
+<!ELEMENT dokument (nimetus+)>
+<!ELEMENT nimetus (#PCDATA)>
+<!ATTLIST nimetus %id;>
+
+<!ELEMENT varv (varvus+)>
+<!ELEMENT varvus (#PCDATA)>
+<!ATTLIST varvus %id;>
+
+<!ELEMENT tegelase_dokumendi_varv (dokument_varviga+)>
+<!ELEMENT dokument_varviga EMPTY>
+<!ATTLIST dokument_varviga tegelane_idtegelane IDREFS #REQUIRED>
+<!ATTLIST dokument_varviga dokument_iddokument IDREFS #REQUIRED>
+<!ATTLIST dokument_varviga varv_idvarv 		   IDREFS #REQUIRED>

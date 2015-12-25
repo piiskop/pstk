@@ -1,0 +1,3 @@
+command for pear package install
+pear install Name_Of_package
+e.g pear install HTML_Template_IT

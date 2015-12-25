@@ -1,0 +1,255 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- CSS mobile <link href="mobile.css" rel="stylesheet" type="text/css" media="mobile" />  -->
+<title>Teacher lesson view</title>
+<style type="text/css">
+</style>
+<div id="logo">
+	<div id="kasutaja/logi" align="right">
+		<a href="#">Kasutajanimi</a> <br /> <a href="#">Logi välja</a> <br />
+		Vali keel <select>
+			<option value="eesti">eesti</option>
+			<option value="inglise">inglise</option>
+			<option value="saksa">saksa</option>
+		</select> <br />
+	</div>
+	<img src="saksalogo.jpg"> <br />
+	<div id="lingid">
+
+		<a href="index.php">Avaleht</a> <a href="opetaja_kalender.php">Kalender</a>
+		<a href="opetaja_hinded.php">Hinded</a> <a
+			href="opetaja_puudumise_markimine.php">Puudumised</a> <a
+			href="opetaja_teavitus.php">Teavitamine</a> <br /> Seaded
+	</div>
+</div>
+</head>
+<hr />
+<body>
+	<div>Matemaatika</div>
+	<div>21.04.2015</div>
+	<div>TA2</div>
+	<div>klass 311</div>
+
+	<form action="" method="post">
+		<input type="radio" name="lesson" value="1" checked /> tund 
+		<input type="radio" name="Lesson" value="2" /> kontrolltöö 
+		<input type="radio" name="Lesson" value="3" /> eksam 
+		<input type="radio"	name="Lesson" value="4" /> muu
+	</form>
+	
+	TUNNI SISU:
+	<textarea rows="4" cols="50"> TEEMA: Ruutvõrrandid ................................................ SISU: LK 23-30, lugeda, joonistada............................
+</textarea>
+	<br> MÄRKUSED:
+	<textarea rows="4" cols="50">Kordame eelmisel tunnil õpitut, võtame lonksu õlut ja Loeme LK 24-25
+</textarea>
+
+
+	<TABLE border="1">
+		<tr>
+			<th>Õpilane</th>
+			<th>Hinne</th>
+			<th width="5">Protsent</th>
+			<th>Punkt</th>
+			<th>Arvestatud</th>
+			<th>Puudumised</th>
+			<th>Paranda/Põhjenda</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>
+				<table>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+			<td></td>
+		</tr>
+
+		<td>Tambet Song</td>
+		<td><SELECT>
+				<option value="Vaikimisi"></option>
+				<option value="Viis">5</option>
+				<option value="Neli">4</option>
+				<option value="Kolm">3</option>
+				<option value="Kaks">2</option>
+				<option value="Üks">1</option>
+				<option value="Null">0</option>
+		</SELECT></td>
+		<td><input class="Precent" type="text" name="Precent"
+			maxlengtd="3"></td>
+		<td><input class="Points" type="text" name="Points" maxlengtd="3"></td>
+		<td><SELECT>
+				<option value="Vaikimisi"></option>
+				<option value="Arvestatud">A</option>
+				<option value="Mite_Arvestatud">MA</option>
+		</SELECT></td>
+		<td><SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT></td>
+		<td><input class="Correction" type="text" name="Correction"></td>
+		</tr>
+
+		<td>Martin Balsen</td>
+		<td><SELECT>
+				<option value="Vaikimisi"></option>
+				<option value="Viis">5</option>
+				<option value="Neli">4</option>
+				<option value="Kolm">3</option>
+				<option value="Kaks">2</option>
+				<option value="Üks">1</option>
+				<option value="Null">0</option>
+		</SELECT></td>
+		<td><input class="Precent" type="text" name="Precent"
+			maxlengtd="3"></td>
+		<td><input class="Points" type="text" name="Points" maxlengtd="3"></td>
+		<td><SELECT>
+				<option value="Vaikimisi"></option>
+				<option value="Arvestatud">A</option>
+				<option value="Mite_Arvestatud">MA</option>
+		</SELECT></td>
+		<td><SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT> <SELECT>
+				<option value="Vaikimisi_missed">-</option>
+				<option value="Hilines">H</option>
+				<option value="Vabandatud">V</option>
+				<option value="Puudus">P</option>
+		</SELECT></td>
+		<td><input class="Correction" type="text" name="Correction"></td>
+		</tr>
+
+		<td>Martin Balsen</td>
+		<td><SELECT>
+				<option value="Vaikimisi"></option>
+				<option value="Viis">5</option>
+				<option value="Neli">4</option>
+				<option value="Kolm">3</option>
+				<option value="Kaks">2</option>
+				<option value="Üks">1</option>
+				<option value="Null">0</option>
+		</SELECT></td>
+
+
+	</table>
+
+
+	<br> TEST AREA:
+	<br>
+
+
+
+
+	<input type="submit" value="Muuda" name="Muuda_puudumisi">
+	<input type="submit" value="Salvesta" name="salvesta_puudumised">
+	<input type="submit" value="Lisa uus" name="lisa_kuupaev">
+	<input type="submit" value="Tagasi" name="Back_btn">
+
+</body>
+<footer>
+	<hr />
+	Aadress: Jalaka 8, 80010 Pärnu Tel: +372 442 0480, +372 510 5845
+	E-mail: dts@saksatk.ee
+</footer>
+
+
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toiduained SYSTEM "toiduained.dtd">
+
+<toiduainete_liigid>
+	<liigid>
+		<liik ID="liik1">
+			<nimi>vedelikud</nimi>
+		</liik>
+		<liik ID="liik2">
+			<nimi>kääritatud toidud</nimi>
+		</liik>
+		<liik ID="liik3">
+			<nimi>tihedada/õlised valgud</nimi>
+		</liik>
+	</liigid>
+	<toiduained>
+		<toiduaine ID="aine1">
+			<nimi>vesimeloni mahl</nimi>
+		</toiduaine>
+		<toiduaine ID="aine2">
+			<nimi>nisurohu mahl</nimi>
+		</toiduaine>
+		<toiduaine ID="aine3">
+			<nimi>kali</nimi>
+		</toiduaine>
+		<toiduaine ID="aine4">
+			<nimi>seemnejuust/-soust</nimi>
+		</toiduaine>
+		<toiduaine ID="aine5">
+			<nimi>esseeni kuivikud</nimi>
+		</toiduaine>
+		<toiduaine ID="aine6">
+			<nimi>hapukapsas</nimi>
+		</toiduaine>
+		<toiduaine ID="aine7">
+			<nimi>pähkel</nimi>
+		</toiduaine>
+		<toiduaine ID="aine8">
+			<nimi>avokaado</nimi>
+		</toiduaine>
+		<toiduaine ID="aine9">
+			<nimi>mandel</nimi>
+		</toiduaine>
+	</toiduained>
+	
+	<jaotused>
+		<jaotus IDliik="liik1" IDtoiduaine="aine1 aine2 aine3" />
+	</jaotused>
+
+</toiduainete_liigid>

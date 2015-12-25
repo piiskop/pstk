@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="MyFirstJavaScript.js?1"></script>
+<meta charset="UTF-8">
+<title>My First JavaScript</title>
+<link rel="stylesheet" type="text/css" href="MyFirstJavaScript.css"
+	media="all" />
+
+</head>
+<body>
+	<!--onload="setBackground({appWide: true});"-->
+<!--  
+	<canvas id="canvas" width=500 height=500></canvas>
+	<script type="text/javascript" src="MyFirstJavaScript.js?1"></script>
+
+	<form>
+		<input type="color" oninput="body.style.backgroundColor = this.value">
+	</form>
+
+
+	
+<div class="HideShow" id="showHide" style="display: block;"></div>
+<button onclick="showHide({id: 'showHide', button: this});">Peidan.</button>
+-->
+
+	<h1>Eviction calculator</h1>
+	<form>
+
+		<!-- <button type="button" id="startButton" onclick="start()" style="display: block;">Start</button> -->
+
+		<div id="Esimene" style="display: block;">
+			<input type="checkbox" id="EsimeneKüsimus" /> Is the victim at home?<br>
+			<button type="button" onclick="calculateEviction()">Vasta</button>
+		</div>
+
+
+		<div id="Teine" style="display: none;">
+			<input type="checkbox" id="TeineKüsimus" />Does the victim agree?<br>
+			<button type="button" onclick="calculateEviction1()">Vasta</button>
+		</div>
+
+		<div id="Kolmas" style="display: none;">
+			<input type="checkbox" id="KolmasKüsimus" />Is the victim reachable
+			via phone?<br>
+			<button type="button" onclick="calculateEviction2()">Vasta</button>
+		</div>
+
+		<div id="Neljas" style="display: none;">
+			<p>EVICTION!</p>
+		</div>
+
+		<div id="Viies" style="display: none;">
+			<p>NO EVICTION!</p>
+		</div>
+
+		<div></div>
+
+	</form>
+
+
+</body>
+</html>

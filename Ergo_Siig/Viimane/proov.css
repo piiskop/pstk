@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+#suur{
+	margin: auto;
+background: red;
+}
+#sees{
+	background: blue;
+	width: 600px;
+	margin:auto;
+}

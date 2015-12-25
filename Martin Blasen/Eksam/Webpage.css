@@ -1,0 +1,107 @@
+body {
+	font-family: "Arial", Times, serif;
+	background-color: #000648;
+}
+
+div#home {
+	background: #1875CF url( http://www.vdl-electrics.be/img/home.png)
+		no-repeat center;
+	width: 180px;
+	background-size: 40%;
+}
+
+div.name {
+	float: left;
+	margin:30px;
+	position: absolute;
+	bottom: -10px;
+}
+div.box{
+	color: white;
+	margin: 10px;
+	height: 180px;
+	width: 180px;
+	float: left;
+	position: relative;
+}
+
+h2#homeicon {
+	width: 180px;
+	height: 10px;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+}
+
+img {
+	width: auto;
+	height: 100%
+}
+
+div#about {
+	width: 180px;
+	background: #FFCC00
+		url(http://www.iconsdb.com/icons/preview/white/user-2-xxl.png )
+		no-repeat center;
+	background-size: 40%;
+}
+
+h2#abouticon {
+	width: 180px;
+	height: 10px;
+	float: left;
+	text-align: center;
+	line-height: 200px;
+}
+
+div#portfolio {
+	width: 360px;
+	background: #D11919
+		url(http://www.iconsdb.com/icons/preview/white/baggage-xxl.png )
+		no-repeat center;
+	background-size: 20%;
+}
+
+div#photos {
+	width: 180px;
+	background: #70B8FF
+		url(http://www.iconsdb.com/icons/preview/white/picture-attachment-xxl.png )
+		no-repeat center;
+	background-size: 40%;
+}
+
+div#testimonials {
+	width: 180px;
+	background: #5CE68A
+		url(http://www.iconsdb.com/icons/preview/white/message-2-xxl.png )
+		no-repeat center;
+	background-size: 40%;
+}
+
+div#hire {
+	width: 360px;
+	background: #75A319
+		url(http://www.iconsdb.com/icons/preview/white/moneybox-xxl.png )
+		no-repeat center;
+	background-size: 20%;
+}
+
+div#blog img, div#blog div{
+	float: left;	
+}
+
+#div2 {
+	clear:both;
+}
+
+div#blog {
+	width: 520px;
+	background: black;
+
+}
+
+div#blog div{
+	width: 50%;	
+	margin-left:30px;
+}
+

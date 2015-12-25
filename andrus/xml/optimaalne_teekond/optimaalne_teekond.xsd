@@ -1,0 +1,15 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="teekond">
+    <xs:annotation>
+      <xs:documentation>Teekond - Sindi Tööstuse 2 kuni Pärnu Jalaka 10 (optimaalseim 12.8 km)</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded" minOccurs="0">
+        <xs:element type="xs:string" name="start"/>
+        <xs:element type="xs:string" name="tanav"/>
+        <xs:element type="xs:string" name="poore"/>
+        <xs:element type="xs:string" name="end"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

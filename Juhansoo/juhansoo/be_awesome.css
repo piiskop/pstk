@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+div:before {
+	font-weight: bold;
+	color: red;
+	content: "I";
+}
+
+div:after {
+	color: red;
+	content: " - UV";
+}

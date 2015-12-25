@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- proloog -->
+<!DOCTYPE activity SYSTEM "dtd.dtd">
+<activities>
+	<!-- Inglise keele test -->
+	<activity name="english" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd.xsd">
+		<when>
+			<day>18</day>
+			<month>11</month>
+			<year>2014</year>
+			<hour>9</hour>
+			<minute>00</minute>
+		</when>
+		<message><![CDATA[Kindlasti valmistuge inglise keele testiks ette.]]></message>
+	</activity>
+	<!-- Spordipäev -->
+	<activity name="sportsday">
+		<when>
+			<day>22</day>
+			<month>11</month>
+			<year>2014</year>
+			<hour>9</hour>
+			<minute>00</minute>
+		</when>
+		<message><![CDATA[Tuletame kõigile meelde et on vaja kaasa võtta võimlemis riided!]]></message>
+	</activity>
+	<!-- Male turniir kõikidele huvilistele! -->
+	<activity name="chess_tournament">
+		<when>
+			<day>26</day>
+			<month>11</month>
+			<year>2014</year>
+			<hour>9</hour>
+			<minute>00</minute>
+		</when>
+		<message><![CDATA[Kõikidel huvilistel palume registreerida huvijuhi juures!]]></message>
+	</activity>
+</activities>

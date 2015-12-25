@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE worksheet [
+<!ELEMENT worksheet (employees, jobs)>
+<!ELEMENT eployees (employee+)>
+<!ATTLIST employee id ID #REQUIRED>
+<!ELEMENT eployee (name, rank, age, mail, tel, password)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT jobs (job+)>
+<!ELEMENT job (worker, date, description, start_time, end_time)>
+<!ELEMENT worker (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT start_time (#PCDATA)>
+<!ELEMENT end_time (#PCDATA)>
+]>
+<worksheet>
+	<!-- TÖÖTAJAD -->
+	<employees>
+		<employee id="e1">
+			<name>Madis Tamm</name>
+			<rank>Juhataja</rank>
+			<age>52</age>
+			<mail>madis.tamm@gmail.com</mail>
+			<tel>59625478</tel>
+			<password>madismadis123</password>
+		</employee>
+		<employee id="e2">
+			<name>Marko Saar</name>
+			<rank>Traktorist</rank>
+			<age>41</age>
+			<mail>m.saar@gmail.com</mail>
+			<tel>59988578</tel>
+			<password>msaar321</password>
+		</employee>
+		<employee id="e3">
+			<name>Jaanus Suur</name>
+			<rank>Traktorist</rank>
+			<age>50</age>
+			<mail>jaanus123.suur@gmail.com</mail>
+			<tel>5155478</tel>
+			<password>suurJaanus12</password>
+		</employee>
+		<employee id="e4">
+			<name>Mati Sinine</name>
+			<rank>Traktorist</rank>
+			<age>58</age>
+			<mail>sinine1245@gmail.com</mail>
+			<tel>54469852</tel>
+			<password>sininetraktor58</password>
+		</employee>
+	</employees>
+	<!-- TEHTAVAD TÖÖD -->
+	<jobs>
+		<job>
+			<worker>Mati Sinine</worker>
+			<date>2014.11.21</date>
+			<description>Kündmine</description>
+			<start_time>13:00:00</start_time>
+			<end_time>14:00:00</end_time>
+		</job>
+		<job>
+			<worker>Jaanus Suur</worker>
+			<date>2014.11.22</date>
+			<description>Väetamine</description>
+			<start_time>12:00:00</start_time>
+			<end_time>15:00:00</end_time>
+		</job>
+		<job>
+			<worker>Madis Tamm</worker>
+			<date>2014.12.01</date>
+			<description>Niitmine</description>
+			<start_time>09:00:00</start_time>
+			<end_time>14:00:00</end_time>
+		</job>
+	</jobs>
+</worksheet>

@@ -1,0 +1,133 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: lightgreen;
+}
+
+h1 {
+	color: #ffff00;
+	font-family: verdana, sans-serif;
+}
+
+h1 {
+	background-color: darkgreen;
+	text-align: center;
+}
+
+strong {
+	color: #ff0000;
+}
+
+h2.Sisukord {
+	font-family: cursive;
+}
+
+h2 {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+h2.works {
+	font-family: serif;
+	font-weight: italic;
+}
+
+p {
+	font-family: fantasy;
+	text-decoration: underline;
+}
+
+div.taust {
+	background-color: cyan;
+	width: 80px;
+	height: 65px;
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-top: 4px;
+}
+
+img.ellu {
+	border-style: double;
+	border-color: red;
+}
+
+img.õunapuu {
+	margin-top: 6px;
+	margin-left: 6px;
+	border-style: ridge;
+	border-color: white;
+}
+
+div.tekst {
+	background-color: yellow;
+	width: 500px;
+	height: 100px;
+	overflow: scroll;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	padding-right: 6px;
+}
+
+img.tüdruk {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+}
+
+img.isa {
+	padding-bottom: 6px;
+	padding-left: 10px;
+}
+
+div.pildid {
+	background-color: yellow;
+	width: 350px;
+	height: 250px;
+	margin-bottom: 10px;
+	padding-top: 6px;
+}
+
+i.joonistused {
+	padding-left: 6px;
+	padding-top: 6px;
+}
+
+i.maalid {
+	padding-left: 6px;
+	padding-top: 6px;
+}
+
+div.maalid {
+	background-color: red;
+	width: 350px;
+	height: 160px;
+	margin-bottom: 10px;
+	padding-top: 6px;
+	margin-left: 10px;
+}
+
+a, a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+li.kast
+{
+	float:left;
+}
+ol
+{
+	list-style-type:none;
+}
+a.teine
+{
+	clear:both;
+	display:block;
+}

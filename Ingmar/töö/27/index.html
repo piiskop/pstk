@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Õpilaste programmeerimisoskus</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="27.11.css">
+</head>
+
+<body>
+
+		<form>
+			<label for="name">Nimi: </label>
+			<input type="text" id="name" class="name" name="name" value=""><button onclick="search();
+					return false" >Otsi</button>
+			<button onclick="toggleShow();
+					return false" id="showTable">Kuva nimekiri</button><br>
+			<label for="coding">Oskab programmeerida </label><input type="checkbox" id="coding" name="coding">
+			<button onclick="save();
+					return false">Salvesta muudatused</button><br>
+			<input type="hidden" id="keyStudent" value="-1">
+		</form>
+        
+		<p id="update-status"><p>
+		<p id="repeated"><p>
+			<br>
+            
+		<div id="table-container" class="hide">
+
+			<table id="dataTable">
+				<caption>Õpilaste programmeerimisoskus</caption>
+				<thead>
+					<tr>
+						<th class="nameBg">Õpilane</th>
+						<th>Oskab programmeerida</th>
+					</tr>
+				</thead>				
+				<tfoot></tfoot>
+				<tbody></tbody>
+			</table>
+						
+		</div>
+		        
+	<script src="27.11.js"></script>
+        
+</body>
+
+</html>

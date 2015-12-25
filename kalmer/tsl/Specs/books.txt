@@ -1,0 +1,57 @@
+# author
+	Emptyness of author:
+		empty. [error]
+		not empty. [property author-defined]
+	Content of author:
+		Contains only English letters. [if author-defined]
+		Contains non-English letters. [if author-defined]
+		Contains special characters. [if author-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if author-defined]
+		Ends with an empty-sign. [if author-defined]
+
+# title
+	Emptyness of title:
+		empty. [error]
+		not empty. [property title-defined]
+	Content of title:
+		Contains only English letters. [if title-defined]
+		Contains non-English letters. [if title-defined]
+		Contains special characters. [if title-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if title-defined]
+		Ends with an empty-sign. [if title-defined]
+
+# genre
+	Emptyness of genre:
+		empty. [error]
+		not empty.
+
+# price
+	Emptyness of price:
+		empty. [error]
+		not empty. [property price-defined]
+	Content of price:
+		Contains non-float characters. [error]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if price-defined]
+		Ends with an empty-sign. [if price-defined]
+		Contains only float-characters. [if price-defined]
+
+# publish date
+	Emptyness of publish date:
+		empty.
+		not empty.
+
+# description
+	Emptyness of description:
+		empty.
+		not empty. [property description-defined]
+	Content of description:
+		Contains only English letters. [if description-defined]
+		Contains non-English letters. [if description-defined]
+		Contains special characters. [if description-defined]
+		Contains only empty-signs. [if description-defined]
+		Begins with an empty-sign. [if description-defined]
+		Ends with an empty-sign. [if description-defined]

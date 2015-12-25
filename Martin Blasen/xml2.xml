@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<traktorid xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd2.xsd">
+
+	<description><![CDATA[Kolm v&#245;imsat traktorit.]]></description>
+
+	<traktor ID="Steve">
+		<Color>Red</Color>
+		<Fuel>Diesel</Fuel>
+		<Engine_power>185</Engine_power>
+		<Weight_kg>6486</Weight_kg>
+	</traktor>
+	<traktor ID="Big_Betty">
+		<Color>Blue</Color>
+		<Fuel>Diesel</Fuel>
+		<Engine_power>150</Engine_power>
+		<Weight_kg>6589</Weight_kg>
+	</traktor>
+	<traktor ID="Grandma">
+		<Color>Black</Color>
+		<Fuel>Diesel</Fuel>
+		<Engine_power>340</Engine_power>
+		<Weight_kg>10800</Weight_kg>
+	</traktor>
+</traktorid>
+
+<!-- midagi asjalikku -->
+
+

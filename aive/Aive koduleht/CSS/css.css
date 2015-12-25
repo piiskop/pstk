@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-left: 30px;
+	background-color: #ffd9d9;
+	text-align: center;
+}
+
+img.center {
+	display: block;
+	margin-left: 550px;
+}
+
+h1 {
+	color: #6fd728;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-size: 300%;
+}
+
+h1 em strong {
+	padding-left: 30px;
+	background-color: #FAEBD7;
+	font-family: 'Open Sans Condensed', sans-serif
+}
+
+h2 {
+	padding-left: 30px;
+	color: #ff0080;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: left;
+	font-size: 200%;
+}
+h3 {
+	padding-left: 30px;
+	color: #ff0080;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: left;
+	font-size: 200%;
+}
+
+p.Firstrow {
+	padding-left: 30px;
+	background-color: DarkOrchid;
+}
+
+h2.heading {
+	padding-left: 30px;
+	color: #F8F8FF;
+}
+
+table thead tr th {
+	padding-left: 30px;
+	background-color: #ff0080;
+}
+
+div.minukohta {
+	padding-left: 30px;
+	float: left;
+}
+div.tekst{
+	width:480px;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+div.mina {
+	background-color: #ffbfdf;
+	border-top: double;
+	border-bottom: solid;
+	border-width: 5px;
+	width: 600px;
+	height: 290px;
+	overflow: scroll;
+	padding-left: 30px;
+	padding-right: 30px;
+	float: center;
+	position: relative
+}
+table tbody tr td {
+	padding: 10px;
+	background-color: #6fd728;
+}
+
+table tbody tr.teine td {
+	padding: 10px;
+	background-color: #6fd728;
+}
+
+ul {
+	padding-left: 30px;
+	background-color: #6fd728;
+	text-align: left;
+	font-size: 100%;
+}
+
+ol {
+	padding-left: 30px;
+	background-color: #6fd728;
+	text-align: left;
+	font-size: 100%;
+}
+
+div.üks {
+	width: 300px;
+	height: 300px;
+	background-color: #ff0080;
+	float: left;
+}
+
+div.kaks {
+	width: 300px;
+	height: 300px;
+	background-color: #6fd728;
+	float: left;
+}
+
+div.kolm {
+	width: 300px;
+	height: 300px;
+	background-color: #ff0080;
+	float: left;
+}
+
+div.neli {
+	width: 300px;
+	height: 300px;
+	background-color: #6fd728;
+	float: left;
+}
+
+div.viis {
+	clear: both;
+	width: 300px;
+	height: 300px;
+	background-color: #6fd728;
+	float: left;
+}
+
+div.kuus {
+	width: 300px;
+	height: 300px;
+	background-color: #ff0080;
+	float: left;
+}
+
+div.seitse {
+	width: 300px;
+	height: 300px;
+	background-color: #6fd728;
+	float: left;
+}
+
+div.kaheksa {
+	width: 300px;
+	height: 300px;
+	background-color: #ff0080;
+	float: left;
+}
+
+img.minukohta {
+	width: 400px;
+	height: 290px;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 10px;
+	border-color: #6fd728;
+}
+
+div.minukohta {
+	padding: 30px;
+	float: left;
+}
+
+div.minu {
+	border-color: #6fd728;
+	background-color: #ff0080;
+	border-style: double;
+	border-width: 10px;
+	width: 500px;
+	height: 280px;
+	overflow: scroll;
+	padding-left: 30px;
+	padding-right: 30px;
+	float: center;
+	position: relative
+}
+table {
+	padding-left: 30px;
+}

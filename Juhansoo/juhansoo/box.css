@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+div {
+	height: 200px;
+	height: 12.5rem;
+	width: 300px;
+	width: 18.75rem;
+	overflow-y: hidden;
+}

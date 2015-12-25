@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Õpilased</title>
+<link rel="stylesheet" href="./css/opilased.css">
+<script src="./js/opilased.js" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body onload="divDisable(0)">
+	<h1>Õpilased</h1><br/>
+	<div id="formAContainer">
+		<form id="formA">
+			Nimi: <input id="nameInput" type="text" name="nimi">
+			<button type="button" onclick="search()">Otsin</button>
+			<button id="tableButton" type="button" onclick="listAll(true)">Kuvan kogu nimekirja</button>
+			<button type="button" onclick="makeRequest()">Otsin AJAX-iga</button>
+		</form>
+	</div>
+	<div id="formBContainer">
+		<form id="formB">
+			oskab progeda:<input id="progInput" type="checkbox" name="prog">
+			<button type="button" onclick="saveProg()">Salvestan nime ja kas oskab progeda</button>
+		</form>
+	</div>
+	<div id="saveNoticeContainer"></div>
+	<div id="searchNoticeContainer"></div>
+	<div id="repeatNoticeContainer"></div>
+	<div id="tableContainer">
+		<table>
+			<tbody id="listTable">
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="dokumendid">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="tegelane">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="amet" maxOccurs="unbounded"
+								minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="id" type="xs:ID" use="required" />
+										</xs:extension>
+									  </xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>	
+				<xs:element name="dokument">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nimetus" maxOccurs="unbounded"
+								minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="id" type="xs:ID" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="varv">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="varvus" maxOccurs="unbounded"
+								minOccurs="0">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="id" type="xs:ID" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="tegelase_dokumendi_varv">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="dokument_varviga" maxOccurs="unbounded"
+								minOccurs="0">
+								<xs:complexType>
+									<xs:attribute name="tegelane_idtegelane" type="xs:IDREF" use="required" />
+									<xs:attribute name="dokument_iddokument" type="xs:IDREFS" use="required" />
+									<xs:attribute name="varv_idvarv" type="xs:IDREFS" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>	
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+				

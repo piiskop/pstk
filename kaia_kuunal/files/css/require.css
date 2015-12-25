@@ -1,0 +1,46 @@
+* {
+	font-family: Tahoma, sans-serif;
+}
+
+div {
+	margin: 0 auto;
+	width: 80%;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#header {
+	background: salmon;
+	text-align: center;
+}
+
+#content {
+	background: #EFEFEF;
+	border: 1px solid #333;
+	padding: 80px 40px;
+}
+
+#footer {
+	background: lightblue;
+}
+
+#crops {
+	border-collapse: collapse;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#crops th, #crops td {
+	padding: 15px;
+	border: 1px solid #000;
+	box-shadow: -5px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+#crops .row-odd {
+	background: salmon;
+	color: #FFF;
+}
+
+#crops .row-even {
+	background: #FFF;
+}

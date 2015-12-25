@@ -1,0 +1,12 @@
+# score
+	Emptyness of score:
+		empty. [error]
+		not empty. [property score-defined]
+	Content of throws:
+		Contains only numbers.  [if score-defined]
+		Contains only English letters. [error]
+		Contains non-English letters. [error]
+		Contains special characters. [if score-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [error]
+		Ends with an empty-sign. [error]

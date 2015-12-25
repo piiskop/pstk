@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT sports (players, fieldhours, trainings)>
+<!ELEMENT players (player+)>
+<!ENTITY % id "id ID #REQUIRED">
+<!ATTLIST player %id;>
+<!ELEMENT player (name, phone, mail)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT fieldhours (fieldhour+)>
+<!ELEMENT fieldhour (name, sport, play_time)>
+<!ATTLIST fieldhour %id;>
+<!ELEMENT sport (#PCDATA)>
+<!ELEMENT play_time (play_day, play_start, play_end)>
+<!ELEMENT play_day (#PCDATA)>
+<!ELEMENT play_start (#PCDATA)>
+<!ELEMENT play_end (#PCDATA)>
+<!ELEMENT trainings (training)>
+<!ELEMENT training EMPTY>
+<!ATTLIST training player IDREFS #REQUIRED fieldhour IDREF #REQUIRED>

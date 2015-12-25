@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<retseptid xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com eksam.xsd">
+
+	<retsept id="retsept_1">
+		<retsept_nimi>Frikadellisupp</retsept_nimi>
+		
+		<koostisained>
+			<koostisaine>
+				<koostisaine_nimi>sibul</koostisaine_nimi>
+				<koostisaine_mitu>0.2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>või</koostisaine_nimi>
+				<koostisaine_mitu>0.8</koostisaine_mitu>	
+				<koostisaine_mõõtühik>spl</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>hakkliha</koostisaine_nimi>
+				<koostisaine_mitu>80</koostisaine_mitu>	
+				<koostisaine_mõõtühik>g</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>ürdid</koostisaine_nimi>
+				<koostisaine_mitu>0.1</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tl</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>munakollane</koostisaine_nimi>
+				<koostisaine_mitu>0.4</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>	
+			<koostisaine>
+				<koostisaine_nimi>saiaviil</koostisaine_nimi>
+				<koostisaine_mitu>0.4</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>porgand</koostisaine_nimi>
+				<koostisaine_mitu>0.6</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>väike porru</koostisaine_nimi>
+				<koostisaine_mitu>0.2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>kartul</koostisaine_nimi>
+				<koostisaine_mitu>0.4</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>	
+			<koostisaine>
+				<koostisaine_nimi>maitseroheline</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>	
+			<koostisaine>
+				<koostisaine_nimi>lihapuljong</koostisaine_nimi>
+				<koostisaine_mitu>0.2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>l</koostisaine_mõõtühik>							
+			</koostisaine>																															
+		</koostisained>
+		
+		<kogus>	
+			<kogus_mitu>1</kogus_mitu>
+			<kogus_mõõtühik>portsjonit</kogus_mõõtühik>	
+		</kogus>		
+	</retsept>
+ 
+	<retsept id="retsept_2">
+		<retsept_nimi>Tatra-hakklihahautis</retsept_nimi>
+		
+		<koostisained>
+			<koostisaine>
+				<koostisaine_nimi>sibul</koostisaine_nimi>
+				<koostisaine_mitu>1</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>porgand</koostisaine_nimi>
+				<koostisaine_mitu>2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>hakkliha</koostisaine_nimi>
+				<koostisaine_mitu>300</koostisaine_mitu>	
+				<koostisaine_mõõtühik>g</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>sool</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>must pipar</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>	
+			<koostisaine>
+				<koostisaine_nimi>tomat</koostisaine_nimi>
+				<koostisaine_mitu>2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>tatar</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>petersell</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>hapukoor</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>																															
+		</koostisained>
+		
+		<kogus>	
+			<kogus_mitu>4</kogus_mitu>
+			<kogus_mõõtühik>portsjon</kogus_mõõtühik>	
+		</kogus>
+	</retsept>	
+
+	<retsept id="retsept_3">
+		<retsept_nimi>Tai kanavokk</retsept_nimi>
+		
+		<koostisained>
+			<koostisaine>
+				<koostisaine_nimi>kanakintsud</koostisaine_nimi>
+				<koostisaine_mitu>400</koostisaine_mitu>	
+				<koostisaine_mõõtühik>g</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Küüslauguküüs</koostisaine_nimi>
+				<koostisaine_mitu>2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Ingverijuur</koostisaine_nimi>
+				<koostisaine_mitu>2</koostisaine_mitu>	
+				<koostisaine_mõõtühik>cm</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Šampinjonid</koostisaine_nimi>
+				<koostisaine_mitu>100</koostisaine_mitu>	
+				<koostisaine_mõõtühik>g</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Punane paprika</koostisaine_nimi>
+				<koostisaine_mitu>1</koostisaine_mitu>	
+				<koostisaine_mõõtühik>tk</koostisaine_mõõtühik>							
+			</koostisaine>	
+			<koostisaine>
+				<koostisaine_nimi>Ananssitükid omas mahlas</koostisaine_nimi>
+				<koostisaine_mitu>227</koostisaine_mitu>	
+				<koostisaine_mõõtühik>g</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Rapsiõli</koostisaine_nimi>
+				<koostisaine_mitu>1</koostisaine_mitu>	
+				<koostisaine_mõõtühik>spl</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Sojakaste</koostisaine_nimi>
+				<koostisaine_mitu>3</koostisaine_mitu>	
+				<koostisaine_mõõtühik>spl</koostisaine_mõõtühik>							
+			</koostisaine>
+			<koostisaine>
+				<koostisaine_nimi>Basmatriis</koostisaine_nimi>
+				<koostisaine_mitu></koostisaine_mitu>	
+				<koostisaine_mõõtühik></koostisaine_mõõtühik>							
+			</koostisaine>																																
+		</koostisained>
+		
+		<kogus>	
+			<kogus_mitu>4</kogus_mitu>
+			<kogus_mõõtühik>portsjonit</kogus_mõõtühik>	
+		</kogus>	
+	</retsept>
+	
+</retseptid>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="retseptid">
+  <xs:complexType>
+  	<xs:choice maxOccurs="unbounded">
+  	
+		<xs:element name="retsept">	
+		  <xs:complexType>
+  			<xs:sequence>
+  				<xs:element name="retsept_nimi" type="xs:string"/>
+  				<xs:element name="koostisained">
+  					<xs:complexType>
+  						<xs:choice maxOccurs="unbounded">
+  						  	<xs:element name="koostisaine">
+  								<xs:complexType>
+  									<xs:sequence>
+  										<xs:element name="koostisaine_nimi" type="xs:string"/>
+  										<xs:element name="koostisaine_mitu" type="xs:decimal"/> 										
+  										<xs:element name="koostisaine_mõõtühik" type="xs:string"/>
+  									</xs:sequence>
+  		  						</xs:complexType>
+  							</xs:element>
+  						</xs:choice>
+  		  			</xs:complexType>
+  				</xs:element>
+  				
+  				<xs:element name="kogus">
+  					<xs:complexType>
+  						<xs:sequence>
+  							<xs:element name="kogus_mitu" type="xs:decimal"/>
+  							<xs:element name="kogus_mõõtühik" type="xs:string"/>
+  						</xs:sequence>
+  		  			</xs:complexType>  						
+  				</xs:element>
+  				  				
+     		</xs:sequence>
+     		<xs:attribute name="id" type="xs:string"/>
+  		  </xs:complexType>	 		   			
+		</xs:element>
+		
+    </xs:choice>
+  </xs:complexType>	
+</xs:element>
+
+</xs:schema>

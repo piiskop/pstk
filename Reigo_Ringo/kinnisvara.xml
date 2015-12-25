@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- http://www.kv.ee/ põhjal -->
+
+<advertisements>
+	<advertisement id="111">
+		<whats_on_sale_type>Korter</whats_on_sale_type>
+		<transaction_type>Müük</transaction_type>
+		<if_direct_from_owner>no</if_direct_from_owner>
+		<if_exhange_possible>no</if_exhange_possible>
+		
+		<address>
+			<county>Pärnumaa</county>
+			<city_or_parish>
+				<city>Pärnu</city>
+				<parish></parish>
+					<village></village>	
+			</city_or_parish>				
+		</address>
+		
+		<price>50000</price>
+		<nr_of_rooms>2</nr_of_rooms>		
+
+	</advertisement>
+
+</advertisements>

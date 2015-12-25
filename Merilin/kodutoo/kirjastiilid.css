@@ -1,0 +1,93 @@
+sbody
+{
+	background-color: #ffd7bc;
+}
+html
+{
+	font-size: 12pt;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1
+{
+	background-color: #ff585a;	
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Playball', cursive;
+}
+h2 ol p
+{
+	background-color: #ff00d8;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-align: center;
+}
+h3
+{
+	text-decoration: underline;
+	color: darkred;
+}
+tr.Fourth 
+{
+	background-color: hotpink;
+}
+
+#headerOfTable 
+{
+	color: white;
+}
+
+tr.Kolmas 
+{
+	background-color: white;
+}
+
+tr.Teine 
+{
+	background-color: #feb1ac;
+}
+ul li.SecondElementInList 
+{
+	background-color: #e8585d;
+}
+p.Esimeneloik
+{	
+	background-color: white;
+}
+iframe
+{
+	with: 200px;
+	height: 200px;
+}	
+a.
+{
+	text-align: center;
+}
+
+div.luuletus
+{
+	padding:30px;
+	float:left;
+	 
+}
+div.luuletus
+{
+	background-color:#lightblue;
+	border-style:double;
+	border-width:5px;
+	width:600px ;
+	height:290px;
+	overflow: scroll;
+	padding-left: 30px;
+	padding-right: 30px;
+	float:center;
+	position:relative
+}
+
+#luuletus
+{
+	text-align:center;
+}
+
+
+

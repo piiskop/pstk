@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Students</title>
+<link rel="stylesheet" href="students.css" type="text/css" media="all">
+<script type="text/javascript" src="students.js?2"></script>
+</head>
+<body onload="create()">
+	<h1>Õpilased</h1>
+	<div>
+		<label for="searchBox">Nimi: </label>
+		<input id="searchBox" type="text" onkeydown="if (event.keyCode == 13) search()">
+		<button id="searchButton" type="button" onclick="search()">Otsin</button>
+		<button id="displayButton" type="button" onclick="display()">Kuvan kogu nimekirja.</button>
+	</div>
+	<div id="student" style="display: none;">
+		<label for="checkBox">oskab progeda: </label>
+		<input id="checkBox" type="checkbox" value="progSkill" name="progSkill">
+		<button type="button" value="progSkill" onclick="save()">Salvestan nime ja kas oskab progeda.</button>
+	</div>
+	<div id="noStudent"></div>
+	<div id="changeState"></div>
+	<div id="steps"></div>
+	<table id="studentList" style="display: none;"></table>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="real_astate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="apartments">
+				<!-- Siia tulevad korterid -->
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="apartment" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="location">
+											<!-- Siisa tulevad tänavad linnad asulad jne -->
+										</xs:element>
+										<xs:element name="number_of_rooms" type="xs:integer"/>
+										<xs:element name="square_meters" type="xs:integer"/>
+										<xs:element name="type_of_transaction">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Sale"/>
+													<xs:enumeration value="Rent"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Price">
+											<xs:complexType>
+											<xs:attribute name="currency">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:pattern value="euros|dollars"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="last_update" type="xs:dateTime" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="houses">
+				<!-- Siia tulevad majad -->
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="house" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="location">
+											<!-- Siisa tulevad tänavad linnad asulad jne -->
+										</xs:element>
+										<xs:element name="number_of_rooms" type="xs:integer"/>
+										<xs:element name="square_meters" type="xs:integer"/>
+										<xs:element name="type_of_transaction">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Sale"/>
+													<xs:enumeration value="Rent"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Price">
+											<xs:complexType>
+											<xs:attribute name="currency">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:pattern value="euros|dollars"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="last_update" type="xs:dateTime" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

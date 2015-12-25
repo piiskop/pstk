@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "pupils",
+    "description": "Representing pupils",
+    "type": "object",
+    "pupils": {
+        "firstName": {
+            "type": "string"
+        },
+        "lastName":{
+        "type":"string"
+        },
+        "coder":{
+        "type":"bool"
+        }
+    }
+}

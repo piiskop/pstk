@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT wholepage (mainbar, task, task, task, calendar)>
+
+<!ELEMENT mainbar (add_task, add_worker, change_data, export_data, logout)>
+<!ATTLIST mainbar id ID #IMPLIED>
+<!ELEMENT add_task (#PCDATA)>
+<!ELEMENT add_worker (#PCDATA)>
+<!ELEMENT change_data (#PCDATA)>
+<!ELEMENT export_data (#PCDATA)>
+<!ELEMENT logout (#PCDATA)>
+
+<!ELEMENT task (date, task_description, beginning, end, time_spent)>
+<!ATTLIST task id ID #REQUIRED>
+
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT task_description (#PCDATA)>
+<!ELEMENT beginning (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+
+<!ELEMENT time_spent (time_spent_nr, time_spent_txt)>
+<!ELEMENT time_spent_nr (#PCDATA)>
+<!ELEMENT time_spent_txt (#PCDATA)>

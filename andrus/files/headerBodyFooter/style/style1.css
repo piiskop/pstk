@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+div{
+	width:723px;
+	height:1024px;
+	margin:auto;
+}
+div.head{
+	background-color:#FFE940;
+	height:20px;
+	margin:auto;
+}
+div.body{
+	background-color: #FFEF73;
+	height:600px;
+}
+div.footer{
+	background-color: #BFAF30;
+	height:20px;
+}
+/*tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}*/
+tr.Row0{
+	background-color: #ccc;
+}
+tr.Row1{
+	background-color: #FFF;
+}

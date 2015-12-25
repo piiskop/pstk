@@ -1,0 +1,46 @@
+<!--BEGIN html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{TITLE}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>{STYLE}</style>
+    </head>
+    <body>
+        <h1>Õpilased</h1>
+        <form method="get" id="myform" name="myform">
+
+            <div id="search" class="Show">
+                <label for="text">Nimi:</label><input type="text" id="text" name="fname" value="{NAME}">
+                <button type="submit" id="phpsearch">Otsi PHP</button>
+                <button type="button" onclick="startSearch(); return false;">Otsin</button>
+                <button type="button" id="display" onclick="toggleTable(); return false;" name="option">Kuvan kogu nimekirja</button>
+            </div>
+            
+            <div id="question2" class="Hide">
+                <label>Oskab progeda:</label><input type="checkbox" id= "canCode">
+                <button type="button" id="btn" onclick="save();return false;">Salvestan nime ja kas oskab progeda.</button>
+            </div>
+            <div id="dataChanged" class="Hide"></div>
+            <div id="dataNotChanged" class="Hide">Sellist õpilast pole</div>
+            <div id= "steps" class=""></div>
+        </form>
+        
+        <table id="studentTable" class="Hide">
+            <caption id="tableHeading">Õpilased</caption>
+            <thead>
+                <tr id="tablerow">
+                    <th class="heading">Õpilane</th>
+                    <th class="heading">Programmeerimise oskus</th>
+                </tr>
+            </thead>
+            <tfoot id="tableFoot"></tfoot>
+            <tbody id="tableBody"></tbody>
+        </table>
+        
+        <script>{SCRIPT}</script>
+    </body>
+</html>
+<!--END html-->
+

@@ -1,0 +1,52 @@
+We create the students.dtd file as below:
+
+
+<?xml version = "1.0"?>
+<!--students.dtd-a document type definition for the students.xml-->
+<!ELEMENT students (student+)>
+<!ELEMENT student (name,address)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (street,city,email,phone)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+To use the DTD file, we must add this code into the XML file.
+<!DOCTYPE students SYSTEM "students.dtd">
+
+students2.xml is completed XML file.
+
+
+<?xml version = "1.0"?>
+<!-- students2.xml for the DTD -->
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+<student>
+<name>
+<firstname> James </firstname>
+<lastname> Smith </lastname>
+</name>
+<address>
+<street> 101 South Street</street>
+<city> Halifax </city>
+<email> james@dal.ca </email>
+<phone> 4940001 </phone>
+</address>
+</student>
+
+<student>
+<name>
+<firstname> Tom </firstname>
+<lastname> White </lastname>
+</name>
+<address>
+<street> 202 Victoria Road </street>
+<city> Dartmouth </city>
+<email> tom@dal.ca</email>
+<phone> 4940002 </phone>
+</address>
+</student>
+</students>

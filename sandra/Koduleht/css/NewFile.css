@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+html{
+	font-size: 12px;
+	}
+body {
+	background-color: #ffd9d9;
+	font-family: Verdana, sans-serif;
+}
+h2.pealkiri{
+	padding:30px;
+	text-align:center;
+}
+div.varvid {
+	background-color:#ffff80;
+	width: 200px ;
+	height:100px;
+	overflow: scroll;
+	padding: 30px;
+	float: left
+	
+	
+}
+img.koer {
+	width:402px;
+	height:300px;;
+    border-style:dotted;
+	border-width:5px;
+	border-color:#ffff80;
+	margin-left: 450px
+
+}	
+div.taust{
+	background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+    
+	
+div.body{
+	margin:auto;
+	margin-top:60px;
+	width:400px;
+	height:100x;
+	border;
+}
+div.kaks{
+	width:50px;
+	height:50px;
+	background-color:#ff8000;
+	float:left;
+}
+div.kolm{
+	width: 50x;
+	height:50px;
+	background-color:#ff8000;
+	float:left;
+}
+div.neli{
+	width:50px;
+	height:50px;
+	background-color:#ffff80;
+	float:left;
+}
+div.viis{
+	width:50px;
+	height:50px;
+	background-color:#ff8000;
+	float:left;
+}
+div.kuus{
+	width:50px;
+	height:50px;
+	background-color:#ffff80;
+	float:left;
+}
+div.seitse{
+	width:50px;
+	height:50px;
+	background-color:#ff8000;
+	float:left;
+}
+div.kaheksa{
+	width:50px;
+	height:50px;
+	background-color:#ffff80;
+	float:left;
+
+}
+div.uheksa{
+	width:50px;
+	height:50px;
+	background-color:#ff8000;
+	float:left;
+
+}
+div.kumme{
+	width:50px;
+	height:50px;
+	background-color:#ffff80;
+	float:left;
+
+}
+

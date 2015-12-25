@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+.FirstPart, .SecondPart, .ThirdPart {
+	white-space : pre-line;
+}
+
+.FirstPart {
+	float: left;
+}
+
+.SecondPart {
+	float: right;
+}
+
+.ThirdPart {
+	clear: left;
+}

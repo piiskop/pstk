@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Organizations SYSTEM "dtd.dtd">
+<!-- Kirjeldab spordiasutusi ja neile kuuluvaid väljakuid -->
+<Organizations>
+	<Organization id="o1">
+		<Name>Spordihall</Name>
+		<Link>http://testspordihall.ee/index.html?a=katse&amp;b=asendus</Link>
+		<Address>
+			<Street>Kuuse 8</Street>
+			<City>Tallinn</City>
+		</Address>
+		<Description><![CDATA[Koht <em>igasuguste</em> huvidega spordisõpradele!]]></Description>
+		<Courts>
+			<Court id="c1">
+				<Name>Aeroobikasaal</Name>
+				<Capacity>20</Capacity>
+				<Equipment />
+			</Court>
+			<Court id="c2">
+				<Name>Teine saal</Name>
+				<Capacity>40</Capacity>
+			</Court>
+			<Court id="c3">
+				<Name>Kolmas saal</Name>
+				<Capacity>60</Capacity>
+				<Equipment />
+			</Court>
+		</Courts>
+	</Organization>
+	<Organization id="o2">
+		<Name>Tennisehall</Name>
+		<Link>http://madeupplace.ee</Link>
+		<Address>
+			<Street>Kase 14</Street>
+			<City>Tartu</City>
+		</Address>
+		<Description><![CDATA[Rangelt <strong>tennisistidele!</strong>!]]></Description>
+		<Courts>
+			<Court id="c4">
+				<Name>Väljak 1</Name>
+				<Capacity>100</Capacity>
+			</Court>
+			<Court id="c5">
+				<Name>Väljak 2</Name>
+				<Capacity>40</Capacity>
+				<Equipment />
+			</Court>
+			<Court id="c6">
+				<Name>Väljak 3</Name>
+				<Capacity>120</Capacity>
+			</Court>
+		</Courts>
+	</Organization>
+	<Organization id="o3">
+		<Name>Audru kool</Name>
+		<Link>http://audru.edu.ee</Link>
+		<Address>
+			<Street>Tulbi 2</Street>
+			<City>Audru</City>
+		</Address>
+		<Description><![CDATA[Audru kooli õpilastele ja teistele ilmselt ka.]]></Description>
+		<Courts>
+			<Court id="c7">
+				<Name>Võimla</Name>
+				<Capacity>200</Capacity>
+				<Equipment />
+			</Court>
+		</Courts>
+	</Organization>
+</Organizations>

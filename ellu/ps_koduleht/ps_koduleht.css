@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+
+html {
+	font-size: 16px;
+	width: 1280px;
+	height: 800px;
+	color: white;
+	font-family: verdana, sans-serif;
+}
+
+body {
+	background-color: darkblue;
+}
+
+h1 {
+	color: white;
+	margin-top: 120px;
+	margin-left: 200px;
+	font-family: myriad pro;
+}
+
+.rida1 {
+	margin-top: 100px;
+	margin-left: 200px;
+	float: left;
+}
+
+a.esimene {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-color: rgb(51, 135, 234);
+	float: left;
+	color: white;
+	width: 150px;
+	Padding-left: 6px;
+}
+
+.teine {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-color: rgb(249, 190, 62);
+	float: left;
+	color: white;
+	margin-left: 5px;
+	Padding-left: 6px;
+}
+
+.kolmas {
+	display: block;
+	width: 280px;
+	height: 150px;
+	background-color: rgb(211, 87, 63);
+	float: left;
+	color: white;
+	margin-left: 5px;
+	Padding-left: 6px;
+}
+
+.neljas {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-color: rgb(89, 177, 227);
+	float: left;
+	color: white;
+	margin-left: 5px;
+	Padding-left: 6px;
+}
+
+.viies {
+	display: block;
+	width: 147px;
+	height: 150px;
+	background-color: rgb(51, 175, 149);
+	float: left;
+	color: white;
+	margin-left: 5px;
+	Padding-left: 6px;
+}
+
+.rida2 {
+	margin-top: 5px;
+	margin-left: 200px;
+	float: left;
+}
+
+.kuues {
+	width: 315px;
+	height: 147px;
+	background-color: rgb(134, 167, 63);
+	float: left;
+	color: white;
+	Padding-left: 6px;
+	display: block;
+}
+
+.seitsmes {
+	width: 440px;
+	height: 147px;
+	background-color: white;
+	float: left;
+	margin-left: 5px;
+}
+
+.kaheksas {
+	width: 150px;
+	height: 147px;
+	background-color: rgb(127, 90, 141);
+	float: left;
+	margin-left: 5px;
+	color: white;
+	Padding-left: 6px;
+	display: block;
+}
+
+.rida3 {
+	margin-top: 5px;
+	margin-left: 200px;
+	float: left;
+}
+
+.üheksas {
+	width: 75px;
+	height: 75px;
+	float: left;
+}
+
+.kümnes {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 5px;
+}
+
+.üheteistkümnes {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 5px;
+}
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}

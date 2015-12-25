@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+#page {
+    margin: 0.0 auto;
+    width: 960.0px;
+    padding: 20.0px;
+    background-color: #FDCCCC;
+}
+#searchbox {
+	margin: 0.0 auto;
+    width: 60.0%;
+    background: #FDE6E6;
+    padding: 20.0px;
+}
+#steps {
+	padding-top: 20.0px;
+}
+
+#found { 
+	display:none;
+}
+
+#notFound { 
+	display:none;
+}
+
+#dataChanged { 
+	display:none;
+}

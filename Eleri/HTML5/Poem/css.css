@@ -1,0 +1,163 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: #151515;
+    text-align: center;
+}
+#poemText {
+    font-family: courier;
+    color: #E6E6E6;
+    font-size: 16px;
+    padding: 2px;
+    margin: 10%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+img {
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: black;
+    box-shadow: 5px 5px 3px white;
+    margin-bottom: 15px;
+    /* margin-top: 15px; */
+    height: 200px;
+    width: 350px;
+}
+
+#firstHeading {
+    font-family: courier;
+    color: #FAFAFA;
+}
+
+#secondHeading {
+    font-family: courier;
+    color: #58ACFA;
+}
+
+ul {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Times New Roman;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+}
+a:link {
+    color: #E6E6E6;
+    text-decoration: none;
+}
+a:visited {
+    color: #58ACFA;
+}
+a:hover {
+    color: #FF00FF;
+    text-decoration:underline;
+}
+a:active {
+    color: #0000FF;
+}
+
+div {
+    font-size: 18px;
+}
+
+table {
+    background-color: #E6E6E6;
+    border-color: #58ACFA;
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
+    color: #0B0B61;
+    padding: 10px;
+    margin: auto;
+}
+
+
+tr:nth-child(2n+2) {
+    background-color: #58ACFA;
+    color: appworkspace;
+}
+
+
+tr:nth-child(4n) {
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+
+#laulud {
+    background-color: #E6E6E6;
+    border-color: black;
+}
+
+.sonatabel {
+    width: 100%;
+    text-align: center;
+}
+
+.lauludeloetelu {
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+    float: right;
+}
+
+.container {
+    margin: 50px auto;
+    width: 640px;
+}
+
+.login {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+    background-color: white;
+}
+
+.login-help {
+    color: white;
+}
+
+.menucontainer {
+    clear: both;
+    width: 100%;
+}
+
+.breakpointone {
+    float: left;
+    width: 30%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    min-height: 45px;
+}
+
+.breakpointtwo {
+    display: inline-block; 
+    width: 30%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    min-height: 45px;
+}
+
+.breakpointthree {
+    float: right;
+    width: 30%;
+     border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    min-height: 45px;
+}

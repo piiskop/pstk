@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="Online resource lending website">
+<meta name="keywords" content="resource, lend, loan">
+<meta name="author" content="Kristen Sepp">
+<link rel="stylesheet" type="text/css" href="toocss.css"/>
+<title>Search</title>
+</head>
+<body>
+<div class="header">
+	<ul>
+		<li><a href="liides.html">Main page</a></li>
+		<li><a href="liides.html">Items</a></li>
+		<li><a href="liides.html">Search</a></li>
+		<li><a href="liides.html">Login</a></li>
+		<li><a href="liides.html">Contact</a></li>
+	</ul>
+</div>
+<div class="container">
+	<h1>Search for resources</h1>
+	<h3>Resource description</h3>
+	<form class="search" action="submitAsearch.php">
+		<label for="shadow">Description</label>
+		<input id="shadow" type="search" name="description">
+	<h3>Location</h3>
+	<div id="boxes">
+		<ul>
+			<li><label for="global"><input type="checkbox" name="loc" value="global" id="global">Global</label></li>
+			<li><label for="regional"><input type="checkbox" name="loc" value="regional" id="regional">Regional</label></li>
+			<li><label for="moving"><input type="checkbox" name="loc" value="moving" id="moving">Moving</label></li>
+		</ul>
+	<h3>Type</h3>
+		<ul class="radio">
+			<li><label for="material"><input type="radio" name="material" value="material" id="material">Material</label></li>
+			<li><label for="immaterial"><input type="radio" name="material" value="immaterial" id="immaterial">Immaterial</label></li>
+		</ul>
+	</div>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+</div>
+<div><p>x<sub>2</sub></p></div>
+</body>
+</html>

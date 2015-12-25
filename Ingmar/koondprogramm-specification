@@ -1,0 +1,15 @@
+#message
+	Emptyness of message:
+		Empty.[error]
+		Not empty.[property message-defined]
+	Content of message:
+		Contains alphanumeric characters.[if message-defined]
+		Contains special characters, begins/ends with an empty sigh.[if message-defined]
+		Contains only empty signs.[error]
+#Files
+	Lenght of files:
+		1.[property file-exist]
+		> 1.[property file-exist]
+		0.
+	Content of files:
+		File exists.[if file-exist]

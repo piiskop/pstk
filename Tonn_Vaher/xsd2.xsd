@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!-- Describes events, time and info in calendar -->
+	<xs:element name="events">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="event" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="place" type="xs:string" />
+							<xs:element name="sports_type" type="xs:string" />
+							<xs:element name="info" type="xs:string" />
+							<xs:element name="date" >
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="day" type="xs:integer" />
+										<xs:element name="month" type="xs:integer" />
+										<xs:element name="start" type="xs:time" />	
+										<xs:element name="end" type="xs:time" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="id">
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

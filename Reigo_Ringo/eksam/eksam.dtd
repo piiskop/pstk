@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT root (stuff_thats_growing, grows_from_this, grows_into_that_from_this)>
+
+<!ELEMENT stuff_thats_growing (growing)>
+<!ELEMENT growing (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST growing where (indoors|outdoors) "indoors">
+<!ATTLIST growing is_edible (true|false)  "false">
+<!ATTLIST growing is_suitable_houseplant (true|false) "false">
+<!ATTLIST growing id_growing ID #REQUIRED>
+
+<!ELEMENT grows_from_this (from)>
+<!ELEMENT from (species)>
+<!ELEMENT species (#PCDATA)>
+<!ATTLIST from grow_from (seeds|cuttings) "seeds">
+<!ATTLIST from level_of_difficulty (easy|medium|hard) "hard">
+<!ATTLIST from id_from ID #REQUIRED>
+
+<!ELEMENT grows_into_that_from_this (growing_has_from)>
+<!ELEMENT growing_has_from EMPTY>
+<!ATTLIST growing_has_from growing_id_growing IDREFS #REQUIRED>
+<!ATTLIST growing_has_from from_id_from IDREFS #REQUIRED>
+

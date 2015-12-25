@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+div.hinged {
+	width: 550px;
+	border: black solid 1px;
+    border-bottom: hidden;
+    display:flex;
+    justify-content:center;
+
+
+}
+
+div.esimene {
+
+    align-self:flex-end;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="all">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pea">
+					<xs:annotation>
+						<xs:documentation>andmete päis</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="syndm">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="syndmus" maxOccurs="unbounded" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="calendar">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="start">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:byte" name="Date" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Mounth" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Year" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Hour" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Min" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="end">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:attribute type="xs:byte" name="Date" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Mounth" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Year" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Hour" use="optional"/>
+																	<xs:attribute type="xs:byte" name="Min" use="optional"/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element type="xs:string" name="Title"/>
+										<xs:element type="xs:string" name="description"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

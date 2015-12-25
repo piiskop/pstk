@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<puuviljad>
+	<viljanimi><![CDATA[<strong> Avokaado</strong>]]></viljanimi>
+
+	<omadused>
+		<omadus>
+			<nimi>Balance Hormones</nimi>
+		</omadus>
+		<omadus>
+			<nimi>Moisturize Skin</nimi>
+		</omadus>
+		<omadus>
+			<nimi>Improve Digestion</nimi>
+		</omadus>
+		<omadus>
+			<nimi>Lower Cholesterol</nimi>
+		</omadus>
+		<omadus>
+			<nimi>Improve Mood</nimi>
+		</omadus>
+		<omadus>
+			<nimi>Fix Blood Sugar</nimi>
+		</omadus>
+		<omadus>
+			<nimi>Healthy Pregnancy</nimi>
+		</omadus>
+	</omadused>
+	<sisaldused>
+		<aine>
+			<ainenimi>Fiber</ainenimi>
+			<kogus>9</kogus>
+			<ühik>g</ühik>
+		</aine>
+		<aine>
+			<ainenimi>Magnesium</ainenimi>
+			<kogus>12</kogus>
+			<ühik>%</ühik>
+		</aine>
+		<aine>
+			<ainenimi>Potassium</ainenimi>
+			<kogus>20</kogus>
+			<ühik>%</ühik>
+		</aine>
+		<aine>
+			<ainenimi>Vitamin B6</ainenimi>
+			<kogus>20</kogus>
+			<ühik>%</ühik>
+		</aine>
+		<aine>
+			<ainenimi>Healthy Fats</ainenimi>
+		</aine>
+		<aine>
+			<ainenimi>Vitamin E</ainenimi>
+			<kogus>13</kogus>
+			<ühik>%</ühik>
+		</aine>
+		<aine>
+			<ainenimi>Folate</ainenimi>
+			<kogus>30</kogus>
+			<ühik>g</ühik>
+		</aine>
+		<aine>
+			<ainenimi>Fiber</ainenimi>
+			<kogus>9</kogus>
+			<ühik>%</ühik>
+		</aine>
+	</sisaldused>
+</puuviljad>

@@ -1,0 +1,17 @@
+# owner presence
+	Is owner home?:
+		Yes. [property owner-home]
+		No. [property owner-away]
+
+# owner phone availability
+	Is owner available by phone?:
+		Yes. [if owner-away][property owner-available]
+		No. [if owner-away][property owner-not-available]
+
+# owner eviction
+	Is owner agreeable to eviction?:
+		Yes. [if owner-home || owner-available][property owner-agreeable]
+		No. [if owner-home || owner-available][property owner-not-agreeable]
+	Is owner to be evicted:
+		Yes. [if owner-not-available || owner-agreeable]
+		No. [if owner-not-agreeable]

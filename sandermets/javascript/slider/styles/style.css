@@ -1,0 +1,93 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.thumbs ul {
+    list-style: none;
+}
+
+.thumbs ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.img1 {
+    background: url('images/birds.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+
+}
+
+.img2 {
+    background: url('images/tiger.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.img3 {
+    background: url('images/whatev.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.img1L {
+    background: url('images/birds.jpg');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.img2L {
+    background: url('images/tiger.jpg');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.img3L {
+    background: url('images/whatev.jpg');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.imgs ul {
+    list-style: none;
+}
+
+.imgs ul li {
+    display: inline-block;
+    clear: right;
+}
+
+.Hide {
+    display: none !important;
+}
+
+.Show {
+    display: inline-block !important;
+}
+
+p.Caption {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    text-align: right;
+    padding: 1rem;
+    float: right;
+}
+

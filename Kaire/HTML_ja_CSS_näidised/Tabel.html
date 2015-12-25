@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tabelid</title>
+<link rel="stylesheet" type="text/css"
+	href="Tabel.css" media="all" />
+</head>
+<body
+	onload="load({
+	nameOfFile: 'navigation',
+	target: 'navigation'
+});">
+	<div class="MainContainer">
+		<ul class="Sidebar" id="navigation"></ul>
+		<div class="Content" id="content">
+			<h1>Tabelid</h1>
+			<h2>Lihtne tabel</h2>
+			<table>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+				</tr>
+				<tr>
+					<td>Jane</td>
+					<td>Doe</td>
+				</tr>
+			</table>
+			<button type="button" onclick="buildCaption();">Loon
+				pealkirja.</button>
+			<button type="button" onclick="deleteCaption();">Kustutan
+				pealkirja.</button>
+			<button type="button" onclick="buildHeader();">Loon päise.</button>
+			<button type="button" onclick="deleteHeader();">Kustutan
+				päise.</button>
+			<button type="button" onclick="buildFooter();">Loon jaluse.</button>
+			<button type="button" onclick="deleteFooter();">Kustutan
+				jaluse.</button>
+			<button type="button" onclick="buildBody();">Loon kehaosa.</button>
+			<button type="button" onclick="buildRow();">Loon rea.</button>
+			<button type="button" onclick="deleteRow();">Kustutan rea.</button>
+			<button type="button" onclick="buildCell();">Lisan lahtri.</button>
+			<button type="button" onclick="deleteCell();">Kustutan
+				lahtri.</button>
+			<h2>Tabel päisega</h2>
+			<table>
+				<tr>
+					<th>Eesnimi</th>
+					<th>Perenimi</th>
+				</tr>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+				</tr>
+				<tr>
+					<td>Jane</td>
+					<td>Doe</td>
+				</tr>
+			</table>
+			<h2>Tabel päise, jaluse ja sisuga</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Päise sisu 1</th>
+						<th>Päise sisu 2</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td>Jaluse sisu 1</td>
+						<td>Jaluse sisu 2</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>Kehaosa sisu 1</td>
+						<td>Kehaosa sisu 2</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Tulpade kaupa kujundamine</h2>
+			<table>
+				<colgroup>
+					<col class="Lime">
+					<col span="2">
+				</colgroup>
+				<tr>
+					<th>Lime</th>
+					<th>Lemon</th>
+					<th>Orange</th>
+				</tr>
+				<tr>
+					<td>Green</td>
+					<td>Yellow</td>
+					<td>Orange</td>
+				</tr>
+			</table>
+			<h2>Pealkirjaga</h2>
+			<table>
+				<caption>Pealkiri</caption>
+				<tr>
+					<td>Sisuandmed</td>
+				</tr>
+			</table>
+			<h2>Kompleksnäide</h2>
+			<table>
+				<caption>Tabeli pealkiri</caption>
+				<thead>
+					<tr>
+						<th>Esimese tulba päis</th>
+						<th>Teise tulba päis</th>
+						<th>Kolmanda tulba päis</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="2">Teise tulba kokkuvõte</td>
+						<td>Kolmanda tulba kokkuvõte</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>1-1</td>
+						<td rowspan="2">2-1</td>
+						<td>3-1</td>
+					</tr>
+					<tr>
+						<td>1-2</td>
+						<td>2-2</td>
+					</tr>
+					<tr>
+						<td>1-3</td>
+						<td>2-3</td>
+						<td>3-3</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Veel näiteid</h2>
+			<section>
+				<table>
+					<colgroup>
+						<col>
+						<col>
+						<col>
+					<colgroup>
+						<col>
+						<col>
+						<col>
+					<colgroup>
+						<col>
+						<col>
+						<col>
+					<tbody>
+						<tr>
+							<td>1
+							<td>
+							<td>3
+							<td>6
+							<td>
+							<td>4
+							<td>7
+							<td>
+							<td>9
+						<tr>
+							<td>
+							<td>2
+							<td>
+							<td>
+							<td>9
+							<td>
+							<td>
+							<td>1
+							<td>
+						<tr>
+							<td>7
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>6
+					<tbody>
+						<tr>
+							<td>2
+							<td>
+							<td>4
+							<td>
+							<td>3
+							<td>
+							<td>9
+							<td>
+							<td>8
+						<tr>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>
+						<tr>
+							<td>5
+							<td>
+							<td>
+							<td>9
+							<td>
+							<td>7
+							<td>
+							<td>
+							<td>1
+					<tbody>
+						<tr>
+							<td>6
+							<td>
+							<td>
+							<td>
+							<td>5
+							<td>
+							<td>
+							<td>
+							<td>2
+						<tr>
+							<td>
+							<td>
+							<td>
+							<td>
+							<td>7
+							<td>
+							<td>
+							<td>
+							<td>
+						<tr>
+							<td>9
+							<td>
+							<td>
+							<td>8
+							<td>
+							<td>2
+							<td>
+							<td>
+							<td>5
+				</table>
+			</section>
+			<p id="summary">In the following table, characteristics are given
+				in the second column, with the negative side in the left column and
+				the positive side in the right column.</p>
+			<table aria-describedby="summary">
+				<caption>Characteristics with positive and negative sides</caption>
+				<thead>
+					<tr>
+						<th id="n">Negative
+						<th>Characteristic
+						<th>Positive
+				<tbody>
+					<tr>
+						<td headers="n r1">Sad
+						<th id="r1">Mood
+						<td>Happy
+					<tr>
+						<td headers="n r2">Failing
+						<th id="r2">Grade
+						<td>Passing
+			</table>
+			<figure>
+				<figcaption>Characteristics with positive and negative
+					sides</figcaption>
+				<p>Characteristics are given in the second column, with the
+					negative side in the left column and the positive side in the right
+					column.</p>
+				<table>
+					<thead>
+						<tr>
+							<th id="n">Negative
+							<th>Characteristic
+							<th>Positive
+					<tbody>
+						<tr>
+							<td headers="n r1">Sad
+							<th id="r1">Mood
+							<td>Happy
+						<tr>
+							<td headers="n r2">Failing
+							<th id="r2">Grade
+							<td>Passing
+				</table>
+			</figure>
+			<figure>
+				<figcaption>
+					<strong>Characteristics with positive and negative sides</strong>
+					<p>Characteristics are given in the second column, with the
+						negative side in the left column and the positive side in the
+						right column.</p>
+				</figcaption>
+				<table>
+					<thead>
+						<tr>
+							<th id="n">Negative
+							<th>Characteristic
+							<th>Positive
+					<tbody>
+						<tr>
+							<td headers="n r1">Sad
+							<th id="r1">Mood
+							<td>Happy
+						<tr>
+							<td headers="n r2">Failing
+							<th id="r2">Grade
+							<td>Passing
+				</table>
+			</figure>
+			<table>
+				<caption>Characteristics with positive and negative sides</caption>
+				<thead>
+					<tr>
+						<th>Characteristic
+						<th>Negative
+						<th>Positive
+				<tbody>
+					<tr>
+						<th>Mood
+						<td>Sad
+						<td>Happy
+					<tr>
+						<th>Grade
+						<td>Failing
+						<td>Passing
+			</table>
+			<table>
+				<caption>School auction sign-up sheet</caption>
+				<thead>
+					<tr>
+						<th><label for=e1>Name</label>
+						<th><label for=e2>Product</label>
+						<th><label for=e4>Price</label>
+					<tr>
+						<td>Your name here
+						<td>What are you selling?
+						<td>Your reserve price
+				<tbody>
+					<tr>
+						<td>Ms Danus
+						<td>Doughnuts
+						<td>$45
+					<tr>
+						<td><input id=e1 type=text name=who required form=f>
+						<td><input id=e2 type=text name=what required form=f>
+						<td><input id=e4 type=number step=0.01 min=0 value=0 required
+							form=f>
+			</table>
+			<form id=f action="/auction.cgi">
+				<input type=button name=add value="Submit">
+			</form>
+			<table>
+				<caption>Measurement of legs and tails in Cats and English
+					speakers</caption>
+				<thead>
+					<tr>
+						<th>ID
+						<th>Measurement
+						<th>Average
+						<th>Maximum
+				<tbody>
+					<tr>
+						<td>
+						<th scope=rowgroup>Cats
+						<td>
+						<td>
+					<tr>
+						<td>93
+						<th scope=row>Legs
+						<td>3.5
+						<td>4
+					<tr>
+						<td>10
+						<th scope=row>Tails
+						<td>1
+						<td>1
+				</tbody>
+				<tbody>
+					<tr>
+						<td>
+						<th scope=rowgroup>English speakers
+						<td>
+						<td>
+					<tr>
+						<td>32
+						<th scope=row>Legs
+						<td>2.67
+						<td>4
+					<tr>
+						<td>35
+						<th scope=row>Tails
+						<td>0.33
+						<td>1
+				</tbody>
+			</table>
+
+		</div>
+	</div>
+</body>
+</html>

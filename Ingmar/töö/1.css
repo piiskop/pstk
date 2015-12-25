@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+
+h1 {
+ color: #ddd;
+}
+h1 span {
+ color: #333;
+}
+
+div {
+  background: #466368;
+  background: -webkit-linear-gradient(red, blue, green);
+}

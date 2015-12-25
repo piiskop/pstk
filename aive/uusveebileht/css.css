@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+html {
+	color: White;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-image: url('../images/pais.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 746px;
+	height: 46.625rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+div.lingid {
+	margin-left: 1000px;
+	height: 39px;
+	height: 2.438rem;
+	float: left;
+}
+
+a.menu {
+	line-height: 39px;
+	float: left;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+}
+/* unvisited link */
+a.aktiivne {
+	color: black;
+}
+
+div.sisu {
+	position: fixed;
+	display: inline-block;
+	vertical-align: middle;
+	left: 25%;
+	padding-top: 5%;
+	width: 50%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+div.paisenupp {
+	margin-left: 200px;
+	margin-left: 12.500rem;
+	width: 293px;
+	width: 18.313rem;
+	height: 79px;
+	height: 4.938rem;
+	background-image: url('../images/nupp.png');
+	float: right;
+	position: absolute;
+	top: 125%;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 90px;
+	font-weight: lighter;
+	opacity: 0.5
+}
+
+h2 {
+	text-align: center;
+	font-size: 37px;
+	font-weight: lighter;
+	position: relative;
+	top: 90px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: lighter;
+	position: relative;
+	top: 70px;
+}
+
+div.alus {
+	width: 100%;
+	height: 126px;
+	height: 7.875rem;
+	background-image: url('../images/alus.jpg');
+	background-position: center;
+	float: left;
+	margin: 0px;
+	position: absolute;
+	top: 85%;
+}
+
+div.alusenupp {
+	width: 225px;
+	width: 14.063rem;
+	height: 43px;
+	height: 2.688rem;
+	background-image: url('../images/nupp2.png');
+	float: left;
+	position: absolute;
+	top: 23%;
+	margin-left: 780px;
+	margin-left: 48.750rem;
+	cursor: pointer;
+}
+
+h4 {
+	color: White;
+	text-align: left;
+	font-size: 14px;
+	position: absolute;
+	top: 20%;
+	margin-left: 400px;
+	font-weight: lighter;
+}
+
+div.raam {
+	position: fixed;
+	weith: 1336px;
+	height: 650px;
+}

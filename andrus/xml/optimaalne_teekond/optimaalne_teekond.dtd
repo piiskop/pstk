@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT teekond (start, tanav, poore, end)>
+
+
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT tanav (#PCDATA)>
+<!ELEMENT poore (#PCDATA)>
+<!ELEMENT end (#PCDATA)>

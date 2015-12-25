@@ -1,0 +1,102 @@
+<!-- BEGIN row -->
+		<tr class="Row{ODD-OR-EVEN}">
+			<td><a href="require-once.php?index={INDEX}">{FIRST-NAME}</a></td>
+			<td>{LAST-NAME}</td>
+		</tr>
+<!-- END row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN body -->
+<div id="body">
+	<table>
+		<thead>
+			<tr>
+				<th>Eesnimi</th>
+				<th>Perenimi</th>
+			</tr>
+		</thead>
+		<tbody>
+{ROWS}
+		</tbody>
+	</table>
+</div>
+<!-- END body -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN judge -->
+<div id="body">
+	<table>
+		<thead>
+			<tr>
+				<th>Tunnus</th>
+				<th>Väärtus</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Eesnimi:</td>
+				<td>{FIRST-NAME}</td>
+			</tr>
+			<tr>
+				<td>Perenimi:</td>
+				<td>{LAST-NAME}</td>
+			</tr>
+			<tr>
+				<td>Telefoninumber:</td>
+				<td>{PHONE-NUMBER}</td>
+			</tr>
+			<tr>
+				<td>Meiliaadress:</td>
+				<td>{EMAIL-ADDRESS}</td>
+			</tr>
+			<tr>
+				<td>Pilt:</td>
+				<td><img alt="{FIRST-NAME}" src="{IMAGE}" width="{WIDTH}" height="{HEIGHT}"/></td>
+			</tr>
+		</tbody>
+	</table>
+	<a href="require-once.php">kohtunikud</a>
+</div>
+<!-- END judge -->

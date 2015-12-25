@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<energies xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema energy.xsd">
+	<energy>
+		<energy_type idenergy="A1">
+			<energy_name>gasoline</energy_name>
+			<renewable />
+		</energy_type>
+		<energy_type idenergy="B1">
+			<energy_name>diesel</energy_name>
+			<renewable />
+		</energy_type>
+		<energy_type idenergy="C1">
+			<energy_name>heating oil</energy_name>
+			<renewable />
+			</energy_type>
+			<energy_type idenergy="D1">
+			<energy_name>heating oil</energy_name>
+			<renewable/>
+			</energy_type>
+			<energy_type idenergy="E1">
+				<energy_name>electricity</energy_name>
+				<renewable/>
+			</energy_type>
+			<energy_type idenergy="F1">
+				<energy_name>coal</energy_name>
+				<renewable/>
+			</energy_type>
+	</energy>
+	<producers>
+		<producer idproducers="s1">
+			<producer_name>WTI 
+			</producer_name>
+			<price>95.55</price>
+		</producer>
+		<producer idproducers="s2">
+			<producer_name>Brent 
+			</producer_name>
+			<price>111.80</price>
+		</producer>
+		<producer idproducers="s3">
+			<producer_name>NIMRA</producer_name>
+			<price>3.65</price>
+			</producer>
+			<producer idproducers="s4">
+				<producer_name>anadrako
+				</producer_name>
+				<price>10.87</price>
+			</producer>
+			<producer idproducers="s5">
+				<producer_name>france
+				</producer_name>
+				<price>2.45</price>
+			</producer>
+			<producer idproducers="s6">
+				<producer_name>china
+				</producer_name>
+				<price>2.40</price>
+			</producer>
+			<producer idproducers="s7">
+				<producer_name>brazil
+				</producer_name>
+				<price>2.27</price>
+			</producer>
+	</producers>
+	<producer_has_energies>
+		<energies_has_producer energy_idEnergy="A1"
+			producer_idProducer="s5"/>
+		<energies_has_producer energy_idEnergy="B1"
+			producer_idProducer="s1"/>
+		<energies_has_producer energy_idEnergy="C1"
+			producer_idProducer="s4"/>
+		<energies_has_producer energy_idEnergy="C1"
+			producer_idProducer="s3"/>
+		<energies_has_producer energy_idEnergy="C1"
+			producer_idProducer="s2"/>
+		<energies_has_producer energy_idEnergy="D1"
+			producer_idProducer="s6"/>
+		<energies_has_producer energy_idEnergy="D1"
+			producer_idProducer="s7"/>
+	</producer_has_energies>
+
+</energies>

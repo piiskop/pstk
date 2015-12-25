@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: grey;
+	font-family: verdana, sans-serif;
+}
+
+h1 {
+	color: darkviolet;
+}
+
+}
+h1 em {
+	background-color: #c0c0c0;
+}
+
+}
+h1 em strong {
+	background-color: green;
+}
+
+h2 {
+	color: white
+}
+
+h2.Heading {
+	background-color: green;
+	color: darkblue
+}
+
+table tbody tr {
+	background-color: #cfcfcf;
+}
+
+table tbody tr.teine td {
+	background-color: hotpink;
+}
+
+tr.neljas {
+	background-color: #eed275;
+}
+
+h3 {
+	color: #0000ff;
+}
+
+p {
+	background-color: lavender;
+}
+
+p.Firstrow {
+	background-color: hotpink;
+}
+
+body ul li {
+	color: red;
+}
+
+body ol li {
+	color: magenta;
+}
+
+th {
+	background-color: hotpink;
+}
+
+td {
+	background-color: #C0C0C0;
+}
+
+img.kell {
+	width: 250px;
+	height: 99px;
+	border: 10px double white;
+}
+
+img.JB {
+	width: 250px;
+	height: 375px;
+	border: 10px solid black;
+	margin-top: 20px;
+}
+
+div.laulud {
+	background-color: #c0c0c0;
+	overflow: hidden;
+	width: 1400px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-top: 80px;
+	padding:10px;
+}
+
+div.veellaule {
+	background-color: #a3a3a3;
+	overflow: scroll;
+	width: 1400px;
+	height: 70px;
+	padding: 10px;
+}
+div.valgekast {
+	width:60px;
+	height:505px;
+	background-color: white;
+	position:fixed;
+	top: 20px;
+	left: 370px;
+	z-index: -50;
+}
+div.kollanekast {
+	background-color: yellow;
+	width: 180px;
+	height: 90px;
+	margin-top: 90px;
+}
+div.punanekast {
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top:40px;
+	
+}
+div.sininekast {
+	background-color:blue;
+	width:20px;
+	height: 20px;
+	float: left;
+	margin-top: 20px;
+	
+}
+div.rohelinekast {
+	background-color:green;
+	width: 90px;
+	height: 80px;
+	float: left;
+	margin-top: 5px;
+
+}
+img.kuubik{
+	width:100px;
+	heigth:300px;
+	float: right;
+}
+div.luuletus{
+	width: 360px
+}
+
+a,a:visited{color:red;
+	text-decoration:none;
+	}
+a:hover {text-decoration:underline;}

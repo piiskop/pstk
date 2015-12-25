@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "dtd.dtd">
+<calendar>
+	 <event>
+
+		<title>Asi</title>
+
+		<begin DATE = "15" MONTH= "02" YEAR = "2014" TIME="12:30"/>
+		<end   DATE = "15" MONTH= "02" YEAR = "2014" TIME="14:30"/>
+
+		<text>
+			<![CDATA[Homme toimub mingi asi vist]]>
+		</text> 
+
+		<class CLASSNAME = "5" LETTER = "A"/>
+
+	</event>
+	<event>
+ 
+		<title>Veel Yx asi</title>
+
+		<begin DATE = "10" MONTH= "06" YEAR = "2014" TIME="12:30"/>
+		<end   DATE = "14" MONTH= "06" YEAR = "2014" TIME="14:30"/>
+
+		<text>
+			<![CDATA[Homme on korralik pidu.]]>
+		</text> 
+
+		<class CLASSNAME = "6" LETTER = "B"/>
+
+	</event>
+	<event>
+ 
+		<title>Kolmas asi</title>
+
+		<begin DATE = "10" MONTH= "07" YEAR = "2014" TIME="12:30"/>
+		<end   DATE = "14" MONTH= "07" YEAR = "2014" TIME="14:30"/>
+
+		<text>
+			<![CDATA[Uus pidu tuleb varsti.]]>
+		</text> 
+
+		<class CLASSNAME = "6" LETTER = "B"/>
+
+	</event>
+</calendar>

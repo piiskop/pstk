@@ -1,0 +1,16 @@
+<!ENTITY % id "id ID #REQUIRED">
+
+<!ELEMENT cinema (movies,actors, movie_actors)>
+
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (#PCDATA)>
+<!ATTLIST movie %id;>
+
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (#PCDATA)>
+<!ATTLIST actor %id;>
+
+<!ELEMENT movie_actors (movie_actor+)>
+<!ELEMENT movie_actor EMPTY>
+<!ATTLIST movie_actor id_movies IDREFS #REQUIRED>
+<!ATTLIST movie_actor id_actors IDREFS #REQUIRED>

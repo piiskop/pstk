@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Plants have medical and culinary health benefits -->
+<!ELEMENT benefits (Plants,Medicals,Culinarys,Plants_Culinarys,Plants_Medicals)>
+<!ELEMENT Plants (Plant*)>
+<!ELEMENT Plant (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST Plant idPlant ID #REQUIRED>
+
+<!ELEMENT Medicals (Medical*)>
+<!ELEMENT Medical (benefit)>
+<!ELEMENT benefit (#PCDATA)>
+<!ATTLIST Medical idMedical ID #REQUIRED>
+
+<!ELEMENT Culinarys (Culinary*)>
+<!ELEMENT Culinary (benefit)>
+<!ATTLIST Culinary idCulinary ID #REQUIRED>
+
+<!ELEMENT Plants_Culinarys (Plant_has_Culinary*)>
+<!ELEMENT Plant_has_Culinary EMPTY>
+<!ATTLIST Plant_has_Culinary Plant_idPlant IDREFS #REQUIRED>
+<!ATTLIST Plant_has_Culinary Culinary_idCulinary IDREFS #REQUIRED>
+
+<!ELEMENT Plants_Medicals (Plant_has_Medical*)>
+<!ELEMENT Plant_has_Medical EMPTY>
+<!ATTLIST Plant_has_Medical Plant_idPlant IDREFS #REQUIRED>
+<!ATTLIST Plant_has_Medical Medical_idMedical IDREFS #REQUIRED>

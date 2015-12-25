@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Verdana;
+}
+.active {
+	font-weight: bold;
+}
+table,
+tr,
+td,
+th {
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody {
+	text-align: right;
+}
+thead,
+tfoot {
+	text-align: center;
+}

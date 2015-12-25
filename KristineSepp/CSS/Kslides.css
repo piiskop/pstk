@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+img {
+	width: 800px;
+	height: 600px;
+}
+
+div {
+	height: 100px;
+	font-family: ariel;
+	font-size: 16px;
+}

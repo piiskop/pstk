@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Õpilased</title>
+    <script src="js4.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="ajax.js" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body onload='hideDiv("all")'>
+    <div id="formContainer">
+        <label for="formInput">Nimi:</label>
+        <input type="text" id="formInput" placeholder="otsing">
+        <input type="button" id="searchButton" onclick="searchName(true)" value="Otsin">
+        <input type="button" id="displayButton" onclick="showTable(true)" value="Kuvan kogu nimekirja">
+        <input type="button" id="searchAjaxButton" value="Otsi AJAX" onclick="makeRequest('GET')"><br>
+    </div>
+    <div id="progreContainer">
+        <label for="progre">oskab progeda: </label> <input type="checkbox" id="progre" name="progre">
+        <button type="button" onclick="editProge()">Salvestan nime ja kas oskab progeda</button>
+    </div>
+    <div id="changeContainer"></div>
+    <div id="searchContainer"></div>
+    <div id="repeatContainer"></div> <br>
+    <div id="tableContainer">
+        <table id="students"></table>
+    </div>
+
+
+</body>
+</html>

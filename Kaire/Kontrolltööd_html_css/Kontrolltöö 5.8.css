@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+html {
+	font-size: 14px;
+	font-family: sans-serif;
+}
+#frame {
+	border: 7px solid #ffff33;
+	padding: 8px;
+}
+#leitud{
+	float: right; 
+	display:none;
+	margin-right:160px;
+}
+#eiLeitud{ 
+	display:none;
+}
+#andmeteMuutmine{ 
+	display:none;
+	margin-top:30px;
+}
+#kordus{ 
+	margin-top:30px;
+}

@@ -1,0 +1,191 @@
+@CHARSET "UTF-8";
+
+@import url("HTML ja CSS näidised.css");
+
+/* Main styles */
+.Monospace {
+	font-family: monospace;
+}
+
+.SansSerif {
+	font-family: sans-serif;
+}
+
+.Serif {
+	font-family: serif;
+}
+
+/* Many families */
+.ManyFamilies {
+	font-family: "Poiret One", Helvetica, sans-serif;
+}
+
+/* Font size */
+.Size {
+	font-size: 32px;
+	font-size: 2rem;
+}
+
+/* Style */
+.Style {
+	font-style: italic;
+}
+
+/* Caps */
+.SmallCaps {
+	font-variant-caps: small-caps;
+}
+
+/* Position */
+.Super {
+	font-variant-position: super;
+}
+
+.Sub {
+	font-variant-position: sub;
+}
+
+/* Weight */
+.Bold {
+	font-weight: bold;
+}
+
+.Darker {
+	font-weight: darker;
+}
+
+.Lighter {
+	font-weight: lighter;
+}
+
+/* Line height */
+.Short {
+	width: 160px;
+	width: 10rem;
+}
+
+.LineHeight {
+	line-height: 32px;
+	line-height: 2rem;
+}
+
+/* Color */
+.Color {
+	color: #00ffff;
+}
+
+/* Alignment */
+.Left {
+	text-align: left;
+}
+
+.Right {
+	text-align: right;
+}
+
+.Center {
+	text-align: center;
+}
+
+.Start {
+	direction: rtl;
+	text-align: start;
+}
+
+.End {
+	direction: ltr;
+	text-align: end;
+}
+
+.Justify {
+	text-align: justify;
+}
+
+/* Before and after */
+.BeforeAndAfter {
+	quotes: "{" "}" "[" "]"
+}
+
+.BeforeAndAfter::before {
+	content: open-quote;
+}
+
+.BeforeAndAfter::after {
+	content: close-quote;
+}
+
+.Quotes::before {
+	content: open-quote;
+}
+
+.Quotes::after {
+	content: close-quote;
+}
+
+.LinkBefore::before {
+	content: " (" attr(class) ")";
+}
+
+/* Letter spacing */
+.LetterSpacing {
+	letter-spacing: 16px;
+	letter-spacing: 1rem;
+}
+.WordSpacing {
+	word-spacing: 16px;
+	word-spacing: 1rem;
+}
+.TabSize {
+	tab-size: 48px;
+	tab-size: 3rem;
+}
+
+.IndentOne {
+	text-indent: 16px;
+	text-indent: 1rem;
+}
+
+/* Size of letter */
+.Capitals {
+	text-transform: capitalize;
+}
+
+.Uppercase {
+	text-transform: uppercase;
+}
+
+.Lowercase {
+	text-transform: lowercase;
+}
+
+.FullWidth {
+	text-transform: full-width;
+}
+
+/* White spaces */
+.NoWrap {
+	white-space: nowrap;
+}
+
+.Pre {
+	white-space: pre;
+}
+
+.PreWrap {
+	white-space: pre-wrap;
+}
+
+.PreLine {
+	white-space: pre-line;
+}
+.BreakWord {
+	word-break: break-all;
+}
+
+/* First */
+.FirstLetter::first-letter {
+	color: #12ff56;
+}
+.FirstLine::first-line {
+	color: #12ff56;
+}

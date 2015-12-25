@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: skyblue;
+}
+
+p{color:darkblue;
+font-size: 250%;}
+
+li {
+	width: auto;
+	height: auto;
+	margin: auto;
+	font-size: 200%;
+}

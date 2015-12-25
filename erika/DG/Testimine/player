@@ -1,0 +1,40 @@
+# name
+	Emptyness of name:
+		empty. [error]
+		not empty. [property name-defined]
+	Content of name:
+		Contains only English letters. [if name-defined]
+		Contains non-English letters. [if name-defined]
+		Contains numbers.  [if name-defined]
+		Contains special characters. [if name-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if name-defined]
+		Ends with an empty-sign. [if name-defined]
+		
+# password	
+	Emptyness of password:
+		empty. [error]
+		not empty. [property password-defined]
+	Length of password:
+		> 5 && < 30.
+	Content of password:
+		Contains only English letters. [if password-defined]
+		Contains non-English letters. [if password-defined]
+		Contains special characters. [if password-defined]
+		Contains numbers.  [if password-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [error]
+		Ends with an empty-sign. [if password-defined]
+
+# email
+	Emptyness of email:
+		empty. [error]
+		not empty. [property email-defined]
+	Content of email:
+		Contains only English letters. [if email-defined]
+		Contains non-English letters. [if email-defined]
+		Contains special characters. [if email-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [error]
+		Ends with an empty-sign. [error]
+		Contains AT sign. [if email-defined]

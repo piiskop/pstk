@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE võistlused SYSTEM "võistlused.dtd">
+
+<võistlused>
+	<inimesed>
+		<nimi id="n1"> Oliver Kotkas</nimi>	
+		<nimi id="n2"> Genadi Nikolajev</nimi>
+		<nimi id="n3"> Rando Lai</nimi>
+	</inimesed>
+	<võistlusliigid>
+		<liik id="l1"> Üksikmängud</liik>
+		<liik id="l2"> Meespaarismängud</liik>
+	</võistlusliigid>
+	<inimesedvõistlustel>
+		<inimenevõistlus id="iv1" nimi_id="n1" liik_id="l1 l2" />
+			<!-- <inimenevõistlus id="iv2" nimi_id="n1" liik_id="l2" /> -->	
+		<inimenevõistlus id="iv3" nimi_id="n2" liik_id="l1" />
+		<inimenevõistlus id="iv4" nimi_id="n3" liik_id="l1" />
+	</inimesedvõistlustel>
+	
+</võistlused>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tennis (turniirid, kohtunikud, turniirid_kohtunikud)>
+
+<!ELEMENT turniirid (Turniir*)>
+<!ELEMENT Turniir (nimi, turniiriAlgus, turniiriLõpp)>
+<!ELEMENT nimi (#PCDATA)>
+<!ELEMENT turniiriAlgus (#PCDATA)>
+<!ELEMENT turniiriLõpp (#PCDATA)>
+<!ATTLIST Turniir idTurniir ID #REQUIRED>
+
+<!ELEMENT kohtunikud (Kohtunik*)>
+<!ELEMENT Kohtunik (eesnimi, perenimi, telefoniNumber, meiliAadress)>
+<!ELEMENT eesnimi (#PCDATA)>
+<!ELEMENT perenimi (#PCDATA)>
+<!ELEMENT telefoniNumber (#PCDATA)>
+<!ELEMENT meiliAadress (#PCDATA)>
+<!ATTLIST Kohtunik idKohtunik ID #REQUIRED>
+
+<!ELEMENT turniirid_kohtunikud (Turniir_has_Kohtunik)>
+<!ELEMENT Turniir_has_Kohtunik EMPTY>
+<!ATTLIST Turniir_has_Kohtunik Turniir_idTurniir IDREFS #REQUIRED>
+<!ATTLIST Turniir_has_Kohtunik Kohtunik_idKohtunik IDREFS #REQUIRED>

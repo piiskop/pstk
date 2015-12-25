@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Digitaalne tööleht -->
+<!DOCTYPE wholepage SYSTEM "dtd.dtd">
+<wholepage>
+	<mainbar id="mainbar">
+		<add_task>Lisa ülesanne</add_task>
+		<add_worker>Lisa tööline</add_worker>
+		<change_data>Muuda andmeid</change_data>
+		<export_data>Väljasta andmeid</export_data>
+		<logout>Logi välja</logout>
+
+	</mainbar>
+
+	<task id="taskbar1">
+		<date>24.08.2014</date>
+		<task_description>kapsapõllu väetamine</task_description>
+		<beginning>12.00</beginning>
+		<end>15.00</end>
+		<time_spent>
+			<time_spent_nr>3</time_spent_nr>
+			<time_spent_txt>tundi</time_spent_txt>		
+		</time_spent>
+	</task>
+	<task id="taskbar2">
+		<date>24.08.2014</date>
+		<task_description>niitmine</task_description>
+		<beginning>10.00</beginning>
+		<end>12.00</end>
+		<time_spent>
+			<time_spent_nr>2</time_spent_nr>
+			<time_spent_txt>tundi</time_spent_txt>		
+		</time_spent>
+	</task>
+	<task id="taskbar3">
+		<date>24.08.2014</date>
+		<task_description>niisama ringi sõitmine</task_description>
+		<beginning>08.00</beginning>
+		<end>10.00</end>
+		<time_spent>
+			<time_spent_nr>2</time_spent_nr>
+			<time_spent_txt>tundi</time_spent_txt>		
+		</time_spent>
+	</task>
+
+	<calendar>
+	</calendar>
+</wholepage>

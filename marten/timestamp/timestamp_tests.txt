@@ -1,0 +1,97 @@
+##Timestamp unit tests
+#language
+	Is the language set?:
+		Language is set. [property lang-set]
+		Language is not set.
+	Is the language valid?:
+		Language is ET. [if lang-set] [property lang-ET]
+		Language is EN. [if lang-set] [property lang-EN]
+		Language is not valid. [if lang-set] [Error]
+
+#timestamp general
+	Is time set?:
+		Time is set. [property time-set]
+		Time is not set. [Error]
+	Is time valid?:
+		Time is valid. [if time-set] [property time-valid]
+		Time is not valid. [if time-set] [Error]
+
+#timestamp ET
+	Is time now?:
+		Time == now. [if time-valid && lang-ET]
+		Time != now. [if time-valid && lang-ET] [property not-now-ET]
+	Is time greater than or equal year?:
+		Time < year. [if not-now-ET] [property not-year-ET]
+		Time < zero. [if not-now-ET] 
+		Time == year. [if not-now-ET]
+	Is time greater than or equal month?:
+		time < month. [if not-year-ET] [property not-month-ET]
+		Time > month. [if not-year-ET]
+		Time < zero. [if not-year-ET] 
+		time == month. [if not-year-ET]
+	Is time greater than or equal week?:
+		time < week. [if not-month-ET] [property not-week-ET]
+		Time > week. [if not-month-ET]
+		Time < zero. [if not-month-ET]
+		time == week. [if not-month-ET]
+		
+	Is time greater than or equal day?:
+		time < day. [if not-week-ET] [property not-day-ET]
+		Time > day. [if not-week-ET]
+		Time < zero. [if not-week-ET]
+		time == day. [if not-week-ET]
+		
+	Is time greater than or equal hour?:
+		time < hour. [if not-day-ET] [property not-hour-ET]
+		Time > hour. [if not-day-ET]
+		Time < zero. [if not-day-ET]
+		time == hour. [if not-day-ET]
+		
+	Is time greater than or equal minute?:
+		time < minute. [if not-hour-ET] [property not-minute-ET]
+		Time > minute. [if not-hour-ET]
+		Time < zero. [if not-hour-ET]
+		time == minute. [if not-hour-ET]
+		
+	Is time greater than or equal second?:
+		Time > second. [if not-minute-ET]
+		Time < zero. [if not-minute-ET]
+		time == second. [if not-minute-ET]
+
+#timestamp EN
+	Is time now?:
+		Time == now. [if time-valid && lang-EN]
+		Time != now. [if time-valid && lang-EN] [property not-now-EN]
+	Is time greater than or equal year?:
+		Time < year. [if not-now-EN] [property not-year-EN]
+		Time < zero. [if not-now-EN] 
+		Time == year. [if not-now-EN]
+	Is time greater than or equal month?:
+		time < month. [if not-year-EN] [property not-month-EN]
+		Time > month. [if not-year-EN]
+		Time < zero. [if not-year-EN] 
+		time == month. [if not-year-EN]
+	Is time greater than or equal week?:
+		time < week. [if not-month-EN] [property not-week-EN]
+		Time > week. [if not-month-EN]
+		Time < zero. [if not-month-EN]
+		time == week. [if not-month-EN]
+	Is time greater than or equal day?:
+		time < day. [if not-week-EN] [property not-day-EN]
+		Time > day. [if not-week-EN]
+		Time < zero. [if not-week-EN]
+		time == day. [if not-week-EN]
+	Is time greater than or equal hour?:
+		time < hour. [if not-day-EN] [property not-hour-EN]
+		Time > hour. [if not-day-EN]
+		Time < zero. [if not-day-EN]
+		time == hour. [if not-day-EN]
+	Is time greater than or equal minute?:
+		time < minute. [if not-hour-EN] [property not-minute-EN]
+		Time > minute. [if not-hour-EN]
+		Time < zero. [if not-hour-EN]
+		time == minute. [if not-hour-EN]
+	Is time greater than or equal second?:
+		Time > second. [if not-minute-EN]
+		Time < zero. [if not-minute-EN]
+		time == second. [if not-minute-EN]

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vormi kasutamine</title>
+<link rel="stylesheet" type="text/css"
+	href="Vormid.css" media="all" />
+</head>
+<body
+	onload="load({
+	nameOfFile: 'navigation',
+	target: 'navigation'
+});">
+	<div class="MainContainer">
+		<ul class="Sidebar" id="navigation"></ul>
+		<div class="Content" id="content">
+			<h1>Example of the usage of forms</h1>
+			<form method="get" enctype="multipart/form-data">
+
+				<table class="Form Level Level1">
+					<tbody align="center">
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Input for common text</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="text">Name
+									(read-only):</label></td>
+							<td class="Input"><input type="text" id="text"
+								readonly="readonly" maxlength="8" name="text"
+								onfocus="this.select();" title="input for common text" required
+								value="text" /><abbr title="required">*</abbr></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="textWithPattern">Text
+									according the pattern (either "text1" or "text2"):</label></td>
+							<td class="Input"><input type="text" id="textWithPattern"
+								name="textWithPattern" pattern="^text1|text2$" maxlength="5"
+								onfocus="this.select();" required
+								title="input for common text with pattern" /><abbr
+								title="required">*</abbr></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Input for email</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="email">Emails
+									(comma-separated):</label></td>
+							<td class="Input"><input type="email" id="email"
+								multiple="multiple" name="email" onfocus="this.select();"
+								title="input for email" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Input for <abbr
+								title="Unique Resource Locator">URL</abbr></th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="url"><abbr
+									title="Unique Resource Locator">URL</abbr>:</label></td>
+							<td class="Input"><input type="url" id="url" name="url"
+								onfocus="this.select();" title="input for URL" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Fieldset</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Input" colspan="2">
+								<fieldset>
+									<legend>One choice at time</legend>
+									<p>
+										<input type="radio" disabled="disabled" name="radio"
+											id="radio_1" value="1" /> <label for="radio_1">1
+											(disabled)</label>
+									</p>
+									<p>
+										<input type="radio" name="radio" id="radio_2" value="2" /> <label
+											for="radio_2">2</label>
+									</p>
+									<p>
+										<input type="radio" name="radio" id="radio_3" value="radio" />
+										<label for="radio_3">3</label>
+									</p>
+								</fieldset>
+							</td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Input for password</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="password">Password:</label></td>
+							<td class="Input"><input type="password" id="password"
+								name="password" onfocus="this.select();"
+								title="input for password" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Input for phone number</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="search">Phone number:</label></td>
+							<td class="Input"><input type="tel" id="tel" name="tel"
+								onfocus="this.select();" title="input for phone number" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Checkbox</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="checkbox">Boolean:</label></td>
+							<td class="Input"><input checked="checked" type="checkbox"
+								id="checkbox" name="checkbox" title="true or not?" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Number</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="number">Number:</label></td>
+							<td class="Input"><input id="number" min="0" max="10"
+								step="0.5" name="number" title="How many?" type="number" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Range</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="range">Inaccurate
+									number:</label></td>
+							<td class="Input"><input id="range" min="0" max="10"
+								step="0.5" name="range" title="How many?" type="range" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Color</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="color">Color:</label></td>
+							<td class="Input"><input id="color" name="color"
+								title="Which color?" type="color" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">File</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="files">Files:</label></td>
+							<td class="Input"><input accept="image/*" id="files"
+								multiple="multiple" name="files" title="Which files?"
+								type="file" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Hidden</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="hidden">Hidden:</label></td>
+							<td class="Input"><input id="hidden" name="hidden"
+								type="hidden" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<th colspan="2">Map</th>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="image">I click on the
+									exact location on the map:</label></td>
+							<td class="Input"><input alt="map" id="image" name="image"
+								src="../images/sentence_1.png"
+								title="I click on the exact location on the map." type="image"
+								width="301" height="281" /></td>
+						</tr>
+						<tr class="FirstGroupInForm">
+							<td class="Label"><label for="datalist">I write the
+									part and choose from options:</label></td>
+							<td class="Input"
+								title="I write the
+							part and choose from options."><input
+								type="text" id="datalist" list="options" /> <datalist
+									id="options">
+									<option value="email">email</option>
+									<option value="text">text</option>
+									<option value="url">url</option>
+									<option value="textarea">textarea</option>
+									<option value="select">select</option>
+								</datalist></td>
+						</tr>
+						<tr class="SecondGroupInForm">
+							<th colspan="2">Textarea</th>
+						</tr>
+						<tr class="SecondGroupInForm">
+							<td class="Label"><label for="textarea">What do you
+									want?</label></td>
+							<td class="Input"><textarea id="textarea" name="textarea"
+									onfocus="this.select();" title="textarea"></textarea></td>
+						</tr>
+						<tr class="ThirdGroupInForm">
+							<th colspan="2">Select</th>
+						</tr>
+						<tr class="ThirdGroupInForm">
+							<td class="Label"><label for="select">What do you
+									select?</label></td>
+							<td class="Input" title="select"><select id="select"
+								name="select" autofocus>
+									<option value=""></option>
+									<optgroup label="input">
+										<option value="email">email</option>
+										<option value="text">text</option>
+										<option value="url">url</option>
+									</optgroup>
+									<optgroup label="others">
+										<option value="textarea">textarea</option>
+										<option value="select">select</option>
+									</optgroup>
+							</select></td>
+						</tr>
+						<tr class="ThirdGroupInForm">
+							<td class="Label"><label for="selectMany">Which many
+									items do you select?</label></td>
+							<td class="Input" title="select many"><select
+								id="selectMany" name="selectMany" multiple="multiple">
+									<optgroup label="input">
+										<option value="email">email</option>
+										<option selected value="text">text</option>
+										<option value="url">url</option>
+									</optgroup>
+									<optgroup label="others">
+										<option value="textarea">textarea</option>
+										<option value="select">select</option>
+									</optgroup>
+							</select></td>
+						</tr>
+						<tr>
+							<td>
+								<button type="button">I do something else.</button>
+							</td>
+							<td>
+								<button type="submit">I send.</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

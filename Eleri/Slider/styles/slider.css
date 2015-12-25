@@ -1,0 +1,104 @@
+html {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.slider {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.thumbn ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.img1 {
+    background-image: url('images/Aura-chakra.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.img2 {
+    background: url('images/image1.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.img3 {
+    background: url('images/image2.jpg');
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.img ul li {
+    display: inline-block;
+    clear: right;
+}
+
+.img4 {
+    background: url('images/Aura-chakra.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+}
+
+.img5 {
+    background: url('images/image1.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+}
+
+.img6 {
+    background: url('images/image2.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+}
+
+.Hide {
+    display: none !important
+}
+
+.Show {
+    display: inline-block !important;
+}
+
+.description {
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    color: purple;
+    padding: 1rem;
+    width: 50%;
+    float:right;
+}
+
+
+.buttons {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.previous {
+    float: left;
+}
+
+.following {
+    float:right;
+}

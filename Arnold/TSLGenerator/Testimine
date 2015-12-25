@@ -1,0 +1,16 @@
+# choose country
+    Emptyness of country:
+         empty. [error]
+         not empty
+# choose city
+    Emptyness of city:
+         empty. [error]
+         not empty
+# choose partner
+    Emptyness of partner:
+         empty. [error]
+         not empty.     
+# choose date,time 
+     Emptyness of date,time:
+         empty. [error]
+         not empty.

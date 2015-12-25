@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<calendar 	xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd.xsd"
+		>
+	 <event>
+
+		<title> <strong>Asi</strong></title>
+
+		<begin DATE = "15" MONTH= "02" YEAR = "2014"  HOUR= "14" MIN= "30"/>
+		<end   DATE = "15" MONTH= "02" YEAR = "2014"  HOUR= "14" MIN= "30"/>
+
+		<text>
+			<![CDATA[Homme toimub mingi asi vist]]>
+		</text> 
+
+		<class CLASSNAME = "5" LETTER = "A"/>
+
+	</event>
+	
+</calendar>

@@ -1,0 +1,209 @@
+@CHARSET "UTF-8";
+
+html {
+	background-attachment: fixed;
+}
+
+body {
+	position: center;
+	background-color: #7FFFD4;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: White;
+	font-family: font-family : 'Lora', serif;
+	text-align: center;
+	font-size: 350%;
+}
+
+h2 {
+	color: White;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 170%;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+h3 {
+	color: White;
+	font-family: 'Lora', serif;
+	text-align: left;
+	font-size: 100%;
+}
+
+h4 {
+	color: White;
+	font-family: 'Lora', serif;
+	text-align: left;
+	font-size: 100%;
+}
+
+h5 {
+	color: White;
+	font-family: 'Lora', serif;
+	text-align: left;
+	font-size: 200%;
+}
+
+h6 {
+	color: White;
+	font-family: 'Lora', serif;
+	text-align: left;
+	font-size: 150%;
+}
+
+p.sisutekst {
+	font-family: 'Lora', serif;
+	color: gray;
+	font-size: 15px;
+	text-align: center;
+	background-color: white;
+	padding-bottom: 15%;
+	padding-top: 55%;
+}
+
+img.pais {
+	position: center top;
+	height: 200px;
+	width: 1333px;
+}
+
+img.alus {
+	position: center top;
+	height: 200px;
+	width: 1333px;
+	margin-top: -10%;
+}
+
+img.parem_alus {
+	float: right;
+	height: 350px;
+	width: 666px;
+	margin-top: -1%;
+}
+
+img.vasak_alus {
+	float: right;
+	height: 350px;
+	width: 666px;
+	margin-top: -1%;
+}
+
+.wrap {
+	/* force the div to properly contain the floated images: */
+	position: relative;
+	float: left;
+	clear: none;
+	overflow: hidden;
+}
+
+.wrap img {
+	position: relative;
+	z-index: 1;
+	position: center top;
+	height: 700px;
+	width: 1333px;
+}
+
+.wrap .desc {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 55%;
+	right: 50px;
+	z-index: 2;
+	text-align: center;
+}
+
+.wrap .desc2 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 69%;
+	right: 50px;
+	z-index: 2;
+	text-align: center;
+}
+
+.wrap .desc3 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 83%;
+	right: 150px;
+	z-index: 2;
+	text-align: center;
+}
+
+.wrap .desc4 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 85%;
+	right: 90px;
+	z-index: 2;
+	text-align: center;
+}
+
+.vasak_alus .alus3 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 265%;
+	right: 500px;
+	z-index: 2;
+	text-align: center;
+}
+
+.vasak_alus .alus5 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 269%;
+	right: 496px;
+	z-index: 2;
+	text-align: center;
+}
+
+.vasak_alus .alus6 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 277%;
+	right: 483px;
+	z-index: 2;
+	text-align: center;
+}
+
+.parem_alus .palus3 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 265%;
+	left: 175px;
+	z-index: 2;
+	text-align: center;
+}
+
+.parem_alus .palus5 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 269%;
+	left: 170px;
+	z-index: 2;
+	text-align: center;
+}
+
+.parem_alus .palus6 {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 277%;
+	left: 200px;
+	z-index: 2;
+	text-align: center;
+}

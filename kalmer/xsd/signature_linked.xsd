@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:kalmer="tomekit"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:import namespace="tomekit" schemaLocation="tomekit.xsd"></xs:import>
+
+	<xs:complexType name="name">
+		<xs:sequence>
+			<xs:element name="firstName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="streetAddress">
+		<xs:restriction base="xs:string">
+			<xs:whiteSpace value="preserve"></xs:whiteSpace>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="phoneNumbers">
+		<xs:sequence>
+			<xs:element name="landLine" type="xs:string" />
+			<xs:element name="mobile" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="idOfBankAccount">
+		<xs:restriction base="xs:string">
+			<xs:pattern
+				value="[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}[0-9]{7}([a-zA-Z0-9]?){0,16}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="idOfBank">
+		<xs:restriction base="xs:IDREF">
+			<xs:pattern value="[A-Z]{6}[A-Z0-9]{2}([A-Z0-9]{3})?"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="bankAccount">
+		<xs:attribute name="id" type="xs:idOfBankAccount">
+		</xs:attribute>
+		<xs:attribute name="order" type="xs:unsignedInt" use="optional">
+		</xs:attribute>
+		<xs:attribute name="idOfBank" use="required" type="xs:idOfBank">
+		</xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="bankAccounts">
+		<xs:sequence>
+			<xs:element name="bankAccount" maxOccurs="unbounded" type="xs:bankAccount">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="teacher">
+		<xs:sequence>
+			<xs:element name="name" type="xs:name">
+			</xs:element>
+			<xs:element name="title" type="xs:string" />
+			<xs:element name="streetAddress" type="xs:streetAddress">
+			</xs:element>
+			<xs:element name="phoneNumbers" type="xs:phoneNumbers">
+			</xs:element>
+			<xs:element name="bankAccounts" type="xs:bankAccounts">
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required">
+		</xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="bank">
+		<xs:sequence>
+			<xs:element name="nameOfBank" type="xs:string">
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="banks">
+		<xs:sequence>
+			<xs:element name="bank" maxOccurs="unbounded" type="xs:bank">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="signature">
+		<xs:sequence>
+			<xs:element name="teacher" type="xs:teacher">
+			</xs:element>
+			<xs:element name="banks" type="xs:banks">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="signature" type="xs:signature">
+	</xs:element>
+
+</xs:schema>

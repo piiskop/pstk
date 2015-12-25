@@ -1,0 +1,28 @@
+<!-- BEGIN html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HyperText Markup Language and Cascading Stylesheets</title>
+<link rel="stylesheet" href="../css/css.css?7" type="text/css" />
+<script type="text/javascript" src="../js/tutorial.js?770"></script>
+<script type="text/javascript" src="../js/app-wide.js?5"></script>
+<script type="text/javascript" src="../js/php.js"></script>
+<!-- script type="text/javascript" src="../js/merge-sort-chart.js?73"></script-->
+</head>
+<body onload="setBackground({appWide: true});appendChildren();">
+
+ <div id="a">
+    <div id="b">
+    </div>
+  </div>
+	<form>
+		<input type="color"
+			oninput="console.log(' 28: ' + this.value); body.style.backgroundColor = this.value;" />
+	</form>
+	<div class="HideShow" id="showHide" style="display: block;"></div>
+	<button onclick="showHide({id: 'showHide', button: this});">Peidan.</button>
+	<button onclick="writeName();" type="button">Kirjutan nime.</button>
+</body>
+</html>
+<!-- END html -->

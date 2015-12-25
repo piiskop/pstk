@@ -1,0 +1,37 @@
+<!-- BEGIN page -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Väljatõstmine</title>
+<link rel="stylesheet" href="css.css" type="text/css"
+	media="all" />
+</head>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Väljatõstmine</title>
+</head>
+<body>
+	<!-- BEGIN form -->
+	<div class="body">
+	<form action="controller.php" method="get">
+		<input type="hidden" name="valjatostmine" value="1"> <input
+			type="checkbox" name="isOwnerPresent"
+			{ISOWNERBRESENTCHECKT} id="isOwnerPresent"><label
+			for="isOwnerPresent">Omanik kohal?</label> <input
+			type="checkbox" name="isOwnerAgree"
+			{ISOWNERAGREETCHECKT} di="isOwnerAgree"><label
+			for="isOwnerAgree">Omanik nõus?</label> <input type="checkbox"
+			name="isOwnerReachable"
+			{ISOWNERREACHABLECHECKT} di="isOwnerReachable"><label
+			for="isOwnerReachable">Omanik kättesaadav?</label> <input
+			type="submit" value="Kontrolli">
+	</form>
+	</div>
+	<!-- END form -->
+	<!-- BEGIN result -->
+	<div><p>{RESULT}</p></div>
+	<!-- END result -->
+</body>
+</html>
+<!-- END page -->

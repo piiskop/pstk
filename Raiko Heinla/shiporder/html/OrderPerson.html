@@ -1,0 +1,78 @@
+<!-- BEGIN body -->
+<ul>
+	<!-- BEGIN order-person-in-list -->
+	<li><a href="{BEGINNING-OF-URL}?target=selectOrderPerson&id={ID}">{NAME}</a></li>
+	<!-- END order-person-in-list -->
+</ul>
+<!-- END body -->
+
+
+
+<!-- BEGIN order-person -->
+<form>
+	<table>
+		<tbody>
+			<tr>
+				<th>Eesnimi:</th>
+				<td><input type="text" value="{FIRST-NAME}" /></td>
+			</tr>
+			<tr>
+				<th>Perenimi:</th>
+				<td><input type="text" value="{LAST-NAME}" /></td>
+			</tr>
+			<tr>
+				<th>Meil:</th>
+				<td><input type="text" value="{EMAIL}" /></td>
+			</tr>
+			<tr>
+				<th>Kehaline aadress:</th>
+				<td><input type="text" value="{ADDRESS}" /></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+<div class="Id" id="beginningOfUrl">{BEGINNING-OF-URL}</div>
+<div class="Id" id="before">{BEFORE}</div>
+<div class="Id" id="after">{AFTER}</div>
+<div class="Id" id="missingParameter">{MISSING-PARAMETER}</div>
+<div class="Id" id="suffix">{SUFFIX}</div>
+<div class="Id" id="width"></div>
+<button type="button"
+	onclick="load(
+{
+	alias          : '?target=buildTargetAddressesToOrderPerson&json&idOrderPerson={ID-OF-ORDER-PERSON}',
+	draggable      : false,
+	fieldForInfo   : 'messageAboutTargetAddresses',
+	functionsToCall: [],
+	idOfParent     : '',
+	post           : '',
+	targets        : [
+	{
+		id       : 'targetAddresses',
+		toContent: false
+	},
+	{
+		id       : 'messageAboutTargetAddresses',
+		toContent: false
+	}
+	],
+	types          : new Array()
+}
+);
+">Kuvan
+	sihtaadressid.</button>
+<div id="messageAboutTargetAddresses"></div>
+<div id="targetAddresses"></div>
+<!-- END order-person -->
+
+
+
+
+<!-- BEGIN list-of-target-addresses -->
+<ul>
+	<!-- BEGIN target-address-in-list -->
+	<li><a
+		href="{BEGINNING-OF-URL}?target=selectShipTo&id={ID-OF-TARGET-ADDRESS}">{TITLE-OF-TARGET-ADDRESS}</a></li>
+	<!-- END target-address-in-list -->
+</ul>
+<!-- END list-of-target-addresses -->

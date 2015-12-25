@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM 'eksam.dtd'>
+
+<root>
+	<stuff_thats_growing>
+		<growing id_growing="growing1" where="indoors" is_edible="true" is_suitable_houseplant="true">
+			<name>Sidrun</name>
+		</growing>
+	</stuff_thats_growing>
+	
+	<grows_from_this>	
+		<from id_from="from1" grow_from="seeds" level_of_difficulty="easy">
+			<species>Maharuti</species>	
+		</from>
+	</grows_from_this>	
+	
+	<grows_into_that_from_this>	
+		<growing_has_from growing_id_growing="growing1" from_id_from="from1"/>
+	</grows_into_that_from_this>	
+		
+</root>
+
+
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="worker" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name">
+								<xs:complexType>
+									<xs:sequence> <!-- xs:sequence - järgnevad elemendid peavad olema antud järiekorras -->
+										<xs:element name="first_name" type="xs:string"/>
+										<xs:element name="last_name" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="phone" minOccurs="0">
+								<xs:complexType>
+									<xs:all>	<!-- xs:all - järgnevate elementide järiekord ei oma tähtsust -->
+										<xs:element name="mob" type="xs:integer"/>
+										<xs:element name="tel" type="xs:integer"/>
+									</xs:all>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="pass"/>
+						</xs:sequence>
+						<xs:attribute  name="workerID" type="xs:integer" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="work" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="location"/>
+							<xs:element name="planned_date" type="xs:date"/>
+							<xs:element name="time">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="start"/>
+										<xs:element name="end"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="workID" type="xs:integer" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

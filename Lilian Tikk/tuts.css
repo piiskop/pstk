@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+/*common elements */
+
+body{
+ font-family:sans-serif;
+ font-size: 16px;
+}
+
+/*common design */
+
+div.Body{
+ margin: 0 auto;
+ width: 1100px;
+ width: 78rem;
+}
+
+div.BlockinBody{
+ width: 100%
+}
+
+div.Header{
+ border-top: 10 px solid #4d9543;
+ border-top: 0.625rem solid #4d9543;
+}
+
+div.LogoAndCta{
+ margin: 0 auto;
+ width: 960px;
+ width: 60rem;
+ height: 159px;
+}
+
+div.Navigation{
+ margin: 0 auto;
+ width: 960px;
+ width: 60rem;
+}
+
+div.Cta{
+ padding-top:55px;
+ padding-top:3.438rem;
+ float: right;
+ width: 233px;
+ width: 14.563rem;
+ height: 100%;
+ text-align:right;
+}
+
+div.PhoneNumber{
+ font-size:18pt;
+ color:#333333;
+}
+
+div.CtPhone{
+ font-size:13pt;
+ color:#509743;
+}
+
+div.Logo{
+ float:left;
+ background-image: url("images/Logo.png");
+ background-repeat: no-repeat;
+ background-position: 41px;
+ width: 255px;
+ height: 100%;
+}

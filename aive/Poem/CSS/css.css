@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #ffd9d9;
+	font-family: "Courier New"
+}
+
+body h1 {
+	color: yellow;
+}
+
+body h1 em {
+	background-color: #00FFFF;
+}
+
+body h1 em strong {
+	background-color: #FAEBD7;
+}
+
+body h2 {
+	color: #ff0080;
+}
+
+body p {
+	background-color: #68caca;
+}
+
+body p.Firstrow {
+	background-color: DarkOrchid;
+}
+
+body h2.heading {
+	color: #F8F8FF;
+}
+
+body table thead tr {
+	background-color: #FFFACD;
+}
+
+body table tbody tr {
+	background-color: #FF00FF;
+}
+
+tr.teine {
+	background-color: #4169E1;
+}
+
+body table tbody tr.neljas td {
+	background-color: yellow;
+}
+
+body table thead tr.lill th {
+	color: #00FF00;
+}
+
+.teinerida {
+	background-color: red;
+	font-family: cursive
+}
+
+ol, ul {
+	font-style: italic;
+}
+
+a {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 16 px;
+	font-family: cursive;
+	font-weight: bold;
+	text-style: italic;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 250%;
+	font-family: "Georgia" font-weight : bold;
+	text-style: italic;
+	text-decoration: underline;
+}
+
+span.FirstLetter {
+	text-decoration: underline;
+}
+div.laulud
+{
+	background-color: gray;
+}
+div.seotudlaulud
+{
+	background-color: gray;
+}
+div.esimene
+{
+	background-color:white;
+	width:500px;
+	width:31.25em;
+	height:100px;
+	height:6.25em
+}
+div.teine
+{
+	background-color:white;
+	width:500px;
+	height:100px;
+	}
+div.kolmas
+{
+	background-color:white;
+	width:500px;
+	height:100px;
+}

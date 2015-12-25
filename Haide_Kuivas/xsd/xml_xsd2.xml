@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!--Kirjeldab koolis toimuvaid sündmusi -->
+
+	<andmed xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd.xsd">
+	
+		<event nimi="Joulupidu" asukoht="koolimaja">
+			<date>
+				<day>12</day>
+				<month>12</month>
+				<year>2014</year>
+			</date>
+			<organizer nimi="opilasesindus">
+				<kontakt>
+					<e-mail>oe@gmail.com</e-mail>
+					<telefon>1234</telefon>
+				</kontakt>
+			</organizer>
+			<type olumpiaad="no" traditsioon="yes" voistlus="no" loeng="no" />
+		</event>
+	</andmed>

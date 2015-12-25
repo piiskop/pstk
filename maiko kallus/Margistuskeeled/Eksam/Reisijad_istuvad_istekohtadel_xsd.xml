@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<trip xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema reisijad.xsd ">
+	<seats>
+		<seat id_of_passenger="b">
+			<row>1</row>
+			<seat_nr>6</seat_nr>
+		</seat>
+		<seat id_of_passenger="c">
+			<row>2</row>
+			<seat_nr>14</seat_nr>
+		</seat>
+		<seat id_of_passenger="a">
+			<row>1</row>
+			<seat_nr>3</seat_nr>
+		</seat>
+	</seats>
+
+	<passengers>
+		<passenger id="a">
+			<fname>Kalle</fname>
+			<lname>Kusta</lname>
+		</passenger>
+		<passenger id="b">
+			<fname>Mari</fname>
+			<lname>Mets</lname>
+		</passenger>
+		<passenger id="c">
+			<fname>Jaan</fname>
+			<lname>Lusikas</lname>
+		</passenger>
+	</passengers>
+</trip>

@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+/* .Tag{
+	background-image: url('http://www.rahvaraamat.ee/images/products/000/415/508/thumbnails/big/a3361b5da2f2f484774f4af7163cdcfa5e934884/meil-aia-%C3%A4%C3%A4rne-t%C3%A4navas.jpg');
+	border: 5px solid rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-attachment: local;
+	
+} */
+
+.Tag{
+	background: url('http://www.rahvaraamat.ee/images/products/000/415/508/thumbnails/big/a3361b5da2f2f484774f4af7163cdcfa5e934884/meil-aia-%C3%A4%C3%A4rne-t%C3%A4navas.jpg');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	border: 5px solid rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	width: 100px;
+	height: 100px;	
+}

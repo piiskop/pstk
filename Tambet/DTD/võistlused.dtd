@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT võistlused (inimesed, võistlusliigid, inimesedvõistlustel)>
+<!ELEMENT inimesed (nimi+)>
+<!ELEMENT nimi (#PCDATA)>
+<!ATTLIST nimi id ID #REQUIRED>
+
+<!ELEMENT võistlusliigid (liik+)>
+<!ELEMENT liik (#PCDATA)>
+<!ATTLIST liik id ID #REQUIRED>
+<!ELEMENT inimesedvõistlustel (inimenevõistlus+)>
+<!ELEMENT inimenevõistlus EMPTY>
+<!ATTLIST inimenevõistlus id ID #REQUIRED nimi_id IDREF #REQUIRED liik_id IDREFS #REQUIRED>

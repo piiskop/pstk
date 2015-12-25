@@ -1,0 +1,80 @@
+/* START COMMON ELEMENTS */
+html
+{
+	font-size: 16px;
+}
+body
+{
+	background-color: black;
+	color: gray;
+	width:500px;
+	font-family: Verdana, sans-serif;
+}
+
+strong
+{
+	color: darkviolet;
+}
+
+tr:nth-child(even)
+{
+	background: yellow;
+	color: red;
+}
+tr:nth-child(4n)
+{
+	background: yellow;
+	color: blue;
+}
+
+th
+{
+	color: purple
+}
+p::first-letter
+{
+  text-decoration:underline;
+}	
+
+div.laulud
+{
+	background-color: lightblue;
+	float: left;
+}
+
+#flame
+{
+	border-style: solid
+}
+#flame
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+#laulud
+{
+	border-style: solid
+}
+#laulud
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px
+}
+a:link
+ {
+    text-decoration: none;
+}
+a:hover 
+{
+    text-decoration: underline
+	
+}
+    

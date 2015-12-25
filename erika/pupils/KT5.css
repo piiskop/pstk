@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+#found { 
+display:none;
+}
+
+#notFound { 
+display:none;
+}
+
+#dataChanged { 
+display:none;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Players use field hours -->
+<!ELEMENT field (players,field_hours,usages)>
+<!ELEMENT players (player*)>
+<!ELEMENT player (name)>
+<!ATTLIST player p_id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT field_hours (field_hour*)>
+<!ELEMENT field_hour (start,end)>
+<!ATTLIST field_hour f_id ID #REQUIRED>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+
+<!ELEMENT usages (usage+)>
+<!ELEMENT usage EMPTY>
+<!ATTLIST usage u_id ID #REQUIRED
+	f_id IDREF #REQUIRED
+	p_id IDREF #REQUIRED>

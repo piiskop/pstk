@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+div.taust {
+	background-color:#3f5c82;
+	width:723px;
+	height:1024px;
+	margin:auto;
+}
+h1,h2,h3,p{
+		font-family: "Times New Roman", Georgia, Times, Serif;
+	font-style: normal;
+	font-size-adjust: 0.5;
+	font-weight: 500;
+}
+h1,p.jalus {
+	color: #f2f6b9;
+}
+h1{
+	height: 20px
+}
+h2{
+	color: #f7f3e7;
+}
+h2{
+	height: 20px;
+}
+
+h3,p{
+	color: #0c3d62;
+}
+img.logo{
+	margin-top:30px;
+	margin-bottom: 10px;
+	margin-left: 300px;
+	margin-right: 250px;
+}
+div.pealkiri, div.jalus{
+	text-align:center;
+}
+div.aas{
+	background-image: url("img/norman_aas.png");
+	height: 257px;
+	width: 537px;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+div.lillo{
+	background-image: url("img/andrus_lillo.png");
+	height: 266px;
+	width: 502px;
+	margin-left: 140px;
+	margin-top: 40px;
+}
+div.nimi_aas,div.nimi_lillo{
+	visibility: hidden;
+}
+div.jalus{
+	height: 40px;
+	margin-top: 60px;
+}
+a:link,a:visited{
+	color: #f2f6b9;
+	text-decoration: none;
+}

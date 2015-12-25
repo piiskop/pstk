@@ -1,0 +1,69 @@
+<!-- BEGIN css -->
+/* {AUTHOR} */
+.Show {
+    display: block;
+}
+
+.Hide {
+    display: none;
+}
+.HideMore {
+    display: none;
+}
+
+.HideSomeMore {
+    display: none;
+}
+
+#text {
+    border: 2px solid blueviolet;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#dataChanged {
+    margin-top:20px;
+}
+
+#dataNotChanged {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.green {
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+.nameBg {
+    background-color: white;
+    
+}
+
+#studentTable {
+    margin-top: 60px;
+    border: 1px solid black;
+}
+
+#tableHeading {
+    font-size: 22px;
+    color:blueviolet;
+    margin-bottom: 20px;
+}
+
+#tablerow {
+    border-bottom: 1px solid black;
+}
+
+
+#tableBody {
+    padding: 15px;
+}
+
+.heading {
+    padding-bottom: 15px;
+}
+
+<!-- END css -->

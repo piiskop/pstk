@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+h1{
+	color:gray;
+	font-family: 'Orbitron', sans-serif;
+	font-size:300%;
+}
+body{
+	background-position: -100px,-100px;
+	background-color:turquoise;
+}
+p {
+   
+    font-family:bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size:110%; 
+    }
+h2{
+	color:gray;
+	font-family: 'Orbitron', sans-serif;
+	font-size:300%;
+}
+ul{
+	 font-family:bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size:110%;
+    list-style-position: inside;
+}

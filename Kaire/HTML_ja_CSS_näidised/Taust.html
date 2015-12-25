@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Taust</title>
+<link rel="stylesheet" type="text/css"
+	href="Taust.css" media="all" />
+</head>
+<body
+	onload="load({
+	nameOfFile: 'navigation',
+	target: 'navigation'
+});">
+	<div class="MainContainer">
+		<ul class="Sidebar" id="navigation"></ul>
+		<div class="Content" id="content">
+			<h1>Taust</h1>
+			<h2>Taustavärv</h2>
+			<div class="Color"></div>
+			<h2>Mitmest pildist koosnev taustapilt</h2>
+			<div class="Sprite"></div>
+			<h2>Kordumatu taust</h2>
+			<div class="NoRepeat"></div>
+			<h2>Rõhtsalt korduv taust</h2>
+			<div class="HorizontalPattern"></div>
+			<h2>Püstiselt korduv taust</h2>
+			<div class="VerticalPattern"></div>
+			<h2>Igas suunas korduv taust</h2>
+			<div class="Pattern"></div>
+			<h2>Taust ainult sisuosas</h2>
+			<div class="ContentBox"></div>
+			<h2>Taust piirini</h2>
+			<div class="PaddingBox"></div>
+			<h2>Taust piirini ja selle all</h2>
+			<div class="BorderBox"></div>
+			<h2>Taust sisuosas, lõigatud piirini</h2>
+			<div class="Clip"></div>
+			<h2>Taust paigal</h2>
+			<div class="Fixed"></div>
+			<h2>Taust kerib sisuga</h2>
+			<div class="Local">.Clip { background:
+				url("../images/jürgens.png") content-box padding-box; border: 5px
+				solid rgba(0, 0, 0, 0.5); padding: 10px 10px 10px 10px; width:
+				100px; height: 100px; }</div>
+			<h2>Taust elemendi edna suhtes paigal</h2>
+			<div class="Scroll">.Clip { background:
+				url("../images/jürgens.png") content-box padding-box; border: 5px
+				solid rgba(0, 0, 0, 0.5); padding: 10px 10px 10px 10px; width:
+				100px; height: 100px; }</div>
+			<h2>Mitu tausta</h2>
+			<div class="Multiple"></div>
+			<table class="Multiple">
+				<tr>
+					<td>1-1</td>
+					<td>2-1</td>
+				</tr>
+				<tr>
+					<td>1-2</td>
+					<td>2-2</td>
+				</tr>
+			</table>
+			<h2 class="Clearer">Lineaarne määratud kaugusega gradient</h2>
+			<div class="LinearGradientSpecified"></div>
+			<h2>Lineaarne võrdsete vahedega gradient</h2>
+			<div class="LinearGradientEqual"></div>
+			<h2>Radiaalne gradient</h2>
+			<div class="RadialGradient"></div>
+			<h2>Kordav gradient</h2>
+			<div class="RepeatingGradient"></div>
+			<h2>Läbipaistvus</h2>
+			<ul class="Transparency">
+				<li class="Light">peaaegu läbipaistev</li>
+				<li class="Medium">poolenisti läbipaistev</li>
+				<li class="Heavy">peaaegu läbipaistmatu</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

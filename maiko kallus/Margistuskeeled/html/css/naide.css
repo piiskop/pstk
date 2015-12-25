@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+.italic{
+	font-style: italic;
+}
+
+.serif{
+	font-style: serif;
+}
+.arial{
+	font: arial;
+}
+.link{
+	text-decoration: none;
+	color:#006600;
+}
+
+.nupud{
+	display: inline;
+	font-size: 2em;
+}
+
+a{
+	text-decoration: none;
+}
+
+.trans{
+	width:200px;
+	height:100px;
+	background-color:green;
+	transition: width 2s;
+}
+.trans:hover{
+	width:600px;
+	height:400px;
+	background-color:blue;
+}

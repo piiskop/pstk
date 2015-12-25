@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#containerForContents {
+	position: fixed;
+	z-index: 1;
+}
+
+#nupp {
+	position: fixed;
+	z-index: 1;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organisatsioonid>
+	<Nimi>Sindi Spordimaja</Nimi>
+
+	<Aadress>
+		<Linn_Vald> Sindi</Linn_Vald>
+		<Maakond>Pärnu</Maakond>
+	</Aadress>
+	
+	<Kirjeldus>Spordisaal</Kirjeldus>
+
+	<Kasutajanimi>Kasutaja1</Kasutajanimi>
+
+	<Parool>0000</Parool>
+
+</Organisatsioonid>

@@ -1,0 +1,17 @@
+#atHome {
+    display: inline-block;
+}
+
+#atHome p{
+    float:left;
+    padding-right:10px;
+    margin-top: 0px;
+}
+
+.Show {
+    display: block;
+}
+
+.Hide {
+    display: none;
+}

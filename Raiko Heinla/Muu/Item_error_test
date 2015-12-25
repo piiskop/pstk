@@ -1,0 +1,41 @@
+# title:
+	Occurrance of text title:
+		text written. [property text-written]
+		text not written. [error]
+	Content title:
+		Containts only English letters. [if text-written]
+		Contains non-English letters. [if text-written]
+		Contains only empty letters. [error]
+		
+# Note
+	Occurrance of text title:
+		text written. [property text-written]
+		text not written. [error]
+	Content note:
+		Containts only English letters. [if text-written]
+		Contains non-English letters. [if text-written]
+		Contains only empty letters. [error]
+		
+# Quantity:
+	Occurrance of text title:
+		text written. [property amount-defined]
+		text not written. [error]
+	Content:
+		Type of text:
+			Numeric. [if amount-defined] [property numeric]
+			Non-Numeric. [error]
+		Value of text:
+			Positive. [if numeric]
+			Negative. [error]
+			
+#Priece
+	Ocurrence of text min priece:
+		Text written. [property priece-defined]
+		Text not written. [error]
+	Type of text:
+		Numeric. [if priece-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]
+			

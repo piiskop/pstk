@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT sports (sport+)>
+<!ATTLIST sport id ID #REQUIRED>
+<!ELEMENT sport (name, competition*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT competition (name, matchday, date, time, home, away)>
+<!ELEMENT matchday (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT home (team, goals?, possession?, totalshots?, shotsongoal?, passing?, fouls?, yellowcards?, redcards?, corners?, offsides?)>
+<!ELEMENT away (team, goals?, possession?, totalshots?, shotsongoal?, passing?, fouls?, yellowcards?, redcards?, corners?, offsides?)>
+<!ELEMENT team (#PCDATA)>
+<!ELEMENT goals (#PCDATA)>
+<!ELEMENT possession (#PCDATA)>
+<!ELEMENT totalshots (#PCDATA)>
+<!ELEMENT shotsongoal (#PCDATA)>
+<!ELEMENT passing (#PCDATA)>
+<!ELEMENT fouls (#PCDATA)>
+<!ELEMENT yellowcards (#PCDATA)>
+<!ELEMENT redcards (#PCDATA)>
+<!ELEMENT corners (#PCDATA)>
+<!ELEMENT offsides (#PCDATA)>

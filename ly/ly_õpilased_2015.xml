@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tulemused>
+	<õpilased>
+		<õpilane id="nr1">
+			<eesnimi>Kaire</eesnimi>
+			<perenimi>Ojastu</perenimi>
+			<gmail>kaire.ojastu@gmail.com</gmail>
+		</õpilane>
+		<õpilane id="nr2">
+			<eesnimi>Sander</eesnimi>
+			<perenimi>Mets</perenimi>
+			<gmail>sandermets0@gmail.com</gmail>
+		</õpilane>
+		<õpilane id="nr3">
+			<eesnimi>Juhan</eesnimi>
+			<perenimi>Kõks</perenimi>
+			<gmail>juhankoks@gmail.com</gmail>
+		</õpilane>
+	</õpilased>
+
+	<teemad>
+		<teema>
+			<nimi id="t1">UML</nimi>
+			<teema id="t1_1">
+				<nimi>Kasutusjuhud</nimi>
+			</teema>
+			<teema id="t1_2">
+				<nimi>Klassid</nimi>
+			</teema>
+			<teema id="t1_3">
+				<nimi>Tegevused ja olekud</nimi>
+			</teema>
+		</teema>
+		<teema>
+			<nimi id="t2">TSL</nimi>
+			<teema id="t2_1">
+				<nimi>Liides</nimi>
+			</teema>
+			<teema id="t2_2">
+				<nimi>Tehniline kirjeldus</nimi>
+			</teema>
+			<teema id="t2_3">
+				<nimi>Test</nimi>
+			</teema>
+		</teema>
+		<teema>
+			<nimi id="t3">HTML ja CSS </nimi>
+			<teema id="t3_1">
+				<nimi>Kompleks</nimi>
+			</teema>
+			<teema id="t3_2">
+				<nimi>Teooria</nimi>
+			</teema>
+			<teema id="t3_3">
+				<nimi>Stiilid</nimi>
+			</teema>
+		</teema>
+	</teemad>
+
+	<seosed>
+		<seos idõpilane="nr1" idteema="t1_1 t1_3 t3_3">
+		</seos>
+		<seos idõpilane="nr2" idteema="t1_1 t1_2 t2_1 t3_3">
+		</seos>
+		<seos idõpilane="nr3" idteema="t1_1 t1_2 t1_3 t3_1 t3_3">
+		</seos>
+	</seosed>
+</tulemused>

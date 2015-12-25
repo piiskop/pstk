@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<student xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema kasutaja.xsd">
+	<sex>male</sex>
+	<username>Juhan1</username>
+	<firstname>Juhan Kalle</firstname>
+	<secondname>Malle</secondname>
+	<e-mail>Juhan94@gmail.com</e-mail>
+	<password>passw0rd1</password>
+	<password>passw0rd1</password>
+</student>

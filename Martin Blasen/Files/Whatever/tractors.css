@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+tr.row_odd {
+	background-color: #EBFFFF;
+}
+tr.row_even {
+	
+	background-color: #BCDEFF;
+	
+}

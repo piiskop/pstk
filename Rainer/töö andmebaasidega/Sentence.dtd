@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % id "ID #REQUIRED">
+<!ELEMENT Inimene (idInimene, nimi, Sünniaeg, Sünnikoht, Rollid)>
+<!ELEMENT idInimene (#PCDATA)>
+
+<!ELEMENT nimi (Eesnimi, Perenimi)>
+<!ELEMENT Eesnimi (#PCDATA)>
+<!ELEMENT Perenimi (#PCDATA)>
+<!ELEMENT Sünniaeg (#PCDATA)>
+<!ELEMENT Sünnikoht (Sünnikoht*)>
+<!ATTLIST Sünnikoht place CDATA #REQUIRED>
+
+<!ELEMENT Rollid (idRoll, nimetus, asukoht, Praegune?)>
+
+<!ELEMENT idRoll (#PCDATA)>
+
+<!ELEMENT nimetus (#PCDATA)>
+<!ELEMENT asukoht (asukoht*)>
+<!ATTLIST asukoht place CDATA #REQUIRED>
+<!ELEMENT Praegune EMPTY>

@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.FirstPart { 
+	box-shadow:inset -20px 12px 20px gray;
+	float:left;
+	float:none;
+	display:inline-block;
+	
+}
+
+.SecondPart
+{
+	display:none
+}
+
+
+    
+    
+
+ 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Competitions (Competition*)>
+<!ELEMENT Competition (Title, Teams, Date, Duration, Location, Sets)>
+
+<!ELEMENT Teams (Team+)>
+<!ELEMENT Date (Year, Month, Day)>
+<!ELEMENT Duration (Hours, Minutes)>
+<!ELEMENT Location (City, Country)>
+<!ELEMENT Sets (Set+)>
+
+<!ELEMENT Set (WinningPoints, LosingPoints, WinningTeam)>
+
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Month (#PCDATA)>
+<!ELEMENT Day (#PCDATA)>
+
+<!ELEMENT Hours (#PCDATA)>
+<!ELEMENT Minutes (#PCDATA)> 
+
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Country (#PCDATA)>
+
+<!ELEMENT Team (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+
+<!ELEMENT WinningPoints (#CDATA)>
+<!ELEMENT LosingPoints (#CDATA)>
+<!ELEMENT WinningTeam (#CDATA)>
+
+<!ELEMENT WinnerSets (#CDATA)>
+<!ELEMENT LoserSets (#CDATA)>
+
+<!ATTLIST Competition id ID #REQUIRED>

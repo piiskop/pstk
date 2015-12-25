@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+video#bgvid {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background: url(Chaos.jpg) no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+	html {
+		background: url(Chaos.jpg) #000 no-repeat center center fixed
+	}
+}
+
+img{
+	width : 414px;
+	height: 520px;
+	
+}
+
+body{
+	background-color:black; 
+}
+
+.VideoOverlay {
+	display: flex;
+	justify-items: middle;
+	margin: 0 auto;
+	background: url(logo.png);
+	height: 520px;
+	width:414px;
+}

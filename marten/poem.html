@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Juhan Liivi Luuletus</title>
+<link rel="stylesheet" href="./css/css.css">
+<script src="./js/poem.js" type="text/javascript"></script>
+<script src="./js/canvas.js" type="text/javascript"></script>
+</head>
+<body>
+
+<h1>Luuletus</h1>
+Sisukord:
+<a href="#luuletus">Luuletus</a>
+<a href="#seotud">Laulud järjestamata</a>
+<a href="#seotud2">Laulud järjestatud</a>
+<a href="#pilt">Pilt</a>
+
+<a id="luuletus"/></a><h1>Sa tulid.</h1>
+<p id="luuletus">
+Sa tulid tuppa, ja <strong>valgust</strong><br>
+ja selgust sai tuba täis.<br>
+Su üle oli kui päike,<br>
+kui päike kiiresid täis.<br>
+<br>
+Sa tulid tuppa, ja valgust<br>
+ja selgust sai <strong>tuba</strong> täis.<br>
+Su üle heljus kui muusik,<br>
+su komme — valgust täis.<br>
+<br>
+Sa tulid nagu päikene,<br>
+kui <strong>hommik</strong> tulid sa.<br>
+Sa tulid nagu päikene,<br>
+ja ilm lõi särama.<br>
+<br>
+Sa tulid nagu <strong>päikene</strong><br>
+ja paistsid südame —<br>
+ja kadusid kui päikene<br>
+öö musta hõlmasse.<br>
+</p>
+
+<a id="seotud"/></a>
+<br>
+<div id="AlumineSisu">
+<div id="jliiv">
+<a href="https://et.wikipedia.org/wiki/Juhan_Liiv"><img src="220px-Juhan_Liiv.jpg" alt="Juhan Liiv"></a><a id="pilt"/></a>
+</div>
+<div id="laulud">
+Seotud laulud:
+<ul id="nimekiri">
+<li><a href="https://www.youtube.com/watch?v=HrYP6qBZ930">Sa tulid nagu päikene</a></li>
+<li><a href="https://www.youtube.com/watch?v=Eo0Nopf6xaU">Me pole enam väikesed</a></li>
+<li><a href="http://ruja.ee/Laul/26/">Ma mustas öös näen...</a></li>
+</ul>
+</div>
+<div id="lauludjrst">
+<a id="seotud2"/></a>
+<ol id="nimekiri2">
+<li><a href="https://www.youtube.com/watch?v=HrYP6qBZ930">Sa tulid nagu päikene</a></li>
+<li><a href="https://www.youtube.com/watch?v=Eo0Nopf6xaU">Me pole enam väikesed</a></li>
+<li><a href="http://ruja.ee/Laul/26/">Ma mustas öös näen...</a></li>
+</ol>
+</div>
+</div>
+<br>
+<table border="1" id="tabel">
+<caption>Sõnade esinemine</caption>
+<thead>
+<tr>
+<th>Sõna
+</th>
+<th>
+Esinemine
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+tulid
+</td>
+<td>
+6
+</td>
+</tr>
+<tr>
+<td>
+kui
+</td>
+<td>
+5</td>
+</tr>
+<tr>
+<td>
+täis
+</td>
+<td>
+4</td>
+</tr>
+<tr>
+<td>
+päikene
+</td>
+<td>
+5</td>
+</tr>
+<tr>
+<td>
+valgust</td>
+<td>
+3</td>
+</tr>
+<tr>
+<td>
+nagu
+</td>
+<td>
+3</td>
+</tr>
+<tr>
+<td>
+selgust</td>
+<td>
+2</td>
+</tr>
+<tr>
+<td>
+tuppa
+</td>
+<td>
+2</td>
+</tr>
+</tbody>
+</table> 
+<div class="CanvasContainer"><form>
+	<label for="x">x:</label><input type="number" pattern="\d" id="x"/>
+	<label for="y">y:</label><input type="number" pattern="\d" id="y"/>
+	<label for="width">Laius:</label><input type="number" pattern="\d" id="width"/>
+	<label for="height">Kõrgus:</label><input type="number" pattern="\d" id="height"/>
+	<button type="Button" onclick="drawRect()">Joonista Ristkülik</button>
+</form>
+<br/><canvas></canvas></div>
+</body>
+</html>

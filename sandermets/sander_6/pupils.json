@@ -1,0 +1,242 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://jsonschema.net",
+    "type": "array",
+    "items": [
+        {
+            "id": "http://jsonschema.net/0",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/0/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/0/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/0/coder",
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "id",
+                "name",
+                "coder"
+            ]
+        },
+        {
+            "id": "http://jsonschema.net/1",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/1/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/1/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/1/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/2",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/2/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/2/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/2/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/3",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/3/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/3/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/3/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/4",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/4/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/4/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/4/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/5",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/5/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/5/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/5/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/6",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/6/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/6/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/6/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/7",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/7/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/7/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/7/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/8",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/8/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/8/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/8/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/9",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/9/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/9/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/9/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/10",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/10/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/10/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/10/coder",
+                    "type": "boolean"
+                }
+            }
+        },
+        {
+            "id": "http://jsonschema.net/11",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "id": "http://jsonschema.net/11/id",
+                    "type": "integer"
+                },
+                "name": {
+                    "id": "http://jsonschema.net/11/name",
+                    "type": "string"
+                },
+                "coder": {
+                    "id": "http://jsonschema.net/11/coder",
+                    "type": "boolean"
+                }
+            }
+        }
+    ],
+    "required": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+    ]
+}

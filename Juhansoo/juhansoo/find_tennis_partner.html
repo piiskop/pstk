@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Search engine for tennis partners">
+<meta name="keywords" content="tennis, partner">
+<meta name="author" content="Rasmus Juhansoo">
+<title>Search for tennis partners</title>
+<link rel="stylesheet" href="tennis.css" type="text/css" media="all">
+</head>
+<body>
+	<div class="ContainerForSearchParameters">
+		<form method="post" enctype="multipart/form-data">
+			<table class="SearchParameters">
+				<tbody>
+					<tr>
+						<td colspan="3">
+							<div class="Heading">
+								<h3>Please specify opponent search parameters</h3>
+							</div>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="country">Country <abbr title="required">*</abbr></label>
+						</td>
+						<td class="Input" title="country">
+							<select id="country" name="place" required>
+								<option value="" style="display: none;">Specify country</option>
+								<option value="estonia">Estonia</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="region">Region</label>
+						</td>
+						<td class="Input" title="region">
+							<select id="region" name="place">
+								<option value="" style="display: none;">Specify country first</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="city">City</label>
+						</td>
+						<td class="Input" title="city">
+							<select id="city" name="place">
+								<option value="" style="display: none;">Specify region first</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="skilllevel">Skill level</label>
+						</td>
+						<td class="Input" title="skilllevel">
+							<input id="skilllevel" type="checkbox" value="beginner" name="checkbox">Beginner
+							<br>
+							<input id="skilllevel" type="checkbox" value="intermediate" name="checkbox">Intermediate
+							<br>
+							<input id="skilllevel" type="checkbox" value="advanced" name="checkbox">Advanced
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="gender">Gender</label>
+						</td>
+						<td class="Input" title="gender">
+							<input id="gender" type="checkbox" value="men" name="checkbox">Men
+							<br>
+							<input id="gender" type="checkbox" value="women" name="checkbox">Women
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="height">Height</label>
+						</td>
+						<td class="Input" title="height">
+							<input id="height" type="text" pattern="(?=.*\d).{3}" maxlength="3" name="number"> - 
+							<input id="height" type="text" pattern="(?=.*\d).{3}" maxlength="3" name="number"> cm
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="weight">Weight</label>
+						</td>
+						<td class="Input" title="weight">
+							<input id="weight" type="text" pattern="(?=.*\d).{3}" maxlength="3" name="number"> - 
+							<input id="weight" type="text" pattern="(?=.*\d).{3}" maxlength="3" name="number"> kg
+						</td>
+					</tr>
+					<tr class="Parameter">
+						<td class="Label">
+							<label for="age">Age</label>
+						</td>
+						<td class="Input" title="age">
+							<input id="age" type="text" pattern="(?=.*\d).{3}" maxlength="3" name="number">
+							- <input id="age" type="text" pattern="(?=.*\d).{3}" maxlength="3" name="number"> yr
+						</td>
+					</tr>
+					<tr class="SearchForPartners">
+						<td colspan="3">
+							<button type="submit">Search for partners</button>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

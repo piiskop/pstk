@@ -1,0 +1,23 @@
+<!ELEMENT kinnisvarad (calendar,kinnisvara,piirkond+)>
+<!ELEMENT calendar (start,end+)>
+<!ELEMENT kinnisvara (kinnisvara_tyyp,piirkond,aadress,tubadearv,suurus,hind,kuulutus+)>
+<!ELEMENT piirkond (level1,level2,level3+)>
+<!ELEMENT start (date+)>
+<!ELEMENT end (date+)>
+<!ELEMENT level1 (name+)>
+<!ELEMENT level2 (name+)>
+<!ELEMENT level3 (name+)>
+
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT kinnisvara_tyyp (#PCDATA)>
+<!ELEMENT piirkond (#PCDATA)>
+<!ELEMENT aadress (#PCDATA)>
+<!ELEMENT tubadearv (#PCDATA)>
+<!ELEMENT suurus (#PCDATA)>
+<!ELEMENT hind (#PCDATA)>
+<!ELEMENT kuulutus (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!ATTLIST level1 id CDATA #REQUIRED>
+<!ATTLIST level2 id CDATA #REQUIRED>
+<!ATTLIST level3 id CDATA #REQUIRED>

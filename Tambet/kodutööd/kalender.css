@@ -1,0 +1,112 @@
+@import url('main.css');
+
+.heading button {
+	border: 0;
+	background: #FFF;
+	float: right;
+	margin-left: 2px;
+	font-size: 1.8em;
+	transition: background 150ms ease-in-out;
+}
+
+.heading button:hover {
+	background: #E2E2E2;
+}
+
+#sidebar {
+	background: #FFF;
+}
+
+#sidebar .heading .icon.add {
+	float: right;
+}
+
+#sidebar ul {
+	margin: 0 15px 15px 15px;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: 20px 0;
+}
+
+#sidebar ul .col-70 a {
+	background: url('img/icons.png') no-repeat 0 0;
+	padding-left: 40px;
+	font-size: 1.2em;
+	color: #000;
+}
+
+#sidebar ul .col-30 a {
+	float: right;
+}
+
+#sidebar ul .col-30 a:last-child {
+	margin-right: 10px;
+}
+
+#calendar .heading,
+#calendar table {
+	margin-left: 20px;
+}
+
+#calendar table th,
+#calendar table td {
+	width: 1%;
+}
+
+#calendar table {
+	border-collapse: collapse;
+}
+
+#calendar table th {
+	background-color: #B80918;
+	color: #FFF;
+	padding: 8px 0;
+	border: 1px solid #FFF;
+}
+
+#calendar table th:first-child {
+	border-left: 0;
+}
+
+#calendar table th:last-child {
+	border-right: 0;
+}
+ 
+#calendar table td {
+	position: relative;
+	padding: 5px;
+	background: #FFF;
+	font-size: 0.8em;	
+	vertical-align: top;
+	text-align: right;
+	height: 130px;	
+	border: 1px solid #CCC;
+	background-clip: padding-box; /* Border fix for Firefox */		
+}
+
+#calendar table td div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 105%;	
+	text-align: left;
+}
+
+#calendar table td a {
+	display: block;
+	color: #FFF;
+	background-color: #103A52;
+	font-size: 0.9em;
+	margin-top: 1px;
+	padding: 5px;
+}
+div.mydata{
+
+	font-size: 0.9em;
+	margin-top: 1px;
+	margin-left:20px;
+	padding: 10px;
+}

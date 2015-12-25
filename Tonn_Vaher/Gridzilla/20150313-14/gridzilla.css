@@ -1,0 +1,154 @@
+body {
+	background-color: #FDFDFD;
+	font-family: Georgia, 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+}
+
+a:link, a:hover, a:focus, a:active, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#container {
+	margin: 30px auto auto;
+	width: 60%;
+}
+/* ------ *
+ * Header *
+ * ------ */
+#header {
+	height: 30px;
+}
+
+.logo {
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.logo>span {
+	color: red;
+}
+
+.search {
+	float: right;
+}
+
+.search input {
+	padding: 8px 15px;
+	border: 1px solid #EEEEEE;
+	background-position: 95% center;
+	background-image: url('images/search-icon.png');
+	background-repeat: no-repeat;
+	padding-right: 35px;
+}
+/* ---------- *
+ * Navigation *
+ * ---------- */
+#nav {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#nav ul {
+	list-style: none;
+	border-top: 1px solid #EEEEEE;
+	padding: 0px 15px 15px 5px;
+}
+
+#nav li {
+	padding: 15px 0px 0px 10px;
+	float: left;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#nav li a {
+	border-right: 1px solid #EEEEEE;
+	padding-right: 10px;
+}
+
+#nav li.active {
+	border-top: 1px solid red;
+}
+
+#nav li.active>a {
+	color: red;
+}
+/* ------- *
+ * Content *
+ * ------- */
+.title {
+	text-transform: capitalize;
+	font-size: 30px;
+	text-align: center;
+}
+
+#content {
+	min-height: 300px;
+}
+
+.maps {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* ------------ *
+ * Contact form *
+ * ------------ */
+.contact-form {
+	margin-top: 10px;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.contact-form input[type="text"], input[type="email"], textarea {
+	padding: 6px 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #EEEEEE;
+	background-color: #FAFAFA;
+}
+
+.contact-form input[type="text"], input[type="email"] {
+	width: 50%;
+}
+
+.contact-form textarea {
+	width: 100%;
+	resize: none;
+}
+
+.contact-form input[type="submit"] {
+	border: 0px;
+	font-weight: bold;
+	background-color: #FDFDFD;
+}
+/* ------ *
+ * Footer *
+ * ------ */
+#footer {
+	border-top: 1px solid #EEEEEE;
+	margin-top: 30px;
+	padding-top: 15px;
+	margin-bottom: 20px;
+}
+
+.social-media {
+	float: left;
+	width: 50%;
+}
+
+.copyright {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.copyright p {
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+.copyright span {
+	font-weight: bold;
+}

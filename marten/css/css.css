@@ -1,0 +1,103 @@
+html{
+	font-size:16px;
+}
+body{background-color: linen;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+ul {
+    list-style-position: inside;
+}
+  ol
+    {
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    table
+{ 
+margin-left: auto;
+margin-right: auto;
+}
+    
+
+  body ul li a {color: brown;
+  	font-weight: bold;
+  }  
+  body ol li a {color: yellow;
+  	font-weight: bold;
+  }
+  tr:nth-child(even){color: red;}
+  tr:nth-child(4n+0){color: cyan;}
+  th {color: orange;}
+  
+   body ol li{font-style: italic;}
+    body ul li{font-style: italic;}
+   body ol li:nth-child(2){background-color: black;}  
+   
+   #luuletus {
+   	font-family: sans-serif;   	
+   }
+   
+   #luuletus:first-letter{
+text-decoration: underline;   	
+   }
+  
+  #tabel {  	
+  	font-family: monospace;
+  }
+    #nimekiri {  	
+  	font-family: serif;
+  }
+    #nimekiri2 {  	
+  	font-family: serif;
+  }
+  #AlumineSisu {
+  	width: 880px;
+  	
+  }
+  #laulud{
+  	background-color: #ff0000;
+	float: left;
+	margin-left: 10px;
+	margin-left: 0.625rem;
+	width: 670px;
+	width: 38.125rem;
+	height: 100px;
+	height: 6.25rem;
+  }
+  #lauludjrst{
+  	background-color: #000000;
+	float: left;
+	margin-left: 10px;
+	margin-left: 14.05rem;
+	width: 670px;
+	width: 38.125rem;
+	height: 100px;
+	height: 6.25rem;
+  }
+  #jliiv {
+  	background-color: #000000;
+	float: left;
+	width: 200px;
+	width: 12.5rem;
+	height: 100px;
+	height: 6.25rem;
+	margin-right: 15px;
+  }
+  
+  a { 
+  	text-decoration:none;
+  	display: inline-block;
+  	color: #a0a000;
+  }
+  a:hover { text-decoration:underline; }
+  div.CanvasContainer {
+  	
+  }
+  canvas {
+  	width: 500px;
+  	height: 500px;
+  }

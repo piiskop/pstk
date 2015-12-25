@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+html{
+	font-size:16px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: green;
+}
+
+h1 {
+	color: red;
+	font-family: Arial, sans-serif;
+}
+
+p {
+	margin: 0 auto;
+	float: center;
+}
+
+h1 {
+	font-size: 1.000rem;
+	margin: 0 auto;
+	text-align:center;
+}
+
+table td {
+	font-size: 1.000rem;
+}
+div.Table{
+	background-color:yellow;
+	width:310px;
+	margin:0 auto;
+}
+div.Button{
+	cursor:pointer;
+	text-align: center;
+}

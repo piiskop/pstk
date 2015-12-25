@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (movies, actors, casting)>
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title)> 
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST movie ID ID #REQUIRED>
+
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST actor ID ID #REQUIRED>
+
+<!ELEMENT casting (cast+)>
+<!ELEMENT cast EMPTY>
+<!ATTLIST cast IDmovie IDREF #REQUIRED>
+<!ATTLIST cast IDactor IDREFS #REQUIRED>

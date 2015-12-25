@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE KLASS [
+<!ENTITY BROWN "pruun">
+]>
+<KLASS xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema klass_nested.xsd">
+	<LAUD ID="l1">
+		<VÄRVUS>must</VÄRVUS>
+		<MATERJAL>puit</MATERJAL>
+	</LAUD>
+	<LAUD ID="l2">
+		<VÄRVUS>&BROWN;</VÄRVUS>
+		<MATERJAL>teras</MATERJAL>
+	</LAUD>
+	<PRÜGIKAST>
+		<MATERJAL>PVC</MATERJAL>
+	</PRÜGIKAST>
+</KLASS>

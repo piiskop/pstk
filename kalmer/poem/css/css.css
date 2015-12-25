@@ -1,0 +1,250 @@
+/* START COMMON ELEMENTS */
+html
+{
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+}
+
+body
+{
+	background-color: #f0f0f0;
+	color: grey;
+	width:500px;
+}
+
+body ul {
+	background-color: #f3f3f3;
+	color: #0f0f0f;
+}
+
+body ul li {
+	background-color: #e2e2e2;
+	color: #1e1e1e;
+}
+
+body ul li a {
+	background-color: #d3d3d3;
+	color: #2d2d2d;
+}
+
+body h1 {
+	
+}
+a
+{
+	font-weight: bold;
+}
+h2#poem
+
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+tr:nth-child(2)
+{
+	background-color: yellow;
+}
+
+h2.SecondLevelHeading
+{
+	text-align: right;
+}
+iframe
+{
+	width: 400px;
+	height: 200px;
+}
+p
+{
+	color: violet;
+}
+
+strong
+{
+	color: darkviolet;
+}
+
+ol, ul
+{
+	font-style: italic;
+}
+
+p strong
+{
+	color: hotpink;
+}
+/* END COMMON ELEMENTS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tr.Fourth
+{
+	background-color: yellow;
+}
+
+#headerOfTable
+{
+	color: brown;
+}
+
+.SecondElementInList
+{
+	font-family: monospace;
+	font-size: 16px;
+}
+
+span.FirstLetter
+{
+	text-decoration: underline;
+}
+
+div.JustSongs
+{
+	background-color: lightblue;
+	float: left;
+}
+
+div.OrderedSongs
+{
+	background-color: orange;
+	float: left;
+}
+
+#imageOfFlame
+{
+	float: right;
+}
+
+#links
+{
+	clear: both;
+}
+div.First
+{
+	background-color: pink;
+	width: 500px;
+	width: 31.25em;
+	height: 100px;
+	height: 6.25em;
+}
+
+div.Second
+{
+	background-color: violet;
+	width: 200px;
+	height: 50px;
+	margin-top:-100px;
+}
+
+div.Third
+{
+	background-color: black;
+	position: fixed;
+	top: 50px;
+	bottom:0;
+	right:50px;
+	left:50px;
+	width: 100px;
+	height: 10px;
+}
+
+#canvas
+{
+	width: 500px;
+	height: 500px;
+}
+
+#songs
+{
+}
+
+div.Container1
+{
+	width: 450px;
+	height: 320px;
+}
+
+div.Hopper
+{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	right: 160px;
+	bottom: 240px;
+}
+
+div.Ohnoes
+{
+	position: absolute;
+	top: 185px;
+	left: 160px;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+}
+/* The two possible left properties are left: 300px; and left: 160px;. Well, the entire window in the second screenshot is only 360 pixels wide, and he seems to be in the middle of that, so the correct choice is left: 160px.
+Hopper, the orange beaver, seems to change position in the two screenshots - moving closer to the left hand side and closer to the top side in the smaller window. This is a good indication that she is positioned using bottom and right, because those two sides actually change when the window is resized, and thus anything positioned with them will also change.
+The two possible bottom properties are bottom: 60px and bottom: 240px - she looks farther than 60 pixels from the bottom, so bottom: 240px is the correct choice.
+There is only one possible right property, right: 160px, so that is the correct choice.
+*/
+
+#containerForContents
+{
+	position: fixed;
+	z-index: 1;
+}
+#buttonForOrderedSongs
+{
+	position: fixed;
+	top: 200px;
+	left: 50px;
+	z-index: 1;
+}

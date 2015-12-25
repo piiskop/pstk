@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+html
+{
+	font-size: 16px;
+}
+
+body
+{
+	margin: 0 auto;
+	width: 1000px;
+	width: 62.5rem;
+}
+
+div.MainContainer
+{
+	margin: 10px;
+	margin: 0.625rem;
+	width: 1000px;
+	width: 62.5rem;
+}
+
+div.Sidebar
+{
+	
+	float: left;
+	width: 200px;
+	width: 12.5rem;
+	height: 100px;
+	height: 6.25rem;
+}
+
+div.ContainerForContent
+{
+	background-color: #ff0000;
+	float: left;
+	margin-left: 10px;
+	margin-left: 0.625rem;
+	width: 770px;
+	width: 48.125rem;
+	height: 100px;
+	height: 6.25rem;
+}

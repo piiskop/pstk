@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kontrolltöö</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Õpilased</h1>
+	<form>
+		<div>
+		<label for="name">Nimi: <input type="text" name="name" id="name"></label>
+			<button type="button" id="buttonSearch"
+				onclick="controller();">Otsin</button>
+				<button type="button" id="buttonSearch"
+				onclick="makeRequest(&quot;GET&quot;);">Otsin AJAX-ga.</button>
+				<button type="button" id="buttonShow"
+				onclick="toggleShow();">Kuvan kogu nimekirja.</button>
+		</div>
+		<div id="answer"><label for="coder">
+		<input type="checkbox" id="coder">oskab progeda:</label>
+		<button type="button" id="buttonSave"
+			onclick="save();">Salvestan nime ja kas oskab progeda.</button></div>
+		 <p id="info"></p>
+		 <p id="counter"></p> 
+		 <input type="text" name="key" id="key">
+	</form>
+	<table id="table">
+	<caption>Õpilaste progemisoskus</caption>
+	<thead>
+	<tr>
+	<th>Eesnimi</th>
+	<th>Perenimi</th>
+	<th>Kas oskab progeda?</th></tr>
+	</thead>
+    <tbody id="tbody">
+	</tbody>
+	<tfoot>
+	<tr>
+	<td id="tfooter" colspan="100%"></td>
+	</tr>
+	</tfoot>
+
+	</table>
+	<script src="kontrolltoo.js?1"></script>
+</body>
+</html>

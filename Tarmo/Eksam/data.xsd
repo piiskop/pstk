@@ -1,0 +1,57 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="data">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="players">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="player" maxOccurs="100">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="name" type="xs:string" maxOccurs="1"/>
+									<xs:element name="phone" type="xs:string"/>
+									<xs:element name="mail" type="xs:string" maxOccurs="1"/>
+								</xs:sequence>
+								<xs:attribute name="id" use="required">
+									<xs:simpleType>
+								    	<xs:restriction base="xs:string">
+								      		<xs:pattern value="[a-z][0-9]"/>
+								    	</xs:restriction>
+						   			</xs:simpleType>
+								</xs:attribute>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>	
+			</xs:element>
+			<xs:element name="fields">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="field" maxOccurs="20">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="name" type="xs:string"/>
+									<xs:element name="user" type="xs:string"/>
+									<xs:element name="sport" type="xs:string"/>
+									<xs:element name="play_time">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="play_day" type="xs:date"/>
+												<xs:element name="play_start" type="xs:time"/>
+												<xs:element name="play_end" type="xs:time"/>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>	
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>				
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

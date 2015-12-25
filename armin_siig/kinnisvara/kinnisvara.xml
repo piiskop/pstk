@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estate xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema kinnisvara.xsd">
+	<advertisements>
+		<advertisement advertid="_1">
+
+			<price>1000</price>
+			<address>kaevu</address>
+			<rooms>8</rooms>
+			<description>sdQWRFqef QWFqwfQWEFqwfQWF</description>
+			<type>korter</type>
+
+
+
+		</advertisement>
+	</advertisements>
+</estate>

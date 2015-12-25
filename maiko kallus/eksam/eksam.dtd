@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT eksam (taimed, kasvukohad, omadused)>
+<!ELEMENT taimed (taime_nim+, ladina_nim+)>
+<!ELEMENT omadused (maitseomadus*, pikkus?, lehe_kuju?, kroonlehe_varv*)>
+<!ELEMENT kasvukohad (kasvukoht)>
+<!ELEMENT kasvukoht (#PCDATA)>
+<!ELEMENT taime_nim (#PCDATA)>
+<!ELEMENT ladina_nim (#PCDATA)>
+<!ELEMENT maitseomadus EMPTY>
+<!ELEMENT pikkus EMPTY>
+<!ELEMENT lehe_kuju EMPTY>
+<!ELEMENT kroonlehe_varv EMPTY>
+
+
+<!ATTLIST taimed taimed_id ID #REQUIRED>
+<!ATTLIST kasvukohad kasvukohad_id ID #REQUIRED>
+<!ATTLIST omadused omadused_id ID #REQUIRED>

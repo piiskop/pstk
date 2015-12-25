@@ -1,0 +1,48 @@
+/* 2: a rule that will make the first cell in each data row have a red
+background */
+tr>td:first-child
+{
+	background-color: red;
+}
+
+/* 3: a rule that will "zebra stripe" the backgrounds of the rows, alternating
+between white and #eee */
+tr:nth-child(2n)
+{
+	background-color: white;
+}
+tr:nth-child(2n+1)
+{
+	background-color: #eee;
+}
+
+/* 4: a rule that will turn the label red when the checkbox is clicked */
+input:checked ~ label
+{
+	color: red;
+}
+
+/* 5: a rule that will make the first letter of the pepper name huge */
+td:nth-child(2n):first-letter
+{
+	font-size: 30px;
+}
+
+/* 6: Add a rule that will color the link red if the first letter of the pepper
+stuff is either “R”, “T”, C” or “D” */
+td a[title*="R"]
+{
+	color: red;
+}
+td a[title*="T"]
+{
+	color: red;
+}
+td a[title*="C"]
+{
+	color: red;
+}
+td a[title*="D"]
+{
+	color: red;
+}

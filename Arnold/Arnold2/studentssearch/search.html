@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Students Search</title>
+<script src="../studentssearch/search.js"></script>
+<link rel="stylesheet" type="text/css" href="search.css" media="all" />
+</head>
+<body>
+<h1>Õpilased</h1>
+	<form>
+	 <label for="insertName">Name:</label>
+		<input id="insertName" type="text" name="name">
+		 
+		<button type="button"  id="save" onclick="binarySearch()" style="cursor: pointer">Otsin</button>
+		<button type="button" id="ajaxButton" onclick="makeRequestFirstName()">Otsin Ajaxiga</button>
+		<input id="studentsName" type="button" value="Kuva kogu nimekiri." onclick="createTable()" style="cursor: pointer">
+		<div id="studentsName" onclick = "hideTable()"></div>
+			
+
+	</form>
+	<div id="repeats"></div>
+	<!-- <div id ="saveStudent"></div> -->
+	<div id="nameNotFound" style="display: none;">Sellist õppilast pole.</div> 
+	
+	
+	<div id="programmingForm">
+	<form id="programming" style="display: none;">
+		<label for="checkBox" id="checkBox" >oskab progeda: </label>
+		<input type="checkbox" id="progInput" value="canProgram">
+			
+			<button id="save" type="button"  onclick="saveProgramming()" style="cursor: pointer">Salvestan nime ja kas oskab progeda.</button>
+			<div id="response"></div>
+	</form>
+	</div>
+	<!-- <id id="tfooter"></id>-->
+	<div id="noStudent"></div> 
+	<div id="updateDone"></div>
+	<div id="dataChanged"></div>
+	<div id="divTable">
+		<table>
+			<tbody id="table" >
+			</tbody>
+		</table>
+	</div>
+	<!-- <div id="changeState"></div> -->
+	
+	<!-- <table id="studentList" style="display: none;"></table> -->
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Tippimine (Tipp_id, Andmed, Tipp)>
+<!ELEMENT Tipp_id (tippimistyyp?)>
+<!ELEMENT tippimistyyp (#PCDATA)>
+<!ATTLIST tippimistyyp id ID #REQUIRED>
+
+<!ELEMENT Andmed (pikkus+, paksus*, kvaliteet+, aeg, asutus, esindaja*, tippija*)>
+<!ELEMENT pikkus (#PCDATA)>
+<!ATTLIST pikkus id ID #REQUIRED>
+<!ELEMENT paksus (#PCDATA)>
+<!ATTLIST paksus id ID #REQUIRED>
+<!ELEMENT kvaliteet (#PCDATA)>
+<!ATTLIST kvaliteet id ID #REQUIRED>
+<!ELEMENT aeg (#PCDATA)>
+<!ELEMENT asutus (#PCDATA)>
+<!ELEMENT esindaja (#PCDATA)>
+<!ELEMENT tippija (#PCDATA)>
+
+<!ELEMENT Tipp (puuliik, diameeter, kogus, kokku)>
+<!ELEMENT puuliik (liik+)>
+<!ELEMENT liik (#PCDATA)>
+<!ATTLIST liik id ID #REQUIRED>
+<!ELEMENT diameeter (diam+)>
+<!ELEMENT diam (#PCDATA)>
+<!ATTLIST diam id ID #REQUIRED>
+<!ELEMENT kogus (tk+)>
+<!ELEMENT tk (#PCDATA)>
+<!ATTLIST tk id ID #REQUIRED>
+<!ELEMENT kokku (total+)>
+<!ELEMENT total (#PCDATA)>
+<!ATTLIST total id ID #REQUIRED liik_id IDREF #REQUIRED diam IDREFS #REQUIRED tk IDREFS #REQUIRED>
+
+
+<!--
+SPIKKER:
+ + = 1 kuni lõpmatus
+ * =0 kuni lõpmatus
+ ?  = 0 või 1
+ ilma = kindlasti 1!
+ -->

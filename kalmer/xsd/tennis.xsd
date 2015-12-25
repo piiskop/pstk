@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:simpleType name="kohtunikuNimi">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="45"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="tennis">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="turniirid">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Turniir" nillable="true" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nimi">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="50"></xs:maxLength>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="turniiriAlgus" type="xs:dateTime" />
+										<xs:element name="turniiriLõpp" type="xs:dateTime" />
+									</xs:sequence>
+									<xs:attribute name="idTurniir" type="xs:ID" use="required"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="kohtunikud">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Kohtunik" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="eesnimi" type="xs:kohtunikuNimi"></xs:element>
+										<xs:element name="perenimi" type="xs:kohtunikuNimi" />
+										<xs:element name="telefoniNumber">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="15"></xs:maxLength>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="meiliAadress" type="xs:anyURI"></xs:element>
+									</xs:sequence>
+									<xs:attribute name="idKohtunik" type="xs:ID" use="required"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="turniirid_kohtunikud">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Turniir_has_Kohtunik" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="Turniir_idTurniir" type="xs:IDREFS"></xs:attribute>
+									<xs:attribute name="Kohtunik_idKohtunik" type="xs:IDREFS"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

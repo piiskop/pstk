@@ -1,0 +1,98 @@
+/* Eraldi valimine */
+h1{
+	font-size:14px;
+	color:#009900;
+	}
+p{
+	font-size:14px;
+	color:#009900;
+	}
+
+/* Mitu elementi korraga */
+h1, p {
+	font-size:14px;
+	color:#009900;
+}	
+
+/* Pesastatud elemendi valimine */
+div p {
+	font-size:14px;
+	color:#009900;
+}
+
+/*Täpne pesastatus*/
+div > p {
+	font-size:14px;
+	color:#009900;
+}
+/* järgmine sugulane(1) */
+p + h1 {
+	font-size:14px;
+	color:#009900;
+}
+/* Koik sugulaselemendid
+p ~ h1 {
+	font-size:14px;
+	color:#009900;
+} 
+/* Atribuudid */
+
+/*KLASS*/
+.header {
+	font-size:14px;
+	color:#009900;}
+/* ID*/	
+#header {
+	font-size:14px;
+	color:#009900;}
+		
+[class]{
+	font-size:14px;
+	color:#009900;
+}	
+a[class="header"]{
+	font-size:14px;
+	color:#009900;
+}
+input[type="password"]{
+	font-size:14px;
+	color:#009900;
+	width:600px;
+}			
+
+/*lingid*/
+a:link {
+	font-size:14px;
+	color:#009900;
+}
+a:visited {
+	font-size:14px;
+	color:#FF00FF;
+}
+a:active{
+	font-size:14px;
+	color:#000000;
+}
+a:hover{
+	font-size:14px;
+	color:#FFFFFF;
+}
+input:focus{
+	font-size:14px;
+	background-color:#009900;
+	color:#FFFFFF;
+}
+
+/*Pseudoklassid*/
+li:last-child {
+	font-size:20px;
+	color:#AA0000;
+}
+li:first-child{
+	font-size:14px;
+	color:#009900;
+}
+span:only-child{
+	font-size:14px;
+	color:#009900;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT nimekiri (linateosed, tegelased, filmid)>
+<!ELEMENT linateosed (linateos+)>
+<!ELEMENT linateos (pealkiri)> 
+<!ELEMENT pealkiri (#PCDATA)>
+<!ATTLIST linateos ID ID #REQUIRED>
+
+<!ELEMENT tegelased (tegelane+)>
+<!ELEMENT tegelane (nimi)>
+<!ELEMENT nimi (#PCDATA)>
+<!ATTLIST tegelane ID ID #REQUIRED>
+
+<!ELEMENT filmid (film+)>
+<!ELEMENT film EMPTY>
+<!ATTLIST film IDlinateos IDREF #REQUIRED>
+<!ATTLIST film IDtegelane IDREFS #REQUIRED>

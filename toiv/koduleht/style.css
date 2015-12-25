@@ -1,0 +1,71 @@
+/*CSS */
+@CHARSET "UTF-8";
+
+body
+{
+	font-size:15px;
+	background-color: #ffffff;
+	text-align: center; 
+	color: brown;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1
+{
+	font-size:16px;
+	color:#4d0026;
+}
+
+h2
+{
+	background-color: linen; 
+	color: #660033; 
+	font-size:18px;
+	font-family: Montserrat;
+}
+
+#menu
+{
+font-family: Montserrat;
+font-size: 16px;
+}
+
+#menu ul
+{ 
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+ }
+ 
+#menu ul li {display: inline; }
+
+#menu ul li a 
+{
+text-decoration: none; 
+float: left;
+width: 6em;
+padding: .2em .6em;
+color: white;
+background-color: 660000;
+border-right: 1px solid white;
+}
+
+#menu ul li a:hover
+{
+background-color: CC3300;
+}
+
+body {
+display: inline-block;
+margin: 0px auto;
+text-align:center;
+width:590px;
+ }
+ 
+#menu {
+display: inline-block;
+margin: 0px auto;
+text-align:center;
+width:auto;
+ }

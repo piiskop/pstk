@@ -1,0 +1,42 @@
+.container form {
+    padding: 20px;
+}
+
+.container form .textinp{
+    margin: 20px;
+}
+
+#txtarea {
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+
+.container form #content{
+    
+    float: right;
+    margin-left: 20px;
+}
+
+#inp {
+    width: 25px;
+}
+
+.rightbutton {
+    margin: 0 auto;
+}
+
+#button {
+    clear: left;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.Hide {
+    display: none !important
+}
+
+.Show {
+    display: inline-block !important;
+}

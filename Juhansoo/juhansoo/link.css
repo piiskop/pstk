@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: overline;
+}

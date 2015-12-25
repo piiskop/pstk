@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<familytree>
+	<family>
+		<humans>
+			<human id="human1">
+				<name>Kadi</name>
+				<sex>femail</sex>
+			</human>
+			<human id="human2">
+				<name>Meelis</name>
+				<sex>male</sex>
+			</human>
+			<human id="human3">
+				<name>Kati</name>
+				<sex>femail</sex>
+			</human>
+			<human id="human4">
+				<name>Leida</name>
+				<sex>femail</sex>
+			</human>
+			<human id="human5">
+				<name>Ants</name>
+				<sex>male</sex>
+			</human>
+			<human id="human6">
+				<name>Karl</name>
+				<sex>male</sex>
+			</human>
+			<human id="human7">
+				<name>Kati</name>
+				<sex>female</sex>
+			</human>
+		</humans>
+	</family>
+	<humanRelations>
+		<humanRelation>
+			<mother idref="human1">
+			</mother>
+			<father idref="human2">
+			</father>
+			<child idref="human3"></child>
+		</humanRelation>
+		<humanRelation>
+			<mother idref="human4"></mother>
+			<father idref="human5"></father>
+			<child ref="human2"></child>
+		</humanRelation>
+		<humanRelation>
+			<mother idref="human1">
+			</mother>
+			<father idref="human2">
+			</father>
+			<child idref="human6"></child>
+		</humanRelation>
+		<humanRelation>
+			<mother idref="human1">
+			</mother>
+			<father idref="human2">
+			</father>
+			<child idref="human7"></child>
+		</humanRelation>
+	</humanRelations>
+</familytree>

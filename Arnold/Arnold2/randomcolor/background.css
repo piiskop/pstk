@@ -1,0 +1,24 @@
+.lightblue {background: #CEE3F6;}
+.red {background: #FE2E2E;}
+.yellow {background: #F2F5A9;}
+.green {background: #BEF781;}
+.auto {background: white;}
+.picture {background-image: url(Background-pretty-little-liars-tv-show-33571722-1920-1440.jpg);}
+
+.date {
+    float: right;
+}
+
+#container {
+    width: 1200px;
+    width: 75rem;
+    height: 600px;
+    height: 37.5rem;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 60px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!ELEMENT retseptiraamat (retseptid,koostisosad, toidud)>
+<!ELEMENT retseptid (retsept+)>
+<!ELEMENT retsept (pealkiri)>
+<!ELEMENT pealkiri (#PCDATA)>
+<!ATTLIST retsept ID ID #REQUIRED>
+
+<!ELEMENT koostisosad (koostisosa+)>
+<!ELEMENT koostisosa (pealkiri)>
+<!ATTLIST koostisosa ID ID #REQUIRED>
+
+<!ELEMENT toidud (toit+)>
+<!ELEMENT toit EMPTY>
+<!ATTLIST toit IDretsept IDREF #REQUIRED>
+<!ATTLIST toit IDkoostisosad IDREFS #REQUIRED>

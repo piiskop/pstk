@@ -1,0 +1,22 @@
+#coach
+	choose a coach:
+		coach chosen. [property coach-chosen]
+		coach not chosen. [error]
+#subject
+	occurence of text subject:
+		text written. [if coach-chosen] [property subject-written]
+		text not written. [error]
+	content subject:
+		only empty symbols. [error]
+		contains special characters. [property subject-written]
+		begins with empry symbol. [property subject-written]
+		ends with empty symbol. [property subject-written]
+#description
+	occurence of text description:
+		text written. [if coach-chosen] [property description-written]
+		text not written. [error]
+	content description:
+		only empty symbols. [error]
+		contains special characters. [property description-written]
+		begins with empry symbol. [property description-written]
+		ends with empty symbol. [property description-written]

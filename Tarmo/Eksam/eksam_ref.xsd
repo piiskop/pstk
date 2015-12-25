@@ -1,0 +1,90 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="nimi">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="45"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>
+<xs:element name="nimi1">
+	<xs:simpleType>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:element>	
+	
+<xs:element name="toiduaineeripära">
+	<xs:complexType>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+		<xs:attribute name="ta_id" type="xs:IDREF"/>
+		<xs:attribute name="e_id" type="xs:IDREFS"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="liik">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="nimi"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="eripära">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="nimi1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="toiduaine">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="nimi" maxOccurs="40"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+		<xs:attribute name="tl_id" type="xs:IDREF"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="toiduaineliigid">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="liik" maxOccurs="10"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element> 
+<xs:element name="eripärad">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="eripära" maxOccurs="20"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element> 
+<xs:element name="toiduained">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="toiduaine" maxOccurs="40"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element> 
+<xs:element name="toiduaineeripärad">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="toiduaineeripära" maxOccurs="20"/>
+		</xs:sequence>
+ 	</xs:complexType>
+</xs:element>
+<xs:element name="toitumine">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="toiduaineliigid"/>
+			<xs:element ref="eripärad"/>
+			<xs:element ref="toiduained"/>
+			<xs:element ref="toiduaineeripärad"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

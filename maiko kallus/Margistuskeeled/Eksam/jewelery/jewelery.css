@@ -1,0 +1,215 @@
+html, div, body,hr, ul, li, h1, h2, h3, h4, h5, h6, p{
+	margin:0;
+	font-family: sans-serif;
+	padding:0;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Headeri ja nuppude stiili osa*/
+
+#header{
+	height:640px;
+	background:#2f2e29;
+	padding-left: 300px;
+	color:#ffffff;
+}
+
+.nupud{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#jew{
+	
+	font-weight: bold;
+	padding-right: 250px;
+}
+
+a, li, ul{
+	text-decoration: none;
+}
+.nav{
+	padding-right: 25px;
+	color: #FFF;
+}
+
+#cent{
+	padding-top: 250px;
+}
+
+
+#learn{
+	
+	width:100px;
+	background: #e92121;
+	padding-left:12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #FFF;
+	margin-right: 20px;
+}
+
+.choose{
+	width: 150px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #FFF;
+	border: 1px solid #FFF;
+}
+
+#nav2{
+	margin-top: 30px;
+}
+
+/**************************************************************************/
+#interesting{
+	
+	padding-left: 300px;
+	padding-bottom: 20px;
+}
+
+#h1{
+	padding-top: 100px;
+	float: left;
+	padding-right: 40px;
+}
+
+#p1{
+	padding-top: 50px;
+	padding-left: 300px;
+}
+
+#p2{
+	padding-top: 50px;
+	padding-left: 300px;
+}
+
+/**************************************************************************/
+#work{
+	padding-bottom: 20px;
+}
+
+#how{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#how2{
+	margin-left:300px;
+}
+
+.cap{
+	padding-top: 50px;
+}
+
+.text{
+	color:#b7b7b7;
+}
+
+.small{
+	height: 75px;
+	width: 75px;
+}
+/**************************************************************************/
+#more{
+	padding-bottom: 100px;
+	padding-top: 100px;
+	background: #faf9f9;
+	padding-left: 300px;
+}
+
+#pic_more{
+	width: 200px;
+	height: 200px;
+	padding-right: 30px;
+	padding-left: 50px;
+}
+/**************************************************************************/
+#choose{
+	padding-left: 300px;
+	padding-bottom: 20px;
+}
+
+.why{
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.size{
+	width: 150px;
+	height: 150px;
+	padding-bottom: 0px;
+}
+
+.our{
+	padding-left: 50px;
+}
+
+ .width{
+ 	width: 300px;
+ 	font-size: 11px;
+ 	padding-left: 25px;
+ }
+
+ .betw{
+ 	margin:0;
+ }
+/**************************************************************************/
+#feedback{
+	padding-bottom: 20px;
+	background: #faf9f9;
+}
+
+.cap1{
+	width: 250px;
+ 	font-size: 12px;
+ 	padding-right: 25px;
+ 	padding-bottom: 10px;
+}
+/**************************************************************************/
+#photo{
+	padding-left: 300px;
+	padding-bottom: 20px;
+}
+
+.w{
+	width: 300px;
+ 	font-size: 11px;
+	padding-left: 0px;
+}
+/**************************************************************************/
+#footer{
+	padding-left: 300px;
+	height: 200px;
+	background: #141414;
+	padding-top: 75px;
+}
+
+.jew{
+	padding-bottom: 50px;
+}
+
+#miskit{
+	color: #3c3c3c;
+	font-size: 12px;
+}
+
+.copy{
+	padding-left: 250px;
+}
+
+.t{
+	padding-left: 50px;
+}
+
+hr{
+	color:#f1f1f1;
+}

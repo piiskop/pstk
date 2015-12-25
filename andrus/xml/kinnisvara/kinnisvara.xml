@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE kinnisvarad SYSTEM "kinnisvara.dtd">
+<kinnisvarad>
+	<calendar>
+		<start>
+			<date>2014-11-01</date>
+		</start>
+		<end>
+			<date>2014-12-10</date>
+		</end>
+	</calendar>
+	<kinnisvara>
+		<kinnisvara_tyyp>Korter</kinnisvara_tyyp>
+			<piirkond idref="p3"> Pärnumaa Pärnu kesklinn</piirkond>
+			<aadress> tänav maja number</aadress>
+			<tubade_arv>2 tuba</tubade_arv>
+			<suurus>100mˇ2</suurus>
+			<hind>100 000 EUR</hind>
+			<kuulutus>
+				<![CDATA[Lorem Ipsum on lihtsalt proovitekst, mida kasutatakse printimis- ja <br/>
+						ladumistööstuses. See on olnud tööstuse põhiline proovitekst juba <br/>
+						alates 1500. aastatest, mil tundmatu printija võttis hulga suvalist teksti,<br/>
+						et teha trükinäidist. Lorem Ipsum ei ole ainult viis sajandit säilinud, vaid <br/>
+						on ka edasi kandunud elektroonilisse trükiladumisse, jäädes sealjuures <br/>
+						peaaegu muutumatuks. See sai tuntuks 1960. aastatel Letraset'i lehtede <br/>
+						väljalaskmisega, ja hiljuti tekstiredaktoritega nagu Aldus PageMaker,<br/>
+						mis sisaldavad erinevaid Lorem Ipsumi versioone.]]>
+			</kuulutus>
+	</kinnisvara>
+	<piirkonnad>
+		<level1 id="p1">
+			<name> Pärnuma</name>
+		</level1>
+		<level2 id="p2">
+			<name>Pärnu</name>
+		</level2>
+		<level3 id="p3">
+			<name>Kesklinn</name>
+		</level3>
+	</piirkonnad>
+</kinnisvarad>

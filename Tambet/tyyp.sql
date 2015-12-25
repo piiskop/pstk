@@ -1,0 +1,22 @@
+CREATE TABLE `tyyp` (
+  `float_` float DEFAULT NULL,
+  `float_0_9_9` float(3,2) DEFAULT NULL,
+  `double_` double(22,10) DEFAULT NULL,
+  `decimal_` decimal(10,5) DEFAULT NULL,
+  `tiny_int` tinyint(255) DEFAULT NULL,
+  `smallint_` smallint(255) DEFAULT NULL,
+  `mediumint_` mediumint(255) DEFAULT NULL,
+  `int_` int(255) DEFAULT NULL,
+  `bigint_` bigint(255) DEFAULT NULL,
+  `char_1_1` char(1) DEFAULT NULL,
+  `varchar_1_65535` varchar(300) DEFAULT NULL,
+  `tinytext_0_255` tinytext,
+  `text_0_65535` text,
+  `mediumtext_0_16mil` mediumtext,
+  `longtext_0_4_29miljard` longtext,
+  `date_` date DEFAULT NULL,
+  `time_` time DEFAULT NULL,
+  `datetime_` datetime DEFAULT NULL,
+  `timestamp_` timestamp(4) NULL DEFAULT NULL,
+  `year_` year(4) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 

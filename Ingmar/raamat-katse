@@ -1,0 +1,65 @@
+# author
+	Emptyness:
+		empty. [error]
+		not empty. [property-author-defined]
+	Content:
+		Contains only English letters. [if-author-defined]
+		Contains non-English letters. [if-author-defined]
+		Contains special characters. [if-author-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty sign. [if-author-defined]
+		Ends with an empty sign. [if-author-defined]
+		
+# title
+	Emptyness:
+		empty. [error]
+		not empty.[property-title-defined]
+	Lenght:
+		> 0 && <255.
+		255.
+		< 256.
+	content:
+		Contains only English letters. [if-title-defined]
+		Contains non-English letters. [if-title-defined]
+		Contains special characters. [if-title-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty sign. [if-title-defined]
+		Ends with and empty sign. [if-title-defined]
+		
+# genre
+	Emptyness:
+		empty. [error]
+		not empty.
+		
+# price
+	Emptyness:
+		empty. [error]
+		not empty. [property-price-defined]
+	Content:
+		Contains non-float characters. [error]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty sign. [if-price-defined]
+		Ends with and empty sign. [if-price-defined]
+		Contains only float characters. [if-price-defined]
+
+# publish date
+	Emptyness:
+		empty.
+		not empty.
+
+# description
+	Emptyness:
+		empty.
+		not empty. [property-description-defined]
+	content:
+		Contains only English letters. [if-description-defined]
+		Contains non-English letters. [if-description-defined]
+		Contains special characters. [if-description-defined]
+		Contains only empty-signs. [if-description-defined]
+		Begins with an empty sign. [if-description-defined]
+		Ends with and empty sign. [if-description-defined]
+	
+			
+		
+		

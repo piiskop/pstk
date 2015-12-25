@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+html{
+
+	margin:0;
+	padding:0;
+}
+body{
+	height:900px;
+	margin:0;
+	padding:0;	
+}
+.pais{
+	background-color:yellow;
+	height:10%;
+	width:100%;
+}
+.kere{
+	background-color:green;
+	height:80%;
+	width:100%;
+}
+.jalus{
+	background-color:black;
+	height:10%;
+	width:100%;
+}
+
+.tablel {
+	border : 2px solid black;
+}
+.r0 {
+	background-color : purple;
+	border : 2px solid black;
+	height : 20px;
+	width : 700px;
+}
+.r1 {
+	background-color : pink;
+	border : 2px solid black;
+	height : 20px;
+	width : 700px;
+}

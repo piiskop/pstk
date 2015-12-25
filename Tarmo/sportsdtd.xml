@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sports SYSTEM "sports.dtd">
+<sports>
+	<sport id="s1">
+		<name>Football</name>
+		<competition>
+			<name>EPL</name>
+			<matchday>12</matchday>
+			<date>2014-12-12</date>
+			<time>21:45</time>
+			<home>
+				<team>Manchester United</team>
+				<goals>2</goals>
+				<possession>55%</possession>
+				<totalshots>8</totalshots>
+				<shotsongoal>5</shotsongoal>
+				<passing>80%</passing>
+				<fouls>12</fouls>
+				<yellowcards>2</yellowcards>
+				<redcards>0</redcards>
+				<corners>5</corners>
+				<offsides>3</offsides>
+			</home>
+			<away>
+				<team>Liverpool</team>
+				<goals>1</goals>
+				<possession>45%</possession>
+				<totalshots>6</totalshots>
+				<shotsongoal>2</shotsongoal>
+				<passing>78%</passing>
+				<fouls>16</fouls>
+				<yellowcards>3</yellowcards>
+				<redcards>1</redcards>
+				<corners>4</corners>
+				<offsides>5</offsides>
+			</away>
+		</competition>
+	</sport>
+</sports>

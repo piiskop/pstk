@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data 	xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xml2.xsd"
+		>
+	<worker workerID="1"><!--Workers information-->
+		<name>
+			<first_name>Märt</first_name>
+			<last_name>Juhanson</last_name>
+		</name>
+		<phone>
+			<mob>5566234</mob>
+			<tel>2045454</tel>
+		</phone>
+		<pass>Tam56Ad</pass>
+	</worker>
+	<worker workerID="2">
+		<name>
+			<first_name>Ats</first_name>
+			<last_name>Juhanso</last_name>
+		</name>
+		<phone>
+			<mob>5566264</mob>
+			<tel>2045454</tel>
+		</phone>
+		<pass>oiylihlil</pass>
+	</worker>
+	<worker workerID="3">
+		<name>
+			<first_name>Ül&amp;lar</first_name>
+			<last_name>Juga</last_name>
+		</name>
+		<phone>
+			<mob>5566244</mob>
+			<tel>2045434</tel>
+		</phone>
+		<pass>ooyutfiyu</pass>
+	</worker>
+	<work workID="1"><!--To do list-->
+		<location>
+			<![CDATA[Tagaküla hei<z<>&&namaa]]>
+		</location>
+		<planned_date>2015-09-20</planned_date>
+		<time>
+			<start>10:00</start>
+			<end>14:30</end>
+		</time>
+	</work>
+</data>

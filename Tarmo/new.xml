@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE action>
+<action xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com new.xsd">
+	<name>Laulmine</name>
+	<spacedname>		Laulmine		joi
+		</spacedname>
+	<nowhitespacename> 	 	lll 	 Laulmine 
+		 	 </nowhitespacename>
+	<start_date>2014-12-03</start_date>
+	<start_time>09:00:00</start_time>
+	<end>2014-12-04T12:00:00</end>
+	<duration>P1DT3H</duration>
+</action>	

@@ -1,0 +1,39 @@
+# Path to file
+Correctness:
+	Path to existing file. 
+	Path to non-existing file. [property non-existing]
+Suitability:
+	Path to non-suitable file. 
+	Path to suitable file. [if !non-existing][property suitable]
+
+# Width
+Occurence of width:
+	Given width. [if suitable][property given-width]
+	width not given. [if suitable]
+Type of width:
+	Numeric width. [if given-width] [property numeric-width]
+	Non-numeric width. 
+Value of width:
+	Negative width. [if numeric-width]
+	Width 0. [if numeric-width]
+	Positive width. [if numeric-width][property positive]
+Value of width relative to original:
+	Smaller than the original width. [if positive]
+	Same as the original width. [if positive]
+	Bigger than the original width. [if positive]
+
+# height
+Occurence of height:
+	Given height. [if suitable][property given-height]
+	height not given.[if suitable]
+Type of height:
+	Numeric height. [if given-height] [property numeric-height]
+	Non-numeric height. 
+Value of height:
+	Negative height. [if numeric-height]
+	height 0. [if numeric-height]
+	Positive height. [if numeric-height][property positive]
+Value of height relative to original:
+	Smaller than the original height. [if positive]
+	Same as the original height. [if positive]
+	Bigger than the original height. [if positive]

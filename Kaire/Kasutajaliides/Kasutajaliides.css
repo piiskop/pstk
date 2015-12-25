@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: black;
+	background-color: #9999ff;
+}
+.Button{
+ width: 90px;
+ width: 5.625rem;
+ height: 40px;
+ height: 2.500rem;
+}

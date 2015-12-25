@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toidu_tegemine SYSTEM "eksam.dtd">
+
+<toidu_tegemine>
+
+	<retseptid>
+		<retsept id="retsept_1">Frikadellisupp</retsept>		
+	</retseptid>
+ 
+	<koostisained>
+		<koostisaine id="koostisaine_1">
+			<koostisaine_nimi>vesi</koostisaine_nimi>
+		</koostisaine>
+	</koostisained>	
+
+	<retseptid_koostisained retseptide_tunnused="retsept_1" koostisainete_tunnused="koostisaine_1"/>
+	
+</toidu_tegemine>
+
+

@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#Form1 {
+	border: 2px solid red;
+	padding: 10px;
+}
+
+#Leitud {
+	padding-top: 25px;
+}
+
+#eiLeitud {
+	padding-top: 25px;
+}

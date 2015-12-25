@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html>
+   <head>
+      <title>Linear Search of an Array</title>
+
+      <script type = "text/javascript">   
+         <!--
+         var a = new Array( 100 );  // create an Array
+                      
+         // fill Array with even integer values from 0 to 198
+         for ( var i = 0; i < a.length; ++i ) 
+            a[ i ] = 2 * i;
+         // function called when "Search" button is pressed
+         function buttonPressed()
+         {
+            var searchKey = searchForm.inputVal.value;
+            // Array a is passed to linearSearch even though it
+            // is a global variable. Normally an array will
+            // be passed to a method for searching.
+            var element = linearSearch( a, parseInt( searchKey ) );
+            if ( element != -1 )
+               searchForm.result.value = 
+                  "Found value in element " + element;
+            else
+               searchForm.result.value = "Value not found";
+         }
+   
+         // Search "theArray" for the specified "key" value
+         function linearSearch( theArray, key ) 
+         {   
+            for ( var n = 0; n < theArray.length; ++n ) 
+               if ( theArray[ n ] == key )
+                  return n;
+            return -1;
+         }
+         // -->
+      </script>
+   </head>
+   <body>
+      <form name = "searchForm" action  = "">
+         <p>Enter integer search key<br />
+         <input name = "inputVal" type = "text" />
+         <input name = "search" type = "button" value = "Search" 
+                onclick = "buttonPressed()" /><br /></p>
+         <p>Result<br />
+         <input name = "result" type = "text" size = "30" /></p>
+      </form>
+
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+create table types2 (id integer auto_increment primary key, name text, number integer, another_nr float(7,2), date date, time time, datetime datetime, timestamp timestamp, year year, t_int tinyint, s_int smallint, m_int mediumint, b_int bigint, single_char char, t_text tinytext, m_text mediumtext, l_text longtext); 
+
+insert into types2 (id, name, number, another_nr, date, time, datetime, timestamp, year, t_int, s_int, m_int, b_int, single_char, t_text, m_text, l_text) values (1, "steve", 12, "12.34", "2015-01-31", "12:12:12", "2015-01-31 12:12:12", 20150131121212, 2015, 100, 6666, 1234321, 123456789, 0, "tinytext", "mediumtext","longtext" );

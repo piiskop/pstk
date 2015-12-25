@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+button {margin: 10px;}
+img{
+	float: left;
+	margin: 10px;
+}
+div {
+	margin: 10px;
+	float: left;
+}
+form input {
+	margin: 10px;	
+}
+h1{
+	margin: 10px;
+	
+}

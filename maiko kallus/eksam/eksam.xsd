@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="eksam">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="taimed">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="taim" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="taime_nim">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:sequence>
+										<xs:element name="ladina_nim">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="100" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:IDREF" name="taimed_id"
+										use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="kasvukohad">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="kirjeldus" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="kasvukoht">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="45" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:IDREF" name="kasvukohad_id"
+										use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="omadused">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="omadus" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="maitseomadus">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="45" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:sequence>
+										<xs:element name="pikkus">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:maxLength value="3" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:sequence>
+										<xs:element name="lehe_kuju">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="45" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:sequence>
+										<xs:element name="kroonlehe_varv">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:maxLength value="45" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:IDREF" name="omadused_id"
+										use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

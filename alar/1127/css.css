@@ -1,0 +1,27 @@
+
+
+
+#students {
+    border-collapse: collapse;
+}
+
+table tr td {
+    border: 1px solid #999;
+    text-align: left;  }
+
+
+thead{background-color:orange}
+
+tbody tr:nth-child(odd) td:first-child{
+    background-color:cyan;
+}
+tbody tr:nth-child(odd) td:nth-child(2){
+    background-color:cyan;
+}
+tbody tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tfoot {
+    background-color:sandybrown;
+}

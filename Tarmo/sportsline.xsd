@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+<xs:element name="sports">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="sport">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name" type="xs:string"/>
+						<xs:element name="competition">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="name" type="xs:string"/>
+									<xs:element name="matchday" type="xs:integer"/>
+									<xs:element name="date" type="xs:date"/>
+									<xs:element name="time" type="xs:time"/>
+									<xs:element name="home">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="team" type="xs:string"/> 
+												<xs:element name="goals" type="xs:integer"/>
+												<xs:element name="possession" type="xs:string"/>
+												<xs:element name="totalshots" type="xs:integer"/>
+												<xs:element name="shotsongoal" type="xs:integer"/>
+												<xs:element name="passing" type="xs:string"/>
+												<xs:element name="fouls" type="xs:integer"/>
+												<xs:element name="yellowcards" type="xs:integer"/>
+												<xs:element name="redcards" type="xs:integer"/>
+												<xs:element name="corners" type="xs:integer"/>
+												<xs:element name="offsides" type="xs:integer"/>
+  											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="away">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="team" type="xs:string"/> 
+												<xs:element name="goals" type="xs:integer"/>
+												<xs:element name="possession" type="xs:string"/>
+												<xs:element name="totalshots" type="xs:integer"/>
+												<xs:element name="shotsongoal" type="xs:integer"/>	
+												<xs:element name="passing" type="xs:string"/>
+												<xs:element name="fouls" type="xs:integer"/>
+												<xs:element name="yellowcards" type="xs:integer"/>
+												<xs:element name="redcards" type="xs:integer"/>
+												<xs:element name="corners" type="xs:integer"/>
+												<xs:element name="offsides" type="xs:integer"/>
+  											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>	
+					</xs:sequence>
+					<xs:attribute name="id" use="required">
+									<xs:simpleType>
+								    	<xs:restriction base="xs:string">
+								      		<xs:pattern value="[a-z][0-9]"/>
+								    	</xs:restriction>
+								   	</xs:simpleType>
+								</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mmk>
+<disciplines>
+	<discipline idteacher="teacher1">
+		<disname>Kujutav geomeetria</disname>
+		<disnumber>6</disnumber>
+	</discipline>
+	<discipline idteacher="teacher4">
+		<disname>Animatsioon</disname>
+		<disnumber>8</disnumber>
+	</discipline>
+	<discipline idteacher="teacher2">
+		<disname>Veebipõhised tehnoloogiad</disname>
+		<disnumber>2</disnumber>
+	</discipline>
+	<discipline idteacher="teacher3">
+		<disname>3Dgraafika alused</disname>
+		<disnumber>2</disnumber>
+	</discipline>
+	<discipline idteacher="teacher3">
+		<disname>Trükiettevalmistus</disname>
+		<disnumber>2</disnumber>
+	</discipline>
+	<discipline idteacher="teacher3">
+		<disname>Kirjaõpetus</disname>
+		<disnumber>2</disnumber>
+	</discipline>
+</disciplines>
+<teachers>
+	<teacher id="teacher1">
+		<teacname>Andry Kikkull</teacname>
+	</teacher>
+	<teacher id="teacher2">
+		<teacname>Kalmer Piiskop</teacname>
+	</teacher>
+	<teacher id="teacher3">
+		<teacname>Marge Robam</teacname>
+	</teacher>
+	<teacher id="teacher4">
+		<teacname>Peeter Parker</teacname>
+	</teacher>
+
+</teachers>
+</mmk>
+
+
+

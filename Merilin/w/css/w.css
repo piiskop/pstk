@@ -1,0 +1,50 @@
+w.css
+@CHARSET "UTF-8"; 
+html{ 
+font-size:16px; 
+font-family: Verdana, Helvetica, sans-serif;
+} 
+body{ 
+width:900px; 
+width:56.250rem; 
+background-color:#ddf7ff; 
+} 
+img
+{ 
+height:240px; 
+width:460px; 
+float: left;
+} 
+
+p.sisu
+{ 
+text-align:center; 
+width:480px; 
+width:30rem; 
+color:#f274ab; 
+} 
+h1
+{ 
+margin:10px; 
+margin:0.625rem; 
+color:#fa1e33; 
+text-align:center; 
+width:480px; 
+width:30rem; 
+} 
+h2{ 
+margin:10px; 
+margin:0.625rem; 
+color:#e107f8; 
+} 
+table thead tr th{ 
+padding:2px; 
+padding:0.125rem; 
+} 
+tr:nth-child(2n)
+{ 
+background-color:#92f1ff; 
+} 
+tr:nth-child(2n+1){ 
+background-color:#6f50fe; 
+} 

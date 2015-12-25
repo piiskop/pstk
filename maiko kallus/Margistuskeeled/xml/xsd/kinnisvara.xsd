@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="objct">
+		<xs:complexType >
+			<xs:sequence>
+				<xs:element name="type" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="transaction_type" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="sale" />
+										<xs:enumeration value="rental" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="number_of_rooms" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1" />
+										<xs:maxInclusive value="20" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="area" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction base="xs:decimal">
+										<!-- määrab komakoha ja numbri pikkuse -->
+										<xs:pattern value="[+-]\.{10}\..{2}" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="price" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1" />
+										<xs:maxInclusive value="9999999999999" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="image">
+					<xs:complexType>
+						<xs:attribute name="src" type="xs:string" />
+						<xs:attribute name="width" type="xs:integer" />
+						<xs:attribute name="height" type="xs:integer" />
+						<xs:attribute name="name" type="xs:string" />
+						<xs:attribute name="alt" type="xs:string" />
+						<xs:attribute name="border" type="xs:integer" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="address">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="county" type="xs:string" />
+							<xs:element name="city" type="xs:string" />
+							<xs:element name="street" type="xs:string" />
+							<xs:element name="house" type="xs:integer" />
+							<xs:element name="apartment" type="xs:integer" />
+							<xs:element name="postalCode" type="xs:integer" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

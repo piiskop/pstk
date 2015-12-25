@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Canvas</title>
+<link rel="stylesheet" href="canvas.css" type="text/css" media="all">
+<script type="text/javascript" src="canvas.js"></script>
+</head>
+<body onload="changeBackground()">
+	<h2>Example of usage on canvas</h2>
+	<canvas id="canvas" width="500px" height="500px"></canvas>
+	<form>
+		<table>
+			<tbody>
+				<tr>
+					<td><label for="x">x:</label></td>
+					<td><input type="number" pattern="\d" id="x"/></td>
+				</tr>
+				<tr>
+					<td><label for="y">y:</label></td>
+					<td><input type="number" pattern="\d" id="y"/></td>
+				</tr>
+				<tr>
+					<td><label for="width">width:</label></td>
+					<td><input type="number" pattern="\d" id="width"/></td>
+				</tr>
+				<tr>
+					<td><label for="height">height:</label></td>
+					<td><input type="number" pattern="\d" id="height"/></td>
+				</tr>
+			</tbody>
+		</table>
+		<button onclick="showHide({idOfTarget: 'showHide', textOnButton: this.textContent});">Hide canvas</button>
+		<button type="button" onclick="drawRect()">Draw rectangle</button>
+		<input type="color" oninput="console.log(this.value); document.body.style.backgroundColor=this.value"/>
+	</form>
+</body>
+</html>

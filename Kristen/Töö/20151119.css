@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	float: left;
+}
+.Box {
+	width: 256px;
+	height: 256px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 100px 10px rgba(0,0,0,0.75), inset 0px 0px 25px 5px rgba(0,0,0,0.75);
+}

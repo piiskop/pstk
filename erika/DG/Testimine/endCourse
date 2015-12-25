@@ -1,0 +1,4 @@
+# endCourse
+	Emptyness of endCourse:
+		empty. [error]
+		not empty. [property endCourse-defined]

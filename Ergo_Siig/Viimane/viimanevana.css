@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+html{
+	font-family:sans-serif;
+	background-color:#505050;
+}
+
+header{
+	background-color:#585858;
+	margin: auto;
+	width: 75%;
+	height: 500px;
+}
+.logo{
+	color: #FFFFFF;
+	position: absolute;
+    left: 260px;
+    padding: 20px 15px;
+}
+headerkastid {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    background-color:#FFFFFF;
+}
+	
+}
+img{
+	margin:0px;
+	width: 100%;
+}
+.sisu{
+	background-color:#FFFFFF;
+	margin: auto;
+	width: 75%;
+	height: 300px;
+}
+footer{
+	background-color:#585858;
+	margin: auto;
+	width: 75%;
+	height: 300px;
+}
+table{
+	text-align:center;
+}
+
+td{
+
+	border: 3px solid #2852c3;
+	font-size:14px;
+}
+
+.nupud {
+    position: absolute;
+    right: 0px;
+    padding: 20px 15px;
+    width: 830px;
+}
+.nupp {
+  color: #FFFFFF;
+  background: #585858;
+  font-weight: bold;
+  border: 4px solid #585858;
+}
+ 
+.nupp:hover {
+  color: #FFFFFF;
+  background: #202020;
+  border: 4px solid #585858;
+}
+
+#tfheader{
+		background-color:#505050;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput4{
+		margin: 0;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#505050;
+		border:1px solid #505050; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;	
+	}
+	.tfbutton4 {
+		margin: 0;
+		padding: 0;
+		width:30px;
+		height:30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #505050;
+		border: solid 1px #505050; border-right:0px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		background: #505050;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton4::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:element name="traktorid">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="description">
+				</xs:element>
+				<xs:element name="traktor" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Color" type="xs:string" />
+							<xs:element name="Fuel" type="xs:string" />
+							<xs:element name="Engine_power" type="xs:integer" />
+							<xs:element name="Weight_kg" type="xs:integer" />
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>	

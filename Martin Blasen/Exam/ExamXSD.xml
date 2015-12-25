@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RocketHeaters xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema Exam.xsd">
+
+	<Models>
+		<Name ID="model1">Annex Variation</Name>
+		<Name ID="model2">Daybed with Bypass</Name>
+		<Name ID="model3">Bonny Convection Bench</Name>
+		<Name ID="model4">Cabin Variation</Name>
+	</Models>
+
+	<DuctSize>
+		<Inches ID="DSize1">6</Inches>
+		<Inches ID="DSize2">8</Inches>
+	</DuctSize>
+
+	<Barrel>
+		<Gallons ID="BSize1">55</Gallons>
+		<Gallons ID="BSize2">30</Gallons>
+	</Barrel>
+
+	<HeatableArea>
+		<SquareFeet ID="Area1">800</SquareFeet>
+		<SquareFeet ID="Area2">120</SquareFeet>
+		<SquareFeet ID="Area3">2000</SquareFeet>
+		<SquareFeet ID="Area4">840</SquareFeet>
+	</HeatableArea>
+
+	<WoodConsumed>
+		<Cords ID="Wood1">1.5</Cords>
+		<Cords ID="Wood2">0.4</Cords>
+		<Cords ID="Wood3">3.3</Cords>
+	</WoodConsumed>
+
+	<Heaters idOfModel="model1" idOfDuctSize="DSize1" idOfBarrel="BSize1"
+		idOfArea="Area1" idOfConsumption="Wood1" />
+	<Heaters idOfModel="model2" idOfDuctSize="DSize1" idOfBarrel="BSize2"
+		idOfArea="Area2" idOfConsumption="Wood2" />
+	<Heaters idOfModel="model3" idOfDuctSize="DSize2" idOfBarrel="BSize1"
+		idOfArea="Area3" idOfConsumption="Wood3" />
+	<Heaters idOfModel="model4" idOfDuctSize="DSize2" idOfBarrel="BSize2"
+		idOfArea="Area4" idOfConsumption="Wood1" />
+
+</RocketHeaters>

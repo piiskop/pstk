@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.box{
+	  width:100%;
+    border: 1px solid;
+    text-align:left;
+    display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}

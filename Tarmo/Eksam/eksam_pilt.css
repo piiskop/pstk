@@ -1,0 +1,88 @@
+body {
+	font-family:"Helvetica";}
+header {
+	width:1300px;
+	margin:0px;
+	height:100px;
+	background-color:#333333;}
+.yellow {
+	color:#FF9900;}
+.white {
+	color:#FFFFFF;}	
+.small {
+	font-style:italic;
+	color:#999999;
+	font-family:"Arial Narrow";
+	font-size:14px;
+	padding-left:10px;
+	padding-right:80px;}
+div a{
+	color:#FFFFFF;
+	text-decoration:none;}		
+header p {
+	padding-left:80px;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:30px;}
+.nav1, .nav2, .nav3, .nav4, .nav4, .nav5, .nav6 {
+	height:20px;
+	width:140px;
+	font-size:20px;
+	font-weight:bold;
+	float:left;
+	padding:40px 10px;}
+.nav1 {
+	width:70px;}
+.nav2, .nav5 {
+	width:110px;}			
+.nav:hover, .nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav4:hover, .nav5:hover, .nav6:hover {
+	background-color:#555555;
+	border-top: 3px solid;
+	border-color:#FFAD00;}
+.navbar {
+	position:absolute;
+	top:30px;
+	right:50px;}	
+.main{
+	background-image:url("bed.jpg");
+	width:1300px;
+	height:325px;
+	background-repeat:no-repeat;
+	margin-bottom:0px;}	
+footer {
+	position:absolute;
+	top:455px;
+	background-color:#FFFFFF;
+	width:1300px;
+	height:50px;
+	margin-top:0px;}	
+footer p {
+	font-family:"French Script MT";
+	font-size:50px;
+	padding-left:500px;
+	}	
+input {
+	border-radius:5px;
+	width:200px;
+	height:30px;}	
+.form {
+	background-color:#333333;
+	width:900px;
+	height:80px;
+	position:absolute;
+	left:200px;
+	top:420px;}
+form {
+	padding:10px 30px;}
+label {
+	padding-right:160px;
+	color:#FF7E00;}		
+input[type="submit"]{
+	height:35px;
+	font-weight:bold;
+	background-color:#FFA509;}
+.lorem {
+	padding:0px 200px;
+	font-family:"Bookman Old Style";
+	font-size:10px;
+}		

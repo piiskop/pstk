@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT toiduainete_liigid (liigid,toiduained, jaotused)>
+<!ELEMENT liigid (liik+)>
+<!ELEMENT liik (nimi)>
+<!ELEMENT nimi (#PCDATA)>
+<!ATTLIST liik ID ID #REQUIRED>
+
+<!ELEMENT toiduained (toiduaine+)>
+<!ELEMENT toiduaine (nimi)>
+<!ATTLIST toiduaine ID ID #REQUIRED>
+
+<!ELEMENT jaotused (jaotus+)>
+<!ELEMENT jaotus EMPTY>
+<!ATTLIST jaotus IDliik IDREF #REQUIRED>
+<!ATTLIST jaotus IDtoiduaine IDREFS #REQUIRED>

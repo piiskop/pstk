@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Slaidiesitluse näide</title>
+
+<script type="text/javascript" src="slaidid.js"></script>
+<link rel="stylesheet" href="slaidid.css">
+</head>
+<body onload="setDimensions();">
+<h1>Slaidiesitlus</h1>
+ <h2 id="category"></h2>
+ <div class="Image" id="image" style="height:260 width:420"></div>
+ <h3 id="caption"></h3>
+ <button type="button" onclick="move(false);">Eelmine</button>
+ <button type="button" onclick="moveRandom();">Pane juhuslik slaid</button>
+ <button type="button" onclick="move(true);">Järgmine</button>
+ <button type="button" onclick="move(true);">Avab esitluse</button>
+ <button type="button" onclick="move(true);">Sulgeb esitluse</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!ELEMENT syndm (syndmus)>
+<!ELEMENT html (pais,syndm)>
+<!ELEMENT pais (title)>
+<!ELEMENT syndmused (syndmus)>
+<!ELEMENT syndmus (calendar,Title,description)>
+<!ELEMENT calendar (start,end)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT meta (#PCDATA)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ATTLIST meta name CDATA #REQUIRED>
+<!ATTLIST meta content CDATA #IMPLIED>
+<!ATTLIST meta charset CDATA #REQUIRED>
+<!ATTLIST start Date CDATA #REQUIRED>
+<!ATTLIST start Mounth CDATA #REQUIRED>
+<!ATTLIST start Year CDATA #REQUIRED>
+<!ATTLIST start Hour CDATA #REQUIRED>
+<!ATTLIST start Min CDATA #REQUIRED>
+<!ATTLIST end Date CDATA #REQUIRED>
+<!ATTLIST end Mounth CDATA #REQUIRED>
+<!ATTLIST end Year CDATA #REQUIRED>
+<!ATTLIST end Hour CDATA #REQUIRED>
+<!ATTLIST end Min CDATA #REQUIRED>

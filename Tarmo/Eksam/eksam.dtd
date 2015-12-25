@@ -1,0 +1,14 @@
+<!ELEMENT toitumine (toiduaineliigid, eripärad, toiduained, toiduaineeripärad)>
+<!ELEMENT toiduaineliigid (liik+)>
+<!ELEMENT liik (nimi+)>
+<!ATTLIST liik id ID #REQUIRED>
+<!ELEMENT nimi (#PCDATA)>
+<!ELEMENT eripärad (eripära+)>
+<!ELEMENT eripära (nimi+)>
+<!ATTLIST eripära id ID #REQUIRED>
+<!ELEMENT toiduained (toiduaine+)>
+<!ELEMENT toiduaine (nimi+)>
+<!ATTLIST toiduaine id ID #REQUIRED tl_id IDREF #REQUIRED>
+<!ELEMENT toiduaineeripärad (toiduaineeripära+)>
+<!ELEMENT toiduaineeripära EMPTY>
+<!ATTLIST toiduaineeripära id ID #REQUIRED ta_id IDREF #REQUIRED e_id IDREFS #REQUIRED>

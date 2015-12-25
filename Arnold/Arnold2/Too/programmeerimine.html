@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../Too/programmeerimine.js"></script>
+<link rel="stylesheet" type="text/css" href="programmeerimine.css"
+	media="all" />
+</head>
+<body>
+	<h1>Õpilased</h1>
+	<form>
+		<!--  Nimi: <label id="myLabel" for="Pupils"></label> <input type="text"
+			name="nimi" id="Pupils">
+		<!-- class="socialbutton" onclick="down()" --
+		<input type="submit" value="Otsin" style="cursor: pointer"
+			onclick="myFunction()"> <input type="submit"
+			value="Kuvan kogu nimekirja." style="cursor: pointer">-->
+
+
+		<div>
+			<label for="inputForProgram">Nimi: <input type="text"
+				name="name" id="searchInput"></label>
+			<button type="button" id="buttonSearch" onclick="BinarySearch();" style="cursor: pointer">Otsin</button>
+			<button type="button" id="buttonShow" onclick="showList();" style="cursor: pointer">Kuvan
+				kogu nimekirja.</button>
+		</div>
+		<div id="answer"></div>
+		<input type="checkbox" id="checkboxForProgram"><label
+			for="checkboxForProgram" id="labelInProgram">Oskab progeda:</label>
+		<button type="button" id="buttonSave" onclick="saveName();" style="cursor: pointer">Salvestan
+			nime ja kas oskab progeda.</button>
+	</form>
+	
+	<!-- <div id="answer"></div>
+		<button type="button" id="buttonInEviction"
+			onclick="resetCalculation();" style="cursor:pointer">Alustan otsast.</button>-->
+
+
+	<!-- <div class="wrapper">
+<div class="droplink">-->
+
+	<!-- <ul id="dropdown" style="display:none">
+<li class="facebook"><a href="#">Facebook</a></li>
+<li class="twitter"><a href="#">Twitter</a></li>
+<li class="gplus"><a href="#">Google Plus</a></li>
+<li class="vk"><a href="#">ВКонтакте</a></li>
+<li class="rss"><a href="#">RSS</a></li>
+</ul>-->
+	<!-- </div>
+</div>-->
+</body>
+</html>

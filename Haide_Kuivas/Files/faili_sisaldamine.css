@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+#header {
+	width: 50px;
+	background-color: yellow;
+		
+	
+}
+
+#sisu {
+	width:100%;
+	background-color: green;
+	
+}
+
+#footer {
+	width: 50px;
+	background: blue;
+}

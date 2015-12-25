@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vegetables>
+	<vegetable>
+		<name>Arugula</name>
+		<benefits>
+			<benefit id="b1">
+				<name><![CDATA[Cancer Prevention]]></name>
+			</benefit>
+			<benefit id="b2">
+				<name><![CDATA[High in Anti-oxidants]]></name>
+			</benefit>
+			<benefit id="b3">
+				<name><![CDATA[Supports Immune System]]></name>
+			</benefit>
+			<benefit id="b4">
+				<name><![CDATA[High in Vitamin C]]></name>
+			</benefit>
+			<benefit id="b5">
+				<name><![CDATA[Fights common Colds]]></name>
+			</benefit>
+			<benefit id="b6">
+				<name><![CDATA[High in Vitamin A & Vitamin K]]></name>
+			</benefit>
+			<benefit id="b7">
+				<name><![CDATA[Eye Health]]></name>
+			</benefit>
+			<benefit id="b8">
+				<name><![CDATA[Rich in Minerals]]></name>
+			</benefit>
+			<benefit id="b9">
+				<name><![CDATA[Weight Loss]]></name>
+			</benefit>
+			<benefit id="b10">
+				<name><![CDATA[Promotes Bone Health]]></name>
+			</benefit>
+		</benefits>
+		<links>
+			<link id="l1">
+				<address>
+					twitter.com/healthdigezt
+				</address>
+			</link>
+			<link id="l2">
+				<address>
+					pinterest.com/healthdigezt
+				</address>
+			</link>
+			<link id="l3">
+				<address>
+					instagram.com/healthdigezt
+				</address>
+			</link>
+			<link id="l4">
+				<address>
+					plusgoogle.com/+Healthdigezt
+				</address>
+			</link>
+		</links>
+	</vegetable>
+</vegetables>

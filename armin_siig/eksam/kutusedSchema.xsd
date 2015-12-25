@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ˇˇ<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="station">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="fuels">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="fuel" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="price" type="xs:decimal" />
+									</xs:sequence>
+									<xs:attribute name="id" type="xs:ID" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="people">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="client" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" type="xs:ID" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="people_buying">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="client_fuel" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="amount" type="xs:decimal" />
+									</xs:sequence>
+									<xs:attribute name="id_client" type="xs:IDREF" />
+									<xs:attribute name="id_fuel" type="xs:IDREF" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

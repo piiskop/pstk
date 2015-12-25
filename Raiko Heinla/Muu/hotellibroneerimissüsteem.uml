@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_IGVW4FhtEeWaBfTrfW5x1A" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_KipoUFhtEeWaBfTrfW5x1A" name="Soogikohad">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_l_cUoFhtEeWaBfTrfW5x1A" name="nimi" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uH2mMFhtEeWaBfTrfW5x1A" name="aadress" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_00PlsFhtEeWaBfTrfW5x1A" name="kaugusHotellist" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zf_oMFhwEeWaBfTrfW5x1A" name="hind" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ce0WIFhxEeWaBfTrfW5x1A" name="klient" type="_AakdsFhwEeWaBfTrfW5x1A" association="_ceyg8FhxEeWaBfTrfW5x1A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rsza4Fh_EeWaBfTrfW5x1A" name="idSook" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SPVAIFhtEeWaBfTrfW5x1A" name="Rendiautod">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-8RwMFhuEeWaBfTrfW5x1A" name="nimi" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A67OMFhvEeWaBfTrfW5x1A" name="nrAuto" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ER6YIFhvEeWaBfTrfW5x1A" name="kaugusHotellist" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1Ex0sFhwEeWaBfTrfW5x1A" name="hind" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lWWXg1hxEeWaBfTrfW5x1A" name="klient" type="_AakdsFhwEeWaBfTrfW5x1A" association="_lWVwcFhxEeWaBfTrfW5x1A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vej1QFh_EeWaBfTrfW5x1A" name="idRendiautod" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WBXHUFhtEeWaBfTrfW5x1A" name="Kindlustus">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YFt50FhvEeWaBfTrfW5x1A" name="nimi" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3iQZMFhvEeWaBfTrfW5x1A" name="kaugusHotellist" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2WukwFhwEeWaBfTrfW5x1A" name="hind" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tNlZgFhxEeWaBfTrfW5x1A" name="klient" type="_AakdsFhwEeWaBfTrfW5x1A" association="_tNjkUFhxEeWaBfTrfW5x1A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x8NjcFh_EeWaBfTrfW5x1A" name="idKindlustus" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Zr4RQFhtEeWaBfTrfW5x1A" name="MeelelahutuslikudUritused">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1trdMFhvEeWaBfTrfW5x1A" name="nimi" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4lsMIFhvEeWaBfTrfW5x1A" name="kaugusHotellist" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3lrrMFhwEeWaBfTrfW5x1A" name="hind" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3dsXYlhxEeWaBfTrfW5x1A" name="klient" type="_AakdsFhwEeWaBfTrfW5x1A" association="_3drwUFhxEeWaBfTrfW5x1A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zNdv8Fh_EeWaBfTrfW5x1A" name="idMeelelahutus" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AakdsFhwEeWaBfTrfW5x1A" name="Klient">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GKhqIFhwEeWaBfTrfW5x1A" name="eesnimi" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MsoFMFhwEeWaBfTrfW5x1A" name="perekonnanimi" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OKPSsFhwEeWaBfTrfW5x1A" name="telefon" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PGlmMFhwEeWaBfTrfW5x1A" name="email" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cezvEFhxEeWaBfTrfW5x1A" name="soogikohad" type="_KipoUFhtEeWaBfTrfW5x1A" association="_ceyg8FhxEeWaBfTrfW5x1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kqDSMFhxEeWaBfTrfW5x1A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kqFucFhxEeWaBfTrfW5x1A" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lWWXglhxEeWaBfTrfW5x1A" name="rendiautod" type="_SPVAIFhtEeWaBfTrfW5x1A" association="_lWVwcFhxEeWaBfTrfW5x1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_slHEQFhxEeWaBfTrfW5x1A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_slISYFhxEeWaBfTrfW5x1A" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tNkycVhxEeWaBfTrfW5x1A" name="kindlustus" type="_WBXHUFhtEeWaBfTrfW5x1A" association="_tNjkUFhxEeWaBfTrfW5x1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_20UDMFhxEeWaBfTrfW5x1A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_20UDMVhxEeWaBfTrfW5x1A" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3dsXYVhxEeWaBfTrfW5x1A" name="meelelahutuslikuduritused" type="_Zr4RQFhtEeWaBfTrfW5x1A" association="_3drwUFhxEeWaBfTrfW5x1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8afBgFhxEeWaBfTrfW5x1A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8agPoFhxEeWaBfTrfW5x1A" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jzgRcFiBEeWaBfTrfW5x1A" name="insertPerson">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_meOyUFiBEeWaBfTrfW5x1A" name="eesnimi">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_oCeMQFiBEeWaBfTrfW5x1A" name="perekonnanimi">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vQsGcFiBEeWaBfTrfW5x1A" name="telefon">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xCFLkFiBEeWaBfTrfW5x1A" name="email">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xZNSIFiBEeWaBfTrfW5x1A" name="tellimus">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_MmcfgFiCEeWaBfTrfW5x1A" name="idSook">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ObKlcFiCEeWaBfTrfW5x1A" name="idRendiautod">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_R5fGcFiCEeWaBfTrfW5x1A" name="idKindlustus">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Tp7wYFiCEeWaBfTrfW5x1A" name="idMeelelahutus">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ceyg8FhxEeWaBfTrfW5x1A" memberEnd="_cezvEFhxEeWaBfTrfW5x1A _ce0WIFhxEeWaBfTrfW5x1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cezIAFhxEeWaBfTrfW5x1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cezIAVhxEeWaBfTrfW5x1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lWVwcFhxEeWaBfTrfW5x1A" memberEnd="_lWWXglhxEeWaBfTrfW5x1A _lWWXg1hxEeWaBfTrfW5x1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWWXgFhxEeWaBfTrfW5x1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWWXgVhxEeWaBfTrfW5x1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tNjkUFhxEeWaBfTrfW5x1A" memberEnd="_tNkycVhxEeWaBfTrfW5x1A _tNlZgFhxEeWaBfTrfW5x1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tNkLYFhxEeWaBfTrfW5x1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tNkycFhxEeWaBfTrfW5x1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3drwUFhxEeWaBfTrfW5x1A" memberEnd="_3dsXYVhxEeWaBfTrfW5x1A _3dsXYlhxEeWaBfTrfW5x1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3drwUVhxEeWaBfTrfW5x1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3dsXYFhxEeWaBfTrfW5x1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+</uml:Model>

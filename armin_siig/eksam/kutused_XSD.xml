@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<station xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema kutusedSchema.xsd">
+	<fuels>
+		<fuel id="s1">
+			<price>18</price>
+		</fuel>
+		<fuel id="s2">
+			<price>19</price>
+		</fuel>
+	</fuels>
+	<people>
+		<client id="d1" />
+	</people>
+	<people_buying>
+		<client_fuel id_client="d1" id_fuel="s1">
+			<amount>10</amount>
+			
+		</client_fuel>
+		<client_fuel  id_client="d1" id_fuel="s2"> 
+			<amount>100</amount>
+		</client_fuel>
+	</people_buying>
+</station>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT kalender (Description*, events, vacancies, Comment?)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT events (event*)>
+<!ATTLIST event Name CDATA #REQUIRED>
+<!ELEMENT event (time, place)>
+<!ATTLIST time Date CDATA #REQUIRED>
+<!ATTLIST time clock CDATA #REQUIRED>
+<!ATTLIST place Name CDATA #REQUIRED>
+<!ATTLIST place aadress CDATA #REQUIRED>
+<!ATTLIST place link CDATA #REQUIRED>
+<!ELEMENT time EMPTY>
+<!ELEMENT place EMPTY>
+<!ELEMENT vacancies (Info*,vacancy*)>
+<!ELEMENT Info (#PCDATA)>
+<!ELEMENT vacancy (place, time)>
+
+
+
+
+
+<!ELEMENT Comment (#PCDATA)>
+
+

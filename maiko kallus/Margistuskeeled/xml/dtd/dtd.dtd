@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT activities (activity+)>
+<!ELEMENT activity (when, message)>
+<!ELEMENT when (day, month, year, hour, minute)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ATTLIST activity ID ID #REQUIRED>

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form action="controller.php" method="get">
+			<input type="checkbox" name="is_time_agreed">kas aeg on kokku lepitud<br>
+			<input type="checkbox" name="is_agreed_time">kas praegu on kokkulepitud aeg<br>
+							
+			<select name="owner_situation">
+				<option value="present">kohal</option>
+				<option value="reachable">kättesaadav</option>
+				<option value="awol">ei tea</option>
+			</select>
+			
+			<select name="owner_response">
+				<option value="no">ei</option>
+				<option value="yes">jah</option>
+			</select>
+			
+			<input type="checkbox" name="figthing">kaklevad<br>	
+					
+			<input type="submit" value="Kontrolli">
+		</form>				
+	</body>
+</html>

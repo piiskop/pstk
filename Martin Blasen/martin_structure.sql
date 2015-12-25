@@ -1,0 +1,12 @@
+create table structure (id integer auto_increment primary key, name text);
+alter table structure add weapon varchar(60) after name;
+alter table structure add index indeks (weapon);
+alter table structure add unique index (weapon);
+alter table structure alter column weapon set default "pistol";
+alter table structure add primary_weapon varchar(60) after name;
+insert into structure(name, primary_weapon) values ("bear", "shotgun");
+alter table structure change weapon secondary_weapon varchar(60);
+alter table structure rename as information;
+alter table information drop column secondary_weapon;
+alter table information modify id int not NULL;
+alter table information drop primary key;

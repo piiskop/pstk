@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toitumine>
+<toitumine xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com eksam.xsd">
+	<toiduaineliigid>
+		<liik id="l1"><nimi>Mürgine</nimi></liik>
+		<liik id="l2"><nimi>Kahjulik</nimi></liik>
+		<liik id="l3"><nimi>Kasulik</nimi></liik>
+		<liik id="l4"><nimi>Tervendav</nimi></liik>
+	</toiduaineliigid>
+	<eripärad>
+		<eripära id="e1"><nimi1>Lagundab maksa.</nimi1></eripära>
+		<eripära id="e2"><nimi1>Sisaldab B-vitamiini.</nimi1></eripära>
+		<eripära id="e3"><nimi1>Tekitab insuldi- ja infarkti ohtu ning veresoonte haiguseid.</nimi1></eripära>
+		<eripära id="e4"><nimi1>Tekitab aktiivselt kolesterooli.</nimi1></eripära>
+		<eripära id="e5"><nimi1>Neutraliseerib valge suhkru toimet.</nimi1></eripära>
+		<eripära id="e6"><nimi1>Sisaldab kaltsiumit ja letsiini, mis on väga tõhus kolesteroolivastane aine.</nimi1></eripära>
+	</eripärad>
+	<toiduained>
+		<toiduaine id="t1" tl_id="l1"><nimi>Õlu</nimi></toiduaine>
+		<toiduaine id="t2" tl_id="l1"><nimi>Lahustuv kohv</nimi></toiduaine>
+		<toiduaine id="t3" tl_id="l2"><nimi>Valge nisujahu</nimi></toiduaine>
+		<toiduaine id="t4" tl_id="l2"><nimi>Sulatatud juust</nimi></toiduaine>
+		<toiduaine id="t5" tl_id="l3"><nimi>Tume šokolaad</nimi></toiduaine>
+		<toiduaine id="t6" tl_id="l3"><nimi>Lamba liha</nimi></toiduaine>
+		<toiduaine id="t7" tl_id="l4"><nimi>Kõrge rasvasisaldusega juust</nimi></toiduaine>
+		<toiduaine id="t8" tl_id="l4"><nimi>Pohlad</nimi></toiduaine>
+	</toiduained>
+	<toiduaineeripärad>
+		<toiduaineeripära id="p1" ta_id="t1" e_id="e1"/>
+		<toiduaineeripära id="p2" ta_id="t2" e_id="e1"/>
+		<toiduaineeripära id="p3" ta_id="t3" e_id="e3"/>
+		<toiduaineeripära id="p4" ta_id="t4" e_id="e4"/>
+		<toiduaineeripära id="p5" ta_id="t5" e_id="e2"/>
+		<toiduaineeripära id="p6" ta_id="t6" e_id="e2"/>
+		<toiduaineeripära id="p7" ta_id="t7" e_id="e6"/>
+		<toiduaineeripära id="p8" ta_id="t8" e_id="e5"/>
+	</toiduaineeripärad>
+	
+</toitumine>

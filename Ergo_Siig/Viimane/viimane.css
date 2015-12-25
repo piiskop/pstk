@@ -1,0 +1,290 @@
+/* Kogu Leht*/
+html{
+	background: #707070;
+}
+/* Üldine osa*/
+#container {
+	margin: auto;
+	width: 1000px;
+	font-family: helvetica, arial, san-serif;
+	text-align: center;
+	font-size: 100%;
+}
+#header{
+	background: url(img/back.png);
+	margin: 0px 0px 0px 0px;
+}
+/* Logo */
+#logo {
+	float: left;
+	margin: 15px 0px 15px 56px;
+}
+/* Navigatsiooni nupud */
+#nav {
+	float: left;
+	margin: 0px 0px 0px 110px;
+}
+#nav li {
+	float: left;
+	margin: 29px 6px 0px 16px;
+}
+#nav li:hover {
+	float: left;
+	background: #000000;
+	border: 6px solid #000000;
+	margin: 23px 0px 0px 10px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+/* Põhiosa */
+#main {
+	float: left;
+	background: #ffffff;
+	color: #505050;
+	width: 1000px;
+	margin: auto;
+}
+#main a{
+	color : #969696;
+}
+#blocks {
+	width: 925px;
+	margin: auto;
+}
+/* Pealkiri*/
+#head h2{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	margin: 35px 0px 5px 0px;
+}
+/*joon piltide vahel*/
+#joon1 img{
+	float: left;
+	width: 915px;
+	margin: 0px 0px 20px 0px;
+}
+/* Lehe põhiosa Lingid*/
+#links{
+	text-align: left;
+	margin: 0px 0px 20px 0px;
+}
+#links a{
+	color: #505050;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	border-right: 1px ridge;
+	padding: 0 1em;
+	margin: 0px 0px 20px 0px;
+}
+#links a:hover{
+	color: #aaaaaa;
+}
+#links a:selected{
+	color: #868686;
+}
+#links a.first{
+	padding-left:0px;
+}
+/*Plokid üldiselt*/
+.block {
+	float: left;
+	background: #ffffff;
+	text-color: #505050;
+	margin: 0px 10px 10px 0px;
+	width: 221px;
+	text-align: left;
+}
+/* plokkide pealkirjad*/
+.block h2 {
+	color: #505050;
+	font-size: 16px;
+	margin: 15px 0px 5px 0px;
+}
+/*plokkide lingid*/
+.BlockLink{
+	color : #d6d6d6;
+	font-size: 13px;
+	margin: 0px 0px 30px 0px;	
+}
+.BlockLink img{
+	float: left;
+	width: 15px;
+	margin: 0px 0px 0px 0px;
+}
+/*joon piltide vahel*/
+#joon2 img{
+	float: left;
+	width: 915px;
+	margin: 0px 0px 40px 0px;
+}
+/*väike vahetus asi all*/
+#vahetaja img{
+	float: left;
+	width: 70px;
+	margin: 0px 0px 40px 0px;
+}
+#footer{
+	float: left;
+	background: url(img/back.png);
+	text-color: #505050;
+	margin: 0px 0px 0px 0px;
+}
+#foot1{
+	float: left;
+	margin: 50px 20px 0px 30px;
+}
+#foot1 h2 {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+	margin: 0px 0px 30px 0px;
+}
+#foot1 p {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+	margin: 0px 0px 30px 0px;
+}
+#block13 {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	width: 221px;
+}
+#block14 {
+	float: left;
+	margin: 0px 0px 0px 12px;
+	width: 221px;
+}
+#block15 {
+	float: left;
+	margin: 0px 0px 0px 12px;
+	width: 221px;
+}
+#block16 {
+	float: left;
+	margin: 0px 0px 0px 12px;
+	width: 221px;
+}
+#cube a{
+	float: left;
+	margin: 0px 0px 10px 10px;
+	width: 45px;
+}
+/* Viimane Rida */
+#endrow {
+	float: left;
+	background: url(img/back2.png);
+	margin: 0px 0px 0px 0px;
+	width: 1000px;
+}
+#endrow p{
+	color: #808080;
+	font-size: 12px;
+	margin: 0px 0px 0px 0px;
+}
+#logo2 {
+	float: left;
+	margin: 25px 0px 0px 30px;
+	width: 70px;
+}
+#block17 {
+	float: left;
+	text-align:left;
+	margin: 25px 0px 30px 80px;
+	width: 350px;
+}
+#block18 {
+	float: left;
+	margin:25px 0px 30px 120px;
+	width: 250px;
+}
+#block18 a{
+	color: #b7b7b7;
+}
+input, select, textarea { 
+	background-color: #2d2d2d;
+}
+
+#tfnewsearch {
+		float:right;
+		padding:22px;
+}
+.tftextinput4 {
+		margin: 0;
+		padding: 6px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color:#ffffff;//teksti värv
+		border:1px solid #000000; border-right:0px;
+		border-top-left-radius: 15px 15px;
+		border-bottom-left-radius: 15px 15px;
+		border-top-right-radius: 15px 15px;
+		border-bottom-right-radius: 15px 15px;
+}
+.tfbutton4 {
+		margin: 0;
+		padding: 0;
+		width:0px;
+		height:0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight:bold;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #000000;
+		border: solid 1px #000000; border-right:0px;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		background: #ffffff url(img/otsi.png);
+}
+	/* Fixes submit button height problem in Firefox */
+.tfbutton4::-moz-focus-inner {
+	  border: 0;
+}
+.tfclear{
+		clear:both;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+a:selected{
+	font-weight: bold;
+}
+
+p {
+	color:#505050;
+	line-height:20px;
+}
+h1 {
+	color: #505050;
+	font-size: 45px;
+}
+h2 {
+	color: #505050;
+	font-size: 20px;
+}
+h3 {
+	color: #505050;
+	font-size: 15px;
+}
+h4 {
+	color: #505050;
+	font-size: 15px;
+}
+li{
+	list-style: none;
+}
+lm{
+	color: #505050;
+}
+
+	

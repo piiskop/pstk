@@ -1,0 +1,88 @@
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    width: 75rem;
+    height: 520px;
+    border: 1px solid black;
+}
+
+#leftside .verticalselect p{
+    border: 1px solid black;
+    margin-left: 100px;
+    width: 150px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url("images.jpg");
+}
+
+#leftside .horizontalselect p{
+    border: 1px solid black;
+    margin-left: 100px;
+    width: 150px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url("images.jpg");
+}
+
+#leftside {
+
+    margin-top: 150px;
+
+}
+
+#leftside {
+    float:left;
+}
+
+#rightside {
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+#rightside .setzero p {
+    border: 1px solid black;
+    margin-right: 100px;
+    width: 150px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(blue-background1.jpg);
+    background-repeat: no-repeat;
+}
+
+#footer {
+    margin-top: 400px;
+}
+
+#footer .savechanges p{
+    float: right;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    margin-right: 70px;
+    width: 150px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(blue-background1.jpg);
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+.vertical {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.horizontal {
+    margin-left: 100px;
+    margin-bottom: 20px;   
+}

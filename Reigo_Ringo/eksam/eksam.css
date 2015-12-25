@@ -1,0 +1,61 @@
+
+a:link    {
+	color:rgb(50, 60, 60); 
+	background-color:transparent; 
+	text-decoration:none;
+}
+	
+a:visited {
+	color:rgb(50, 60, 60);
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+a:hover   {
+	color:rgb(255, 50, 50); 
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+a:active  {
+	color:rgb(50, 60, 60); 
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+a {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.keskele {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 200px;
+    height: 220px;
+}
+
+.keskele1 {
+	text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(255, 255, 100);
+}
+.keskele2 {
+	text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;   
+    background-color: rgb(255, 100, 255);
+}
+.keskele3 {
+	text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(100, 255, 255);
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE worksheet>
+<worksheet xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com worksheet.xsd">
+	<!-- TÖÖTAJAD -->
+	<employees>
+		<employee id="e1" manager="true">
+			<name>Madis Tamm</name>
+			<age>52</age>
+			<mail>madis.tamm@gmail.com</mail>
+			<tel>59625478</tel>
+			<password>madismadis123</password>
+		</employee>
+		<employee id="e2" manager="false">
+			<name>Marko Saar</name>
+			<age>41</age>
+			<mail>m.saar@gmail.com</mail>
+			<tel>59988578</tel>
+			<password>msaar321</password>
+		</employee>
+		<employee id="e3" manager="false">
+			<name>Jaanus Suur</name>
+			<age>50</age>
+			<mail>jaanus123.suur@gmail.com</mail>
+			<tel>5155478</tel>
+			<password>suurJaanus12</password>
+		</employee>
+		<employee id="e4" manager="false">
+			<name>Mati Sinine</name>
+			<age>58</age>
+			<mail>sinine1245@gmail.com</mail>
+			<tel>54469852</tel>
+			<password>sininetraktor58</password>
+		</employee>
+	</employees>
+	<!-- TEHTAVAD TÖÖD -->
+	<jobs>
+		<job>
+			<worker>Mati Sinine</worker>
+			<date>2014-11-21</date>
+			<description>Kündmine</description>
+			<start_time>13:00:00</start_time>
+			<end_time>14:00:00</end_time>
+		</job>
+		<job>
+			<worker>Jaanus Suur</worker>
+			<date>2014-11-22</date>
+			<description>Väetamine</description>
+			<start_time>12:00:00</start_time>
+			<end_time>15:00:00</end_time>
+		</job>
+		<job>
+			<worker>Madis Tamm</worker>
+			<date>2014-12-01</date>
+			<description>Niitmine</description>
+			<start_time>09:00:00</start_time>
+			<end_time>14:00:00</end_time>
+		</job>
+	</jobs>
+</worksheet>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<benefits xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema health2.xsd">
+	<Plants>
+		<Plant idPlant="p1">
+			<name>Lemon Balm</name>
+		</Plant>
+		<Plant idPlant="p2">
+			<name>Bay Laurel</name>
+		</Plant>
+		<Plant idPlant="p3">
+			<name>Tarragon</name>
+		</Plant>
+		<Plant idPlant="p4">
+			<name>Dill</name>
+		</Plant>
+	</Plants>
+	<Medicals>
+		<Medical idMedical="m1">
+			<benefit>bloating</benefit>
+		</Medical>
+		<Medical idMedical="m2">
+			<benefit>vomiting</benefit>
+		</Medical>
+		<Medical idMedical="m3">
+			<benefit>headache</benefit>
+		</Medical>
+		<Medical idMedical="m4">
+			<benefit>upset stomach</benefit>
+		</Medical>
+		<Medical idMedical="m5">
+			<benefit>skin stimulant</benefit>
+		</Medical>
+		<Medical idMedical="m6">
+			<benefit>toothache</benefit>
+		</Medical>
+		<Medical idMedical="m7">
+			<benefit>insomnia</benefit>
+		</Medical>
+	</Medicals>
+	<Culinarys>
+		<Culinary idCulinary="c1">
+			<benefit>flavoring</benefit>
+		</Culinary>
+		<Culinary idCulinary="c2">
+			<benefit>soup</benefit>
+		</Culinary>
+		<Culinary idCulinary="c3">
+			<benefit>sauce</benefit>
+		</Culinary>
+		<Culinary idCulinary="c4">
+			<benefit>stew</benefit>
+		</Culinary>
+		<Culinary idCulinary="c5">
+			<benefit>pilaf</benefit>
+		</Culinary>
+		<Culinary idCulinary="c6">
+			<benefit>vinegar</benefit>
+		</Culinary>
+		<Culinary idCulinary="c7">
+			<benefit>pickles</benefit>
+		</Culinary>
+	</Culinarys>
+	<Plants_Culinarys>
+		<Plant_has_Culinary Plant_idPlant="p1" 
+			Culinary_idCulinary="c1" />
+		<Plant_has_Culinary Plant_idPlant="p1" 
+			Culinary_idCulinary="c2" />
+		<Plant_has_Culinary Plant_idPlant="p1" 
+			Culinary_idCulinary="c3" />
+		<Plant_has_Culinary Plant_idPlant="p2" 
+			Culinary_idCulinary="c1" />
+		<Plant_has_Culinary Plant_idPlant="p2" 
+			Culinary_idCulinary="c2" />
+		<Plant_has_Culinary Plant_idPlant="p2" 
+			Culinary_idCulinary="c4" />
+		<Plant_has_Culinary Plant_idPlant="p2" 
+			Culinary_idCulinary="c5" />
+		<Plant_has_Culinary Plant_idPlant="p3" 
+			Culinary_idCulinary="c3" />
+		<Plant_has_Culinary Plant_idPlant="p3" 
+			Culinary_idCulinary="c6" />
+		<Plant_has_Culinary Plant_idPlant="p4" 
+			Culinary_idCulinary="c7" />											
+	</Plants_Culinarys>
+	<Plants_Medicals>
+		<Plant_has_Medical Plant_idPlant="p1"
+			Medical_idMedical="m1"/>
+		<Plant_has_Medical Plant_idPlant="p1"
+			Medical_idMedical="m2"/>
+		<Plant_has_Medical Plant_idPlant="p1"
+			Medical_idMedical="m3"/>
+		<Plant_has_Medical Plant_idPlant="p1"
+			Medical_idMedical="m4"/>
+		<Plant_has_Medical Plant_idPlant="p2"
+			Medical_idMedical="m4"/>
+		<Plant_has_Medical Plant_idPlant="p3"
+			Medical_idMedical="m4"/>
+		<Plant_has_Medical Plant_idPlant="p3"
+			Medical_idMedical="m6"/>
+		<Plant_has_Medical Plant_idPlant="p4"
+			Medical_idMedical="m4"/>
+		<Plant_has_Medical Plant_idPlant="p4"
+			Medical_idMedical="m7"/>												
+	</Plants_Medicals>
+</benefits>

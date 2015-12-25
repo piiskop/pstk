@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<station>
+	<fuels>
+		<fuel id="s1">
+			<bensiin />
+			<price>18</price>
+		</fuel>
+		<fuel id="bensiin">
+			<diisel/>
+			<price>19</price>
+		</fuel>
+	</fuels>
+	<people_buying>
+		<client id="a1">
+			<fuel1>bensiin</fuel1>
+			<amount>10</amount>
+			<bill>180</bill>
+		</client>
+		<client id="a2">
+			<fuel1>diisel</fuel1>
+			<amount>100</amount>
+			<bill>190
+			</bill>
+		</client>
+	</people_buying>
+</station>

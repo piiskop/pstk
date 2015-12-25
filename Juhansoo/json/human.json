@@ -1,0 +1,35 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Human"
+	"description": "Attributes of a human being",
+	"type": "object",
+	"required": [ "name", "sex" ],
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"birthday": {
+			"format": "date-time",
+		},
+		"sex": { 
+			"type": "string"
+		},
+		"blood-type": {
+			"type": "string",
+			"enum": ["O+", "A+", "B+", "AB+", "O−", "A−", "B−", "AB−"],
+		},
+		"weight": {
+			"allOf": [
+				{"type": "number"},
+				{"maxLength": 3}
+			]
+		}
+		"height": {
+			"allOf": [
+				{"type": "number"},
+				{"maxLength": 3}
+			]
+		}
+		"address": {"$ref": "http://json-schema.org/address"}
+	}
+}

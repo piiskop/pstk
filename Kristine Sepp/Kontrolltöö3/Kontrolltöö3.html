@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Õpilaste nimekiri</title>
+<link rel="stylesheet" type="text/css" href="Kontrolltöö3.css"
+	media="all" /></link>
+</head>
+<body>
+	<h2>Õpilased</h2>
+	<form>
+		<label for="Form1">Nimi:</label> <input id="Form1" type="text"
+			name="search" />
+		<button type="button" onclick="findPupil()">Otsi</button>
+		<input type="button" value="Kuvan kogu nimekirja" />
+		<button type="button" id="ajaxButton" onclick="makeRequest()">Otsin Ajaxiga</button>
+
+
+		<div id="Leitud" style="display: none;">
+
+			oskab progeda:<input type="checkbox" id="coding" /> <input
+				type="button" name="search" value="Salvestan nime ja oskab progeda"
+				onclick="salvesta();" />
+
+		</div>
+
+		<div id="muudaAndmeid"></div>
+		<div id="eiLeitud" style="display: none;">Õpilast ei leitud</div>
+		<div id="steps"></div>
+	</form>
+	<script type="text/javascript" src="Kontrolltöö3.js"></script>
+
+
+</body>
+</html>

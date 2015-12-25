@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+body
+{
+	width: 900px;
+}
+
+div#header
+{
+	background-color: lightgreen;
+	float           : left;
+	height          : 16px;
+	height          : 1rem;
+	width           : 900px;
+}
+
+
+div#body
+{
+	background-color: lightblue;
+	float           : left;
+	width           : 900px;
+}
+
+div#body table
+{
+	display: block;
+	float: left;
+}
+
+div#footer
+{
+	background-color: yellow;
+	float           : left;
+	height          : 16px;
+	height          : 1rem;
+	width           : 900px;
+}
+
+tr.Row0
+{
+	background-color: lightgreen;
+}
+
+tr.Row1
+{
+	background-color: brown;
+}

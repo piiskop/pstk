@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Eviction calculator</title>
+        <link rel="stylesheet" type="text/css" href="eviction.css">
+
+    </head>
+    <body>
+        <h1>Eviction calculator</h1>
+
+
+        <form id="myform" name="myform">
+
+            <div id="question1" class="Show">
+                <label>Kas ohver on kodus?</label>
+                <input type="radio" onclick="nameF(this)" name="option" value="jah">Jah
+                <input type="radio" onclick="nameF(this)" name="option" value="ei">Ei
+            </div>
+
+            <div id="question2" class="Hide">
+                <label>Kas ohver on nõus?</label>
+                <input type="radio" onclick="nameF(this)" name="option1" value="jah">Jah
+                <input type="radio" onclick="nameF(this)" name="option1" value="ei">Ei
+            </div>
+            
+            <div id="question3" class="Hide">
+                <label>Kas ohver on telefoni teel kättesaadav?</label>
+                <input type="radio" onclick="nameF(this)" name="option2" value="jah">Jah
+                <input type="radio" onclick="nameF(this)" name="option2" value="ei">Ei
+            </div>
+            
+            <p id="decision"></p>
+            
+            <div class="tryAgain">
+                <button id="tryAgain" onclick="resetCalculation()">Try Again</button>
+            </div>
+
+        </form>
+
+        
+        
+        <script src="eviction.js?"></script>
+    </body>
+</html>

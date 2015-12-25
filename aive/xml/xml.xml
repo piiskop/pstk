@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<works>
+	<work>
+		<category>Logo</category>
+		<number>2</number>
+	</work>
+	<work>
+		<category>Tsärgi kujundus</category>
+		<number>1</number>
+	</work>
+	<work>
+		<category>Visiitkaadid</category>
+		<number>2</number>
+	</work>
+	<work>
+		<category>Koolitööd</category>
+		<number>Liiga palju</number>
+	</work>
+	<work>
+		<category>Koristamine</category>
+		<number>Pool korterit</number>
+	</work>
+</works>

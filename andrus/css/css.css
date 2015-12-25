@@ -1,0 +1,182 @@
+/* START COMMON ELEMENTS */
+html
+{
+	font-size: 16px;
+}
+body
+{
+	color: grey;
+	width:500px;
+	font-family: Verdana, sans-serif;
+}
+
+a
+{
+	font-weight: bold;
+}
+
+h2
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+iframe
+{
+	width: 400px;
+	height: 200px;
+}
+p
+{
+	color: ;
+}
+
+strong
+{
+	color: darkviolet;
+}
+
+ol, ul
+{
+	font-style: italic;
+}
+
+p strong
+{
+	color: hotpink;
+}
+button, .sisu{
+	z-index: 5;
+	position: fixed;
+}
+/* END COMMON ELEMENTS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tr.Fourth
+{
+	background-color: yellow;
+}
+
+#headerOfTable
+{
+	color: brown;
+}
+
+.SecondElementInList
+{
+	font-family: monospace;
+	font-size: 16px;
+}
+
+span.FirstLetter
+{
+	text-decoration: underline;
+}
+
+div.JustSongs
+{
+	background-color: lightblue;
+	float: left;
+}
+
+div.OrderedSongs
+{
+	background-color: orange;
+	float: left;
+}
+
+#imageOfFlame
+{
+	float: right;
+}
+
+#links
+{
+	clear: both;
+}
+div.First
+{
+	background-color: pink;
+	width: 500px;
+	width: 31.25em;
+	height: 100px;
+	height: 6.25em;
+}
+
+div.Second
+{
+	background-color: violet;
+	width: 200px;
+	height: 50px;
+	margin-top:-100px;
+}
+
+div.Third
+{
+	background-color: black;
+	position: fixed;
+	top: 50px;
+	bottom:0;
+	right:50px;
+	left:50px;
+	width: 100px;
+	height: 10px;
+}
+
+#canvas
+{
+	width: 500px;
+	height: 500px;
+}
+
+#songs
+{
+}
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Slideshow example</title>
+<script src="../js/app-wide.js"></script>
+<script src="../js/slides.js?2583"></script>
+<link rel="stylesheet" href="../css/slides.css?2"/>
+</head>
+<body onload="setDimensions();">
+	<h1>Slideshow example</h1>
+	<h2 id="category"></h2>
+	<div class="Image" id="image" style="height: 0; width: 0;"></div>
+	<h3 id="caption"></h3>
+	<button type="button" onclick="move(false);">&lt;&lt;</button>
+	<button type="button" onclick="moveRandom();">Panen juhusliku
+		slaidi.</button>
+	<button type="button" onclick="move(true);">&gt;&gt;</button>
+	<button type="button" onclick="play();">Panen isemängima.</button>
+	<button type="button" onclick="stop();">Lõpetan isemängimise.</button>
+</body>
+</html>

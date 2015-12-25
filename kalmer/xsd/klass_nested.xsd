@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:kalmer="tomekit" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:import namespace="tomekit" schemaLocation="tomekit.xsd" />
+	<xs:element name="game" type="kalmer:game"></xs:element>
+
+	<xs:element name="KLASS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LAUD" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="VÄRVUS" minOccurs="0" type="xs:string">
+
+							</xs:element>
+							<xs:element name="MATERJAL" maxOccurs="unbounded"
+								type="xs:string"></xs:element>
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:ID"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TOOL" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="VÄRVUS" minOccurs="0" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PRÜGIKAST" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MATERJAL" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

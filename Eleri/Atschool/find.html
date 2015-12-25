@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            function find(arr, value) {
+                /*   if (arr.indexOf) {
+                 return arr.indexOf(value);
+                 }
+                 */
+                for (var i = 0; i < arr.length; i++) {
+                 //   console.log(arr[i] + "," + value);
+                    if (arr[i] === value) {
+                        return i;
+                    }
+            }
+            return -1;
+        }
+            
+            var arr = ["test", 2, 1.5, false];
+            var index = find(arr, false);
+
+            alert(index);
+
+        </script>
+    </body>
+</html>

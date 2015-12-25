@@ -1,0 +1,34 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "File.dtd">
+<!-- students list -->
+	<list roll="10B">
+	
+		<student>
+			<name>Juku</name>
+			<family>Kallas</family>
+			<mail>nukitsamees@gmail.com</mail>
+			<content><![CDATA[tubli ja töökas]]></content>
+		</student>
+
+		<student>
+			<name>Mart</name>
+			<family>Kivi</family>
+			<mail>mart23@gmail.com</mail>
+			<content><![CDATA[tubli ja töökas]]></content>
+		</student>
+
+		<student>
+			<name>Vello</name>
+			<family>Paber</family>
+			<mail>vello123@gmail.com</mail>
+			<content><![CDATA[tubli ja töökas]]></content>
+		</student>
+
+		<student>
+			<name>Juhan</name>
+			<family>Kuur</family>
+			<mail>mari123@gmail.com</mail>
+			<content><![CDATA[tubli ja töökas]]></content>
+		</student>
+
+	</list>

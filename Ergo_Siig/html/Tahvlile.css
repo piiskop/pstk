@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+@media screen {
+    p {
+        font-family: verdana,sans-serif;
+        font-size: 14px;
+    }
+}
+
+@media print {
+    p {
+        font-size: 20px;
+        color: red;
+    }
+}
+Other Media Types
+Media Type 	Description
+all 	Used for all media type devices
+aural 	Used for speech and sound synthesizers
+braille 	Used for braille tactile feedback devices
+embossed 	Used for paged braille printers
+handheld 	Used for small or handheld devices
+print 	Used for printers
+projection 	Used for projected presentations, like slides
+screen 	Used for computer screens
+tty 	Used for media using a fixed-pitch character grid, like teletypes and terminals
+tv 	Used for television-type devices

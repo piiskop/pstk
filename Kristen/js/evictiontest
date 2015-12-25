@@ -1,0 +1,13 @@
+#evictionTest
+	Is the victim at home?:
+		Is at home. [property is-home]
+		Is not at home. [property not-home]
+	Is the victim reachable via phone?:
+		Is reachable. [if not-home][property is-reachable]
+		Is not reachable. [if not-home][property not-reachable]
+	Does the victim agree?:
+		Does agree. [if is-home || is-reachable][property does-agree]
+		Does not agree. [if is-home || is-reachable][property doesnt-agree]
+	Eviction:
+		Start eviction. [if does-agree || not-reachable]
+		Dont evict. [if doesnt-agree]

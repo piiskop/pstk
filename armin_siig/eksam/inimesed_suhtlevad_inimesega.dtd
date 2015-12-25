@@ -1,0 +1,10 @@
+                  <?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT chatbox (humans, humans_humans)>
+<!ELEMENT humans (human+)>
+<!ELEMENT human (firstname, lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ATTLIST human id ID #REQUIRED>
+<!ELEMENT humans_humans (human_human+)>
+<!ELEMENT human_human EMPTY>
+<!ATTLIST human_human id IDREFS #REQUIRED>

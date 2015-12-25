@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE soundsources [
+<!ELEMENT soundsources (source*)>
+<!ELEMENT source (type+,voices?)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT voices (voice*)>
+<!ELEMENT voice (type, helikorgus*, isannoying?)>
+<!ELEMENT helikorgus (#PCDATA)>
+<!ELEMENT isannoying EMPTY>
+]>
+
+<soundsources>
+	<source>
+		<type>õpilased</type>
+		<voices>
+			<voice>
+				<type>Rääkimine</type>
+				<helikorgus>C3</helikorgus>
+			</voice>
+			<voice>
+				<type>Tooliga kriuksumine</type>
+			</voice>
+			<voice>
+				<type>Sammud</type>
+			</voice>
+		</voices>
+	</source>
+	<source>
+		<type>Projektor</type>
+		<voices>
+			<voice>
+				<type>Undamine</type>
+				<isannoying/>
+			</voice>
+		</voices>
+	</source>
+	<source>
+		<type>Arvutid</type>
+		<voices>
+			<voice>
+				<type>Clicking</type>
+			</voice>
+		</voices>
+	</source>
+	<source>
+		<type>Vent</type>
+		<voices>
+			<voice>
+				<type>Kohiseb</type>
+			</voice>
+		</voices>
+	</source>
+	<source>
+		<type>Õppejõud</type>
+	</source>
+	<source>
+		<type>Sisemine hääl</type>
+	</source>
+</soundsources>

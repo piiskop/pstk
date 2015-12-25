@@ -1,0 +1,12 @@
+<!ENTITY % id "id ID #REQUIRED">
+
+<!ELEMENT librery (albums, songs, album_songs)>
+<!ELEMENT songs (song+)>
+<!ELEMENT albums (album+)>
+<!ELEMENT album_songs (album_song+)>
+<!ELEMENT album_song EMPTY>
+<!ELEMENT song (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ATTLIST album %id;>
+<!ATTLIST song %id;>
+<!ATTLIST album_song id_songs IDREFS #REQUIRED id_album IDREFS #REQUIRED>

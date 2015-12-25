@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eksam xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema eksam.xsd ">
+  <taimed>
+    <taim taimed_id="idvalue0">
+      <taime_nim>taime_nim</taime_nim>
+      <ladina_nim>ladina_nim</ladina_nim>
+    </taim>
+  </taimed>
+  <kasvukohad>
+    <kirjeldus kasvukohad_id="idvalue0">
+      <kasvukoht>kasvukoht</kasvukoht>
+    </kirjeldus>
+  </kasvukohad>
+  <omadused>
+    <omadus omadused_id="idvalue0">
+      <maitseomadus>maitseomadus</maitseomadus>
+      <pikkus>pikkus</pikkus>
+      <lehe_kuju>lehe kuju</lehe_kuju>
+      <kroonlehe_varv>kroonlehe varv</kroonlehe_varv>
+    </omadus>
+  </omadused>
+</eksam>

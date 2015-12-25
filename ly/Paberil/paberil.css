@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+html {
+	font-size: 16px;
+	width: 900px;
+	width: 56, 250rem;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #383838;
+	background: #f0f0f0;
+}
+
+h1 {
+	font-weight: bold;
+	color: #008040;
+	padding-left: 20px;
+	padding-left: 1.42857143rem;
+}
+
+h2 {
+	font-weight: bold;
+	font-style: italic;
+	color: #008040;
+	padding-left: 20px;
+	padding-left: 1.42857143rem;
+}
+
+h3 {
+	font-weight: regular;
+	color: #008040;
+	padding-left: 20px;
+	padding-left: 1.42857143rem;
+}
+
+div.sisutekst {
+	background-color: #ffffc6;
+	width: 480px;
+	padding-right: 10px;
+	padding-right: 0.71428571rem;
+	 padding-left:10px;
+	padding-left:0.71428571rem;
+	padding-bottom: 10px;
+	padding-bottom: 0.71428571rem;
+	padding-top: 30px;
+	padding-top:2.14285714rem;
+	float: left;
+	margin-right: 30px;
+	margin-right: 2.14285714rem;
+}
+
+.pilt {
+	padding: right;
+}
+
+div.tabel {
+	width: 480px;
+	width: 34.28571429rem;
+	padding-right: 10px;
+	padding-right: 0.71428571rem;
+	padding-left: 10px;
+	padding-left: 0.71428571rem;
+	padding-bottom: 50px;
+	padding-bottom: 0.71428571rem; 
+	padding-top: 30px;
+	padding-top:2.14285714rem;
+	float: left;
+	margin-right: 10px;
+	margin-right: 0.71428571rem;
+}
+
+tr:nth-child(2n) {
+	background-color: #b4d3ab;
+}
+
+tr:nth-child(2n+1) {
+	background-color: #ff9f9f;
+}
+
+.teinepilt {
+	padding-top:30px;
+	padding-top:2.14285714rem;
+	padding: left;
+}

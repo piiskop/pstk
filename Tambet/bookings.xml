@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bookings xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema bookings.xsd">
+
+	<Booking id="1" courtId="0">
+		<Date>
+			<Day>12</Day>
+			<Month>11</Month>
+			<Year>2014</Year>
+		</Date>
+		<StartTime>
+			<Hours>17</Hours>
+			<Minutes>00</Minutes>
+		</StartTime>
+		<EndTime>
+			<Hours>18</Hours>
+			<Minutes>30</Minutes>
+		</EndTime>
+	</Booking>
+	<Booking id="1" courtId="1">
+		<Date>
+			<Day>12</Day>
+			<Month>11</Month>
+			<Year>2014</Year>
+		</Date>
+		<StartTime>
+			<Hours>19</Hours>
+			<Minutes>00</Minutes>
+		</StartTime>
+		<EndTime>
+			<Hours>20</Hours>
+			<Minutes>00</Minutes>
+		</EndTime>
+	</Booking>
+	<Booking id="1" courtId="2">
+		<Date>
+			<Day>13</Day>
+			<Month>11</Month>
+			<Year>2014</Year>
+		</Date>
+		<StartTime>
+			<Hours>13</Hours>
+			<Minutes>00</Minutes>
+		</StartTime>
+		<EndTime>
+			<Hours>15</Hours>
+			<Minutes>00</Minutes>
+		</EndTime>
+	</Booking>
+</Bookings>

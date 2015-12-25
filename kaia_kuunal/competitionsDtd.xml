@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Competitions SYSTEM "competitions.dtd">
+
+<Competitions>
+	<Competition id="c1">
+		<Title>Võrkpall: USA vs Brasiilia</Title>
+		<Teams>
+			<Team>USA</Team>
+			<Team>Brazil</Team>
+		</Teams>
+		<Date>
+			<Year>2014</Year>
+			<Month>12</Month>
+			<Day>11</Day>
+		</Date>
+		<Duration>
+			<Hours>1</Hours>
+			<Minutes>15</Minutes>
+		</Duration>
+		<Location>
+			<City>Detroit</City>
+			<Country>USA</Country>
+		</Location>
+		<Sets>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>20</LosingPoints>
+				<WinningTeam>Brazil</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>22</LosingPoints>
+				<WinningTeam>USA</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>21</LosingPoints>
+				<WinningTeam>USA</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>23</LosingPoints>
+				<WinningTeam>USA</WinningTeam>
+			</Set>
+			<WinnerSets>3</WinnerSets>
+			<LoserSets>1</LoserSets>
+			<WinningTeam>USA</WinningTeam>
+		</Sets>	
+	</Competition>
+</Competitions>

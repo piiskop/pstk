@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "Title" : "Isikuandmed",
+     "type": "object",
+  "properties": {
+    "firstName":    { "type": "string" },
+    "lastname":     { "type": "string" },
+    "email":        { "type": "string" },
+    "address": 		{ "type": "string" },
+      "age":        { "type": "string" },
+    "telephone":    { "type": "string" }
+  },
+  "required": ["firstName", "lastName", "telephone"]
+}

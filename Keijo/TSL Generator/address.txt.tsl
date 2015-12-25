@@ -1,0 +1,141 @@
+
+Test Case 1  		<error>
+   Emptyness of name :  empty
+
+
+Test Case 2  		<error>
+   Content of name :  Contains only empty-signs
+
+
+Test Case 3  		<error>
+   Emptyness of street :  empty
+
+
+Test Case 4  		<error>
+   Content of street :  Contains only empty-signs
+
+
+Test Case 5  		(Key = 2.1.2.1.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains only English letters
+   Emptyness of street :  not empty
+   Content of street   :  Contains only English letters
+
+
+Test Case 6  		(Key = 2.1.2.2.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains only English letters
+   Emptyness of street :  not empty
+   Content of street   :  Contains non-English letters
+
+
+Test Case 7  		(Key = 2.1.2.3.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains only English letters
+   Emptyness of street :  not empty
+   Content of street   :  Contains special characters
+
+
+Test Case 8  		(Key = 2.1.2.5.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains only English letters
+   Emptyness of street :  not empty
+   Content of street   :  Begins with an empty-sign
+
+
+Test Case 9  		(Key = 2.1.2.6.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains only English letters
+   Emptyness of street :  not empty
+   Content of street   :  Ends with an empty-sign
+
+
+Test Case 10 		(Key = 2.2.2.1.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains non-English letters
+   Emptyness of street :  not empty
+   Content of street   :  Contains only English letters
+
+
+Test Case 11 		(Key = 2.2.2.2.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains non-English letters
+   Emptyness of street :  not empty
+   Content of street   :  Contains non-English letters
+
+
+Test Case 12 		(Key = 2.2.2.3.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains non-English letters
+   Emptyness of street :  not empty
+   Content of street   :  Contains special characters
+
+
+Test Case 13 		(Key = 2.2.2.5.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains non-English letters
+   Emptyness of street :  not empty
+   Content of street   :  Begins with an empty-sign
+
+
+Test Case 14 		(Key = 2.2.2.6.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains non-English letters
+   Emptyness of street :  not empty
+   Content of street   :  Ends with an empty-sign
+
+
+Test Case 15 		(Key = 2.3.2.1.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains special characters
+   Emptyness of street :  not empty
+   Content of street   :  Contains only English letters
+
+
+Test Case 16 		(Key = 2.3.2.2.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains special characters
+   Emptyness of street :  not empty
+   Content of street   :  Contains non-English letters
+
+
+Test Case 17 		(Key = 2.3.2.3.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains special characters
+   Emptyness of street :  not empty
+   Content of street   :  Contains special characters
+
+
+Test Case 18 		(Key = 2.3.2.5.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains special characters
+   Emptyness of street :  not empty
+   Content of street   :  Begins with an empty-sign
+
+
+Test Case 19 		(Key = 2.3.2.6.)
+   Emptyness of name   :  not empty
+   Content of name     :  Contains special characters
+   Emptyness of street :  not empty
+   Content of street   :  Ends with an empty-sign
+
+
+Test Case 20 		(Key = 2.5.2.1.)
+   Emptyness of name   :  not empty
+   Content of name     :  Begins with an empty-sign
+   Emptyness of street :  not empty
+   Content of street   :  Contains only English letters
+
+
+Test Case 21 		(Key = 2.5.2.2.)
+   Emptyness of name   :  not empty
+   Content of name     :  Begins with an empty-sign
+   Emptyness of street :  not empty
+   Content of street   :  Contains non-English letters
+
+
+Test Case 22 		(Key = 2.5.2.3.)
+   Emptyness of name   :  not empty
+   Content of name     :  Begins with an empty-sign
+   Emptyness of street :  not empty
+   Content of street   :  Contains s

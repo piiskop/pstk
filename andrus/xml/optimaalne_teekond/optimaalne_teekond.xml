@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Teekond - Sindi Tööstuse 2 kuni Pärnu Jalaka 10 (optimaalseim 12.8 km)-->
+<teekond>
+	<start>Sõitke ohutult</start>
+	<tanav>otse kagu suunas mööda Tööstuse 400m</tanav>
+	<poore>permale Paide maantee/Pärnu-Tori/Tee nr59</poore>
+	<tanav>Jätka sõitmist Pärnu - Tori/Tee nr59 peal 7.3km</tanav>
+	<poore>Pöörake paremale Riia mnt/Tallinn-Pärnu-Ikla</poore>
+	<tanav>Jätka sõitmist Riia mnt peal 4.9km</tanav>
+	<poore>Hoidke vasakule ja sõidke tänavale Pikk</poore>
+	<tanav>Mööda Pikka sõitke 67m</tanav>
+	<poore>Pöörake veidi vasakule Vanapargi tänavale</poore>
+	<tanav>Jätkake sõitu 190m</tanav>
+	<poore>Pööre vasakule Pargi tänavale</poore>
+	<tanav>47m pärast jõuate sihtkohta</tanav>
+	<end>Olete jõudnud sihtkohta</end>
+</teekond>

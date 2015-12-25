@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toiduainete_kasvatamine xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema eksam.xsd">
+	<krundid>
+		<krunt>
+			<asukoht id="asukoht1">Uulu</asukoht>
+			<suurus_m2 id="suurus1">1200</suurus_m2>
+		</krunt>
+		<krunt>
+			<asukoht id="asukoht2">Tallinn</asukoht>
+			<suurus_m2 id="suurus2">1500</suurus_m2>
+		</krunt>
+		<krunt>
+			<asukoht id="asukoht3">K-Nõmme</asukoht>
+			<suurus_m2 id="suurus3">900</suurus_m2>
+		</krunt>
+		<krunt>
+			<asukoht id="asukoht4">Häädemeeste</asukoht>
+			<suurus_m2 id="suurus4">1600</suurus_m2>
+		</krunt>
+		<krunt>
+			<asukoht id="asukoht5">Rannametsa</asukoht>
+			<suurus_m2 id="suurus5">500</suurus_m2>
+		</krunt>
+	</krundid>
+	
+	<inimesed>
+		<inimene>
+			<enimi id="enimi1">Mari</enimi>
+			<pnimi id="pnimi1">Kalkun</pnimi>
+		</inimene>
+		<inimene>
+			<enimi id="enimi2">Kauri</enimi>
+			<pnimi id="pnimi2">Mets</pnimi>
+		</inimene>
+		<inimene>
+			<enimi id="enimi3">Meelis</enimi>
+			<pnimi id="pnimi3">RAba</pnimi>
+		</inimene>
+		<inimene>
+			<enimi id="enimi4">Kairi</enimi>
+			<pnimi id="pnimi4">Tolgus</pnimi>
+		</inimene>
+		<inimene>	
+			<enimi id="enimi5">Meelis</enimi>
+			<pnimi id="pnimi5">Kalkun</pnimi>
+		</inimene>
+	</inimesed>
+	
+	<toiduained>
+		<sook>
+			<nimi id="sook1">kapsas</nimi>
+		</sook>
+		<sook>
+			<nimi id="sook2">porgand</nimi>
+		</sook>
+		<sook>
+			<nimi id="sook3">pirn</nimi>
+		</sook>
+		<sook>
+			<nimi id="sook4">mustsõstar</nimi>
+		</sook>
+		<sook>
+			<nimi id="sook5">kukeseen</nimi>
+		</sook>
+	</toiduained>	
+	
+	<krundid_has_inimesed>
+		<krunt_has_inimene inimesed_idinimesed="enimi1 pnimi1" krundid_idkrundid="asukoht1 suurus1"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi1 pnimi1" krundid_idkrundid="asukoht2 suurus2"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi1 pnimi1" krundid_idkrundid="asukoht3 suurus3"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi2 pnimi2" krundid_idkrundid="asukoht2 suurus2"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi2 pnimi2" krundid_idkrundid="asukoht3 suurus3"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi2 pnimi2" krundid_idkrundid="asukoht4 suurus4"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi3 pnimi3" krundid_idkrundid="asukoht3 suurus3"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi3 pnimi3" krundid_idkrundid="asukoht4 suurus4"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi3 pnimi3" krundid_idkrundid="asukoht5 suurus5"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi4 pnimi4" krundid_idkrundid="asukoht4 suurus4"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi4 pnimi4" krundid_idkrundid="asukoht5 suurus5"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi4 pnimi4" krundid_idkrundid="asukoht1 suurus1"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi5 pnimi5" krundid_idkrundid="asukoht5 suurus5"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi5 pnimi5" krundid_idkrundid="asukoht1 suurus1"/>
+		<krunt_has_inimene inimesed_idinimesed="enimi5 pnimi5" krundid_idkrundid="asukoht2 suurus2"/>
+	</krundid_has_inimesed>
+	
+	<krundid_has_sook>
+		<krunt_has_sook krundid_idkrundid="asukoht1 suurus1" sook_idsook="sook1"/>
+		<krunt_has_sook krundid_idkrundid="asukoht1 suurus1" sook_idsook="sook2"/>
+		<krunt_has_sook krundid_idkrundid="asukoht1 suurus1" sook_idsook="sook3"/>
+		<krunt_has_sook krundid_idkrundid="asukoht2 suurus2" sook_idsook="sook2"/>
+		<krunt_has_sook krundid_idkrundid="asukoht2 suurus2" sook_idsook="sook3"/>
+		<krunt_has_sook krundid_idkrundid="asukoht2 suurus2" sook_idsook="sook4"/>
+		<krunt_has_sook krundid_idkrundid="asukoht3 suurus3" sook_idsook="sook3"/>
+		<krunt_has_sook krundid_idkrundid="asukoht3 suurus3" sook_idsook="sook4"/>
+		<krunt_has_sook krundid_idkrundid="asukoht3 suurus3" sook_idsook="sook5"/>
+		<krunt_has_sook krundid_idkrundid="asukoht4 suurus4" sook_idsook="sook4"/>
+		<krunt_has_sook krundid_idkrundid="asukoht4 suurus4" sook_idsook="sook5"/>
+		<krunt_has_sook krundid_idkrundid="asukoht4 suurus4" sook_idsook="sook1"/>
+		<krunt_has_sook krundid_idkrundid="asukoht5 suurus5" sook_idsook="sook5"/>
+		<krunt_has_sook krundid_idkrundid="asukoht5 suurus5" sook_idsook="sook1"/>
+		<krunt_has_sook krundid_idkrundid="asukoht5 suurus5" sook_idsook="sook2"/>
+	</krundid_has_sook>
+	
+	<inimesed_has_sook>
+		<inimene_has_sook inimesed_idinimesed="enimi1 pnimi1" sook_idsook="sook1"/>
+		<inimene_has_sook inimesed_idinimesed="enimi1 pnimi1" sook_idsook="sook2"/>
+		<inimene_has_sook inimesed_idinimesed="enimi1 pnimi1" sook_idsook="sook3"/>
+		<inimene_has_sook inimesed_idinimesed="enimi2 pnimi2" sook_idsook="sook2"/>
+		<inimene_has_sook inimesed_idinimesed="enimi2 pnimi2" sook_idsook="sook3"/>
+		<inimene_has_sook inimesed_idinimesed="enimi2 pnimi2" sook_idsook="sook4"/>
+		<inimene_has_sook inimesed_idinimesed="enimi3 pnimi3" sook_idsook="sook3"/>
+		<inimene_has_sook inimesed_idinimesed="enimi3 pnimi3" sook_idsook="sook4"/>
+		<inimene_has_sook inimesed_idinimesed="enimi3 pnimi3" sook_idsook="sook5"/>
+		<inimene_has_sook inimesed_idinimesed="enimi4 pnimi4" sook_idsook="sook4"/>
+		<inimene_has_sook inimesed_idinimesed="enimi4 pnimi4" sook_idsook="sook5"/>
+		<inimene_has_sook inimesed_idinimesed="enimi4 pnimi4" sook_idsook="sook1"/>
+		<inimene_has_sook inimesed_idinimesed="enimi5 pnimi5" sook_idsook="sook5"/>
+		<inimene_has_sook inimesed_idinimesed="enimi5 pnimi5" sook_idsook="sook1"/>
+		<inimene_has_sook inimesed_idinimesed="enimi5 pnimi5" sook_idsook="sook2"/>
+	</inimesed_has_sook>
+	
+</toiduainete_kasvatamine>

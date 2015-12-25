@@ -1,0 +1,25 @@
+# name
+	Emptyness of name:
+		empty. [error]
+		not empty. [property name-defined]
+	Content of name:
+		Contains only English letters. [if name-defined]
+		Contains non-English letters. [if name-defined]
+		Contains special characters. [if name-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if name-defined]
+		Ends with an empty-sign. [if name-defined]
+		
+#street
+	Emptyness of street:
+		empty. [error]
+		not empty. [property street-defined]
+	Content of street:
+		Contains only English letters. [if street-defined]
+		Contains non-English letters. [if street-defined]
+		Contains special characters. [if street-defined]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [if street-defined]
+		Ends with an empty-sign. [if street-defined]
+	
+		

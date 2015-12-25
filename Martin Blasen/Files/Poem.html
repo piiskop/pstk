@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>something something poems</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="poem.css">
+<script>
+function showContents(incident)
+{
+	console.log(" 49 ");
+	var containerForContents = document.getElementById("containerForContents").style;
+	if (containerForContents.display == "none")
+	{
+		incident = incident ? incident : window.event;
+
+		if (isNaN(window.scrollX))
+		{
+			containerForContents.top = incident.clientY + "px";
+			containerForContents.left = incident.clientX + "px";
+
+		}
+		else if (incident.touches)
+		{
+			var touchobj = incident.changedTouches[0]; // reference first touch point (ie: first finger)
+
+			var startX = parseInt(touchobj.clientX); // get x position of touch point relative to left 
+			var startY = par
+			seInt(touchobj.clientY); // get x position of touch point relative to left 
+			containerForContents.top = startY + "px";
+			containerForContents.left = startX + "px";
+		}
+		else
+		{
+			containerForContents.top = incident.clientY + "px";
+			containerForContents.left = incident.clientX + "px";
+		}
+
+		containerForContents.display = "block";
+	}
+
+}
+</script>
+
+</head>
+<body>
+	<br>
+	<div style="display:none;" id="containerForContents">
+		<h1>Sisukord</h1>
+		<a href="#poem1"onclick="window.location='#poem1';this.parentNode.parentNode.parentNode.style.display ='none';return false;">Suvi ja Pidu</a> <br> 
+		<a href="#poem2"onclick="window.location='#poem2';this.parentNode.parentNode.parentNode.style.display ='none';return false;">Jõulud</a> <br>
+		<a href="#poem3"onclick="window.location='#date';this.parentNode.parentNode.parentNode.style.display ='none';return false;">Wild wild love</a> <br>
+		<a href="#poem4"onclick="window.location='#date';this.parentNode.parentNode.parentNode.style.display ='none';return false;">Emadepäevaks</a>
+		<br>
+
+	</div>
+<br>
+	<button style="position: fixed;" onmousedown="showContents(event);" type="button" >Sisukord</button>
+	
+	<br>
+	<br>
+	<br>
+
+	<div id="poemswidth">
+		<h1 id="poem1">Suvi ja pidu</h1>
+
+		<div class="poemwidth">Suvel on päike, grill ja tsikid Sest neil teada
+			on kõik meie trikid. Suve tuleks võtta täitsa chillilt Kuna peolaual
+			ootamas toit Mis ära sai võetud grillilt. Peole sõites saab ka
+			nautida Seda ilusat ilma Kiirust ületada ei saa Sest päike paistab
+			silma. Peo paika jõudes oli kuulda hõiskeid ja musa Pidulistel ära
+			oli kadunud mase ja tusa. Suvi aga ongi ju selleks et panna pidu ja
+			chillida Vahest kutsuda kokku sõbrad ja grillida. Peole kokku on
+			tulnud kõik sõbrad ja naised Kaasa toodi ka mõned lõunamaised. Mis
+			kiirelt ära joodi Nüüd keegi peaks juurde tooma alksi Aga poodi
+			minema pidi jalksi. Kuna täispeaga autot kasutada ei tohi Et kiirelt
+			kaineks saada tuleks leiutada mõni imerohi.</div>
+		<br>
+		<h1 id="poem2">Jõulud</h1>
+
+		<div class="poemwidth">Hommikul kui ärkasin, siis õnneks ikka
+			märkasin. Päkapikud akna all, peidavad end minu eest. Mina juba nägin
+			neid, panin käbe riidesse. Õue juba jõudsin ma, päkapikud läind. Aga
+			kus mu kommikarp? Neid ma igatsen, Järgmine kord ma, ma enam nii ei
+			tee.</div>
+		<br>	<br>
+		<h1 id="poem3">Wild Wild love</h1>
+
+		<div class="poemwidth">I´ll be there for you anytime and anywhere
+			You´re always in my heart,I swear This time your tender love begins
+			to turn The fire is burning and it burns I told you before all I want
+			is everything But I can´t buy the golden rings But you mean
+			everything to me You´re my destiny Promise me your wild wild love
+			Promise it from your heart Promise me your wild wild love Promise us
+			a start Wild wild love is a flame I wanna be your lover Wild wild
+			love just again Don´t say it´s over I´ll be there for you seven days
+			and nights Love you night and day,that´s right But tell me will you
+			stay or will you go In your heart your love will show Thousand times
+			I told you when stars fall I´ll be right there when you call You mean
+			all the world to me You´re my eternity</div>
+		<br>
+		<h1 id="poem4">Emadepäevaks</h1>
+
+		<div class="poemwidth">Käes on kena maikuu, valgeis õites kirsipuu.
+			Päike taevavõlvil särab, murekillud peidab ära. Maikuus on tähtis
+			päev, issi vara turgu läeb. Lilleõisi hoolsalt valib, tordigi veel
+			koju tarib. Ruttu mõned võileivad teeb, oi kohvigi meil juba keeb!
+			Pidulaud saab kohe kaetud ja emmegi lauluga üles aetud. Täna emakene
+			oleme kõik head, paitame sul õrnalt pead. Töödest vaba, puhka veel,
+			rõõmus olgu sinu meel.</div>
+			<br>
+				
+	</div>
+	<br>
+
+	<br>
+	<br>
+	<br>
+
+
+</body>
+</html>

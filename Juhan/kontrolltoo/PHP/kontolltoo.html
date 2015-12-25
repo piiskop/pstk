@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kontrolltöö</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Õpilased</h1>
+	<!-- BEGIN form -->
+	<form action="Controller.php">
+		<div>
+		<label for="name">Nimi: <input type="text" name="name" id="name" value="{NAME}"></label>
+			<button type="button" id="buttonSearch"
+				onclick="controller();">Otsin</button>
+				<input type="submit" id="phpSearch" value="PHP otsing"
+				></input>
+				<button type="button" id="buttonShow"
+				onclick="toggleShow();">Kuvan kogu nimekirja.</button>
+		</div>
+		<div id="answer"><label for="coder">
+		<input type="checkbox" id="coder">oskab progeda:</label>
+		<button type="button" id="buttonSave"
+			onclick="save();">Salvestan nime ja kas oskab progeda.</button></div>
+		 <p id="info"></p>
+		 <p id="counter"></p> 
+	</form>
+	<!-- END form -->
+	<input type="text" name="key" id="key">
+	<!-- BEGIN table -->
+	<table id="table">
+	<caption>Õpilaste progemisoskus</caption>
+	<thead>
+	<tr>
+	<th>Eesnimi</th>
+	<th>Perenimi</th>
+	<th>Kas oskab progeda?</th></tr>
+	</thead>
+	<tbody id="tbody">
+	<tr>
+	<td>{FIRST-NAME}
+	</td>
+	<td>{LAST-NAME}
+	</td>
+	<td>{CODER}
+	</td>
+	</tr>
+	</tbody>
+	<tfoot>
+	<tr>
+	<td id="tfooter" colspan="100%"></td>
+	</tr>
+	</tfoot>
+	</table>
+	<!-- END table -->
+	<script src="kontrolltoo.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+/* 
+    Created on : Nov 19, 2015, 11:22:20 AM
+    Author     : eleri
+*/
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+video {
+    border-style: solid;
+    border-color: #1C1C1C;
+    border-width: 1px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-top: 1.25rem;
+}
+
+.video {
+    width: 600px;
+    width: 37.5rem;
+    height: auto;
+    margin-left: 20px;
+    margin-left: 1.25rem;
+}
+
+.Button {
+    -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+    background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#E0F2F7;
+    font-family:Arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    margin: 5px;
+}
+.Button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+    background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+    background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+    background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+    background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+    background-color:#476e9e;
+}
+.Button:active {
+    position:relative;
+    top:1px;
+}
+
+.upper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.upper p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+    float: left;
+    margin-right: 125px;
+    margin-left: 125px;
+    width: 50%;
+}
+
+form {
+    clear:both;
+    width: 50%;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-image: url(blue.jpg);
+}
+
+label { width: 45px; float: left; margin: 0 20px 0 0; }
+span { display: block; margin: 0 0 3px; font-size: 1.2em; font-weight: bold; color: white;}
+input { width: 45px; border: 1px solid #000; padding: 5px; }
+
+#rightside {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 500px;
+    width: 31.25rem;
+    margin-top: 150px;
+    margin-top: 9.375rem;
+}
+
+.summary {
+    float:left;
+    border: 1px solid black;
+    height: 300px;
+    height: 18.75rem;
+    width: 600px;
+    width: 37.5rem;
+    margin-left: 20px;
+    margin-left: 1.25rem;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.summary h3 {
+    margin-left: 20px;
+    margin-left: 1.25rem;
+    margin-bottom: 0px;
+}
+
+.summary ul {
+    height: 200px;
+    height: 12.5rem;
+    width: 500px;
+    width: 31.25rem;
+    list-style: none;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-left: 1.25rem;
+    overflow: scroll;
+    margin-top: 0px;
+}
+
+li:nth-child(2n+2) {
+    background-color: #58ACFA;
+    color: gold;
+}
+
+.insertbutton {
+    clear: both;
+    float:right;
+
+}
+
+.comments {
+    clear: both;
+    margin-top: 25px;
+    margin-top: 1.563rem;
+    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
+    float: right;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sendbutton {
+    clear: both;
+    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
+    padding-right: 40px;
+    padding-right: 2.5rem;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-bottom: 0rem;
+    margin-left: 200px;
+    margin-left: 12.5rem;
+}
+
+label img {
+    width: 15px;
+    width: 0.9375rem;
+    height: 15px;
+    height: 0.9375rem;
+}
+
+.headings {
+    padding-bottom: 15px;
+    padding-bottom: 0.9375rem;
+}

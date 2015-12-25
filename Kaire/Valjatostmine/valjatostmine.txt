@@ -1,0 +1,14 @@
+#status
+	Is status set?:
+		Status is set.
+		Status is not set. [error]
+	Is person at home?:
+		Person is at home. [property at-home]
+		Person is not at home. [property not-at-home]
+	Is person reachable?:
+		Person is reachable. [if not-at-home] [property reachable]
+		Person is not reachable. [if not-at-home] [property not-reachable]
+	Does person agree?:
+		Person agrees. [if at-home || reachable]
+		Person does not agree. [if at-home || reachable]
+   

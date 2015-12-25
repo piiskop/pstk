@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd2.xsd">
+
+	<!-- Describes events, time and info in calendar -->
+	<event id="_1">
+		<place>Pärnu spordihall</place>
+		<sports_type>Jalgpall&amp;muud</sports_type>
+		<info><![CDATA[<p>Parim koht kus käia</p>]]></info>
+		<date>
+			<day>6</day>
+			<month>1</month>
+			<start>12:00:00</start>
+			<end>14:00:00</end>
+		</date>
+	</event>
+	<event id="_2">
+		<place>Pärnu spordihall</place>
+		<sports_type>Korvpall</sports_type>
+		<info><![CDATA[<p>Parim koht kus käia</p>]]></info>
+		<date>
+			<day>6</day>
+			<month>1</month>
+			<start>15:00:00</start>
+			<end>16:00:00</end>
+		</date>
+	</event>
+</events>

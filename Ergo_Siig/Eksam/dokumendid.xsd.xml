@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dokumendid xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema dokumendid.xsd">
+	 <tegelane>
+	 	<amet id="tegelane1">Politseinik</amet>
+	 	<amet id="tegelane2">Minister</amet>
+	 	<amet id="tegelane3">Arst</amet>
+	 	<amet id="tegelane4">Autojuht</amet>
+	</tegelane>
+	<dokument>
+		<nimetus id="nimetus1">Leping</nimetus>
+		<nimetus id="nimetus2">Avaldus</nimetus>
+		<nimetus id="nimetus3">Kiirus Trahv</nimetus>
+		<nimetus id="nimetus4">Tsekk</nimetus>
+	</dokument>
+	<varv>
+		<varvus id="varvus1">sinine</varvus>
+		<varvus id="varvus2">punane</varvus>
+		<varvus id="varvus3">kollane</varvus>
+		<varvus id="varvus4">must</varvus>
+	</varv>
+	<tegelase_dokumendi_varv>
+		<dokument_varviga tegelane_idtegelane="tegelane1" dokument_iddokument="nimetus1" varv_idvarv="varvus1"></dokument_varviga>
+		<dokument_varviga tegelane_idtegelane="tegelane2" dokument_iddokument="nimetus1" varv_idvarv="varvus4"></dokument_varviga>
+		<dokument_varviga tegelane_idtegelane="tegelane3" dokument_iddokument="nimetus4" varv_idvarv="varvus2"></dokument_varviga>
+		<dokument_varviga tegelane_idtegelane="tegelane1" dokument_iddokument="nimetus3" varv_idvarv="varvus1"></dokument_varviga>
+	</tegelase_dokumendi_varv>
+</dokumendid>

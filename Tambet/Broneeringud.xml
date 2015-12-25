@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Broneeringud>
+	<Broneering>
+		<Kuupäev>21.11.2014</Kuupäev>
+		<Kellaaeg>
+			<AlgusKellaaeg>14:00</AlgusKellaaeg>
+			<LõppKellaaeg>16:00</LõppKellaaeg>		
+		</Kellaaeg>
+	</Broneering>
+	<Broneering>
+		<Kuupäev>22.11.2014</Kuupäev>
+		<Kellaaeg>
+			<AlgusKellaaeg>15:00</AlgusKellaaeg>
+			<LõppKellaaeg>18:00</LõppKellaaeg>		
+		</Kellaaeg>
+	</Broneering>
+</Broneeringud>

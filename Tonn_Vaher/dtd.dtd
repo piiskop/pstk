@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Describes events, time and info in calendar -->
+<!ELEMENT events (event+)>
+<!ELEMENT event (place,sports_type+,info,date)>
+<!ELEMENT date (day,month,start,end)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ELEMENT sports_type (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+
+<!ATTLIST event id ID #REQUIRED>

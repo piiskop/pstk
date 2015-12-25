@@ -1,0 +1,30 @@
+@CHARSET "UTF-8"; 
+ 
+.block{
+	background: linear-gradient(135deg, orange, yellow 60%, orange) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background-color:#FF9900;
+	padding:20px;
+	width: 600px;
+	width:37.5rem;
+	height: auto;
+	border:2px dotted black;
+ }
+ 
+.block1{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.block2{
+	float:left;
+	width: 200px;
+}
+
+.block3{
+	float:left;
+	width: 400px;
+
+}

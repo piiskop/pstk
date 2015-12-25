@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!-- Veebilehel on nupp ja mingi ala. 
+Kui kasutaja vajutab nupule ja ala pole nähtav, tehakse see nähtavaks. 
+Kui kasutaja vajutab nupule ja ala on nähtav, peidetakse see ala -->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript" src="mousie.js"></script>
+<title>Mousie</title>
+
+
+<!-- divile id-ga "box" laiuse, kõrguse, taustavärvi ja raami andmine -->
+<style>						
+#box{                            
+	width: 100px;				
+	height: 100px;
+	background: yellow;
+	border: 2px solid black;
+}
+</style>
+
+</head>
+<body>
+
+<button onclick="show_hide('box');">Näita/Peida</button> <!-- buttonile JS funktsiooni lisamine -->
+
+<div id="box"></div> <!-- div-ile id määramine -->
+
+
+
+</body>
+</html>

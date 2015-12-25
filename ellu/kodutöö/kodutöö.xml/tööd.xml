@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minutööd>
+	<tööliigid>
+		<tööliik id="tl1">maalid</tööliik>
+		<tööliik id="tl2">pastellid</tööliik>
+		<tööliik id="tl3">graafika</tööliik>
+	</tööliigid>
+	<tööd>
+		<töö idtööliik="tl1">
+			<nimi>x</nimi>
+			<aasta>2013</aasta>
+		</töö>
+		<töö idtööliik="tl1">
+			<nimi>x</nimi>
+			<aasta>2015</aasta>
+		</töö>
+		<töö idtööliik="tl2">
+			<nimi>x</nimi>
+			<aasta>2013</aasta>
+		</töö>
+		<töö idtööliik="tl1">
+			<nimi>x</nimi>
+			<aasta>2013</aasta>
+		</töö>
+		<töö idtööliik="tl3">
+			<nimi>x</nimi>
+			<aasta>2013</aasta>
+		</töö>
+		<töö idtööliik="tl3>
+			<nimi>y</nimi>
+			<aasta>2015</aasta>
+		</töö>
+	</tööd>
+</minutööd>

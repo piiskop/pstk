@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+div.RequestBox{
+	width: 300px;
+	height: auto;
+	background-color: #888888;
+	padding: 20px; 
+	line-height: 32px;
+}

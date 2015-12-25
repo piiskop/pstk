@@ -1,0 +1,12 @@
+# courseName
+	Emptyness of courseName:
+		empty. [error]
+		not empty. [property courseName-defined]
+	Content of courseName:
+		Contains only English letters. [if courseName-defined]
+		Contains non-English letters. [if courseName-defined]
+		Contains numbers.  [if courseName-defined]
+		Contains special characters. [error]
+		Contains only empty-signs. [error]
+		Begins with an empty-sign. [error]
+		Ends with an empty-sign. [error]

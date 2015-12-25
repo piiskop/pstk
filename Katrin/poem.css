@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+body {
+	background-color: red;font-family: 'Oswald', sans-serif;font-style: italic;
+	}
+	h1 {color: yellow;font-family: 'Indie Flower', cursive;}
+	h2 {background-color: yellow;}
+	img {text-align: left;}

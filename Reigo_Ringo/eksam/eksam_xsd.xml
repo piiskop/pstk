@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema eksam.xsd">
+
+	<stuff_thats_growing>
+		<growing id_growing="growing1">
+			<name>Sidrun</name>
+			<where>indoors</where>			
+			<is_edible>true</is_edible>			
+			<is_suitable_houseplant>true</is_suitable_houseplant>					
+		</growing>
+	</stuff_thats_growing>
+	
+	<grows_from_this>	
+		<from id_from="from1">
+			<species>Maharuti</species>	
+			<grow_from>seeds</grow_from>			
+			<level_of_difficulty>easy</level_of_difficulty>				
+		</from>
+	</grows_from_this>	
+	
+	<grows_into_that_from_this>	
+		<growing_has_from growing_id_growing="growing1" from_id_from="from1"/>
+	</grows_into_that_from_this>
+
+</root>

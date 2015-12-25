@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding-right: 25px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+table td:nth-child(even), th:nth-child(even) {
+    background-color: #ffa64d;
+}

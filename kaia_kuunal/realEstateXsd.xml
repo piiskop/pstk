@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Real estate objects -->
+<Objects
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema realEstate.xsd">
+	<Object id="o1">
+		<Address>
+			<Street>Tamme 12</Street>
+			<City>Tallinn</City>
+			<Region>Harjumaa</Region>
+		</Address>
+		<ObjectType>House</ObjectType>
+		<Description><![CDATA[Kena maja <strong>linna piiril</strong>.]]></Description>
+		<EstateAgent id="a6" /> <!-- Estate agents are declared in another (imaginary) file -->
+		<RoomArea>220</RoomArea>
+		<TotalArea>1000.00</TotalArea>
+		<AreaUnit>m2</AreaUnit>
+		<Price>140500.00</Price>
+		<Bathrooms>2</Bathrooms>
+		<Bedrooms>2</Bedrooms>
+		<Stories>2</Stories>
+		<HasYard />
+	</Object>
+	<Object id="o2">
+		<Address>
+			<Street>Kuuse 1-25</Street>
+			<City>Viljandi</City>
+			<Region>Viljandimaa</Region>
+		</Address>
+		<ObjectType>Apartment</ObjectType>
+		<Description><![CDATA[Kuubik hruštšovkas.]]></Description>		
+		<EstateAgent id="a4" />
+		<Story>2</Story>		
+		<RoomArea>32</RoomArea>
+		<AreaUnit>m2</AreaUnit>
+		<Price>31549.99</Price>
+		<Bathrooms>1</Bathrooms>
+		<Bedrooms>1</Bedrooms>
+	</Object>
+	<Object id="o3">
+		<Address>
+			<Street>Kännu 12-3</Street>
+			<City>Tartu</City>
+			<Region>Tartumaa</Region>
+		</Address>
+		<ObjectType>Apartment</ObjectType>
+		<Description><![CDATA[Normaalse vaatega neljatoaline korter.]]></Description>
+		<EstateAgent id="a2" />
+		<Story>5</Story>
+		<RoomArea>74.4</RoomArea>
+		<AreaUnit>m2</AreaUnit>
+		<Price>100549.99</Price>
+		<Bathrooms>1</Bathrooms>
+		<Bedrooms>3</Bedrooms>
+		<HasBalcony />
+	</Object>	
+</Objects>

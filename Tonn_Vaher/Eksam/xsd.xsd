@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<!-- Players use field hours -->
+	<xs:element name="field">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="players">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="player" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name" type="xs:string" />
+									</xs:sequence>
+									<!-- How can the system recognize that it is
+											an ID? -->
+									<xs:attribute name="p_id" type="xs:ID" use="required">
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="field_hours">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="field_hour" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="start" type="xs:time" />
+										<xs:element name="end" type="xs:time" />
+									</xs:sequence>
+									<xs:attribute name="f_id" type="xs:ID" use="required">
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="usage" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="u_id" type="xs:ID" use="required">
+						</xs:attribute>
+						<xs:attribute name="f_id" type="xs:IDREF" use="required">
+						</xs:attribute>
+						<xs:attribute name="p_id" type="xs:IDREF" use="required">
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>	

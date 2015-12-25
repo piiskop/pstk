@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kirjastiilid</title>
+<link rel="stylesheet" type="text/css"
+	href="Tekst.css" media="all" />
+</head>
+<body
+	onload="load({
+	nameOfFile: 'navigation',
+	target: 'navigation'
+});">
+	<div class="MainContainer">
+		<ul class="Sidebar" id="navigation"></ul>
+		<div class="Content" id="content">
+			<h1>Kirjastiilid</h1>
+			<h2>Põhistiilid</h2>
+			<ul>
+				<li class="Monospace">monospace</li>
+				<li class="SansSerif">sans-serif</li>
+				<li class="Serif">serif</li>
+			</ul>
+			<h2>Stiilid prioriteetide järjekorras</h2>
+			<p class="ManyFamilies">"Poiret One", Helvetica, sans-serif;</p>
+			<h2>Suurus</h2>
+			<p class="Size">kahekordne juurelemendi teksti suurus</p>
+			<h2>Kaldkiri</h2>
+			<p class="Style">Tekst on kaldu.</p>
+			<h2>Asukoht</h2>
+			<p>
+				tavaline tekst <span class="Super">ülatekst</span> <span class="Sub">alatekst</span>
+			</p>
+			<p class="Short Left">See lõik joondatakse vasakule.</p>
+			<p class="Short Right">See lõik joondatakse paremale.</p>
+			<p class="Short Center">See lõik joondatakse keskele.</p>
+			<p class="Short Start">See lõik joondatakse algusse.</p>
+			<p class="Short End">See lõik joondatakse lõppu.</p>
+			<p class="Short Justify">See lõik joondatakse äärte järgi.</p>
+			<h2>Tumedus</h2>
+			<p class="Bold">rasvane</p>
+			<h2>Rea kõrgus</h2>
+			<p class="Short">See on esimene lõik. Reakõrgus on tavaline.</p>
+			<p class="Short LineHeight">See on teine lõik. Rida on kaks korda
+				kõrgem juurelemendi teksti suurusest.</p>
+			<h2>Värv</h2>
+			<p class="Color">värviline tekst</p>
+			<h2>Sisu</h2>
+			<span class="BeforeAndAfter">Selle teksti ette <span
+				class="Quotes">ja</span> järele pannakse jutumärgid.
+			</span> <a class="LinkBefore" href="http://tennisetrenn.ee" target="tennis">Selle
+				lingi ette pannakse sulgudes klass.</a>
+			<h2>Vahe</h2>
+			<p class="LetterSpacing">Selle lõigu teksti tähtede vahe on 1
+				rem.</p>
+			<p class="WordSpacing">Selle lõigu teksti sõnade vahe on 1 rem.</p>
+			<pre class="TabSize">	Siin on märgitud taande pikkuseks 3 rem.</pre>
+			<p class="Short IndentOne">
+				Selle lõigu esimene rida <br /> on taandega.
+			</p>
+			<h2>Tähesuurus</h2>
+			<ul>
+				<li class="SmallCaps">Väiketähed on suured.</li>
+				<li class="Capitals">Kõik esitähed on suured.</li>
+				<li class="Uppercase">Kõik tähed on suured.</li>
+				<li class="Lowercase">Kõik tähed on väikesed.</li>
+				<li class="FullWidth">Kõik tähed on sama laiusega.</li>
+			</ul>
+			<h2>Murdmine</h2>
+			<p class="Short NoWrap">Selles lõigus tõmmatakse tühimärgid,
+				kokku ja teksti ei murta.</p>
+			<p class="Short Pre">Selles lõigus jäetakse reavahed, tühikud ja
+				taanded alles, teksti ei murta.</p>
+			<p class="Short PreWrap">Selles lõigus jäetakse reavahed, tühikud
+				ja taanded alles, tekst murtakse.</p>
+			<p class="Short PreLine">Selles lõigus jäetakse reavahed alles,
+				ent tühikud ja taanded tõmmatakse kokku, tekst murtakse.</p>
+			<p class="Short">supernalivägalustlikekstraülivõrdes</p>
+			<p class="Short BreakWord">supernalivägalustlikekstraülivõrdes</p>
+			<h2>Esimesed</h2>
+			<p class="FirstLetter">esitäht erineb</p>
+			<p class="Short FirstLine">Esimene rida selles lõigus on erinev
+				teistest ridadest.</p>
+		</div>
+	</div>
+</body>
+</html>

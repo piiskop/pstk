@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:element name="kalender">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Description">
+				</xs:element>
+				<xs:element name="events">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="event" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="time" type="xs:string" use="required">
+									</xs:attribute>
+									<xs:attribute name="place" type="xs:string" use="required">
+
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+
+
+						</xs:sequence>
+
+						<xs:attribute name="Name" type="xs:string" use="required">
+						</xs:attribute>
+					</xs:complexType>
+
+
+					<xs:element name="time">
+						<xs:complexType>
+							<xs:attribute name="Date" type="xs:string" use="required">
+							</xs:attribute>
+							<xs:attribute name="clock" type="xs:string" use="required">
+							</xs:attribute>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="place">
+						<xs:complexType>
+							<xs:attribute name="Name" type="xs:string" use="required">
+							</xs:attribute>
+							<xs:attribute name="address" type="xs:string" use="required">
+							</xs:attribute>
+							<xs:attribute name="link" use="required">
+							</xs:attribute>
+						</xs:complexType>
+					</xs:element>
+				
+          
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</xs:element>
+
+</xs:schema>

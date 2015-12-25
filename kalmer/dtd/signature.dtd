@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % id "id ID #REQUIRED">
+
+<!ELEMENT signature (teacher, banks+)>
+
+<!ELEMENT teacher (name, title, streetAddress, phoneNumbers, bankAccounts)>
+<!ATTLIST teacher %id;>
+
+<!ELEMENT name (firstName, lastName)>
+
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT streetAddress (#PCDATA)>
+<!ATTLIST streetAddress xml:space (default|preserve) "preserve">
+
+<!ELEMENT phoneNumbers (landLine, mobile)>
+
+<!ELEMENT landLine (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+
+<!ELEMENT bankAccounts (bankAccount+)>
+<!ATTLIST bankAccount %id;
+	order CDATA #IMPLIED
+	idOfBank IDREF #REQUIRED>
+<!ELEMENT bankAccount EMPTY>
+
+<!ELEMENT banks (bank+)>
+
+<!ELEMENT bank (nameOfBank)>
+<!ATTLIST bank %id;>
+
+<!ELEMENT nameOfBank (#PCDATA)>
+<!ATTLIST nameOfBank xml:lang NMTOKEN #FIXED "et">
+

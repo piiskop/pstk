@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+html{
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    color:#efefef;
+}
+body{
+	background-image: url('../img/taust.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color:black;
+    font-size: 50px;
+    width:100%;
+	}
+span{
+	font-weight:bold;
+}
+div.head{
+	background-image: url('../img/head.png');
+	display: block;
+	width:350px;
+	height:150px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 150px;
+	margin-left: auto ;
+	margin-right: auto ;
+	}
+div.nupp{
+	margin:20px;
+	width:900px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+div.jalus{
+	width:900px;
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+a.reas {
+	background-image: url('../img/nupp1.png');
+	
+	line-height:30px;
+	text-align:center;
+	border:none;
+	width: 130px;
+	height:30px;
+	margin:1%;
+	float: left;
+	font-size: 13px;
+	color:#c0c0c0;
+	}
+	
+a:hover{
+	background-image: url('../img/nupp2.png');
+}
+
+.keskele
+    {
+    margin: auto;
+    width: 1131px;
+    }
+div.sisu{
+	margin:20px;
+	width:900px;
+	height:334px;
+	margin-left:auto;
+	margin-right:auto;
+}
+img{
+	width:900px;
+	heigh:334;
+}
+hr{
+	border-color:#696969;
+}
+p{
+	font-size:13px;
+	color:#808080;
+	margin-top:10px;
+	text-align: left;
+}
+p.teine{
+	font-size:13px;
+	color:#808080;
+	margin-top:10px;
+	text-align: right;
+}
+a:link{
+	color:#489ea8;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color:#306970;
+	
+}
+a:visited{
+	color:#ffffff;
+	text-decoration:none;
+}
+div.esimene{
+	float:left;
+	width:450px;
+	height:40px;
+}
+div.teine{
+	float:left;
+	width:450px;
+	height:40px;
+}

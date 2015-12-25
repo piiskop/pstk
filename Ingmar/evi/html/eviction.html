@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Eviction calculator</title>
+<script src="../js/eviction.js?2"></script>
+<style>
+a:link {
+text-decoration: none
+}
+p:hover:first-letter {
+text-decoration: overline dashed;
+}
+</style>
+</head>
+<body>
+	<h1>Eviction calculator</h1>
+	<form>
+		<div>
+			<input type="checkbox" id="checkboxForEviction" /><label
+				for="checkboxForEviction" id="labelInEviction">Kas ohver on
+				kodus?</label>
+			<button type="button" id="buttonInEviction"
+				onclick="calculateEviction2();">Võtan arvesse ja jätkan.</button>
+		</div>
+		<div id="answer"></div>
+		<button type="button" id="buttonInEviction"
+			onclick="resetCalculation();">Alustan otsast.</button>
+			<p>
+	</form>
+</body>
+</html>

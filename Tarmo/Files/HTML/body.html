@@ -1,0 +1,27 @@
+<!-- BEGIN body -->
+<body>
+<table>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Nimi</th>
+			<th>Pilt</th>
+		</tr>
+	</thead>
+	<tbody>
+	<!-- BEGIN firstView -->
+	<tr><td>{ID}</td><td>{NAME}</td></tr>
+	<a href = "require.php" title="Tagasi">Tagasi!</a>
+	<!-- END firstView --> 
+	<!-- BEGIN secondView -->
+	<tr>
+		<td><a href="require.php?id={D}">{D}</a></td>
+		<td>{DETAILEDNAME}</td>
+		<td><img src="{URL}" width="120px" height="150px"></td>
+	</tr>
+	<!-- END secondView -->
+	</tbody>
+</table>
+
+</body>
+<!-- END body -->

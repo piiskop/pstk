@@ -1,0 +1,8 @@
+<!ELEMENT voistkonnad (voistkond+)>
+<!ELEMENT voistkond (voistleja+)>
+<!ELEMENT voistleja (saavutus+)>
+
+<!ELEMENT saavutus (#PCDATA)>
+
+<!ATTLIST voistkond id CDATA #REQUIRED>
+<!ATTLIST voistleja id CDATA #REQUIRED>

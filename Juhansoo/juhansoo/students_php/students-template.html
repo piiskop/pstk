@@ -1,0 +1,32 @@
+<!-- BEGIN html -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{TITLE}</title>
+<style>{STYLE}</style>
+</head>
+<body onload="create()">
+	<h1>Õpilased</h1>
+	<div>
+		<form method="GET">
+			<label for="searchBox">Nimi: </label>
+			<input id="searchBox" name="lastName" type="text" onkeydown="if (event.keyCode == 13) search()">
+			<button id="searchButtonJS" type="button" onclick="search()">Otsin Javascriptiga</button>
+			<input type="submit" value="Otsin PHPga">
+			<button id="displayButton" type="button" onclick="display()">Kuvan kogu nimekirja.</button>
+		</form>
+	</div>
+	<div class="{STUDENT-CLASS}" id="student" style="display: none;">
+		<label for="checkBox">oskab progeda: </label>
+		<input id="checkBox" type="checkbox" value="progSkill" name="progSkill">
+		<button type="button" value="progSkill" onclick="save()">Salvestan nime ja kas oskab progeda.</button>
+	</div>
+	<div id="noStudent">{NO-STUDENT}</div>
+	<div id="changeState"></div>
+	<div id="steps">{STEPS}</div>
+	<table id="studentList" style="display: none;"></table>
+	<script>{JS}</script>
+</body>
+</html>
+<!-- END html -->

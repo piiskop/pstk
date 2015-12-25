@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="button.css">
+        <script src="button.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+
+                <div id="yourName">
+                    <label for="name">Name:</label>
+                    <img src="images.png" width="10" height="10" alt="neccess" >
+                    <input type="text" class="textinp Show" id= "name" name="username" onblur="myFunctionHide(this); return false;" required> 
+                </div>
+
+                <br>
+
+                <div id="yourEmail">
+                    <label for="email">E-mail:</label>
+                    <img src="images.png" width="10" height="10" alt="neccess" >
+                    <input type="text" onblur="myFunctionHide(this); return false;" class="textinp Show" id= "email" name="email" required> <br>
+                </div>
+
+                <div id="txtarea" >
+                    <label for="content" id="cont">Content:</label>
+                    <img src="images.png" width="10" height="10" alt="neccess" >
+                    <textarea form ="content" onblur="myFunctionHide(this); return false;" name="content" id="content" class="Show" cols="60" rows="15" wrap="soft" required></textarea>
+                </div>
+                <div class="rightbutton">
+                    <button class="Hide" id="button" onclick="buttonOnclick()">Send!</button>
+                </div>
+                <!--
+                <input type="submit" class="Hide" id="button" value="Send!">
+                -->
+            </form>
+        </div>
+        <script src="button.js"></script>
+    </body>
+</html>

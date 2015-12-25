@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example of usage of canvas</title>
+<link rel="stylesheet" href="../css/canvas.css?4" />
+</head>
+<body>
+	<h1>Example of usage of canvas</h1>
+	<canvas id="canvas" width="500" height="500"></canvas>
+	<form>
+		<table>
+			<tbody>
+				<tr>
+					<td><label for="x">x:</label></td>
+					<td><input type="number" pattern="\d" id="x" /></td>
+				</tr>
+				<tr>
+					<td><label for="y">y:</label></td>
+					<td><input type="number" pattern="\d" id="y" /></td>
+				</tr>
+				<tr>
+					<td><label for="width">width:</label></td>
+					<td><input type="number" pattern="\d" id="width" /></td>
+				</tr>
+				<tr>
+					<td><label for="height">height:</label></td>
+					<td><input type="number" pattern="\d" id="height" /></td>
+				</tr>
+				<tr>
+					<td><button type="button" onclick="drawRect();">Joonistan
+							ristküliku</button></td>
+					<td><span id="linkOfCanvas"></span></td>
+				</tr>
+			</tbody>
+		
+		</table>
+	</form>
+	<button id="buttonForRectangles">Joonistan ristkülikud.</button>
+	<button id="buttonForHouse">Joonistan maja.</button>
+	<button id="buttonForTriangle">Joonistan kolmnurga.</button>
+	<button id="buttonForFace">Joonistan näo.</button>
+	<button id="buttonForArcs">Joonistan kaared.</button>
+	<button id="buttonForBubble">Joonistan jutumulli.</button>
+	<button id="buttonForHeart">Joonistan jutumulli.</button>
+	<script src="../js/canvas.js?143"></script>
+</body>
+</html>

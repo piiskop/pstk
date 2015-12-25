@@ -1,0 +1,14 @@
+body{
+  
+}
+div{
+  width: 1024px;
+  margin: auto;
+}
+div.header{
+  height: 50px;
+}
+div.body{
+  background-color: #37B6CE;
+  width: 1024px;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cinema xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd.xsd">
+	 <movies>
+	 	<movie id="movie1">Arrow</movie>
+	 	<movie id="movie2">The Flash</movie>
+	 	<movie id="movie3">Gotham</movie>
+	</movies>
+	<actors>
+		<actor id="actor1">Stephen Amell</actor>
+		<actor id="actor2">Katie Cassidy</actor>
+		<actor id="actor3">David Ramsey</actor>
+		<actor id="actor4">Willa Holland</actor>
+		<actor id="actor5">Paul Blackthorne</actor>
+		<actor id="actor6">Emily Bett Rickards</actor>
+		<actor id="actor7">Colton Haynes</actor>
+		<actor id="actor8">Susanna Thompson</actor>
+		<actor id="actor9">John Barrowman</actor>
+		
+		<actor id="actor10">Grant Gustin</actor>
+		<actor id="actor11">Candice Patton</actor>
+		<actor id="actor12">Danielle Panabaker</actor>
+		<actor id="actor13">Rick Cosnett</actor>
+		<actor id="actor14">Tom Cavanagh</actor>
+		<actor id="actor15">Carlos Valdes</actor>
+		<actor id="actor16">Jesse L. Martin</actor>
+		<actor id="actor17">Patrick Sabongui</actor>
+		<actor id="actor18">John Wesley Shipp</actor>
+		
+		<actor id="actor19">Ben McKenzie</actor>
+		<actor id="actor20">Zabryna Guevara</actor>
+		<actor id="actor21">Robin Lord Taylor</actor>
+		<actor id="actor22">Erin Richards</actor>
+		<actor id="actor23">Camren Bicondova</actor>
+		<actor id="actor24">Cory Michael Smith</actor>
+		<actor id="actor25">Victoria Cartagena</actor>
+		<actor id="actor26">Andrew Stewart-Jones</actor>
+		<actor id="actor27">Jada Pinkett Smith</actor>
+	</actors>
+	<movie_actors>
+		<movie_actor id_movies="movie1" id_actors="actor1 actor2 actor3 actor4 actor5 actor6 actor7 actor8 actor9"></movie_actor>
+		<movie_actor id_movies="movie2" id_actors="actor10 actor11 actor12 actor13 actor14 actor15 actor16 actor17 actor18"></movie_actor>
+		<movie_actor id_movies="movie3" id_actors="actor19 actor20 actor21 actor22 actor23 actor24 actor25 actor26 actor27"></movie_actor>
+	</movie_actors>
+</cinema>

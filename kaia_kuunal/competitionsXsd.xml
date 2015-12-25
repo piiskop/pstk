@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Competitions
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema competitions.xsd">
+	<Competition id="c1">
+		<Title>Võrkpall: USA vs Brasiilia</Title>
+		<Teams>
+			<Team>USA</Team>
+			<Team>Brazil</Team>
+		</Teams>
+		<Date>2014-12-11</Date>
+		<Duration>PT1H15M</Duration>
+		<Location>
+			<City>Detroit</City>
+			<Country>USA</Country>
+		</Location>
+		<Sets>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>20</LosingPoints>
+				<WinningTeam>Brazil</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>22</LosingPoints>
+				<WinningTeam>USA</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>21</LosingPoints>
+				<WinningTeam>USA</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>23</LosingPoints>
+				<WinningTeam>USA</WinningTeam>
+			</Set>
+		</Sets>		
+		<WinnerSets>3</WinnerSets>
+		<LoserSets>1</LoserSets>
+		<WinningTeam>USA</WinningTeam>
+	</Competition>
+	<Competition id="c2">
+		<Title>Võrkpall: Venemaa vs Portugal</Title>
+		<Teams>
+			<Team>Venemaa</Team>
+			<Team>Portugal</Team>
+		</Teams>
+		<Date>2014-11-01</Date>
+		<Duration>PT50M</Duration>
+		<Location>
+			<City>Moscow</City>
+			<Country>Russia</Country>
+		</Location>
+		<Sets>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>18</LosingPoints>
+				<WinningTeam>Russia</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>20</LosingPoints>
+				<WinningTeam>Russia</WinningTeam>
+			</Set>
+			<Set>
+				<WinningPoints>25</WinningPoints>
+				<LosingPoints>10</LosingPoints>
+				<WinningTeam>Russia</WinningTeam>
+			</Set>
+		</Sets>		
+		<WinnerSets>3</WinnerSets>
+		<LoserSets>0</LoserSets>
+		<WinningTeam>Russia</WinningTeam>
+	</Competition>	
+</Competitions>

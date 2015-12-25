@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plants>
+	<plant>
+		<plantname>Punane leeder</plantname>
+		<planttranslations>
+			<planttranslation>
+				<language>Eestikeelne nimi</language>
+				<translation>Punane leeder</translation>
+			</planttranslation>
+			<planttranslation>
+				<language>Ladinakeelne nimi</language>
+				<translation>Sambucus racemosa L.</translation>
+			</planttranslation>
+		</planttranslations>
+		<countrynames>
+		<countryname>Leedripuu</countryname>
+		<countryname>kooljapuu</countryname>
+		<countryname>pliiderpuu</countryname>
+		<countryname>kihvtimarjapuu</countryname>
+		</countrynames>
+	</plant>
+</plants>

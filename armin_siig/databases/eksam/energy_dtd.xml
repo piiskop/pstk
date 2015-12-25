@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toitumine SYSTEM "energy.dtd">
+<ENERGY>
+	<ENERGIES>
+		<ENERGY_TYPE id="A1">
+			<ENERGY_NAME>põlevkivi</ENERGY_NAME>
+			<RENEWABLE />
+			<PRICE>100</PRICE>
+		</ENERGY_TYPE>
+		<ENERGY_TYPE id="B1">
+			<ENERGY_NAME>solar energy</ENERGY_NAME>
+			<RENEWABLE />
+			<PRICE>50</PRICE>
+		</ENERGY_TYPE>
+		<ENERGY_TYPE id="C1">
+			<ENERGY_NAME>nafta</ENERGY_NAME>
+			<RENEWABLE/>
+			<PRICE>200</PRICE>
+		</ENERGY_TYPE>
+	</ENERGIES>
+	<PRODUCERS>
+		<PRODUCER id="s1">
+			<PRODUCER_NAME>EE
+			</PRODUCER_NAME>
+		</PRODUCER>
+		<PRODUCER id="s2">
+			<PRODUCER_NAME>Norra
+			</PRODUCER_NAME>
+		</PRODUCER>
+		<PRODUCER id="s3">
+			<PRODUCER_NAME>Norra
+			</PRODUCER_NAME>
+		</PRODUCER>
+	</PRODUCERS>
+
+</ENERGY>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Organizations (Organization*)>
+<!ELEMENT Organization (Name, Link?, Address, Description?, Courts?)>
+<!ELEMENT Courts (Court*)>
+<!ELEMENT Court (Name, Capacity?, Equipment?)>
+<!ELEMENT Address (Street, City)>
+
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Link (#PCDATA)>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Capacity (#PCDATA)>
+<!ELEMENT Equipment EMPTY>
+
+<!ATTLIST Organization id ID #REQUIRED>
+<!ATTLIST Court id ID #REQUIRED>

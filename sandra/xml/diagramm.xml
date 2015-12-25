@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+	<characters>
+		<character>
+			<name>jürka</name>
+			<familymembers>
+				<familymember>Lisete</familymember>
+				<familymember>Juula</familymember>
+				<childrens>
+					<children>Kusta</children>
+					<children>Maia</children>
+					<children>Riia</children>
+				</childrens>
+			</familymembers>
+			<attributes>
+				<attribute>töökas</attribute>
+				<attribute>sihikindel</attribute>
+				<attribute>kannatlik</attribute>
+				<attribute>lihtsameelne</attribute>
+			</attributes>
+			<purposes>
+				<purpose>saada õndsaks</purpose>
+				<purpose>põrgusse uued hinged</purpose>
+			</purposes>
+			<results>
+				<result>põrgupõhi põleb ära</result>
+				<result>sureb</result>
+			</results>
+		</character>
+		<character>
+			<name>Kaval Ants</name>
+			<name>jürka</name>
+			<familymembers>
+				<familymember>Naine</familymember>
+				<childrens>
+					<children>Eleonora</children>
+					<children>Noor Ants</children>
+				</childrens>
+			</familymembers>
+			<attributes>
+				<attribute>isekas</attribute>
+				<attribute>ahne</attribute>
+				<attribute>omakasupüüdlik</attribute>
+				<attribute>kaval</attribute>
+			</attributes>
+			<purposes>
+				<purpose>rikastuda</purpose>
+			</purposes>
+			<results>
+				<result>hooned põlevad</result>
+				<result>vigastatud</result>
+			</results>
+		</character>
+	</characters>
+</book>
+	
+			

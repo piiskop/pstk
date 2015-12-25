@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="KT5.css">
+
+<title>KT5</title>
+</head>
+
+<body>
+
+	<h2>Õpilased</h2>
+
+	<form>
+
+		<label>Nimi: <input type="text" id="name" /></label> <input
+			type="button" value="Otsin" onclick="binary();" /> 
+			<input type="button" value="Otsin AJAX-ga" id="buttonForGettingData" onclick="makeRequest();"/>
+			<input type="button" value="Kuvan kogu nimekirja" />
+
+
+		<div id="found">
+			oskab progeda: <input type="checkbox" id="codeMaster" /> <input
+				name="search" type="button"
+				value="Salvestan nime ja kas oskab progeda" onclick="save();" />
+		</div>
+
+		<div id="dataChanged"></div>
+		<div id="notFound">Sellist õpilast pole.</div>
+		<div id="steps"></div>
+	</form>
+	
+
+
+	<script type="text/javascript" src="KT5.js"></script>
+</body>
+
+</html>

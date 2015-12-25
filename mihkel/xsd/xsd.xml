@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data 	xmlns="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.w3.org/2001/XMLSchema xsd.xsd"
+		>
+	<name>ACõlo</name>
+	<gender>male</gender>
+	<age>25</age>
+	<car>BMW</car>
+</data>z

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/slider.css">
+    </head>
+    <body>
+        
+        <div class="buttons">
+        <button id="previous" onclick="; return false;">Previous</button>
+        <button id="following" onclick="; return false;">Following</button>
+        </div>
+        
+        <div class="slider">
+            <div class ="thumbn">
+                
+                <ul>
+                    <li class="img1" onclick="showimage(this); return false;"></li>
+                    <li class="img2" onclick="showimage(this); return false;"></li>
+                    <li class="img3" onclick="showimage(this); return false;"></li>
+                </ul>
+                
+            </div>
+
+            <div class ="img">
+                
+                <ul>
+                    <li id="img1" class="img4 Hide Images">
+                        <p class="description">Aura</p>
+                    </li>
+                    <li id="img2" class="img5 Hide Images">
+                        <p class="description"> Sweet autumn</p>
+                    </li>
+                    <li id="img3" class="img6 Hide Images">
+                        <p class="description">Fly little bird</p>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <script src="slider.js"></script>
+    </body>
+</html>

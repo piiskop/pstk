@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE linateosed SYSTEM "linateosed.dtd">
+
+<nimekiri>
+	<linateosed>
+		<linateos ID="teos1">
+			<pealkiri>The Signal</pealkiri>
+		</linateos>
+		<linateos ID="teos2">
+			<pealkiri>Näljamängud: Pilapasknäär - 1.osa</pealkiri>
+		</linateos>
+		<linateos ID="teos3">
+			<pealkiri>The Hunger Games: A Reenactment - Part 1</pealkiri>
+		</linateos>
+	</linateosed>
+	<tegelased>
+		<tegelane ID="tgl1">
+			<nimi>Nic</nimi>
+		</tegelane>
+		<tegelane ID="tgl2">
+			<nimi>Haley</nimi>
+		</tegelane>
+		<tegelane ID="tgl3">
+			<nimi>Jonah</nimi>
+		</tegelane>
+		<tegelane ID="tgl4">
+			<nimi>Katniss Everdeen</nimi>
+		</tegelane>
+		<tegelane ID="tgl5">
+			<nimi>Peeta Mellark</nimi>
+		</tegelane>
+		<tegelane ID="tgl6">
+			<nimi>Gale Hawthorne</nimi>
+		</tegelane>
+		<tegelane ID="tgl7">
+			<nimi>Primrose Everdeen</nimi>
+		</tegelane>
+	</tegelased>
+	<filmid>
+		<film IDlinateos="teos1" IDtegelane="tgl1 tgl2 tgl3"/>
+		<film IDlinateos="teos2" IDtegelane="tgl4 tgl5 tgl6"/>
+		<film IDlinateos="teos3" IDtegelane="tgl4 tgl6 tgl7"/>
+	</filmid>
+</nimekiri>

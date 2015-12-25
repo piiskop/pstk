@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Msaal xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema tambet.xsd">
+
+	<title>Minu saal</title>
+	<MENU>
+		<Menu_element label="Home" target="http://google.com" />
+		<Menu_element label="Log In" target="http://google.ee" />
+		<Menu_element label="Aout us" target="http://google.ru" />
+		<Menu_element label="Seaded" target="http://google.eu" />
+		<!-- kui "://" sisse kirjutada ei saa, siis asenda Konstandiga"#58= :" 
+		ja "/ = &#47", eraldajaks ";". NB tühikuid;vahele;jätta;ei;tohi -->
+	</MENU>
+
+	<Search>
+
+		<description><![CDATA[Saab otsida spordiala asukoha ja aja järgi.]]></description>
+
+		<Date>
+			<aasta>2014</aasta>
+			<kuu>1</kuu>
+			<päev>15</päev>
+			<tund>14</tund>
+			<minut>37</minut>
+		</Date>
+		<Locations>
+			<Location>
+				<City>Pärnu</City>
+				<Districts>
+					<District>Rääma</District>
+					<District>Ülejõe</District>
+				</Districts>
+			</Location>
+			<Location>
+				<City>Tartu</City>
+				<Districts>
+					<District>Joomla</District>
+					<District>Magala</District>
+				</Districts>
+			</Location>
+			<Location>
+				<City>Tallinn</City>
+				<Districts>
+					<District>Savisaarla</District>
+					<District>Ida Virumaa</District>
+				</Districts>
+			</Location>
+		</Locations>
+
+		<Disciplines>
+			<Discipline>
+				<Type>välis</Type>
+				<Designation>Golf</Designation>
+				<SizeOfCourt>1800</SizeOfCourt>
+				<UniteOfCourtSize>m2</UniteOfCourtSize>
+				<Capasite>500</Capasite>
+			</Discipline>
+			<Discipline>
+				<Type>välis</Type>
+				<Designation>Sprint</Designation>
+				<SizeOfCourt>300</SizeOfCourt>
+				<UniteOfCourtSize>m2</UniteOfCourtSize>
+				<Capasite>300</Capasite>
+			</Discipline>
+			<Discipline>
+				<Type>sise</Type>
+				<Designation>Jalka</Designation>
+				<SizeOfCourt>500</SizeOfCourt>
+				<UniteOfCourtSize>m2</UniteOfCourtSize>
+				<Capasite>100</Capasite>
+			</Discipline>
+			<Discipline>
+				<Type>välis</Type>
+				<Designation>Saali Hoki</Designation>
+				<SizeOfCourt>300</SizeOfCourt>
+				<UniteOfCourtSize>m2</UniteOfCourtSize>
+				<Capasite>24</Capasite>
+			</Discipline>
+		</Disciplines>
+
+	</Search>
+
+</Msaal>

@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.FirstPart {
+	float: left;
+	white-space : pre-line;
+}
+
+.SecondPart {
+	float: right;
+	white-space : pre-line;
+}
+
+.ThirdPart {
+	clear: left;
+	white-space : pre-line;
+}
+/*.p{
+	margin:0px; 
+}*/

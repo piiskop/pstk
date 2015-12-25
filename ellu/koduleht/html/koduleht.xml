@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<koduleht>
+	<title>Ellu Roosme</title>
+	<description>Kirjeldus minust ja minu tööd</description>
+	<tööLiigid>
+		<tööliik id="tl1">joonistused</tööliik>
+		<tööliik id="tl2">maalid</tööliik>
+	</tööLiigid>
+	<items>
+		<item>
+			<title>Minust</title>
+			<content>
+			<![CDATA[
+				<p>
+					<div class="tekst">
+						Minu nimi on
+						<strong>Ellu Roosme </strong>
+						. Olen oma elu jooksul
+						tegelenud paljude erinevate käsitöö- ja
+						kunsti tehnikatega.
+						<br>
+							Praegu
+							õpin Pärnu
+							<a href="#"
+								onclick="window.open('http://www.saksatk.ee/en/');return false;">Saksa
+								Tehnoloogiakoolis
+							</a>
+							Multimeedia kujundaja 2. kursusel.
+							<br />
+							Mulle
+							meeldib tegeleda erinevate tehnikatega, kuid oma lemmikuks
+							pean siiski
+							õlivärvidega maalimist.
+					</div>
+					<p />
+					<img class="ellu" alt="ellu" src="../images/ellu.jpg" width="150" />
+			]]>
+			</content>
+		</item>
+		<item>
+			<title>Tehtud Tööd</title>
+			<tööd>
+				<töö idtööliik="tl1">
+					<nimi>Kerttu</nimi>
+					<aasta>2013</aasta>
+				</töö>
+				<töö idtööliik="tl1">
+					<nimi>Isa</nimi>
+					<aasta>2013</aasta>
+				</töö>
+				<töö idtööliik="tl2">
+					<nimi>Õunapuu</nimi>
+					<aasta>2013</aasta>
+				</töö>
+			</tööd>
+		</item>
+	</items>
+</koduleht>

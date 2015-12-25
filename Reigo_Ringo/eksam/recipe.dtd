@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % id "id ID #REQUIRED">
+<!ELEMENT toidu_tegemine (retseptid, koostisained, retseptid_koostisained)>
+<!ELEMENT retseptid (retsept*)>
+<!ELEMENT retsept (#PCDATA)>
+<!ATTLIST retsept %id;>
+<!ELEMENT koostisained (koostisaine*)>
+<!ELEMENT koostisaine (koostisaine_nimi)>
+<!ELEMENT koostisaine_nimi (#PCDATA)>
+<!ATTLIST koostisaine %id;>
+<!ELEMENT retseptid_koostisained EMPTY>
+<!ATTLIST retseptid_koostisained retseptide_tunnused IDREFS #REQUIRED>
+<!ATTLIST retseptid_koostisained koostisainete_tunnused IDREFS #REQUIRED>

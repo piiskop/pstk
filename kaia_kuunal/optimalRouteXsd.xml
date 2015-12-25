@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Routes 
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema optimalRoute.xsd">
+	<Route id="r1">
+		<StartingPoint>
+			<Street>Männi 20</Street>
+			<City>Pärnu</City>
+			<Region>Pärnumaa</Region>
+			<Country>Estonia</Country>
+		</StartingPoint>
+		<Destination>
+			<Street>Kase tn 2</Street>
+			<City>Saue</City>
+			<Region>Harjumaa</Region>
+			<Country>Estonia</Country>
+		</Destination>
+		<Directions>
+			<Drive>500m</Drive>
+			<Turn>left</Turn>
+			<Drive>100km</Drive>
+			<Turn>right</Turn>
+			<Drive>2km</Drive>
+			<Turn>right</Turn>
+			<Drive>200m</Drive>
+		</Directions>		
+	</Route>
+	<Route id="r2">
+		<StartingPoint>
+			<Street>Kännu 1</Street>
+			<City>Viljandi</City>
+			<Region>Viljandimaa</Region>
+			<Country>Estonia</Country>
+		</StartingPoint>
+		<Destination>
+			<Street>Mätta 5</Street>
+			<City>Sindi</City>
+			<Region>Pärnumaa</Region>
+			<Country>Estonia</Country>
+		</Destination>
+		<Directions>
+			<Drive>150m</Drive>
+			<Turn>right</Turn>
+			<Drive>80km</Drive>
+			<Turn>right</Turn>
+			<Drive>1km</Drive>
+		</Directions>		
+	</Route>	
+</Routes>

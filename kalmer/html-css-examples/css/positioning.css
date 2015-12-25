@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+@import url("html-css-examples.css");
+
+/* 1 */
+.parent {
+	background-color: lightblue;
+	display: flex;
+	height: 300px; /* Or whatever */
+}
+
+.child {
+	background-color: limegreen;
+	width: 100px; /* Or whatever */
+	height: 100px; /* Or whatever */
+	margin: auto;
+	width: 100px; /* Magic! */
+}
+
+/* 2 */
+.flex-container {
+	background-color: lightblue;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	/* We first create a flex layout context */
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	/* Then we define the flow direction and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	/* Then we define how is distributed the remaining space */
+	justify-content: space-around;
+}
+
+.flex-item {
+	background: tomato;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+/* 3 */
+/* Large */
+.navigation {
+	list-style: none;
+	margin: 0;
+	background: deepskyblue;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	/* This aligns items to the end line on main-axis */
+	justify-content: flex-end;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+	.navigation {
+		/* When on medium sized screens, we center it by evenly distributing empty space around items */
+		justify-content: space-around;
+	}
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+	.navigation {
+		/* On small screens, we are no longer using row direction but column */
+		-webkit-flex-flow: column wrap;
+		flex-flow: column wrap;
+		padding: 0;
+	}
+	.navigation a {
+		text-align: center;
+		padding: 10px;
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.navigation li:last-of-type a {
+		border-bottom: none;
+	}
+}
+
+.navigation a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: white;
+}
+
+.navigation a:hover {
+	background: darken(deepskyblue, 2%);
+}
+
+/* 4 */
+.wrapper {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrapper>* {
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.header {
+	background: tomato;
+}
+
+.footer {
+	background: lightgreen;
+}
+
+.main {
+	text-align: left;
+	background: deepskyblue;
+}
+
+.aside-1 {
+	background: gold;
+}
+
+.aside-2 {
+	background: hotpink;
+}
+
+@media all and (min-width: 600px) {
+	.aside {
+		flex: 1 auto;
+	}
+}
+
+@media all and (min-width: 800px) {
+	.main {
+		flex: 3 0px;
+	}
+	.aside-1 {
+		order: 1;
+	}
+	.main {
+		order: 2;
+	}
+	.aside-2 {
+		order: 3;
+	}
+	.footer {
+		order: 4;
+	}
+}
+
+/* Floating */
+.FloatLeft {
+	float: left;
+	background-color: #dadada;
+}
+
+.FloatRight {
+	float: right;
+	background-color: #dadada;
+}
+
+/* Clearing */
+.ClearLeft {
+	border: 2px solid;
+	border: 0.125rem solid;
+	clear: left;
+}
+
+.ClearRight {
+	border: 2px solid;
+	border: 0.125rem solid;
+	clear: right;
+}
+
+.FirstPart {
+	float: left;
+}
+
+.SecondPart {
+	float: right;
+}
+
+.ThirdPart {
+	clear: left;
+}
+/* Relative */
+.Box {
+	display: inline-block;
+	background: red;
+	width: 196px;
+	width: 9rem;
+	height: 100px;
+	height: 7.5rem;
+	float: left;
+	margin: 8px;
+	margin: 0.5rem;
+	color: white;
+}
+
+.Relative {
+	position: relative;
+	top: 8px;
+	top: 0.5rem;
+	left: 8px;
+	left: 0.5rem;
+}
+
+/* Absolute */
+.ContainerForAbsolute {
+	position: absolute;
+	right: 0;
+}
+
+.AbsoluteColor {
+	background: rgba(32, 23, 23, 0.5);
+}
+
+.Absolute {
+	position: absolute;
+	top: 8px;
+	top: 0.5rem;
+	left: 8px;
+	left: 0.5rem;
+}
+/* Fixed */
+.Fixed {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,23 @@
+
+Test Case 1  		<error>
+   Emptyness of country :  empty
+
+
+Test Case 2  		<error>
+   Emptyness of city :  empty
+
+
+Test Case 3  		<error>
+   Emptyness of partner :  empty
+
+
+Test Case 4  		<error>
+   Emptyness of date,time :  empty
+
+
+Test Case 5  		(Key = 0.0.2.2.)
+   Emptyness of country   :  <n/a>
+   Emptyness of city      :  <n/a>
+   Emptyness of partner   :  not empty
+   Emptyness of date,time :  not empty
+

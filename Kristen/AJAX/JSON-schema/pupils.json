@@ -1,0 +1,27 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Pupils array schema",
+	"type": "object",
+	"pupils": {
+		"firstname": {
+			"description": "First name of pupil",
+			"type": "string",
+			"required": true
+		},
+		"lastname": {
+			"description": "Last name of pupil",
+			"type": "string",
+			"required": true
+		},
+		"progeb": {
+			"description": "Can the pupil program?",
+			"type": "string",
+			"default": "ei",
+			"oneOf": [
+                {"option1": "jah"}, 
+                {"option2": "ei"}
+            ],
+			"required": true
+		}
+	}
+}

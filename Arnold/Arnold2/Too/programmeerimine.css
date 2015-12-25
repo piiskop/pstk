@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+/*Базовая обертка* /*dla spiska
+/.droplink {
+width:200px;
+position:absolute;
+border-radius:3px;
+margin:10px 0 0 25px
+}
+/*Сбросим отступы*
+.droplink ul{padding:0;margin:0}
+/*стиль кнопки*/
+
+/*Стиль элемента списка*
+.droplink li a{
+padding:5px 12px 4px 34px;
+margin:1px;
+display:block;
+color:#000;
+text-decoration: none;
+font-size:12px;
+background-repeat:no-repeat;
+background-position: 10px 3px}
+/*Стиль элемента при наведении*
+.droplink li a:hover {background-color: #999}
+/*Иконки*
+.facebook a {background-image:url("icons/facebook.png")}
+.twitter a {background-image:url("icons/twitter.png")}
+.vk a {background-image:url("icons/vk.png")}
+.rss a {background-image:url("icons/rss.png")}
+.gplus a {background-image:url("icons/gplus.png")}
+li {
+    list-style-type: none;
+}*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+input#checkboxForProgram label#labelInProgram{
+	display:none;
+}

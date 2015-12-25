@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<klass2015>
+	<students>
+		<student id="s1">
+			<firstname>Juhan</firstname>
+			<lastname>Kõks</lastname>
+		</student>
+		<student id="s2">
+			<firstname>Alar</firstname>
+			<lastname>Aasa</lastname>
+		</student>
+		<student id="s3">
+			<firstname>Sander</firstname>
+			<lastname>Mets</lastname>
+		</student>
+	</students>
+	<topics>
+		<topic id="t1">
+			<name>UML</name>
+			<topic id="umll1">Kasutusjuhud</topic>
+			<topic id="umll2">Klassid</topic>
+			<topic id="umll3">Tegevused ja olekud</topic>
+		</topic>
+		<topic id="t2">
+			<name>TSL</name>
+			<topic id="tsll1">Liides</topic>
+			<topic id="tsll2">Tehniline kirjeldus</topic>
+			<topic id="tsll3">Test</topic>
+		</topic>
+		<topic id="t3">
+			<name>HTML ja CSS</name>
+			<topic id="hjcl1">Liides</topic>
+			<topic id="hjcl2">Tehniline kirjeldus</topic>
+			<topic id="hjcl3">Test</topic>
+		</topic>
+	</topics>
+	<skills>
+		<skill id="s1"
+			topic="umll1 umll2 umll3 tsll1 tsll2 tsll3 hjcl1 hjcl2 hjcl3"></skill>
+		<skill id="s2"
+			topic="umll1 umll2 umll3 tsll1 tsll2 tsll3 hjcl1 hjcl2 hjcl3"></skill>
+		<skill id="s3"
+			topic="umll1 umll2 umll3 tsll1 tsll2 tsll3 hjcl1 hjcl2 hjcl3"></skill>
+	</skills>
+</klass2015>

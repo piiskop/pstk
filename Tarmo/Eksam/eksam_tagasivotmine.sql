@@ -1,0 +1,14 @@
+INSERT INTO crops_zones (crop_id, climate_zone_id) VALUES (4,4);
+UPDATE crops SET grows_indoors = true WHERE name = 'mint' LIMIT 1;
+DELETE FROM crops_categories;
+DELETE FROM crops_zones;
+DELETE FROM crops;
+DELETE FROM categories;
+DELETE FROM climate_zones;
+DROP TABLE crops_categories;
+DROP TABLE crops_zones;
+DROP TABLE crops;
+DROP TABLE categories;
+DROP TABLE climate_zones;
+DROP USER 'kaia_user'@'localhost';
+DROP database kaia_permaculture;

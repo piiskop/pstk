@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_s2KkwFiBEeW0DvRjWoQBwA" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_x0Vu8FiBEeW0DvRjWoQBwA" name="Rakendus">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_y0x4QFiBEeW0DvRjWoQBwA" name="install" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_04Fz0FiBEeW0DvRjWoQBwA" name="update" isUnique="false"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_m8MkgF0SEeWGFfE7wwVoaQ" name="openAtStartuUp"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_qxh3UF0SEeWGFfE7wwVoaQ" name="keepProgramsRunning"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qVY0oFiCEeW0DvRjWoQBwA" name="User">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kiw54F0QEeWGFfE7wwVoaQ" name="chooseProgram" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-2dQIF0QEeWGFfE7wwVoaQ" name="manageProgram" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LKWOMF0SEeWGFfE7wwVoaQ" name="program">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MSgJEF0SEeWGFfE7wwVoaQ" name="turnOff/On" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_YM9I4F0SEeWGFfE7wwVoaQ" client="_LKWOMF0SEeWGFfE7wwVoaQ" supplier="_qVY0oFiCEeW0DvRjWoQBwA"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_kli2MF0SEeWGFfE7wwVoaQ" client="_x0Vu8FiBEeW0DvRjWoQBwA" supplier="_LKWOMF0SEeWGFfE7wwVoaQ"/>
+</uml:Model>

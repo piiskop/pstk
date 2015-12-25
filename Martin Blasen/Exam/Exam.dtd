@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!ELEMENT RocketHeaters (Models, DuctSize, Barrel, HeatableArea, WoodConsumed, Heaters+)>
+
+<!ELEMENT Models (Name+)>
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name ID ID #REQUIRED>
+
+<!ELEMENT DuctSize (Inches+)>
+<!ELEMENT Inches (#PCDATA)>
+<!ATTLIST Inches ID ID #REQUIRED>
+
+<!ELEMENT Barrel (Gallons+)>
+<!ELEMENT Gallons (#PCDATA)>
+<!ATTLIST Gallons ID ID #REQUIRED>
+
+<!ELEMENT HeatableArea (SquareFeet+)>
+<!ELEMENT SquareFeet (#PCDATA)>
+<!ATTLIST SquareFeet ID ID #REQUIRED>
+
+<!ELEMENT WoodConsumed (Cords+)>
+<!ELEMENT Cords (#PCDATA)>
+<!ATTLIST Cords ID ID #REQUIRED>
+
+
+
+<!ELEMENT Heaters EMPTY> 
+<!ATTLIST Heaters idOfModel IDREFS #REQUIRED>
+<!ATTLIST Heaters idOfDuctSize IDREFS #REQUIRED>
+<!ATTLIST Heaters idOfBarrel IDREFS #REQUIRED>
+<!ATTLIST Heaters idOfArea IDREFS #REQUIRED>
+<!ATTLIST Heaters idOfConsumption IDREFS #REQUIRED>

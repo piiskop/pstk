@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+body{
+  background-color: #E3EFCF;
+}
+div.body{
+  width: 1024px;
+  height: 760px;
+  margin: auto;
+}
+a:link,a:visited{
+	color: #000000;
+	text-decoration: none;
+}

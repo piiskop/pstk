@@ -1,0 +1,1196 @@
+
+Test Case 1  		(Key = 1.1.1.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time == now
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 2  		(Key = 1.1.1.1.2.1.1.1.1.1.1.1.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time < minute
+   Is time greater than or equal second? :  Time > second
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 3  		(Key = 1.1.1.1.2.1.1.1.1.1.1.2.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time < minute
+   Is time greater than or equal second? :  Time < zero
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 4  		(Key = 1.1.1.1.2.1.1.1.1.1.1.3.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time < minute
+   Is time greater than or equal second? :  time == second
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 5  		(Key = 1.1.1.1.2.1.1.1.1.1.2.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  Time > minute
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 6  		(Key = 1.1.1.1.2.1.1.1.1.1.3.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  Time < zero
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 7  		(Key = 1.1.1.1.2.1.1.1.1.1.4.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time == minute
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 8  		(Key = 1.1.1.1.2.1.1.1.1.2.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  Time > hour
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 9  		(Key = 1.1.1.1.2.1.1.1.1.3.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  Time < zero
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 10 		(Key = 1.1.1.1.2.1.1.1.1.4.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time == hour
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 11 		(Key = 1.1.1.1.2.1.1.1.2.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  Time > day
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 12 		(Key = 1.1.1.1.2.1.1.1.3.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  Time < zero
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 13 		(Key = 1.1.1.1.2.1.1.1.4.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time == day
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 14 		(Key = 1.1.1.1.2.1.1.2.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  Time > week
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 15 		(Key = 1.1.1.1.2.1.1.3.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  Time < zero
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 16 		(Key = 1.1.1.1.2.1.1.4.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time == week
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 17 		(Key = 1.1.1.1.2.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  Time > month
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 18 		(Key = 1.1.1.1.2.1.3.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  Time < zero
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 19 		(Key = 1.1.1.1.2.1.4.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time == month
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 20 		(Key = 1.1.1.1.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < zero
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 21 		(Key = 1.1.1.1.2.3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time == year
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 22 		(Key = 1.1.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is not valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 23 		(Key = 1.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is ET
+   Is time set?                          :  Time is not set
+   Is time valid?                        :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 24 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.1.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time == now
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 25 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.1.1.1.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time < minute
+   Is time greater than or equal second? :  Time > second
+
+
+Test Case 26 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.1.1.2.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time < minute
+   Is time greater than or equal second? :  Time < zero
+
+
+Test Case 27 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.1.1.3.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time < minute
+   Is time greater than or equal second? :  time == second
+
+
+Test Case 28 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.1.2.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  Time > minute
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 29 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.1.3.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  Time < zero
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 30 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.1.4.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time < hour
+   Is time greater than or equal minute? :  time == minute
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 31 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.2.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  Time > hour
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 32 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.3.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  Time < zero
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 33 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.1.4.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time < day
+   Is time greater than or equal hour?   :  time == hour
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 34 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.2.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  Time > day
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 35 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.3.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  Time < zero
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 36 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.1.4.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time < week
+   Is time greater than or equal day?    :  time == day
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 37 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.2.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  Time > week
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 38 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.3.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  Time < zero
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 39 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.1.4.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time < month
+   Is time greater than or equal week?   :  time == week
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 40 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.2.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  Time > month
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 41 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.3.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  Time < zero
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 42 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.1.4.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < year
+   Is time greater than or equal month?  :  time == month
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 43 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.2.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time < zero
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 44 		(Key = 1.2.1.1.0.0.0.0.0.0.0.0.2.3.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  Time != now
+   Is time greater than or equal year?   :  Time == year
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 45 		(Key = 1.2.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is not valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 46 		(Key = 1.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is EN
+   Is time set?                          :  Time is not set
+   Is time valid?                        :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 47 		(Key = 1.3.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is not valid
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 48 		(Key = 1.3.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is not valid
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is not valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 49 		(Key = 1.3.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is set
+   Is the language valid?                :  Language is not valid
+   Is time set?                          :  Time is not set
+   Is time valid?                        :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 50 		(Key = 2.0.1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is not set
+   Is the language valid?                :  <n/a>
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 51 		(Key = 2.0.1.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is not set
+   Is the language valid?                :  <n/a>
+   Is time set?                          :  Time is set
+   Is time valid?                        :  Time is not valid
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+
+
+Test Case 52 		(Key = 2.0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.)
+   Is the language set?                  :  Language is not set
+   Is the language valid?                :  <n/a>
+   Is time set?                          :  Time is not set
+   Is time valid?                        :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+   Is time now?                          :  <n/a>
+   Is time greater than or equal year?   :  <n/a>
+   Is time greater than or equal month?  :  <n/a>
+   Is time greater than or equal week?   :  <n/a>
+   Is time greater than or equal day?    :  <n/a>
+   Is time greater than or equal hour?   :  <n/a>
+   Is time greater than or equal minute? :  <n/a>
+   Is time greater than or equal second? :  <n/a>
+

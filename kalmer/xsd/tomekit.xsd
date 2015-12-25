@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="tomekit" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<xs:complexType name="game">
+		<xs:attribute name="score" type="xs:int"></xs:attribute>
+	</xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Põhielemendid</title>
+<link rel="stylesheet" type="text/css"
+	href="Main.css" media="all" />
+</head>
+<body
+	onload="load({
+	nameOfFile: 'navigation',
+	target: 'mainContainer'
+});">
+	<div class="MainContainer" id="mainContainer">
+		<div class="Content" id="content">
+			<h1>Põhielemendid (1. taseme pealkiri)</h1>
+			<nav>Siia sisse kirjutame põhimenüü.</nav>
+			<h2>2. taseme pealkiri</h2>
+			<h3>3. taseme pealkiri</h3>
+			<h4>4. taseme pealkiri</h4>
+			<h5>5. taseme pealkiri</h5>
+			<h6>6. taseme pealkiri</h6>
+			<dl>
+				<dt>termin</dt>
+				<dd>seletus</dd>
+			</dl>
+			<hr>
+			<article>
+				<header>
+					<h6>Pealkiri päises</h6>
+				</header>
+				<section>
+					<p>Lõik jutu osas</p>
+				</section>
+				<section>
+					<article>
+						<p>Lõik alamjutu osas.</p>
+						<footer>
+							<p>Lõik alamjutu jaluses.</p>
+						</footer>
+					</article>
+					<article>
+						<p>Lõik alamjutu osas.</p>
+						<footer>
+							<p>Lõik alamjutu jaluses.</p>
+						</footer>
+					</article>
+				</section>
+				<footer>
+					<p>Lõik jaluses</p>
+				</footer>
+			</article>
+			<hr>
+			<figure>
+				<img src="../../images/Worst_Tennis_Player_lg.jpg"
+					alt="a tennis player and a judge" width="500" height="386">
+				<figcaption>Pildiallkiri</figcaption>
+			</figure>
+			<hr>
+			<figure>
+				<figcaption>Koodijupi kirjeldus:</figcaption>
+				<pre>
+function NavigatorExample() {
+  var txt;
+  txt = "Browser CodeName: " + navigator.appCodeName;
+  txt+= "Browser Name: " + navigator.appName;
+  txt+= "Browser Version: " + navigator.appVersion ;
+  txt+= "Cookies Enabled: " + navigator.cookieEnabled;
+  txt+= "Platform: " + navigator.platform;
+  txt+= "User-agent header: " + navigator.userAgent;
+}            
+  </pre>
+			</figure>
+			<p></p>
+			<hr>
+			<address>
+				Minu leiad aadressilt:<br /> Instituudi tee 3-27<br /> Harku<br />
+				Harku<br /> Harju<br />
+			</address>
+		</div>
+	</div>
+</body>

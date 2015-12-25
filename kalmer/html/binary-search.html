@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Õpilased</title>
+<link rel="stylesheet" href="../css/binary-search.css" type="text/css" />
+
+</head>
+<body>
+	<h1>Õpilased</h1>
+	<form onsubmit="return false;">
+		<label for="name">Nimi:</label> <input type="text" id="name" />
+		<button onclick="displaySearchResult();" type="button">Otsin</button>
+		<button
+			onclick="displayAll();displayOrHide({
+			fieldForInfo: 'aboutDisplayingAll',
+			forHiding: 'Peidan nimekirja.',
+			forShowing: 'Kuvan kogu nimekirja.',
+			idOfTriggerer: 'buttonForAllPupils',
+			idOfTarget: 'allPupils',
+			preserveContent: true,
+			display: 'table',
+			textLong: true
+		});"
+			type="button" id="buttonForAllPupils">Kuvan kogu nimekirja.</button>
+		<div id="aboutDisplayingAll"></div>
+		<div class="Result" id="result">
+			<label for="canProgram">oskab progeda:</label><input type="checkbox"
+				id="canProgram" />
+			<button type="button" onclick="update();">Salvestan nime ja
+				kas oskab progeda.</button>
+			<div id="feedback"></div>
+		</div>
+		<div class="NoResult" id="noResult">Sellist õpilast pole.</div>
+		<p class="BlockForNumberOfIterations" id="blockForNumberOfIterations">
+			Korduste arv:
+			<output id="numberOfIterations"></output>
+	</form>
+	<table id="allPupils" class="AllPupils" style="display: none;">
+		<caption>Õpilaste progemisoskus</caption>
+		<colgroup>
+			<col class="Pupil">
+			<col>
+		</colgroup>
+		<thead>
+			<tr>
+				<th>Õpilane</th>
+				<th>Kas oskab progeda?</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="2" id="numberOfPupils"></td>
+			</tr>
+		</tfoot>
+		<tbody class="Tbody" id="tbody">
+		</tbody>
+	</table>
+	<script src="../js/binary-search.js"></script>
+</body>
+</html>

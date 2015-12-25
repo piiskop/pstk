@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+body header ul {
+	float:left;
+	list-style-type: none;}
+body header li {
+	display:inline;}
+body header ul a {
+	font-size:30px;
+	border:2px solid;
+	align:center;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	height:40px;
+	width:100px;
+	text-decoration:none;
+	background-color:#0000FF;
+	color:#000000;}
+a:hover {
+	text-decoration:underline;}
+body {
+	margin:10px 50px;
+	float:left;}
+table {
+	margin:50px;
+	border:1px solid;
+}	
+footer p {
+	margin:50px 40px;
+	width:1200px;
+	text-align:center;
+	font-size:50px;
+	background-color:#00FF00;}

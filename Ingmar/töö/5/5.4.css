@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+body {
+	
+    margin: 0;
+}
+
+div.Message{
+	font-size: 25px;
+	border: solid gray;
+	background-color: gray;
+	text-align: center;
+	padding-top: 2px;
+	padding-top: 0.125rem ;
+	margin: 0 auto;
+	height: 50px;
+	height: 3.125rem
+	}
+	
+#message{
+	border-style: solid
+}
+
+#message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-image: url('more.png');
+}
+
+li:hover:first-letter {
+	text-decoration: overline;
+	text-decoration-style: dashed;
+}
+
+

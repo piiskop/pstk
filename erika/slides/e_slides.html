@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Slideshow</title>
+
+<script type="text/javascript" src="e_slides.js"></script>
+<link rel="stylesheet" href="e_slides.css">
+</head>
+<body onload="setDimensions();">
+
+	<h2 id="category"></h2>
+	<div class="Image" id="image" style="height:360 width:420"></div>
+	<h3 id="caption"></h3>
+	<button type="button" onclick="move(false);">Previous</button>
+	<button type="button" onclick="moveRandom();">Random slide</button>
+	<button type="button" onclick="move(true);">Next</button>
+</body>
+</html>

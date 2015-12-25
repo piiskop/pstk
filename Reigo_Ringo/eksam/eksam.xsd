@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	
+	<xs:element name="root">
+		<xs:complexType>	
+			<xs:sequence>	
+				<xs:element name="stuff_thats_growing">
+					<xs:complexType>
+						<xs:sequence>	
+										
+						<xs:element name="growing">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="name" type="xs:string" />
+									<xs:element name="where">
+										<xs:simpleType>
+    										<xs:restriction base="xs:string">
+    											<xs:enumeration value="indoors"/>
+    											<xs:enumeration value="outdoors"/>    											
+    											<xs:enumeration value="indoors and outdoors"/>    											
+											</xs:restriction>	
+										</xs:simpleType>								
+									</xs:element>																	
+									<xs:element name="is_edible">
+										<xs:simpleType>
+    										<xs:restriction base="xs:string">
+    											<xs:pattern value="true|false"/>
+											</xs:restriction>	
+										</xs:simpleType>								
+									</xs:element>								
+									<xs:element name="is_suitable_houseplant">							
+										<xs:simpleType>
+    										<xs:restriction base="xs:string">
+    											<xs:pattern value="true|false"/>
+											</xs:restriction>	
+										</xs:simpleType>								
+									</xs:element>		
+								</xs:sequence>
+								<xs:attribute name="id_growing" type="xs:ID" use="required"/>								
+							</xs:complexType>
+						</xs:element>	
+						
+						</xs:sequence>
+					</xs:complexType>				
+				</xs:element>
+				
+				<xs:element name="grows_from_this">
+					<xs:complexType>
+						<xs:sequence>	
+										
+							<xs:element name="from">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="species" type="xs:string" />
+										<xs:element name="grow_from">
+											<xs:simpleType>
+	    										<xs:restriction base="xs:string">
+	    											<xs:enumeration value="seeds"/>
+	    											<xs:enumeration value="cuttings"/>    											
+	    											<xs:enumeration value="seeds and cuttings"/>    											
+												</xs:restriction>	
+											</xs:simpleType>								
+										</xs:element>																	
+										<xs:element name="level_of_difficulty">
+											<xs:simpleType>
+	    										<xs:restriction base="xs:string">
+	    											<xs:enumeration value="easy"/>
+	    											<xs:enumeration value="medium"/>    											
+	    											<xs:enumeration value="hard"/> 
+												</xs:restriction>	
+											</xs:simpleType>								
+										</xs:element>										
+									</xs:sequence>
+									<xs:attribute name="id_from" type="xs:ID" use="required"/>								
+								</xs:complexType>
+							</xs:element>	
+						
+						</xs:sequence>
+					</xs:complexType>								
+				</xs:element>
+				
+				<xs:element name="grows_into_that_from_this">
+					<xs:complexType>
+						<xs:sequence>				
+							<xs:element name="growing_has_from">
+								<xs:complexType>
+									<xs:attribute name="growing_id_growing" type="xs:IDREFS" use="required"/>	
+									<xs:attribute name="from_id_from" type="xs:IDREFS" use="required"/>	
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>					
+				</xs:element>
+		
+			</xs:sequence>		
+		</xs:complexType>	
+	</xs:element>	
+	
+</xs:schema>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Objects (Object)*>
+<!ELEMENT Object (Address, ObjectType, Description?, Story?, EstateAgent,
+					RoomArea, TotalArea?, AreaUnit, Price, Bathrooms,
+					Bedrooms, Stories?, HasYard?, HasBalcony?)>
+<!ELEMENT Address (Street, City, Region)>
+<!ELEMENT ObjectType (#PCDATA)>
+<!ELEMENT Description (#PCDATA>
+<!ELEMENT Story (#PCDATA)>
+<!ELEMENT EstateAgent EMPTY>
+<!ELEMENT RoomArea (#PCDATA)>
+<!ELEMENT TotalArea (#PCDATA)>
+<!ELEMENT AreaUnit (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Bathrooms (#PCDATA)>
+<!ELEMENT Bedrooms (#PCDATA)>
+<!ELEMENT Stories (#PCDATA)>
+<!ELEMENT Stories (#PCDATA)>
+<!ELEMENT HasYard EMPTY>
+<!ELEMENT HasBalcony EMPTY>
+<!ELEMENT Street (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Region (#PCDATA)>
+
+<!ATTLIST Object id ID #REQUIRED>
+<!ATTLIST EstateAgent id IDREF #REQUIRED>

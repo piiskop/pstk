@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT worksheet (employees, jobs)>
+<!ELEMENT eployees (employee+)>
+<!ATTLIST employee id ID #REQUIRED>
+<!ATTLIST employee manager BOOLEAN #REQUIRED>
+<!ELEMENT eployee (name, age, mail, tel, password)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT jobs (job+)>
+<!ELEMENT job (worker, date, description, start_time, end_time)>
+<!ELEMENT worker (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT start_time (#PCDATA)>
+<!ELEMENT end_time (#PCDATA)>

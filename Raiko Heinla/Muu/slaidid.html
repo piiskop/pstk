@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Slaidiesitlus</title>
+<script type="text/javascript" src="slaidid.js"></script>
+<link rel="stylesheet" href="slaidid.css" type="text/css" media="all"/>
+</head>
+<body onload="setDimensions();">
+
+	<h1>Slideshow</h1>
+	
+	<div id="image" class="Image" style="height: 0px; width: 0px;"></div>
+	
+	<h2 id="description">First client</h2>
+	
+	<button type="button" onclick="nextSlide(false)">Prev</button>
+	<button type="button" onclick="moveRandom()">Random image</button>
+	<button type="button" onclick="nextSlide(true)" >Next</button>
+	<button type="button" onclick="startShow()" >Start slideshow</button>
+	<button type="button" onclick="stopShow()" >Stop sildeshow</button>
+</body>
+</html>

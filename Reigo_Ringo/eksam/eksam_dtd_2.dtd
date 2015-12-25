@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT growing (krundid, inimesed, soogid, inimesed_has_sook, krundid_has_sook, krundid_has_inimesed)>
+
+<!ELEMENT krundid (krunt+)>
+<!ELEMENT krunt (asukoht, suurus_m2)>
+<!ELEMENT asukoht (#PCDATA)>
+<!ELEMENT suurus_m2 (#PCDATA)>
+<!ATTLIST krunt idkrunt ID #REQUIRED>
+
+<!ELEMENT inimesed (inimene+)>
+<!ELEMENT inimene (enimi, pnimi)>
+<!ELEMENT enimi (#PCDATA)>
+<!ELEMENT pnimi (#PCDATA)>
+<!ATTLIST inimene idinimene ID #REQUIRED>
+
+<!ELEMENT soogid (sook+)>
+<!ELEMENT sook (nimi)>
+<!ELEMENT nimi (#PCDATA)>
+<!ATTLIST sook idsook ID #REQUIRED>
+
+<!ELEMENT inimesed_has_sook (inimene_has_sook+)>
+<!ELEMENT inimene_has_sook EMPTY>
+<!ATTLIST inimene_has_sook idinimene IDREFS #REQUIRED>
+<!ATTLIST inimene_has_sook idsook IDREFS #REQUIRED>
+
+<!ELEMENT krundid_has_sook (krunt_has_sook+)>
+<!ELEMENT krunt_has_sook EMPTY>
+<!ATTLIST krunt_has_sook idkrunt IDREFS #IMPLIED>
+<!ATTLIST krunt_has_sook idsook IDREFS #IMPLIED>
+
+<!ELEMENT krundid_has_inimesed (krunt_has_inimene+)>
+<!ELEMENT krunt_has_inimene EMPTY>
+<!ATTLIST krunt_has_inimene idkrunt IDREFS #IMPLIED>
+<!ATTLIST krunt_has_inimene idinimene IDREFS #IMPLIED>

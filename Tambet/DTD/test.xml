@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test SYSTEM "test.dtd">
+
+<Tippimine>
+	<Tipp_id>
+		<tippimistyyp id="ttyp1">Paki nr</tippimistyyp>	
+		<tippimistyyp id="ttyp2">Konteineri nr</tippimistyyp>	
+		<tippimistyyp id="ttyp3">Auto nr</tippimistyyp>	
+		<tippimistyyp id="ttyp4">Ladu</tippimistyyp>	
+		<tippimistyyp id="ttyp5">Nr</tippimistyyp>	
+		<tippimistyyp id="ttyp6">Plats</tippimistyyp>			
+	</Tipp_id>
+	<Andmed>
+		<pikkus id="pikk200">2,0m</pikkus>
+		<pikkus id="pikk250">2,5m</pikkus>
+		<pikkus id="pikk300">3,0m</pikkus>
+		<pikkus id="pikk310">3,1m</pikkus>
+		<pikkus id="pikk320">3,2m</pikkus>
+		<pikkus id="pikk330">3,3m</pikkus>
+		<pikkus id="pikk340">3,4m</pikkus>
+		<pikkus id="pikk350">3,5m</pikkus>
+		<pikkus id="pikk360">3,6m</pikkus>
+		<pikkus id="pikk370">3,7m</pikkus>
+		<pikkus id="pikk380">3,8m</pikkus>
+		<pikkus id="pikk390">3,9m</pikkus>
+		<pikkus id="pikk400">4,0m</pikkus>
+		<pikkus id="pikk430">4,3m</pikkus>
+		<pikkus id="pikk470">4,7m</pikkus>
+		<pikkus id="pikk500">5,0m</pikkus>
+
+		<paksus id="paks005">0,5cm</paksus>
+		<paksus id="paks010">1,0cm</paksus>
+		<paksus id="paks015">1,5cm</paksus>
+		<paksus id="paks020">2,0cm</paksus>
+		<paksus id="paks025">2,5cm</paksus>
+		
+		<kvaliteet id="kvalD">D</kvaliteet>
+		<kvaliteet id="kvalAA">AA</kvaliteet>
+		<kvaliteet id="kvalA">A</kvaliteet>
+		<kvaliteet id="kvalAB">AB</kvaliteet>
+		<kvaliteet id="kvalB">B</kvaliteet>
+		<kvaliteet id="kvalC">C</kvaliteet>
+	s</Andmed>
+	
+	
+	
+	<võistlusliigid>
+		<liik id="l1"> Üksikmängud</liik>
+		<liik id="l2"> Meespaarismängud</liik>
+	</võistlusliigid>
+	<inimesedvõistlustel>
+		<inimenevõistlus id="iv1" nimi_id="n1" liik_id="l1 l2" />
+			<!-- <inimenevõistlus id="iv2" nimi_id="n1" liik_id="l2" /> -->	
+		<inimenevõistlus id="iv3" nimi_id="n2" liik_id="l1" />
+		<inimenevõistlus id="iv4" nimi_id="n3" liik_id="l1" />
+	</inimesedvõistlustel>
+	
+</Tippimine>

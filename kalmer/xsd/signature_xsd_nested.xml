@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signature xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema signature_nested.xsd">
+	<teacher id="t37804080345">
+		<name>
+			<firstName>Kalmer</firstName>
+			<lastName>Piiskop</lastName>
+		</name>
+		<title>MSc.</title>
+		<streetAddress><![CDATA[
+        Instituudi tee 3-27<br/>
+        EE76902 Harku      <br/>
+        Harku              <br/>
+        Harjumaa           <br/>
+        European Union
+    ]]></streetAddress>
+		<phoneNumbers>
+			<landLine>3726524228</landLine>
+			<mobile>37256204556</mobile>
+		</phoneNumbers>
+		<bankAccounts>
+			<bankAccount id="EE747700771000356083" order="1"
+				idOfBank="LHVBEE22" />
+			<bankAccount id="EE893300336314570000" idOfBank="FOREEE2X" />
+			<bankAccount id="EE182200001107112667" idOfBank="HABAEE2X" />
+		</bankAccounts>
+	</teacher>
+	<banks>
+		<bank id="LHVBEE22">
+			<nameOfBank>AS LHV Pank</nameOfBank>
+		</bank>
+		<bank id="FOREEE2X">
+			<nameOfBank>Danske Bank A/S Eesti filiaal</nameOfBank>
+		</bank>
+		<bank id="HABAEE2X">
+			<nameOfBank>Swedbank AS</nameOfBank>
+		</bank>
+	</banks>
+</signature>

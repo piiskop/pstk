@@ -1,0 +1,75 @@
+# Hotel name/destination
+	Occurence of text hotel name:
+		Text written. [property name-defined]
+		Text not written. [error]
+	Content of hotel name:
+		Containts only English letters. [if name-defined]
+		Contains non-English letters. [if name-defined]
+		Contains only empty letters. [error]
+
+# Date day
+	Ocurrence of text date day:
+		Text written. [property day-defined]
+		Text not written.  [error]
+	Type of text:
+		Numeric. [if day-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]
+
+# Date month
+	Ocurrence of text date month:
+		Text written. [property month-defined]
+		Text not written. [error]
+	Type of text:
+		Numeric. [if month-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]
+
+# Date year
+	Ocurrence of text date year:
+		Text written. [property year-defined]
+		Text not written. [error]
+	Type of text:
+		Numeric. [if year-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]
+
+
+#Amount of people
+	Ocurrence of text people:
+		Text written. [property amount-defined]
+		Text not written. [error]
+	Type of text:
+		Numeric. [if amount-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]
+
+#Min priece
+	Ocurrence of text min priece:
+		Text written. [property priece-defined]
+		Text not written. [error]
+	Type of text:
+		Numeric. [if priece-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]
+
+#Max priece
+	Ocurrence of text max priece:
+		Text written. [property priece-defined]
+		Text not written. [error]
+	Type of text:
+		Numeric. [if priece-defined] [property numeric]
+		Non-Numeric. [error]
+	Value of text:
+		Positive. [if numeric]
+		Negative. [error]

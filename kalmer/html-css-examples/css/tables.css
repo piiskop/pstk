@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+@import url("html-css-examples.css");
+
+table {
+	border-collapse: collapse;
+	border: solid thick;
+}
+
+colgroup, tbody {
+	border: solid medium;
+}
+
+td {
+	border: solid thin;
+	height: 1.4em;
+	width: 1.4em;
+	text-align: center;
+	padding: 0;
+}
+
+.Lime {
+	background-color: lime;
+}

@@ -1,0 +1,18 @@
+body {
+	color: blue;
+}
+body h1{
+	color:darkviolet;	
+}
+body h2{
+	color:green;
+}
+body ul{
+	color:red;
+}
+body ul li{
+	color:darkred;
+}
+body ul li a{
+	color:darkblue;
+}

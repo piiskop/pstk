@@ -1,0 +1,17 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Pupil",
+	"description": "Names of pupils",
+	"type": "array",
+	"required": [ "firstName", "lastName" ],
+	"items": {
+		"properties": {
+			"firstName": {
+				"type": "string"
+			},
+			"lastName": {
+				"type": "string"
+			}
+		}	
+	}
+}
